@@ -1,10 +1,10 @@
 html, body {
 	background-color: #DDDDDD;
     height: 100%;
-    width: 100%;
     margin: 0;
 }
 
 embed {
-    height: calc(100%);    
+    height: calc(100%);  
+    width: 100%;	
 }
