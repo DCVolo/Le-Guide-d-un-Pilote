@@ -552,7 +552,7 @@ select {
   position: absolute;
   top: 32px;
   bottom: 0;
-  width: 200px;
+  width: 300px;
   width: var(--sidebar-width);
   visibility: hidden;
   z-index: 100;
