@@ -407,7 +407,7 @@
 }
 
 :root {
-  --sidebar-width: 200px;
+  --sidebar-width: 300px;
   --sidebar-transition-duration: 200ms;
   --sidebar-transition-timing-function: ease;
 }
