@@ -4,7 +4,7 @@ html, body {
     margin: 0;
 }
 
-embed, iframe {
+iframe {
     height: calc(100%);  
     width: 100%;	
 }
