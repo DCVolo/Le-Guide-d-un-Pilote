@@ -1,10 +1,10 @@
 html, body {
-	background-color: #DDDDDD;
+	background-color: #262626;
     height: 100%;
     margin: 0;
 }
 
-embed {
+embed, iframe {
     height: calc(100%);  
     width: 100%;	
 }
