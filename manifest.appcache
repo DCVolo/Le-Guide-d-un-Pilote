@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# Cache Manifest - Le Guide d'un Pilote - Star Citizen tutoriel complet par DCVolo
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/index.html
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/style.css
+# PDF
+https://github.com/DCVolo/Le-Guide-d-un-Pilote/raw/master/web/Le-Guide-d-un-Pilote.pdf
+https://github.com/DCVolo/Le-Guide-d-un-Pilote/blob/master/web/Le-Guide-d-un-Pilote.pdf
+# PDF.js
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/build/pdf.js
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/build/pdf.js.map
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/build/pdf.worker.js
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/build/pdf.worker.js.map
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/web/viewer.html
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/web/viewer.css
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/web/viewer.js
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/web/viewer.js.map
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/web/cmaps/*
+https://dcvolo.github.io/Le-Guide-d-un-Pilote/web/images/*
+
+
+build/
+│   ├── pdf.js                             - display layer
+│   ├── pdf.js.map                         - display layer's source map
+│   ├── pdf.worker.js                      - core layer
+│   └── pdf.worker.js.map                  - core layer's source map
+├── web/
+│   ├── cmaps/                             - character maps (required by core)
+│   ├── compressed.tracemonkey-pldi-09.pdf - PDF file for testing purposes
+│   ├── debugger.js                        - helpful debugging features
+│   ├── images/                            - images for the viewer and annotation icons
+│   ├── locale/                            - translation files
+│   ├── viewer.css                         - viewer style sheet
+│   ├── viewer.html                        - viewer layout
+│   ├── viewer.js                          - viewer layer
+│   └── viewer.js.map
