@@ -43,7 +43,8 @@
 		function checkCookie() {
   			var cookie = getCookie(cookieName);
   			if (cookie != currentVersion) {
-    			alert("Une nouvelle version est désormais disponible !"); // utiliser Alertify
+    			alert("Une nouvelle version est désormais disponible !"); // utiliser Alertify,  éviter de bloquer la page pour une alerte		
+    			cache.delete(https://dcvolo.github.io/Le-Guide-d-un-Pilote/);
     			setCookie(cookieName, currentVersion, 90);
   			} 	
   		}
