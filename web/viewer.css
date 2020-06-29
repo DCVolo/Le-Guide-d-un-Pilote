@@ -996,6 +996,12 @@ html[dir='rtl'] .findbar * {
   float: right;
 }
 
+/* cacher options inutiles */
+.toolbarButton.print.hiddenMediumView, .toolbarButton.openFile.hiddenLargeView, #viewThumbnail, #viewAttachments{
+  display: none;
+}
+
+
 html[dir='ltr'] .splitToolbarButton {
   margin: 3px 2px 4px 0;
   display: inline-block;
