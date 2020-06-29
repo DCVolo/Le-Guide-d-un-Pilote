@@ -44,10 +44,8 @@
   			var cookie = getCookie(cookieName);
   			if (cookie != currentVersion) {
     			alert("Une nouvelle version est désormais disponible !"); // utiliser Alertify
+    			setCookie(cookieName, currentVersion, 90);
   			} 	
-  			else {
-      			setCookie(cookieName, currentVersion, 90);
-    		}
   		}
 
 		checkCookie();
