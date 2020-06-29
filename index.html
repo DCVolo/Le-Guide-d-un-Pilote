@@ -14,8 +14,45 @@
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
+	<script>
+		var currentVersion = 3.9;
+		var cookieName = "Version";
 
-<!-- Eric Cartman - "Ça trou l'cul !"-->
+		function setCookie(cname, cvalue, exdays) {
+			  var d = new Date();
+			  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+			  var expires = "expires="+d.toUTCString();
+			  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
+
+		function getCookie(cname) {
+		  	var name = cname + "=";
+		  	var ca = document.cookie.split(';');
+		  	for(var i = 0; i < ca.length; i++) {
+		    	var c = ca[i];
+		    	while (c.charAt(0) == ' ') {
+		      		c = c.substring(1);
+		   		}
+		    	if (c.indexOf(name) == 0) {
+		      		return c.substring(name.length, c.length);
+		    	}
+		  	}
+		  	return "";
+		}
+
+		function checkCookie() {
+  			var user = getCookie(cookieName);
+  			if (user != "3.9") {
+    			alert("Une nouvelle version est désormais disponible !"); // utiliser Alertify
+  			} 	
+  			else {
+      			setCookie("Version", currentVersion, 90);
+    		}
+  		}
+
+		checkCookie();
+	</script>
+
 <iframe src="./web/viewer.html?file=../Le-Guide-d-un-Pilote.pdf"/>
 
 </body>
