@@ -41,12 +41,12 @@
 		}
 
 		function checkCookie() {
-  			var user = getCookie(cookieName);
-  			if (user != "3.9") {
+  			var cookie = getCookie(cookieName);
+  			if (cookie != currentVersion) {
     			alert("Une nouvelle version est désormais disponible !"); // utiliser Alertify
   			} 	
   			else {
-      			setCookie("Version", currentVersion, 90);
+      			setCookie(cookieName, currentVersion, 90);
     		}
   		}
 
