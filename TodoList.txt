@@ -1,0 +1,26 @@
+MARCHE		https://dcvolo.github.io/Le-Guide-d-un-Pilote/Le%20Guide%20d'un%20Pilote.pdf#page=4
+MARCHE		https://dcvolo.github.io/Le-Guide-d-un-Pilote/Le%20Guide%20d'un%20Pilote.pdf#Remerciements
+MARCHE PAS	https://dcvolo.github.io/Le-Guide-d-un-Pilote/Le%20Guide%20d'un%20Pilote.pdf#5. Le FPS (adobe pas foutu de savoir gérer des %20)
+			https://dcvolo.github.io/Le-Guide-d-un-Pilote/Le%20Guide%20d'un%20Pilote.pdf#pagemode=bookmarks
+
+bouger PDFjs dans son propre dossier
+créer dossier Alertify
+
+prévoir un icone en haut pour :
+	- les derniers changements
+	- la présentation du site
+	- ajouter des commentaires, requêtes de modification, un problème ? etc 
+		- questionnaire Google Form
+
+
+- cookies :
+	- nouvel utilisateur => alertify => explication du fonctionnement du site
+	- version du document => si version != => alertify => afficher les infos des derniers ajouts
+
+Alertify:
+- alerte l'utilisateur des nouveaux changements (ou changement de version uniquement) via popup
+- alerter l'utilisateur que s'il télécharge la version elle deviendra obsolète et que de toute façon ce site est fait pour être mis en cache et Offline (1 téléchargement par semaine)
+
+
+
+faire un Patreon
