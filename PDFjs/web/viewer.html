@@ -213,7 +213,7 @@ See https://github.com/adobe-type-tools/cmap-resources
                 <button onclick="window.showAbout()" id="newInformation" class="toolbarButton newInformation" title="Information" tabindex="68">
                   <span data-l10n-id="information-label">Information</span>
                 </button>
-                <button onclick=" window.open('https://forms.gle/b6E8yiy6DYsXZNdp9','_blank')" id="fillForm" class="toolbarButton fillForm" title="Modification" tabindex="69">
+                <button onclick="window.showModificationForm()" id="fillForm" class="toolbarButton fillForm" title="Modification" tabindex="69">
                   <span data-l10n-id="modification-label">Modification</span>
                 </button>
 
@@ -413,6 +413,10 @@ See https://github.com/adobe-type-tools/cmap-resources
 
           window.showPatchNote = function(){
               alertify.confirm('<iframe src="../../patch-note.html" title="Patch Note"></iframe>');
+          }
+
+          window.showModificationForm = function(){
+            alertify.confirm('<iframe src="https://forms.gle/b6E8yiy6DYsXZNdp9" title="Patch Note" width="100%" height="300" sandbox="allow-forms"></iframe>');
           }
       </script>  
   </body>
