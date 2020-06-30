@@ -1341,6 +1341,16 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/toolbarButton-zoomIn.png);
 }
 
+.toolbarButton.newInformation::before,
+.secondaryToolbarButton.newInformation::before {
+  content: url(images/secondaryToolbarButton-documentProperties.png);
+}
+
+.toolbarButton.fillForm::before,
+.secondaryToolbarButton.fillForm::before {
+  content: url(images/annotation-comment.png);
+}
+
 .toolbarButton.presentationMode::before,
 .secondaryToolbarButton.presentationMode::before {
   content: url(images/toolbarButton-presentationMode.png);

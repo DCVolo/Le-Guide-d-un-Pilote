@@ -32,7 +32,7 @@
         frameless:false,
         defaultFocusOff:false,
         maintainFocus:true, //global default not per instance, applies to all dialogs
-        maximizable:true,
+        maximizable:false,
         modal:true,
         movable:true,
         moveBounded:false,
@@ -65,7 +65,7 @@
             }
         },
         glossary:{
-            title:'AlertifyJS',
+            title:'',
             ok: 'OK',
             cancel: 'Cancel',
             acccpt: 'Accept',
