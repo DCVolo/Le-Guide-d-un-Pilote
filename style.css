@@ -13,3 +13,7 @@ iframe {
 title {
   display: none;
 }
+
+.toolbar.toolbarContainer.toolbarViewer.toolbarViewerRight{
+	display:none;
+}
