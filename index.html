@@ -24,7 +24,7 @@
 			window.applicationCache.addEventListener('updateready', function(e) {
 			    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
 			      	// Browser downloaded a new app cache.
-			      	if (alertify.confirm('Une nouvelle version de ce site est disponible. Le charger ?')) {
+			      	if (confirm('Une nouvelle version de ce site est disponible. Le charger ?')) {
 			        	window.location.reload();
 			     	 }
 			    } else {
@@ -33,5 +33,6 @@
 			}, false);
 
 		}, false);
+		alertify.confirm('Une nouvelle version de ce site est disponible. Le charger ?');
 	</script>
 <iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>
