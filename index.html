@@ -24,22 +24,15 @@
 			window.applicationCache.addEventListener('updateready', function(e) {
 			    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
 			      	// Browser downloaded a new app cache.
-			      	if (confirm('Une nouvelle version de ce site est disponible. Le charger ?')) {
-			        	window.location.reload();
-			     	 }
+			      	alertify.confirm('Une nouvelle version de ce site est disponible. Le charger ?', function(){
+	       				alertify.success('Accepted');
+	    			},function(){
+	        			alertify.error('Declined');
+	    			}).set('onok', function(closeEvent){ alertify.success('Ok'); window.location.reload();} );
 			    } else {
 			      // Manifest didn't changed. Nothing new to server.
 			    }
 			}, false);
-
 		}, false);
-
-		alertify.confirm('Une nouvelle version de ce site est disponible. Le charger ?', function(){
-	        alertify.success('Accepted');
-	    },function(){
-	        alertify.error('Declined');
-	    }).set('onok', function(closeEvent){ alertify.success('Ok'); window.location.reload();} );
-
-
 	</script>
 <iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>
