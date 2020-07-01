@@ -11,7 +11,10 @@
 	<meta property="og:url" content="https://dcvolo.github.io/Le-Guide-d-un-Pilote/">
   	<title>Le Guide d'un Pilote - Star Citizen tutoriel complet par DCVolo</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" href="./Alertify/css/alertify.css">
+    <link rel="stylesheet" href="./Alertify/css/themes/semantic.css">
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<script src="./Alertify/alertify.js"></script>
 </head>
 <body>
 	<script>
@@ -21,7 +24,7 @@
 			window.applicationCache.addEventListener('updateready', function(e) {
 			    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
 			      	// Browser downloaded a new app cache.
-			      	if (confirm('A new version of this site is available. Load it?')) {
+			      	if (alertify.confirm('Une nouvelle version de ce site est disponible. Le charger ?')) {
 			        	window.location.reload();
 			     	 }
 			    } else {
@@ -31,5 +34,4 @@
 
 		}, false);
 	</script>
-
-<!--<iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>-->
+<iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>
