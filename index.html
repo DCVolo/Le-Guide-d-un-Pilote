@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" manifest="manifest.appcache">
+<html lang="fr" manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache">
 <head>
 	<!--<meta http-equiv="Cache-control" content="public;max-age=604800;no-transform">-->
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -15,39 +15,21 @@
 </head>
 <body>
 	<script>
-		var currentVersion = 3.9;
-		var cookieName = "Version";
+		// Check if a new cache is available on page load.
+		window.addEventListener('load', function(e) {
 
-		function setCookie(cname, cvalue, exdays) {
-			  var d = new Date();
-			  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-			  var expires = "expires="+d.toUTCString();
-			  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-		}
+			window.applicationCache.addEventListener('updateready', function(e) {
+			    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+			      	// Browser downloaded a new app cache.
+			      	if (confirm('A new version of this site is available. Load it?')) {
+			        	window.location.reload();
+			     	 }
+			    } else {
+			      // Manifest didn't changed. Nothing new to server.
+			    }
+			}, false);
 
-		function getCookie(cname) {
-		  	var name = cname + "=";
-		  	var ca = document.cookie.split(';');
-		  	for(var i = 0; i < ca.length; i++) {
-		    	var c = ca[i];
-		    	while (c.charAt(0) == ' ') {
-		      		c = c.substring(1);
-		   		}
-		    	if (c.indexOf(name) == 0) {
-		      		return c.substring(name.length, c.length);
-		    	}
-		  	}
-		  	return "";
-		}
-
-		function checkCookie() {
-  			var cookie = getCookie(cookieName);
-  			if (cookie != currentVersion) {
-    			alert("Une nouvelle version est désormais disponible !"); // utiliser Alertify,  éviter de bloquer la page pour une alerte		
-    			setCookie(cookieName, currentVersion, 90);
-  			} 	
-  		}
-		//checkCookie();
+		}, false);
 	</script>
 
 <iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>
