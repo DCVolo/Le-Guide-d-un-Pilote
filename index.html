@@ -33,6 +33,10 @@
 			}, false);
 
 		}, false);
-		alertify.confirm('Une nouvelle version de ce site est disponible. Le charger ?');
+		alertify.confirm(pre, function(){
+	        alertify.success('Accepted');
+	    },function(){
+	        alertify.error('Declined');
+	    }).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
 	</script>
 <iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>
