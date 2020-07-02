@@ -1256,7 +1256,7 @@ html[dir='rtl'] .toolbarButton:first-child {
 }
 
 .toolbarButtonSpacer {
-  width: 30px;
+  width: 10px;
   display: inline-block;
   height: 1px;
 }
