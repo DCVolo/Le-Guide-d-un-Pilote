@@ -998,7 +998,7 @@ html[dir='rtl'] .findbar * {
 }
 
 /* cacher options inutiles */
-.toolbarButton.print.hiddenMediumView, .toolbarButton.openFile.hiddenLargeView, #viewThumbnail, #viewAttachments{
+.toolbarButton.print.hiddenMediumView, .toolbarButton.openFile.hiddenLargeView, #viewThumbnail, #viewAttachments, #print, #openFile{
   display: none;
 }
 
