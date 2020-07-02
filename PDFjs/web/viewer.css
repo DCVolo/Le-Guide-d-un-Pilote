@@ -2399,7 +2399,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   display: none;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 800px) {
   #toolbarViewerMiddle {
     display: table;
     margin: 0px;
