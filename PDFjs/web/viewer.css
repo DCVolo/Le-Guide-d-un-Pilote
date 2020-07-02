@@ -688,7 +688,7 @@ html[dir='rtl'] #outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentatio
 
 #toolbarContainer {
   width: 100%;
-  min-width: 330px;
+  min-width: 460px;
 }
 
 #toolbarSidebar {
