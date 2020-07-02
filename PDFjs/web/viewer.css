@@ -2410,6 +2410,12 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
 }
 
+@media all and (max-width: 690px) {
+  #scaleSelectContainer{
+    display: none;
+  }
+}
+
 @media all and (max-width: 840px) {
   #sidebarContent {
     background-color: rgba(0, 0, 0, 0.7);
