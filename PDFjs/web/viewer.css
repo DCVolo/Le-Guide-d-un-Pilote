@@ -1362,6 +1362,11 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/Patreon_Mark_Primary-16.png);
 }
 
+.toolbarButton.youtube::before,
+.secondaryToolbarButton.youtube::before {
+  content: url(images/youtube-16.png);
+}
+
 .toolbarButton.presentationMode::before,
 .secondaryToolbarButton.presentationMode::before {
   content: url(images/toolbarButton-presentationMode.png);
