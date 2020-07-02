@@ -2424,7 +2424,8 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 
   #outerContainer .hiddenLargeView,
   #outerContainer .hiddenMediumView {
-    display: inherit;
+    /*display: inherit;*/
+    display: none;
   }
   #outerContainer .visibleLargeView,
   #outerContainer .visibleMediumView {
