@@ -2399,10 +2399,10 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   display: none;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
   #toolbarViewerMiddle {
     display: table;
-    margin: 0px;
+    margin: auto;
     left: auto;
     position: inherit;
     -webkit-transform: none;
@@ -2468,7 +2468,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
 }
 
-@media all and (max-width: 840px) {
+@media all and (max-width: 535px) {
   #scaleSelectContainer {
     display: none;
   }
