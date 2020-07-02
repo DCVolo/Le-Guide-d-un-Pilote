@@ -207,22 +207,23 @@ See https://github.com/adobe-type-tools/cmap-resources
                 <span id="numPages" class="toolbarLabel"></span>
               </div>
               <div id="toolbarViewerRight">
-                <button onclick="window.showAbout()" id="newInformation" class="toolbarButton newInformation" title="Information" tabindex="68">
-                  <span>Information</span>
-                </button>
-                <button onclick="window.showModificationForm()" id="fillForm" class="toolbarButton fillForm" title="Modification" tabindex="69">
-                  <span>Modification</span>
-                </button>
-                <button onclick=" window.open('https://discord.gg/FF9rzck','_blank')" id="discord" class="toolbarButton discord" title="Discord" tabindex="70">
-                  <span>Discord</span>
-                </button>
-                <button onclick=" window.open('https://www.youtube.com/channel/UCLOaxB9gv5y2GD5Eqkrno5w','_blank')" id="discord" class="toolbarButton youtube" title="YouTube" tabindex="71">
-                  <span>YouTube</span>
-                </button>
-                <button onclick=" window.open('https://www.patreon.com/DCVolo','_blank')" id="discord" class="toolbarButton patreon" title="Patreon" tabindex="72">
-                  <span>Patreon</span>
-                </button>
-
+                <div id="customAdditionToRightViewerToolBar">
+                    <button onclick="window.showAbout()" id="newInformation" class="toolbarButton newInformation" title="Information" tabindex="68">
+                      <span>Information</span>
+                    </button>
+                    <button onclick="window.showModificationForm()" id="fillForm" class="toolbarButton fillForm" title="Modification" tabindex="69">
+                      <span>Modification</span>
+                    </button>
+                    <button onclick=" window.open('https://discord.gg/FF9rzck','_blank')" id="discord" class="toolbarButton discord" title="Discord" tabindex="70">
+                      <span>Discord</span>
+                    </button>
+                    <button onclick=" window.open('https://www.youtube.com/channel/UCLOaxB9gv5y2GD5Eqkrno5w','_blank')" id="discord" class="toolbarButton youtube" title="YouTube" tabindex="71">
+                      <span>YouTube</span>
+                    </button>
+                    <button onclick=" window.open('https://www.patreon.com/DCVolo','_blank')" id="discord" class="toolbarButton patreon" title="Patreon" tabindex="72">
+                      <span>Patreon</span>
+                    </button>
+                </div>
                 <button  id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="31" data-l10n-id="presentation_mode" >
                   <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
                 </button>
