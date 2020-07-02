@@ -2,38 +2,38 @@ CACHE MANIFEST
 # 2020-07-01:v1
 
 # Cache Manifest - Le Guide d'un Pilote - Star Citizen tutoriel complet par DCVolo
-index.html
-style.css
+#index.html
+#style.css
 # Favicon
 favicon.ico
 # Patch Note
-patch-note.html
+#patch-note.html
 # PDF
 Le-Guide-d-un-Pilote.pdf
 # Alertify
-Alertify/alertify.js
-Alertify/alertify.min.js
-Alertify/css/alertify.css
-Alertify/css/alertify.min.css
-Alertify/css/alertify.rtl.css
-Alertify/css/alertify.rtl.min.css
-Alertify/css/themes/default.css
-Alertify/css/themes/default.min.css
-Alertify/css/themes/default.rtl.css
-Alertify/css/themes/default.rtl.min.css
-Alertify/css/themes/semantic.css
-Alertify/css/themes/semantic.min.css
-Alertify/css/themes/semantic.rtl.css
-Alertify/css/themes/semantic.rtl.min.css
+#Alertify/alertify.js
+#Alertify/alertify.min.js
+#Alertify/css/alertify.css
+#Alertify/css/alertify.min.css
+#Alertify/css/alertify.rtl.css
+#Alertify/css/alertify.rtl.min.css
+#Alertify/css/themes/default.css
+#Alertify/css/themes/default.min.css
+#Alertify/css/themes/default.rtl.css
+#Alertify/css/themes/default.rtl.min.css
+#Alertify/css/themes/semantic.css
+#Alertify/css/themes/semantic.min.css
+#Alertify/css/themes/semantic.rtl.css
+#Alertify/css/themes/semantic.rtl.min.css
 # PDFjs
-PDFjs/build/pdf.js
-PDFjs/build/pdf.js.map
-PDFjs/build/pdf.worker.js
-PDFjs/build/pdf.worker.js.map
-PDFjs/web/viewer.html
-PDFjs/web/viewer.css
-PDFjs/web/viewer.js
-PDFjs/web/viewer.js.map
+#PDFjs/build/pdf.js
+#PDFjs/build/pdf.js.map
+#PDFjs/build/pdf.worker.js
+#PDFjs/build/pdf.worker.js.map
+#PDFjs/web/viewer.html
+#PDFjs/web/viewer.css
+#PDFjs/web/viewer.js
+#PDFjs/web/viewer.js.map
 PDFjs/web/cmaps/78-EUC-V.bcmap
 PDFjs/web/cmaps/78-H.bcmap
 PDFjs/web/cmaps/78-RKSJ-H.bcmap
