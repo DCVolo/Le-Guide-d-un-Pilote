@@ -1357,6 +1357,11 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/discord-16.png);
 }
 
+.toolbarButton.patreon::before,
+.secondaryToolbarButton.patreon::before {
+  content: url(images/Patreon_Mark_Primary-16.png);
+}
+
 .toolbarButton.presentationMode::before,
 .secondaryToolbarButton.presentationMode::before {
   content: url(images/toolbarButton-presentationMode.png);
