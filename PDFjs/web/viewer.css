@@ -2410,6 +2410,10 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
 }
 
+  #customAdditionToRightViewerToolBar{
+    display: inherit;
+  }
+
 @media all and (max-width: 460px) {
   #customAdditionToRightViewerToolBar{
     display: none;
