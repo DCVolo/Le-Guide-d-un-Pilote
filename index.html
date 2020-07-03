@@ -53,10 +53,13 @@
 		    var myCookie = getCookie("cookiePreference");
 
 		    if (myCookie == ""){
-				/*alertify.confirm('Cookies Preference', "<p>Ce site utilise des cookies.<br><br>Un cookie pour enregistrer vos préférences en matière de cookies.<br>Des cookies afin d'analyser le traffic du site (Google Analytics).<br></p>", function(){ alertify.success('Ok') }
-		                , function(){ alertify.error('Cancel')}).set({onShow:null, onclose:setCookie("cookiePreference", "0", 365), onok:setCookie("cookiePreference", "1", 365)});
-				*/
-
+		    	alertify.confirm('Cookies Preference', function(){
+				        alertify.success('Accepted');
+				        setCookie("cookiePreference", 1, 365);
+				},function(){
+				    alertify.error('Declined');
+				    setCookie("cookiePreference", 0, 365);
+				}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
 			}
 				// set onOK -> setCookie("cookiePreference", 1, 365);
 				// set onCancel -> setCookie("cookiePreference", 0, 365);
@@ -69,11 +72,7 @@
 		    }
 		}
 
-				alertify.confirm('Cookies Preference', function(){
-				        alertify.success('Accepted');
-				    },function(){
-				        alertify.error('Declined');
-				    }).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
+
 
 		// Check if a new cache is available on page load.
 		window.addEventListener('load', function(e) {
