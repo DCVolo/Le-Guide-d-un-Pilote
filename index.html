@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr"> <!--manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache">-->
+<html lang="fr"><!-- manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache">-->
 <head>
 	<!--<meta http-equiv="Cache-control" content="public;max-age=604800;no-transform">-->
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -15,9 +15,63 @@
     <link rel="stylesheet" href="./Alertify/css/themes/semantic.css">
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 	<script src="./Alertify/alertify.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45860209-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-45860209-2');
+	</script>
 </head>
 <body>
 	<script>
+		
+		function setCookie(cname, cvalue, exdays) {
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires="+ d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
+
+		function getCookie(cname) {	//returns the value of a specified cookie
+		  	var name = cname + "=";
+		  	var decodedCookie = decodeURIComponent(document.cookie);
+		  	var ca = decodedCookie.split(';');
+		  	for(var i = 0; i <ca.length; i++) {
+		    	var c = ca[i];
+		    	while (c.charAt(0) == ' ') {
+		      		c = c.substring(1);
+		    	}
+		    	if (c.indexOf(name) == 0) {
+		      		return c.substring(name.length, c.length);
+		    	}
+		  	}
+		  	return "";
+		}
+		/*
+		function doSomething() {
+		    var myCookie = getCookie("cookiePreference");
+
+		    if (myCookie == ""){		    	
+			}
+			if (myCookie == "0"){
+	
+			}
+			if (myCookie == "1"){
+	
+			}
+		}
+		*/
+
+		alertify.confirm('Cookies Preference', function(){
+		    alertify.success('Accepted');
+		    setCookie("cookiePreference", 1, 365);
+		},function(){
+		    alertify.error('Declined');
+		    setCookie("cookiePreference", 0, 365);
+		}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
+		
+
 		// Check if a new cache is available on page load.
 		window.addEventListener('load', function(e) {
 
