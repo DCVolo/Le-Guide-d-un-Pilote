@@ -26,6 +26,44 @@
 </head>
 <body>
 	<script>
+		// Cookie Compliancy BEGIN
+		function GetCookie(name) {
+		  	var arg=name+"=";
+		  	var alen=arg.length;
+		  	var clen=document.cookie.length;
+		  	var i=0;
+		  	while (i<clen) {
+				var j=i+alen;
+				if (document.cookie.substring(i,j)==arg)
+			  		return "here";
+				i=document.cookie.indexOf(" ",i)+1;
+				if (i==0) break;
+		  	}
+		  	return null;
+		}
+		function testFirstCookie(){
+			var offset = new Date().getTimezoneOffset();
+			if ((offset >= -180) && (offset <= 0)) { // European time zones
+				var visit=GetCookie("cookieCompliancyAccepted");
+				if (visit==null){
+				   $("#myCookieConsent").fadeIn(400);	// Show warning
+			   } else {
+					// Already accepted
+			   }		
+			}
+		}
+		$(document).ready(function(){
+		    $("#cookieButton").click(function(){
+				console.log('Understood');
+				var expire=new Date();
+				expire=new Date(expire.getTime()+7776000000);
+				document.cookie="cookieCompliancyAccepted=here; expires="+expire+";path=/";
+		        $("#myCookieConsent").hide(400);
+		    });
+			testFirstCookie();
+		});
+		// Cookie Compliancy END
+
 		// Check if a new cache is available on page load.
 		window.addEventListener('load', function(e) {
 
@@ -46,4 +84,17 @@
             alertify.confirm('<iframe src="./patch-note.html" title="Patch Note" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0"></iframe>');
         }
 	</script>
+
+
+
+<div id="myCookieConsent">
+	<a id="cookieButton">Accepter</a>
+	<div><p>
+		Ce site utilise des cookies.
+
+		Un cookie pour enregistrer vos préférences en matière de cookies.
+		Des cookies afin d'analyser le traffic du site (Google Analytics).
+	</p></div>
+	<a id="cookieButton">Refuser</a>
+</div>	
 <iframe title="Le Guide d'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>
