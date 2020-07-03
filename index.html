@@ -48,30 +48,26 @@
 		  	}
 		  	return "";
 		}
-		/*
-		function doSomething() {
-		    var myCookie = getCookie("cookiePreference");
-
-		    if (myCookie == ""){		    	
-			}
-			if (myCookie == "0"){
-	
-			}
-			if (myCookie == "1"){
-	
-			}
-		}
-		*/
-
-		alertify.confirm('Cookies Preference', function(){
-		    alertify.success('Accepted');
-		    setCookie("cookiePreference", 1, 365);
-		},function(){
-		    alertify.error('Declined');
-		    setCookie("cookiePreference", 0, 365);
-		}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
 		
+		
+	    var myCookie = getCookie("cookiePreference");
 
+	    if (myCookie == ""){
+	    		alertify.confirm('Cookies Preference', function(){
+				    alertify.success('Accepted');
+				    setCookie("cookiePreference", 1, 365);
+				},function(){
+				    alertify.error('Declined');
+				    setCookie("cookiePreference", 0, 365);
+				}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
+		}
+		if (myCookie == "0"){
+			window['ga-disable-UA-45860209-2'] = true;
+		}
+		if (myCookie == "1"){
+			window['ga-disable-UA-45860209-2'] = false;
+		}
+		
 		// Check if a new cache is available on page load.
 		window.addEventListener('load', function(e) {
 
