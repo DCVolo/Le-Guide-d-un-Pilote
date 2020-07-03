@@ -1,8 +1,5 @@
 CACHE MANIFEST
 # 2020-07-01:v1
-
-# Cache Manifest - Le Guide d'un Pilote - Star Citizen tutoriel complet par DCVolo
-
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
@@ -15,10 +12,8 @@ ExpiresByType application/pdf "access plus 1 week"
 ExpiresByType text/x-javascript "access plus 1 week"
 ExpiresByType application/x-shockwave-flash "access plus 1 week"
 ExpiresByType image/x-icon "access plus 1 year"
-ExpiresDefault "access plus 1 week"
 </IfModule>
 ## EXPIRES CACHING ##
-
 #index.html
 #style.css
 # Favicon
