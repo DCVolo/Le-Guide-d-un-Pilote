@@ -415,15 +415,15 @@ See https://github.com/adobe-type-tools/cmap-resources
           alertify.defaults.theme.cancel = "ui black button";
 
           window.showAbout = function(){
-              alertify.alert("Bienvenue !<br><br>Le Guide d'un Pilote est un manuel complet de Star Citizen à destination de tous les joueurs, débutants ou confirmés.<br><br> Ce site fonctionne hors ligne par défaut, le cache a une durée de 7j, passé ce délai, le contenu du site sera de nouveau mis en cache ce afin d'optimiser la bande passante de chacun, vous et Github.<br><br>Bon apprentissage !<br><br>" + '<a href="javascript:showPatchNote();">Patch Note</a>');
+              alertify.alert().setContent("Bienvenue !<br><br>Le Guide d'un Pilote est un manuel complet de Star Citizen à destination de tous les joueurs, débutants ou confirmés.<br><br> Ce site fonctionne hors ligne par défaut, le cache a une durée de 7j, passé ce délai, le contenu du site sera de nouveau mis en cache ce afin d'optimiser la bande passante de chacun, vous et Github.<br><br>Bon apprentissage !<br><br>" + '<a href="javascript:showPatchNote();">Patch Note</a>').show();
           }
 
           window.showPatchNote = function(){
-              alertify.confirm('<iframe src="../../patch-note.html" title="Patch Note" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0"></iframe>');
+              alertify.alert().setContent('<iframe src="../../patch-note.html" title="Patch Note" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0"></iframe>').show();
           }
 
           window.showModificationForm = function(){
-            alertify.confirm('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfY5rZ-qnQAqRMtlmWLax0cIjiYXOsWuEBBtM2pcHlFPQ8PcQ/viewform?embedded=true" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0">…</iframe>');
+              alertify.alert().setContent('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfY5rZ-qnQAqRMtlmWLax0cIjiYXOsWuEBBtM2pcHlFPQ8PcQ/viewform?embedded=true" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0">…</iframe>').show();
           }
       </script>  
   </body>
