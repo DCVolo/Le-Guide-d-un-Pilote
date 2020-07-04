@@ -54,9 +54,11 @@
 		    		alertify.confirm('Cookies Preference', function(){
 					    alertify.success('Accepted');
 					    setCookie("cookiePreference", 1, 365);
+					    location.reload();
 					},function(){
 					    alertify.error('Declined');
 					    setCookie("cookiePreference", 0, 365);
+					    location.reload();
 					}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
 			}
 			if (myCookie == "0"){
