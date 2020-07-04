@@ -688,7 +688,6 @@ html[dir='rtl'] #outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentatio
 
 #toolbarContainer {
   width: 100%;
-  /*min-width: 460px;*/
 }
 
 #toolbarSidebar {
@@ -1004,7 +1003,7 @@ html[dir='rtl'] .findbar * {
 
 
 html[dir='ltr'] .splitToolbarButton {
-  margin: 3px 2px 4px 0;
+  margin: 3px 0px 4px 0;
   display: inline-block;
 }
 html[dir='rtl'] .splitToolbarButton {
