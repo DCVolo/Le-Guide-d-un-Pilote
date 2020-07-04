@@ -1003,7 +1003,7 @@ html[dir='rtl'] .findbar * {
 
 
 html[dir='ltr'] .splitToolbarButton {
-  margin: 3px 0px 4px 0;
+  margin: 3px 2px 4px 0;
   display: inline-block;
 }
 html[dir='rtl'] .splitToolbarButton {
@@ -1140,7 +1140,7 @@ html[dir='rtl'] .splitToolbarButtonSeparator {
 html[dir='ltr'] .toolbarButton,
 html[dir='ltr'] .overlayButton,
 html[dir='ltr'] .dropdownToolbarButton {
-  margin: 3px 2px 4px 0;
+  margin: 3px 0px 4px 0;
 }
 html[dir='rtl'] .toolbarButton,
 html[dir='rtl'] .overlayButton,
