@@ -2443,7 +2443,11 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 }
 
 @media all and (max-width: 460px) {
-  #newInformation{
+  #toolbarViewerMiddle{
+    display: none;
+  }
+
+  /*#newInformation{
     display: none;
   }
     #fillForm{
@@ -2457,7 +2461,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
     #patreon{
     display: none;
-  }
+  }*/
 }
 
 @media all and (max-width: 690px) {
