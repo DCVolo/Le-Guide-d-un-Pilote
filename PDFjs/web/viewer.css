@@ -2218,6 +2218,12 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     content: url(images/toolbarButton-presentationMode@2x.png);
   }
 
+
+  .toolbarButton.fillForm::before,
+  .secondaryToolbarButton.fillForm::before {
+    content: url(images/comment-16@2x.png);
+  }
+
   .toolbarButton.print::before,
   .secondaryToolbarButton.print::before {
     content: url(images/toolbarButton-print@2x.png);
