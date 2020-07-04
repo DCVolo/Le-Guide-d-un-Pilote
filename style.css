@@ -16,9 +16,9 @@ iframe {
 }
 
 title {
-  display: none;
+  display: inline;
 }
 
 #AMPLongShortPresentation{
-	display: all;
+	display: inherit;
 }
