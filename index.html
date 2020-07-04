@@ -23,7 +23,7 @@
 	</script>
 </head>
 <body>
-	<div class="AMPLongShortPresentation">
+	<div id="AMPLongShortPresentation">
 		<h1>Le Guide d'un Pilote - Le tutoriel / tutorial destiné aux débutants comme aux joueurs pro.</h1>
 		<article>
 			<p>Bienvenue sur ce site qui héberge et permet de visionner le manuel complet et en français de Star Citizen créé par l'auteur DCVolo, ce document vous permet comme à l'école, d'apprendre à jouer, à piloter, comprendre le fonctionnement des mécanique et autres détails des nombreux systèmes que propose SC.</p>
@@ -141,7 +141,7 @@
 		</script>
 		<script>
 			if (myCookie != "")	{
-				var elmt = document.getElementByClass("AMPLongShortPresentation");
+				var elmt = document.getElementById("AMPLongShortPresentation");
 				elmt.style.display = "none";
 				document.write('<iframe title="Le Guide d\'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>');
 			}
