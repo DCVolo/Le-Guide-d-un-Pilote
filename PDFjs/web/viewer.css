@@ -2445,22 +2445,15 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   #toolbarViewerMiddle{
     display: none;
   }
+}
 
-  /*#newInformation{
+@media all and (max-width: 360px) {
+  #newInformation{
     display: none;
   }
-    #fillForm{
+  #fillForm{
     display: none;
   }
-    #discord{
-    display: none;
-  }
-    #youtube{
-    display: none;
-  }
-    #patreon{
-    display: none;
-  }*/
 }
 
 @media all and (max-width: 690px) {
