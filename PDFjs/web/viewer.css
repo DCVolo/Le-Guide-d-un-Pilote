@@ -2219,10 +2219,36 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
 
 
+  .toolbarButton.newInformation::before,
+  .secondaryToolbarButton.newInformation::before {
+    content: url(images/secondaryToolbarButton-documentProperties@2x.png);
+  }
+
   .toolbarButton.fillForm::before,
   .secondaryToolbarButton.fillForm::before {
     content: url(images/comment-16@2x.png);
   }
+
+.toolbarButton.discord::before,
+.secondaryToolbarButton.discord::before {
+  content: url(images/discord-16@2x.png);
+}
+
+.toolbarButton.patreon::before,
+.secondaryToolbarButton.patreon::before {
+  content: url(images/Patreon_Mark_Primary-16@2x.png);
+}
+
+.toolbarButton.youtube::before,
+.secondaryToolbarButton.youtube::before {
+  content: url(images/youtube-16@2x.png);
+}
+
+
+
+
+
+
 
   .toolbarButton.print::before,
   .secondaryToolbarButton.print::before {
