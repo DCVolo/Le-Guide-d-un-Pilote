@@ -2547,6 +2547,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
+  border-radius: 34px;
 }
 
 .slider:before {
@@ -2559,6 +2560,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
+  border-radius: 50%;
 }
 
 input:checked + .slider {
