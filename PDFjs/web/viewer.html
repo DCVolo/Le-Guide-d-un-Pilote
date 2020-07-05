@@ -456,4 +456,17 @@ See https://github.com/adobe-type-tools/cmap-resources
           window.showModificationForm = function(){
               alertify.alert().setContent('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfY5rZ-qnQAqRMtlmWLax0cIjiYXOsWuEBBtM2pcHlFPQ8PcQ/viewform?embedded=true" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0">…</iframe>').show();
           }
+
+          document.addEventListener('DOMContentLoaded', function () {
+            var checkbox = document.querySelector('input[type="checkbox"]');
+
+            checkbox.addEventListener('change', function () {
+              if (checkbox.checked) {
+                window['ga-disable-UA-45860209-2'] = false;
+              } else {
+                window['ga-disable-UA-45860209-2'] = true;
+              }
+            });
+          });
+
       </script>  
