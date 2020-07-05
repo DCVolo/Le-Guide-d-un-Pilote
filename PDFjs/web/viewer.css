@@ -2531,8 +2531,9 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 .switch {
   position: relative;
   display: inline-block;
-  width: 50px;
+  width: 40px;
   height: 14px;
+  margin-left: 5px;
 }
 
 .switch input {display:none;}
@@ -2555,7 +2556,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   content: "";
   height: 10px;
   width: 10px;
-  left: 8px;
+  left: 2px;
   bottom: 2px;
   background-color: white;
   -webkit-transition: .4s;
@@ -2575,4 +2576,15 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+}
+
+#spacing{
+  display: inline-block;
+  min-height: 25px;
+  padding: 3px 0 1px 0;
+  text-align: center;
+}
+
+#spacing-text{
+
 }
