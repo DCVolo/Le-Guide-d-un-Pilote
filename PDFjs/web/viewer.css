@@ -2555,7 +2555,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   content: "";
   height: 10px;
   width: 10px;
-  left: 4px;
+  left: 8px;
   bottom: 2px;
   background-color: white;
   -webkit-transition: .4s;
