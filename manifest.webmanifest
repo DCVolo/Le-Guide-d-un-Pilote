@@ -3,13 +3,7 @@
   "name": "Le Guide d'un Pilote",
   "description": "The ultimate futuristic racing game from the future!",
   "short_name": "SC-LGDP",
-  "name": "Web App Manifest",
-  "theme_color": "#eb5252",
-  "background_color": "#262626",
-  "display": "fullscreen",
-  "Scope": "/",
-  "orientation": "portrait",
-  "icons": [
+    "icons": [
     {
       "src": "images/launcher-icon/48-48.png",
       "type": "image/png",
@@ -26,5 +20,11 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "index.html"
+  "name": "Web App Manifest",
+  "Scope": "/Le-Guide-d-un-Pilote/",
+  "start_url": "/Le-Guide-d-un-Pilote/index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#eb5252",
+  "background_color": "#262626"
 }
