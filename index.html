@@ -110,7 +110,7 @@
 				      	// Browser downloaded a new app cache.
 				      	alertify.confirm('La nouvelle version du site est disponible.', function(){
 		       				alertify.success('Accepted');
-		    			}).set('onok', function(closeEvent){ alertify.success('Ok');} );
+		    			}).set('onok', function(closeEvent){ alertify.success('Ok');} ).maximize();
 		    			// Should reload page
 				    } else {
 				      // Manifest didn't changed. Nothing new to server.
