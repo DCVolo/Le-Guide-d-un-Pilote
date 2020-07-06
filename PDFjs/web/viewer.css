@@ -1366,8 +1366,8 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/youtube-16.png);
 }
 
-.toolbarButton.application::before,
-.secondaryToolbarButton.application::before {
+.toolbarButton.installAppPWA::before,
+.secondaryToolbarButton.installAppPWA::before {
   content: url(images/application-16.png);
 }
 
@@ -2248,8 +2248,8 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   content: url(images/youtube-16@2x.png);
 }
 
-.toolbarButton.application::before,
-.secondaryToolbarButton.application::before {
+.toolbarButton.installAppPWA::before,
+.secondaryToolbarButton.installAppPWA::before {
   content: url(images/application-16@2x.png);
 }
 
