@@ -2250,11 +2250,8 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 
 .toolbarButton.installAppPWA::before,
 .secondaryToolbarButton.installAppPWA::before {
-  content: url(images/application-16@2x.png);
+  content: url(images/application-16@2x.svg);
 }
-
-
-
 
 
   .toolbarButton.print::before,
