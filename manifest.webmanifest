@@ -2,7 +2,7 @@
   "short_name": "WAM",
   "name": "Web App Manifest",
   "theme_color": "#eb5252",
-  "background_color": "#000000",
+  "background_color": "#262626",
   "display": "fullscreen",
   "Scope": "/",
   "orientation": "portrait",
