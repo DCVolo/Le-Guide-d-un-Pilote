@@ -5,9 +5,7 @@ const addBtn = document.getElementByClassName("installAppPWA");
 
 checkbox.addEventListener('click', function () {
     if (addBtn.clicked){
-    	if ('serviceWorker' in navigator) {
-		  		navigator.serviceWorker.register('offline-manager.js');
-		}
+		deferredPrompt.prompt();
     }
 }
 
