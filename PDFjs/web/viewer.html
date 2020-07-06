@@ -207,33 +207,7 @@ See https://github.com/adobe-type-tools/cmap-resources
             </label>
             <span>Cookies (Google Analytics)</span> 
             </div>
-                    <script type="text/javascript">
-        
-          var checkbox = document.querySelector('input[type="checkbox"]');
-          var myCookie = getCookie("cookiePreference");
-          if (myCookie == 0){
-              checkbox.checked = false;
-          }
-          if (myCookie == 1){
-              checkbox.checked = true;
-          }
-        
 
-          document.addEventListener('DOMContentLoaded', function () {
-
-              checkbox.addEventListener('change', function () {
-                  if (checkbox.checked) {
-                      console.log("checkbox state = true");
-                      setCookie("cookiePreference", 1, 365);
-                      window['ga-disable-UA-45860209-2'] = false;
-                  } else {
-                      console.log("checkbox state = false");
-                      setCookie("cookiePreference", 0, 365);
-                      window['ga-disable-UA-45860209-2'] = true;
-                  }
-              });
-          });
-        </script>  
 
             <div class="horizontalToolbarSeparator"></div>
 
@@ -486,5 +460,34 @@ See https://github.com/adobe-type-tools/cmap-resources
           }
       </script>
 
+      <script type="text/javascript">
+        
+          var checkbox = document.querySelector('input[type="checkbox"]');
+          console.log(checkbox);
+          var myCookie = getCookie("cookiePreference");
+          if (myCookie == 0){
+              console.log("tentative modification du slider en false");
+              checkbox.checked = false;
+          }
+          if (myCookie == 1){
+              console.log("tentative modification du slider en true");
+              checkbox.checked = true;
+          }
+        
 
+          document.addEventListener('DOMContentLoaded', function () {
+
+              checkbox.addEventListener('change', function () {
+                  if (checkbox.checked) {
+                      console.log("checkbox state = true");
+                      setCookie("cookiePreference", 1, 365);
+                      window['ga-disable-UA-45860209-2'] = false;
+                  } else {
+                      console.log("checkbox state = false");
+                      setCookie("cookiePreference", 0, 365);
+                      window['ga-disable-UA-45860209-2'] = true;
+                  }
+              });
+          });
+      </script>  
 
