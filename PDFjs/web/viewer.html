@@ -462,16 +462,19 @@ See https://github.com/adobe-type-tools/cmap-resources
 
       <script type="text/javascript">
         
-          var checkbox = document.querySelector('input[type="checkbox"]');
+          //var checkbox = document.querySelector('input[type="checkbox"]');
+          var checkbox = document.getElementById("cookieCheckbox");
           console.log(checkbox);
           var myCookie = getCookie("cookiePreference");
           if (myCookie == 0){
               console.log("tentative modification du slider en false");
-              document.getElementById("cookieCheckbox").checked = false;
+              //document.getElementById("cookieCheckbox").checked = false;
+              checkbox.checked = false;
           }
           if (myCookie == 1){
               console.log("tentative modification du slider en true");
-              document.getElementById("cookieCheckbox").checked = true;
+              //document.getElementById("cookieCheckbox").checked = true;
+              checkbox.checked = true;
           }
         
 
