@@ -4,9 +4,9 @@ let deferredPrompt;
 const addBtn = document.getElementByClassName("installAppPWA");
 
 checkbox.addEventListener('click', function () {
-    if (addBtn.clicked){
-		deferredPrompt.prompt();
-    }
+	document.getElementByClassName("installAppPWA").addEventListener("click", function(){
+  		deferredPrompt.prompt();
+	});
 }
 
 window.addEventListener('beforeinstallprompt', (e) => {
