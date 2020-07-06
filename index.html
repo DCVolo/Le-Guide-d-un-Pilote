@@ -74,31 +74,8 @@
 			<p>Un astre, planète ou lune, peut posséder des grottes, cavernes, ou caves. Elles sont elles aussi, ces grottes / cavernes, générée procéduralement et proposent des missions d'investigations et autres types de missions. Vous pourrez y miner grâce au multi tool mais aussi.. vous y perdre.</p>
 		</article>
 	</div>
-		<script>		
-			function setCookie(cname, cvalue, exdays) {
-				var d = new Date();
-				d.setTime(d.getTime() + (exdays*24*60*60*1000));
-				var expires = "expires="+ d.toUTCString();
-				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-			}
-
-			function getCookie(cname) {	//returns the value of a specified cookie
-			  	var name = cname + "=";
-			  	var decodedCookie = decodeURIComponent(document.cookie);
-			  	var ca = decodedCookie.split(';');
-			  	for(var i = 0; i <ca.length; i++) {
-			    	var c = ca[i];
-			    	while (c.charAt(0) == ' ') {
-			      		c = c.substring(1);
-			    	}
-			    	if (c.indexOf(name) == 0) {
-			      		return c.substring(name.length, c.length);
-			    	}
-			  	}
-			  	return "";
-			}
-			
-			
+		<script src="./JScookies.js"></script>
+		<script>
 		    var myCookie = getCookie("cookiePreference");
 
 		    if (myCookie == ""){
