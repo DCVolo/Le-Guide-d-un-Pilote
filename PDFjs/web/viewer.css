@@ -2590,6 +2590,7 @@ input:checked + .slider:before {
   background-color: #202324;
   color: #aba499;
   width: 12px;
+  height: 12px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
