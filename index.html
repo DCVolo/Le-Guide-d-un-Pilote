@@ -93,7 +93,7 @@
 					    alertify.error('Declined');
 					    setCookie("cookiePreference", 0, 365);
 					    location.reload();
-					}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false});
+					}).set({labels:{ok:'Accept', cancel: 'Decline'}, padding: false}).maximize();
 			}
 			if (myCookie == "0"){
 				window['ga-disable-UA-45860209-2'] = true;
@@ -110,7 +110,7 @@
 				      	// Browser downloaded a new app cache.
 				      	alertify.confirm('La nouvelle version du site est disponible.', function(){
 		       				alertify.success('Accepted');
-		    			}).set('onok', function(closeEvent){ alertify.success('Ok');} ).maximize();
+		    			}).set('onok', function(closeEvent){ alertify.success('Ok');} );
 		    			// Should reload page
 				    } else {
 				      // Manifest didn't changed. Nothing new to server.
