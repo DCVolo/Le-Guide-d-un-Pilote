@@ -477,9 +477,11 @@ See https://github.com/adobe-type-tools/cmap-resources
 
             checkbox.addEventListener('change', function () {
               if (checkbox.checked) {
+                console.log("checkbox state = true");
                 setCookie("cookiePreference", 1, 365);
                 window['ga-disable-UA-45860209-2'] = false;
               } else {
+                console.log("checkbox state = false");
                 setCookie("cookiePreference", 0, 365);
                 window['ga-disable-UA-45860209-2'] = true;
               }
