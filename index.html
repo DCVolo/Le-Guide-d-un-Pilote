@@ -12,7 +12,9 @@
   	<link rel="manifest" href="./manifest.webmanifest">
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" href="./Alertify/css/alertify.css">
-    <link rel="stylesheet" href="./Alertify/css/themes/semantic.css">
+    <!--<noscript><link rel="stylesheet" href="./Alertify/css/themes/semantic.css"></noscript>-->
+    <link rel="preload" href="./Alertify/css/alertify.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./Alertify/css/themes/semantic.css"></noscript>
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 	<script src="./Alertify/alertify.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45860209-2"></script>
