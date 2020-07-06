@@ -17,6 +17,11 @@
       "src": "images/launcher-icon/192-192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "images/launcher-spash-screen/carte-DCVolo.png.png",
+      "type": "image/png",
+      "sizes": "523x780"
     }
   ],
   "name": "Le Guide d'un Pilote",
