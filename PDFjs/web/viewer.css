@@ -2582,9 +2582,26 @@ input:checked + .slider:before {
   display: inline-block;
   min-height: 25px;
   padding: 3px 0 1px 0;
-  text-align: center;
+
 }
 
-#spacing-text{
+/* width */
+::-webkit-scrollbar {
+  background-color: #202324;
+  color: #aba499;
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
