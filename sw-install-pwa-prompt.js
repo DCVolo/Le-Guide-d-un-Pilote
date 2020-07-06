@@ -1,10 +1,10 @@
 // Code to handle install prompt on desktop
 let deferredPrompt;
 //const addBtn = document.querySelector('.installAppPWA');
-const addBtn = document.getElementByClassName("installAppPWA");
+const addBtn = document.getElementByClassName('installAppPWA');
 
 checkbox.addEventListener('click', function () {
-	document.getElementByClassName("installAppPWA").addEventListener("click", function(){
+	document.getElementsByClassName('installAppPWA').addEventListener("click", function(){
   		deferredPrompt.prompt();
 	});
 }
