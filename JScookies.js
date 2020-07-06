@@ -15,7 +15,6 @@ function getCookie(cname) {	//returns the value of a specified cookie
       		c = c.substring(1);
     	}
     	if (c.indexOf(name) == 0) {
-    		console.log(cname, c.substring(name.length, c.length));
       		return c.substring(name.length, c.length);
     	}
   	}

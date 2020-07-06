@@ -461,32 +461,20 @@ See https://github.com/adobe-type-tools/cmap-resources
       </script>
 
       <script type="text/javascript">
-        
-          //var checkbox = document.querySelector('input[type="checkbox"]');
           var checkbox = document.getElementById("cookieCheckbox");
-          console.log(checkbox);
           var myCookie = getCookie("cookiePreference");
           if (myCookie == 0){
-              console.log("tentative modification du slider en false");
-              //document.getElementById("cookieCheckbox").checked = false;
               checkbox.checked = false;
           }
           if (myCookie == 1){
-              console.log("tentative modification du slider en true");
-              //document.getElementById("cookieCheckbox").checked = true;
               checkbox.checked = true;
           }
-        
-
           document.addEventListener('DOMContentLoaded', function () {
-
               checkbox.addEventListener('change', function () {
                   if (checkbox.checked) {
-                      console.log("checkbox state = true");
                       setCookie("cookiePreference", 1, 365);
                       window['ga-disable-UA-45860209-2'] = false;
                   } else {
-                      console.log("checkbox state = false");
                       setCookie("cookiePreference", 0, 365);
                       window['ga-disable-UA-45860209-2'] = true;
                   }
