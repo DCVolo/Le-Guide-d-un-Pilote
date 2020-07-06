@@ -8,17 +8,17 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "images/android/android-launchericon-48-48.png",
+      "src": "images/launcher-icon/48-48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "images/android/android-launchericon-96-96.png",
+      "src": "images/launcher-icon/96-96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "images/android/android-launchericon-192-192.png",
+      "src": "images/launcher-icon/192-192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
