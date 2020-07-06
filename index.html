@@ -85,7 +85,7 @@
 		    var myCookie = getCookie("cookiePreference");
 
 		    if (myCookie == ""){
-		    		alertify.confirm('<article><h3 style="text-indent:30px;">Protection des données :</h3><section style="text-indent:10px;"> - Un cookie pour sauvegarder vos préférences en matière de cookie (RGPD) ;</section><br><section style="text-indent:10px;"> - Des cookies pour Google Analytics</section></article>', function(){
+		    		alertify.confirm('<article><h3 style="text-indent:30px;"><img src="./images/icons/cookie-32x32.png"> Protection des données (cookies) :</h3><section style="text-indent:10px;"> - Un cookie pour sauvegarder vos préférences en matière de cookie (RGPD) ;</section><br><section style="text-indent:10px;"> - Des cookies pour Google Analytics</section></article>', function(){
 					    alertify.success('Accepted');
 					    setCookie("cookiePreference", 1, 365);
 					    location.reload();
