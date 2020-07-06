@@ -3,12 +3,12 @@ let deferredPrompt;
 //const addBtn = document.querySelector('.installAppPWA');
 const addBtn = document.getElementByClassName('installAppPWA');
 
-checkbox.addEventListener('click', function () {
+
 	document.getElementsByClassName('installAppPWA')[0].addEventListener("click", function(){
   		deferredPrompt.prompt();
   		console.log('tentative prompt');
 	});
-}
+
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
