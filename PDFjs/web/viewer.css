@@ -2589,7 +2589,8 @@ input:checked + .slider:before {
 ::-webkit-scrollbar {
   background-color: #202324;
   color: #aba499;
-  width: 10px;
+  width: 12px;
+  height: 12px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
