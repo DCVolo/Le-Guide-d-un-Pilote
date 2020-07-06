@@ -1,7 +1,15 @@
 // Code to handle install prompt on desktop
 let deferredPrompt;
-const addBtn = document.querySelector('.installAppPWA');
-addBtn.style.display = 'none';
+//const addBtn = document.querySelector('.installAppPWA');
+const addBtn = document.getElementByClassName("installAppPWA");
+
+checkbox.addEventListener('click', function () {
+    if (addBtn.clicked){
+    	if ('serviceWorker' in navigator) {
+		  		navigator.serviceWorker.register('offline-manager.js');
+		}
+    }
+}
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
