@@ -1,6 +1,5 @@
 {
   "lang": "fr",
-  "name": "Le Guide d'un Pilote",
   "description": "The ultimate futuristic racing game from the future!",
   "short_name": "SC-LGDP",
     "icons": [
@@ -20,7 +19,7 @@
       "sizes": "192x192"
     }
   ],
-  "name": "Web App Manifest",
+  "name": "Le Guide d'un Pilote",
   "Scope": "/Le-Guide-d-un-Pilote/",
   "start_url": "/Le-Guide-d-un-Pilote/index.html",
   "display": "fullscreen",
