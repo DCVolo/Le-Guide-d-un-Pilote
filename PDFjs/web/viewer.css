@@ -319,6 +319,7 @@
 }
 
 .pdfViewer.scrollHorizontal, .spread {
+  height: 100%;
   white-space: nowrap;
 }
 
