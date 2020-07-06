@@ -1366,6 +1366,11 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/youtube-16.png);
 }
 
+.toolbarButton.application::before,
+.secondaryToolbarButton.application::before {
+  content: url(images/application-16.png);
+}
+
 .toolbarButton.presentationMode::before,
 .secondaryToolbarButton.presentationMode::before {
   content: url(images/toolbarButton-presentationMode.png);
@@ -2243,7 +2248,10 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   content: url(images/youtube-16@2x.png);
 }
 
-
+.toolbarButton.application::before,
+.secondaryToolbarButton.application::before {
+  content: url(images/application-16@2x.png);
+}
 
 
 
