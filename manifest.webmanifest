@@ -1,5 +1,8 @@
 {
-  "short_name": "WAM",
+  "lang": "fr",
+  "name": "Le Guide d'un Pilote",
+  "description": "The ultimate futuristic racing game from the future!",
+  "short_name": "SC-LGDP",
   "name": "Web App Manifest",
   "theme_color": "#eb5252",
   "background_color": "#262626",
