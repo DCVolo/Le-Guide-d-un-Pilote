@@ -29,5 +29,6 @@
   "start_url": "/Le-Guide-d-un-Pilote/index.html",
   "display": "fullscreen",
   "theme_color": "#262626",
-  "background_color": "#262626"
+  "background_color": "#262626",
+  "prefer_related_applications": false
 }
