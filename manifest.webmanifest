@@ -26,7 +26,7 @@
   ],
   "name": "Le Guide d'un Pilote",
   "scope": "https://dcvolo.github.io/Le-Guide-d-un-Pilote/",
-  "start_url": "/Le-Guide-d-un-Pilote/index.html",
+  "start_url": "https://dcvolo.github.io/Le-Guide-d-un-Pilote/",
   "display": "standalone",
   "orientation": "any",
   "theme_color": "#262626",
