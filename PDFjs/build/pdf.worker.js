@@ -1747,7 +1747,8 @@ function _isValidProtocol(url) {
       return true;
 
     default:
-      return false;
+      return true;//false
+      console.log("casse burne");
   }
 }
 
