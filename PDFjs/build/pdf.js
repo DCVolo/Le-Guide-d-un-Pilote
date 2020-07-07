@@ -14066,7 +14066,7 @@ function addLinkAttributes(link) {
       break;
 
     case LinkTarget.TOP:
-      targetStr = "_top";
+      targetStr = "_blank";// _top Fils de **** d'Adobe pas foutu de proposer une option pour convertir des liens commençant par http en liens externes
       break;
   }
 
