@@ -368,14 +368,14 @@
                 /*tab index required to fire click event before body focus*/
                 modal: '<div class="ajs-modal" tabindex="0"></div>',
                 dialog: '<div class="ajs-dialog" tabindex="0"></div>',
-                reset: '<button class="ajs-reset">‌‌ </button>',
-                commands: '<div class="ajs-commands"><button class="ajs-pin"></button><button class="ajs-maximize"></button><button class="ajs-close">‌‌ </button></div>',
+                reset: '<button class="ajs-reset" type="button">‌‌ </button>',
+                commands: '<div class="ajs-commands"><button class="ajs-pin" type="button"></button><button class="ajs-maximize" type="button"></button><button class="ajs-close" type="button">‌‌ </button></div>',
                 header: '<div class="ajs-header"></div>',
                 body: '<div class="ajs-body"></div>',
                 content: '<div class="ajs-content"></div>',
                 footer: '<div class="ajs-footer"></div>',
                 buttons: { primary: '<div class="ajs-primary ajs-buttons"></div>', auxiliary: '<div class="ajs-auxiliary ajs-buttons"></div>' },
-                button: '<button class="ajs-button"></button>',
+                button: '<button class="ajs-button" type="button"></button>',
                 resizeHandle: '<div class="ajs-handle"></div>',
             },
             //common class names
