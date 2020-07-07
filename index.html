@@ -141,6 +141,21 @@
 				document.write('<iframe title="Le Guide d\'un Pilote en PDF" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf"></iframe>');
 			}
 		</script>
+
+		<script>
+			function functionTitle(x) { 
+alertify.minimalDialog || alertify.dialog(x,function(){
+    return {
+        main:function(content){
+            this.setContent(content); 
+        }
+    };
+});
+alertify.minimalDialog("Minimal button-less dialog."); };
+		</script>
+
+
+
 		<script type="text/javascript">
 			if ('serviceWorker' in navigator) {
 		  		navigator.serviceWorker.register('offline-manager.js');
