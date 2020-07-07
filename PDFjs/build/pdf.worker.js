@@ -15253,8 +15253,8 @@ var Catalog = /*#__PURE__*/function () {
             }
 
           default:
-            (0, _util.warn)("parseDestDictionary: unsupported action type \"".concat(actionName, "\"."));
             console.log("casse burne");
+            (0, _util.warn)("parseDestDictionary: unsupported action type \"".concat(actionName, "\"."));
             break;
         }
       } else if (destDict.has("Dest")) {
