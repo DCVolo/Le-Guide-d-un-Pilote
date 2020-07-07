@@ -670,12 +670,16 @@ html[dir='ltr'] #outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentatio
   transition-property: left;
   left: 200px;
   left: var(--sidebar-width);
+  scrollbar-color: #888888 #202324;
+  scrollbar-height: 12px;
 }
 html[dir='rtl'] #outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentationMode) {
   -webkit-transition-property: right;
   transition-property: right;
   right: 200px;
   right: var(--sidebar-width);
+  scrollbar-color: #888888 #202324;
+  scrollbar-width: 12px;
 }
 
 .toolbar {
@@ -1725,10 +1729,13 @@ a:focus > .thumbnail > .thumbnailSelectionRing,
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  scrollbar-color: #888888 #202324;
+  scrollbar-width: 12px;
 }
 
 #outlineView {
   padding: 4px 4px 0;
+
 }
 #attachmentsView {
   padding: 3px 4px 0;
@@ -2377,6 +2384,8 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
   #viewerContainer {
     overflow: visible;
+    scrollbar-color: #888888 #202324;
+    scrollbar-width: 12px;
   }
 
   #mainContainer, #viewerContainer, .page, .page canvas {
