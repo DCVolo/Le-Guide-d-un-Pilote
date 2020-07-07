@@ -16,7 +16,7 @@ Copyright 2015, 2019 Google Inc. All Rights Reserved.
 const OFFLINE_VERSION = 1;
 const CACHE_NAME = 'offline-LGDP';
 // Customize this with a different URL if needed.
-const OFFLINE_URL = 'index.html';
+const OFFLINE_URL = '.';
 // Precaching critical static files
 const STATIC_CACHE_URLS = ["Le-Guide-d-un-Pilote.pdf"];
 
