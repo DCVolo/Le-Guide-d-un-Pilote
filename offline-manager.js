@@ -17,6 +17,8 @@ const OFFLINE_VERSION = 1;
 const CACHE_NAME = 'offline-LGDP';
 // Customize this with a different URL if needed.
 const OFFLINE_URL = 'index.html';
+// Precaching critical static files
+const STATIC_CACHE_URLS = ["Le-Guide-d-un-Pilote.pdf"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
@@ -24,6 +26,7 @@ self.addEventListener('install', (event) => {
     // Setting {cache: 'reload'} in the new request will ensure that the response
     // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
     await cache.add(new Request(OFFLINE_URL, {cache: 'reload'}));
+    cache.addAll(STATIC_CACHE_URLS);
   })());
 });
 
