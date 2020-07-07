@@ -500,7 +500,7 @@ window.addEventListener("beforeinstallprompt", e => {
   installButton.addEventListener("click", installApp);
 });
 
-windows.showInstallPrompt = function (){
+window.showInstallPrompt = function (){
   // Show the prompt
     deferredPrompt.prompt();
     installButton.disabled = true;
