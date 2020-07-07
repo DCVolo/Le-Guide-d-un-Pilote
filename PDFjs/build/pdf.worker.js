@@ -1747,8 +1747,7 @@ function _isValidProtocol(url) {
       return true;
 
     default:
-      return true;//false
-      console.log("casse burne");
+      return false;
   }
 }
 
@@ -15255,6 +15254,7 @@ var Catalog = /*#__PURE__*/function () {
 
           default:
             (0, _util.warn)("parseDestDictionary: unsupported action type \"".concat(actionName, "\"."));
+            console.log("casse burne");
             break;
         }
       } else if (destDict.has("Dest")) {
