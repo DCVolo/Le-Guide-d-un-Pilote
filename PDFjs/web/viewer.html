@@ -485,9 +485,9 @@ See https://github.com/adobe-type-tools/cmap-resources
               });
           });
       </script>  
-      <script>
+      <script type="text/javascript">
         let deferredPrompt; // Allows to show the install prompt
-const installButton = document.getElementsByClassName("install_button")[0];
+const installButton = document.getElementsByClassName("installAppPWA")[0];
 
 window.addEventListener("beforeinstallprompt", e => {
   console.log("beforeinstallprompt fired");
