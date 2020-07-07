@@ -143,15 +143,16 @@
 		</script>
 
 		<script>
-			function functionTitle(x) { 
-alertify.minimalDialog || alertify.dialog(x,function(){
-    return {
-        main:function(content){
-            this.setContent(content); 
-        }
-    };
-});
-alertify.minimalDialog("Minimal button-less dialog."); };
+			window.functionTitle = function(x){
+				alertify.minimalDialog || alertify.dialog(x,function(){
+				    return {
+				        main:function(content){
+				            this.setContent(content); 
+				        }
+				    };
+				});
+				alertify.minimalDialog("Minimal button-less dialog.");
+			};
 		</script>
 
 
