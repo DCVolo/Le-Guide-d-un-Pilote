@@ -15253,7 +15253,6 @@ var Catalog = /*#__PURE__*/function () {
             }
 
           default:
-            console.log("casse burne");
             (0, _util.warn)("parseDestDictionary: unsupported action type \"".concat(actionName, "\"."));
             break;
         }
