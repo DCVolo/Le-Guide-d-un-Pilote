@@ -209,9 +209,9 @@ ul{
     DIFFERENTS TYPES (TAILLE) DE TOUCHES
 */
 
-/*.toucheTailleNormale, #toucheRetourArr, #toucheTab, #toucheCtrlg, #toucheCtrld, #toucheVerr, #toucheEntree, #toucheMajg ,#toucheMajd, #toucheAltg, #toucheAltd, #toucheEspace,  {
-    margin-bottom: 0.2%;
-}*/
+#toucheRetourArr, #toucheTab, #toucheCtrlg, #toucheCtrld, #toucheVerr, #toucheEntree, #toucheMajg ,#toucheMajd, #toucheAltg, #toucheAltd, #toucheEspace, #touchePN0, #touchePNentree, #touchePNplus{
+    margin-right: 0.1%;
+}
 
 .toucheTailleNormale{
   min-width:6.5%;
