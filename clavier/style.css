@@ -175,6 +175,7 @@ ul{
   position: relative;
   border: 1px solid black;
   border-radius: 10%;
+  margin-left:0;
 }
 
 .touche.focused {
