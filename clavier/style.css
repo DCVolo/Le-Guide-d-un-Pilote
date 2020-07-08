@@ -225,7 +225,7 @@ ul{
   min-height:7%;
 }
 
-#toucheTab{
+#toucheTab, #toucheCtrlg, #toucheCtrld {
   min-width:9%;
   min-height:7%;
 }
@@ -236,7 +236,7 @@ ul{
 }
 
 #toucheEntree{
-    min-width:8%;
+    min-width:7.5%;
     min-height:14%;
 }
 
@@ -247,11 +247,6 @@ ul{
 
 #toucheMajd{
   min-width:16%;
-  min-height:7%;
-}
-
-#toucheCtrlg, #toucheCtrld{
-  min-width:10%;
   min-height:7%;
 }
 
