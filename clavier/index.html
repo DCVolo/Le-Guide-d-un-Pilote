@@ -22,16 +22,15 @@
         gtag('config', 'UA-45860209-2');
     </script>
 </head>
-
-<script type="text/javascript">
-    if(getAllUrlParams().lang == null){
-        var queryParams = new URLSearchParams(window.location.search); 
-        queryParams.set("lang", "fr");
-        history.replaceState(null, null, "?"+queryParams.toString());
-    }
-</script>
-
 <body>
+
+    <script type="text/javascript">
+        if(getAllUrlParams().lang == null){
+            var queryParams = new URLSearchParams(window.location.search); 
+            queryParams.set("lang", "fr");
+            history.replaceState(null, null, "?"+queryParams.toString());
+        }
+    </script>
 
     <div id="clavier">
         <div id="alphanumeriqueEtFonctions">
