@@ -1,0 +1,275 @@
+/*
+    BALISES HTML
+*/
+
+html, body {
+	background-color: #262626;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+title {
+  display: inline;
+}
+
+ul{
+  padding-inline-start:0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+/*
+    CLAVIER
+*/
+
+#clavier{
+  /*--aspect-ratio: 2.35/1;*/
+  background-color: black;
+  display: flex;
+  min-width:100%;
+  height: 60%;
+  position: absolute;
+}
+
+/*
+    3 SECTIONS D'UN CLAVIER
+*/
+
+#alphanumeriqueEtFonctions{
+  background-color: green;
+  float:left;
+  width:65%;
+  height:100%;
+  overflow: auto;
+}
+
+#touchesDirectionelles{
+  background-color: red;
+  float:left;
+  width: 15%;
+  height:100%;
+  overflow: auto;
+}
+
+#paveNumerique{
+  background-color: blue;
+  float:left;
+  width:20%;
+  height:100%;
+  overflow: auto;
+}
+
+/*
+    LIGNES DE LA PARTIE ALPHANUMERIQUE & FONCTIONS
+*/
+
+#ligneFonction{
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 1%;
+}
+
+#ligneNum{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneAlpha1{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneAlpha2{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneAlpha3{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneControles{
+  display: flex;
+  list-style-type: none;
+}
+
+/*
+    LIGNES DE LA PARTIE TOUCHES DIRECTIONELLES
+*/
+
+#ligneSefonction{
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 1%;
+}
+
+#ligneDirecPage2{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneDirecPage1{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneTouchesDir2{
+  display: flex;
+  list-style-type: none;
+}
+
+#ligneTouchesDir1{
+  display: flex;
+  list-style-type: none;
+}
+
+/*
+    LIGNES DE LA PARTIE PAVE NUMERIQUE
+*/
+
+#lignePN5{
+  display: flex;
+  list-style-type: none;
+}
+
+#lignePN4{
+  display: flex;
+  list-style-type: none;
+}
+
+#lignePN3{
+  display: flex;
+  list-style-type: none;
+}
+
+#lignePN2{
+  display: flex;
+  list-style-type: none;
+}
+
+#lignePN1{
+  display: flex;
+  list-style-type: none;
+}
+
+/*
+    TOUCHE CLAVIER
+*/
+
+.touche{
+  background-color: grey;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.touche.focused {
+  opacity: 1;
+  transform: scale(1.1);
+  border-color: white;
+}
+
+.nomTouche{
+  background-color: white;
+  float:right;
+  width:20%;
+  height:25%;
+}
+
+.modificateur{
+  background-color: yellow;
+  float:left;
+  width:80%;
+  height:25%;
+}
+
+.description{
+  background-color: orange;
+  width:100%;
+  height:100%;
+}
+
+/*
+    DIFFERENTS TYPES (TAILLE) DE TOUCHES
+*/
+
+.toucheTailleNormale{
+  min-width:6.5%;
+  min-height:7%;
+  margin: 0.2%
+}
+
+.toucheFonction{
+  margin-bottom: 1%;
+}
+
+#toucheESC, #toucheF4, #toucheF8 {
+  margin-right: 4%;
+}
+
+#toucheRetourArr{
+  min-width:11%;
+  min-height:7%;
+  margin: 0.2%
+}
+
+#toucheTab{
+  min-width:9%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#toucheVerr{
+  min-width:10%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#toucheMajg{
+  min-width:8%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#toucheMajd{
+  min-width:16%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#toucheCtrlg, #toucheCtrld{
+  min-width:10%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#toucheAltg, #toucheAltd{
+  min-width:8%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#toucheEspace{
+  min-width: 42.5%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#touchePN0{
+  min-width:14%;
+  min-height:7%;
+  margin: 0.25%
+}
+
+#touchePNentree, #touchePNplus{
+  min-width:7%;
+  min-height:14%;
+  margin: 0.25%
+}
