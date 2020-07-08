@@ -67,6 +67,7 @@ title {
   display: flex;
   list-style-type: none;
   margin-bottom: 1%;
+  padding-left: 0;
 }
 
 #ligneNum{
@@ -227,7 +228,7 @@ title {
 }
 
 #toucheEntree{
-  
+
 }
 
 #toucheMajg{
