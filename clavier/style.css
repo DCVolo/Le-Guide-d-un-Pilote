@@ -210,7 +210,8 @@ ul{
 .toucheTailleNormale{
   min-width:6.5%;
   min-height:7%;
-  margin: 0.2%
+  margin-top: 0;
+  margin-right: auto;
 }
 
 .toucheFonction{
