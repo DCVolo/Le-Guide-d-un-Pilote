@@ -227,19 +227,16 @@ ul{
 #toucheRetourArr{
   min-width:11%;
   min-height:7%;
-  margin: 0.2%
 }
 
 #toucheTab{
   min-width:9%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #toucheVerr{
   min-width:10%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #toucheEntree{
@@ -249,41 +246,34 @@ ul{
 #toucheMajg{
   min-width:8%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #toucheMajd{
   min-width:16%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #toucheCtrlg, #toucheCtrld{
   min-width:10%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #toucheAltg, #toucheAltd{
   min-width:8%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #toucheEspace{
   min-width: 42.5%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #touchePN0{
   min-width:14%;
   min-height:7%;
-  margin: 0.25%
 }
 
 #touchePNentree, #touchePNplus{
   min-width:7%;
   min-height:14%;
-  margin: 0.25%
 }
