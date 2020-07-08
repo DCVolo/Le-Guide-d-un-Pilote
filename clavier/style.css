@@ -176,6 +176,7 @@ ul{
   border: 1px solid black;
   border-radius: 10%;
   margin-left:0;
+  margin-bottom: 0.2%;
 }
 
 .touche.focused {
@@ -208,6 +209,10 @@ ul{
     DIFFERENTS TYPES (TAILLE) DE TOUCHES
 */
 
+/*.toucheTailleNormale, #toucheRetourArr, #toucheTab, #toucheCtrlg, #toucheCtrld, #toucheVerr, #toucheEntree, #toucheMajg ,#toucheMajd, #toucheAltg, #toucheAltd, #toucheEspace,  {
+    margin-bottom: 0.2%;
+}*/
+
 .toucheTailleNormale{
   min-width:6.5%;
   min-height:7%;
@@ -221,7 +226,7 @@ ul{
 }
 
 #toucheRetourArr{
-  min-width:11%;
+  min-width:11.4%;
   min-height:7%;
 }
 
