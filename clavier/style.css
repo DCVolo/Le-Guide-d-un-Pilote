@@ -236,7 +236,8 @@ ul{
 }
 
 #toucheEntree{
-
+    min-width:8%;
+    min-height:14%;
 }
 
 #toucheMajg{
