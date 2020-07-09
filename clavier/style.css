@@ -38,11 +38,12 @@ ul{
   display: flex;
   min-width:100%;
   height: 60%;
-  position: absolute;
+  /*position: absolute;*/
+  flex-wrap: wrap;
 }
 
 /*
-    3 SECTIONS D'UN CLAVIER
+    DEBUT - 3 SECTIONS D'UN CLAVIER
 */
 
 #alphanumeriqueEtFonctions{
@@ -50,7 +51,6 @@ ul{
   float:left;
   width:65%;
   height:100%;
-  overflow: auto;
 }
 
 #touchesDirectionelles{
@@ -58,7 +58,6 @@ ul{
   float:left;
   width: 15%;
   height:100%;
-  overflow: auto;
 }
 
 #paveNumerique{
@@ -66,11 +65,14 @@ ul{
   float:left;
   width:20%;
   height:100%;
-  overflow: auto;
 }
 
 /*
-    LIGNES DE LA PARTIE ALPHANUMERIQUE & FONCTIONS
+    FIN - 3 SECTIONS D'UN CLAVIER
+*/
+
+/*
+    DEBUT - LIGNES DE LA PARTIE ALPHANUMERIQUE & FONCTIONS
 */
 
 #ligneFonction{
@@ -108,18 +110,26 @@ ul{
 }
 
 /*
-    LIGNES DE LA PARTIE TOUCHES DIRECTIONELLES
+    FIN - LIGNES DE LA PARTIE ALPHANUMERIQUE & FONCTIONS
+*/
+
+/*
+    DEBUT - LIGNES DE LA PARTIE TOUCHES DIRECTIONELLES
 */
 
 #ligneSefonction{
   display: flex;
   list-style-type: none;
   margin-bottom: 1%;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #ligneDirecPage2{
   display: flex;
   list-style-type: none;
+  margin-bottom: 8.2%;
 }
 
 #ligneDirecPage1{
@@ -138,12 +148,17 @@ ul{
 }
 
 /*
-    LIGNES DE LA PARTIE PAVE NUMERIQUE
+    FIN - LIGNES DE LA PARTIE TOUCHES DIRECTIONELLES
+*/
+
+/*
+    DEBUT - PARTIE PAVE NUMERIQUE
 */
 
 #lignePN5{
   display: flex;
   list-style-type: none;
+  //margin-top: 8.2%;
 }
 
 #lignePN4{
@@ -166,15 +181,47 @@ ul{
   list-style-type: none;
 }
 
+.paveNumeriqueColonned{
+  display: block;
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+
+container {
+    width: 100%;
+    display: inline-block;
+}
+block {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: calc(25% - 10px);
+    height: 100px;
+    margin: 5px;
+    background: red;
+    float: right;
+}
+block[v2] {
+    height: 210px;
+}
+block[h2] {
+    width: calc(50% - 10px);
+}
+
+
 /*
-    TOUCHE CLAVIER
+    FIN - PARTIE PAVE NUMERIQUE
+*/
+
+/*
+    DEBUT - TOUCHE CLAVIER
 */
 
 .touche{
   background-color: grey;
   position: relative;
   border: 1px solid black;
-  border-radius: 10%;
   margin-left:0;
   margin-bottom: 0.2%;
 }
@@ -206,10 +253,14 @@ ul{
 }
 
 /*
-    DIFFERENTS TYPES (TAILLE) DE TOUCHES
+    FIN - TOUCHE CLAVIER
 */
 
-#toucheRetourArr, #toucheTab, #toucheCtrlg, #toucheCtrld, #toucheVerr, #toucheEntree, #toucheMajg ,#toucheMajd, #toucheAltg, #toucheAltd, #toucheEspace, #touchePN0, #touchePNentree, #touchePNplus{
+/*
+    DEBUT - DIFFERENTS TYPES (TAILLE) DE TOUCHES
+*/
+
+#toucheRetourArr, #toucheTab, #toucheCtrlg, #toucheCtrld, #toucheVerr, #toucheEntree, #toucheMajg ,#toucheMajd, #toucheAltg, #toucheAltd, #toucheEspace, #touchePN0{
     margin-right: 0.1%;
 }
 
@@ -274,3 +325,23 @@ ul{
   min-width:7%;
   min-height:14%;
 }
+
+/*
+    FIN - DIFFERENTS TYPES (TAILLE) DE TOUCHES
+*/
+
+/*
+    DEBUT - DECALLAGE TOUCHES DIRECTIONELLES + PAVE NUMERIQUE
+*/
+
+.toucheDecalg{
+  margin-left: auto;
+}
+
+.toucheDecald{
+  margin-right: auto;
+}
+
+/*
+    FIN - DECALLAGE TOUCHES DIRECTIONELLES + PAVE NUMERIQUE
+*/
