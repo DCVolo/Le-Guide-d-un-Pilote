@@ -335,3 +335,33 @@ button > span {
     transform: translateX(-0.5em);
   }
 }
+
+/* ALT - orange */
+.modificateur_0 {
+  color: orange;
+}
+
+/* mode d'interaction - violet */
+.modificateur_1 {
+  color: purple;
+}
+
+/* Scan Mode - vert */
+.modificateur_2 {
+  color: green;
+}
+
+/* Minage Mode - rose */
+.modificateur_3 {
+  color: pink;
+}
+
+/* Caméra avancée - bleu */
+.modificateur_4 {
+  color: blue;
+}
+
+/* Modificateur 2 actif - rouge */
+.modificateur_5 {
+  color: red;
+}
