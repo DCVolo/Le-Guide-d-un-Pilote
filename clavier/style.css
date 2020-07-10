@@ -96,8 +96,9 @@ button > span {
   grid-template-columns: 21.25em 4.125em 5.65em;
   grid-template-rows: 0.75em 1.125em 1.125em 1.125em 1.125em 1.375em;
   grid-gap: 0.375em 0.875em;
+  /*font-size:36px;*/
   font-size: 3vw;
-  margin: 3em auto 0 auto;
+  /*margin: 3em auto 0 auto;*/
   padding: 0.25em;
   width: 33.25em;
   height: 9em;
@@ -105,10 +106,9 @@ button > span {
 
 .rowFonction{
    display: grid;
-
+   width: 100%;
   /* define the number of grid columns */
-  grid-template-columns: 1.65em 6.65em 6.65em 6.65em;
-  grid-gap: 0.375em;
+  grid-template-columns: repeat(13, 1fr);
 }
 
 
