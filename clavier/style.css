@@ -208,21 +208,26 @@ button > span {
 }
 
 /* Button font size */
+.xxxxs {
+  font-size: 0.175em;
+  line-height: 0.85em;
+  padding-right: 0;
+}
 .xxxs {
   font-size: 0.2em;
-  line-height: 1.5;
+  line-height: 1em;
 }
 .xxs {
   font-size: 0.25em;
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 .xs {
   font-size: 0.3em;
-  line-height: 1.125;
+  line-height: 1.125em;
 }
 .sm {
   font-size: 0.4em;
-  line-height: 1.25;
+  line-height: 1.25em;
 }
 
 /* Icons */

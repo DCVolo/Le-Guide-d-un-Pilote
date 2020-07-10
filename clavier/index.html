@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">  <!-- manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache" -->
+<html lang="fr" dir="ltr">  <!-- manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache" -->
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta name="description" content="Profils Clavier Star Citizen  - Le Guide d'un Pilote - Présentation de l'assignation des touches et des différents profils (Vol, à pieds).">
@@ -30,7 +30,7 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="../images/launcher-icon/apple-180x180.png">
         <script src="./urlParameterParser.js"></script>
-        <script src="./locale/i18n.min.js"></script>
+        <script src="./locale/l10n.min.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45860209-2"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -47,7 +47,32 @@
             queryParams.set("lang", "fr");
             history.replaceState(null, null, "?"+queryParams.toString());
         }
-        /* 
+
+        if (location.hash) {
+          String.locale = getAllUrlParams().lang;
+        }        
+
+        var localize = function (string, fallback) {
+            var localized = string.toLocaleString();
+            if (localized !== string) {
+                console.log(localized);
+            return localized;
+            } else {
+                return fallback;
+            }
+        };
+
+        document.documentElement.lang = getAllUrlParams().lang;
+        document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
+
+        /*var titre = document.getElementById("").firstChild; // ex : ID = #toucheEchap ; titre = Echap
+        var description = document.getElementById("").firstChild;  // ex : ID = #modTEchap
+        var modificateur = "" ;*/
+
+
+
+
+        /*
         fetch file from directory /locale/$lang_parameter$/clavier.properties
         if (fetch == null) then
             Alert "language does not exist yet -> ask for it -> URL Google Form"
@@ -63,9 +88,9 @@
     <div class="rowFonction">
       <div class="row">
     <button id="toucheEchap" type="button" class="btn0" title="">
-      <span class="ul xxxs">modifier</span>
-      <span class="ll xxxs">text-description</span>
-      <span class="ur xxxs">touche</span>
+      <span id="modTEchap" class="ul xxxxs">modifier</span>
+      <span class="ll xxxxs">text-description te et et et e te tet et et ette tet</span>
+      <span class="ur xxxs">Esc</span>
       </button>
     </div>
     <div class="row">
