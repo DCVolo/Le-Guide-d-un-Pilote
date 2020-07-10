@@ -38,7 +38,8 @@ ul{
   font-size: 16px;
 }
 body, button {
-  font: 1em -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  text-rendering: optimizeLegibility;
+  /*font: 1em -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
 }
 button {
   background-color: #eee;
@@ -94,21 +95,25 @@ button > span {
   box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #aaa inset;
   display: grid;
   grid-template-columns: 21.25em 4.125em 5.65em;
-  grid-template-rows: 0.75em 1.125em 1.125em 1.125em 1.125em 1.375em;
+  grid-template-rows: 1.125em 1.125em 1.125em 1.125em 1.125em 1.375em;
   grid-gap: 0.375em 0.875em;
   /*font-size:36px;*/
   font-size: 3vw;
   /*margin: 3em auto 0 auto;*/
   padding: 0.25em;
   width: 33.25em;
-  height: 9em;
+  height: 9.35em;
 }
 
 .rowFonction{
-   display: grid;
-   width: 100%;
+   /*display: grid;
+   width: 100%;*/
   /* define the number of grid columns */
-  grid-template-columns: repeat(13, 1fr);
+  /*grid-template-columns: repeat(13, 1fr);*/
+  display:grid;
+  grid-template-columns: 1.85em 6.5em 6.5em 6.5em;
+  grid-template-rows: 1.125em;
+
 }
 
 
@@ -130,12 +135,12 @@ button > span {
 
 /* Button size */
 .btn0 {
-  width: 1.19em;
-  height: 0.75em;
+  width: 1.125em;
+  height: 1.125em;
 }
 .btn1 {
   width: 1.125em;
-  height: 0.75em;
+  height: 1.125em;
 }
 .btn2 {
   width: 1.125em;
@@ -253,10 +258,7 @@ button > span {
   width: 0.475em;
   height: 0.5em;
 }
-.emoji {
-  filter: saturate(0);
-  -webkit-filter: saturate(0);
-}
+
 .cascade:before, .cascade:after, .block {
   border: 1px solid;
 }
