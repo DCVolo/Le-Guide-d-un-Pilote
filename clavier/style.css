@@ -28,11 +28,6 @@ ul{
     padding-inline-start: 0px;
 }
 
-/*
-    ON PEUT RESIZE LE CLAVIER AVEC KEYBOARD FONT-SIZE
-    @media width @1200px width = 36px etc etc
-*/
-
 
 *, *:before, *:after {
   box-sizing: border-box;
