@@ -29,319 +29,312 @@ ul{
 }
 
 /*
-    CLAVIER
+    ON PEUT RESIZE LE CLAVIER AVEC KEYBOARD FONT-SIZE
+    @media width @1200px width = 36px etc etc
 */
 
-#clavier{
-  /*--aspect-ratio: 2.35/1;*/
-  background-color: black;
-  display: flex;
-  min-width:100%;
-  height: 60%;
-  /*position: absolute;*/
-  flex-wrap: wrap;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-/*
-    DEBUT - 3 SECTIONS D'UN CLAVIER
-*/
-
-#alphanumeriqueEtFonctions{
-  background-color: green;
-  float:left;
-  width:65%;
-  height:100%;
+:root {
+  font-size: 16px;
 }
-
-#touchesDirectionelles{
-  background-color: red;
-  float:left;
-  width: 15%;
-  height:100%;
+body, button {
+  font: 1em -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
-#paveNumerique{
-  background-color: blue;
-  float:left;
-  width:20%;
-  height:100%;
-}
-
-/*
-    FIN - 3 SECTIONS D'UN CLAVIER
-*/
-
-/*
-    DEBUT - LIGNES DE LA PARTIE ALPHANUMERIQUE & FONCTIONS
-*/
-
-#ligneFonction{
-  display: flex;
-  list-style-type: none;
-  margin-bottom: 1%;
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#ligneNum{
-  display: flex;
-  list-style-type: none;
-}
-
-#ligneAlpha1{
-  display: flex;
-  list-style-type: none;
-}
-
-#ligneAlpha2{
-  display: flex;
-  list-style-type: none;
-}
-
-#ligneAlpha3{
-  display: flex;
-  list-style-type: none;
-}
-
-#ligneControles{
-  display: flex;
-  list-style-type: none;
-}
-
-/*
-    FIN - LIGNES DE LA PARTIE ALPHANUMERIQUE & FONCTIONS
-*/
-
-/*
-    DEBUT - LIGNES DE LA PARTIE TOUCHES DIRECTIONELLES
-*/
-
-#ligneSefonction{
-  display: flex;
-  list-style-type: none;
-  margin-bottom: 1%;
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#ligneDirecPage2{
-  display: flex;
-  list-style-type: none;
-  margin-bottom: 8.2%;
-}
-
-#ligneDirecPage1{
-  display: flex;
-  list-style-type: none;
-}
-
-#ligneTouchesDir2{
-  display: flex;
-  list-style-type: none;
-}
-
-#ligneTouchesDir1{
-  display: flex;
-  list-style-type: none;
-}
-
-/*
-    FIN - LIGNES DE LA PARTIE TOUCHES DIRECTIONELLES
-*/
-
-/*
-    DEBUT - PARTIE PAVE NUMERIQUE
-*/
-
-#lignePN5{
-  display: flex;
-  list-style-type: none;
-  //margin-top: 8.2%;
-}
-
-#lignePN4{
-  display: flex;
-  list-style-type: none;
-}
-
-#lignePN3{
-  display: flex;
-  list-style-type: none;
-}
-
-#lignePN2{
-  display: flex;
-  list-style-type: none;
-}
-
-#lignePN1{
-  display: flex;
-  list-style-type: none;
-}
-
-.paveNumeriqueColonned{
-  display: block;
-  columns: 1;
-  -webkit-columns: 1;
-  -moz-columns: 1;
-}
-
-container {
-    width: 100%;
-    display: inline-block;
-}
-block {
-    display: inline-block;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: calc(25% - 10px);
-    height: 100px;
-    margin: 5px;
-    background: red;
-    float: right;
-}
-block[v2] {
-    height: 210px;
-}
-block[h2] {
-    width: calc(50% - 10px);
-}
-
-
-/*
-    FIN - PARTIE PAVE NUMERIQUE
-*/
-
-/*
-    DEBUT - TOUCHE CLAVIER
-*/
-
-.touche{
-  background-color: grey;
+button {
+  background-color: #eee;
+  border: 0;
+  border-radius: 0.125em;
+  box-shadow:
+    -0.2em -0.125em 0.125em rgba(0, 0, 0, 0.25), 
+    0 0 0 0.04em rgba(0, 0, 0, 0.3), 
+    0.02em 0.02em 0.02em rgba(0, 0, 0, 0.4) inset, 
+    -0.05em -0.05em 0.02em rgba(255, 255, 255, 0.8) inset;
+  color: #777;
+  font-size: 1em;
+  outline: 0;
   position: relative;
-  border: 1px solid black;
-  margin-left:0;
-  margin-bottom: 0.2%;
+  vertical-align: top;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button:not(:last-of-type) {
+  margin-right: 0.35em;
+}
+button:active {
+  box-shadow:
+    0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2),
+    0 0 0 0.05em rgba(0, 0, 0, 0.4), 
+    -0.025em -0.05em 0.025em rgba(255, 255, 255, 0.8) inset;
+}
+button span {
+  display: inline-block;
+}
+button > span {
+  margin: auto;
+  padding: 0.2em 0.375em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 0.5em;
+  line-height: 2;
+  transform: translateY(-50%) scaleX(0.875);
+  width: 100%;
 }
 
-.touche.focused {
-  opacity: 1;
-  transform: scale(1.1);
-  border-color: white;
+/* Keyboard */
+.keyboard {
+  background-image: linear-gradient(90deg, #888, #ccc);
+  border-radius: 0.5em;
+  box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #aaa inset;
+  display: grid;
+  grid-template-columns: 21.25em 4.125em 5.65em;
+  grid-template-rows: 0.75em 1.125em 1.125em 1.125em 1.125em 1.375em;
+  grid-gap: 0.375em 0.875em;
+  font-size: 36px;
+  margin: 3em auto 0 auto;
+  padding: 0.25em;
+  width: 33.25em;
+  height: 9em;
 }
 
-.nomTouche{
-  background-color: white;
-  float:right;
-  width:20%;
-  height:25%;
+.rowFonction{
+   display: grid;
+
+  /* define the number of grid columns */
+  grid-template-columns: 1.65em 6.65em 6.65em 6.65em;
+  grid-gap: 0.375em;
 }
 
-.modificateur{
-  background-color: yellow;
-  float:left;
-  width:80%;
-  height:25%;
+
+.row:nth-of-type(14) {
+  text-align: center;
+}
+.row:nth-of-type(n + 14):nth-of-type(-3n + 17) {
+  transform: translateY(0.25em);
+}
+.bump {
+  border-radius: 0.1em;
+  box-shadow: -0.05em -0.02em 0 0.05em rgba(0, 0, 0, 0.3);
+  padding: 0;
+  top: 85%;
+  left: calc(50% - 0.4em);
+  width: 0.8em;
+  height: 0.15em;
 }
 
-.description{
-  background-color: orange;
-  width:100%;
-  height:100%;
+/* Button size */
+.btn0 {
+  width: 1.19em;
+  height: 0.75em;
+}
+.btn1 {
+  width: 1.125em;
+  height: 0.75em;
+}
+.btn2 {
+  width: 1.125em;
+  height: 1.125em;
+}
+.btn3 {
+  width: 2em;
+  height: 1.125em;
+}
+.btn4 {
+  width: 2.3em;
+  height: 1.125em;
+}
+.btn5 {
+  width: 3.05em;
+  height: 1.125em;
+}
+.btn6 {
+  width: 1.5625em;
+  height: 1.375em;
+}
+.btn7 {
+  width: 1.8375em;
+  height: 1.375em;
+}
+.btn8 {
+  width: 1.125em;
+  height: 1.375em;
+}
+.btn9 {
+  width: 2.6875em;
+  height: 1.375em;
+}
+.btn10 {
+  width: 1.125em;
+  height: 2.875em;
+}
+.btn-longest {
+  width: 8.625em;
+  height: 1.375em;
 }
 
-/*
-    FIN - TOUCHE CLAVIER
-*/
-
-/*
-    DEBUT - DIFFERENTS TYPES (TAILLE) DE TOUCHES
-*/
-
-#toucheRetourArr, #toucheTab, #toucheCtrlg, #toucheCtrld, #toucheVerr, #toucheEntree, #toucheMajg ,#toucheMajd, #toucheAltg, #toucheAltd, #toucheEspace, #touchePN0{
-    margin-right: 0.1%;
+/* Button text alignment */
+.ul, .ll, .ur, .lr {
+  top: 0;
+  transform: scaleX(0.875);
+}
+.ul, .ll {
+  text-align: left;
+  transform-origin: 0 50%;
+}
+.ur, .lr {
+  text-align: right;
+  transform-origin: 100% 50%;
+}
+.ll, .lr {
+  top: auto;
+  bottom: 0;
+}
+.noxscale {
+  transform: translateY(-50%) scaleX(1);
+}
+.ll.noxscale, .lr.noxscale {
+  transform: scaleX(1);
 }
 
-.toucheTailleNormale{
-  min-width:6.5%;
-  min-height:7%;
-  margin-top: 0;
-  margin-right: 0.1%;
-  margin-bottom: 0.2%;
+/* Button font size */
+.xxxs {
+  font-size: 0.2em;
+  line-height: 1.5;
+}
+.xxs {
+  font-size: 0.25em;
+  line-height: 1.5;
+}
+.xs {
+  font-size: 0.3em;
+  line-height: 1.125;
+}
+.sm {
+  font-size: 0.4em;
+  line-height: 1.25;
 }
 
-#toucheESC, #toucheF4, #toucheF8 {
-  margin-right: 4%;
+/* Icons */
+.up, .right, .down, .left {
+  width: 0;
+  height: 0;
+  vertical-align: 0.1em;
+}
+.up {
+  border-left: 0.25em solid transparent;
+  border-right: 0.25em solid transparent;
+  border-bottom: 0.5em solid currentColor;
+}
+.right {
+  border-left: 0.5em solid currentColor;
+  border-top: 0.25em solid transparent;
+  border-bottom: 0.25em solid transparent;
+}
+.down {
+  border-left: 0.25em solid transparent;
+  border-right: 0.25em solid transparent;
+  border-top: 0.5em solid currentColor;
+}
+.left {
+  border-right: 0.5em solid currentColor;
+  border-top: 0.25em solid transparent;
+  border-bottom: 0.25em solid transparent;
+}
+.pause {
+  border-left: 0.2em solid;
+  border-right: 0.2em solid;
+  vertical-align: 0.1em;
+  width: 0.475em;
+  height: 0.5em;
+}
+.emoji {
+  filter: saturate(0);
+  -webkit-filter: saturate(0);
+}
+.cascade:before, .cascade:after, .block {
+  border: 1px solid;
+}
+.cascade {
+  position: relative;
+  height: 1em;
+  width: 1.2em;
+}
+.cascade:before, .cascade:after {
+  content: "";
+  position: absolute;
+  height: 0.45em;
+  width: 0.8em;
+}
+.cascade:before {
+  top: 0;
+  left: 0;
+}
+.cascade:after {
+  right: 0;
+  bottom: 0;
+}
+.block {
+  margin-left: 0.1em;
+  height: 0.8em;
+  width: 0.6em;
+  vertical-align: 0.1em;
+}
+.apps:before, .apps:after {
+  font-weight: bold;
+  display: block;
+  content: "\25A1\25A1\25A1";
+  line-height: 0.875;
 }
 
-#toucheRetourArr{
-  min-width:11.4%;
-  min-height:7%;
+/* Miscellaneous */
+.on {
+  color: #8dff00;
+  text-shadow: 0 0 2px #478800;
+}
+.noxpad {
+  padding: 0.2em 0;
 }
 
-#toucheTab, #toucheCtrlg, #toucheCtrld {
-  min-width:9%;
-  min-height:7%;
+/* IE 11 fix */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .keyboard {
+    display: -ms-grid;
+    -ms-grid-columns: 22.125em 5em 5.75em;
+    -ms-grid-rows: 1.125em 1.5em 1.5em 1.5em 1.5em 1.375em;
+  }
+  .row:nth-child(3n + 2) {
+    -ms-grid-column: 2;
+  }
+  .row:nth-child(3n + 3) {
+    -ms-grid-column: 3;
+  }
+  .row:nth-child(n + 4):nth-child(-n + 6) {
+    -ms-grid-row: 2;
+  }
+  .row:nth-child(n + 7):nth-child(-n + 9) {
+    -ms-grid-row: 3;
+  }
+  .row:nth-child(n + 10):nth-child(-n + 12) {
+    -ms-grid-row: 4;
+  }
+  .row:nth-child(n + 13):nth-child(-n + 15) {
+    -ms-grid-row: 5;
+  }
+  .row:nth-child(n + 16) {
+    -ms-grid-row: 6;
+  }
+  .row:nth-of-type(14) button {
+    transform: translateX(-0.5em);
+  }
 }
-
-#toucheVerr{
-  min-width:10%;
-  min-height:7%;
-}
-
-#toucheEntree{
-    min-width:7.5%;
-    min-height:14%;
-}
-
-#toucheMajg{
-  min-width:8%;
-  min-height:7%;
-}
-
-#toucheMajd{
-  min-width:16%;
-  min-height:7%;
-}
-
-#toucheAltg, #toucheAltd{
-  min-width:8%;
-  min-height:7%;
-}
-
-#toucheEspace{
-  min-width: 42.5%;
-  min-height:7%;
-}
-
-#touchePN0{
-  min-width:14%;
-  min-height:7%;
-}
-
-#touchePNentree, #touchePNplus{
-  min-width:7%;
-  min-height:14%;
-}
-
-/*
-    FIN - DIFFERENTS TYPES (TAILLE) DE TOUCHES
-*/
-
-/*
-    DEBUT - DECALLAGE TOUCHES DIRECTIONELLES + PAVE NUMERIQUE
-*/
-
-.toucheDecalg{
-  margin-left: auto;
-}
-
-.toucheDecald{
-  margin-right: auto;
-}
-
-/*
-    FIN - DECALLAGE TOUCHES DIRECTIONELLES + PAVE NUMERIQUE
-*/
