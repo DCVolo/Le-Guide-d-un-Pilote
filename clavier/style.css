@@ -13,6 +13,7 @@ html, body {
   left:0;
   right:0;
   font-family: Arial, Verdana, sans-serif;
+  word-wrap: break-word;
 }
 
 title {
@@ -90,6 +91,42 @@ button > span {
   width: 100%;
 }
 
+
+.derp {
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.bloc {
+  font-size: 1.2em;
+  text-align: left;
+  word-break:break-all;
+  word-wrap: break-word;
+}
+.group-letter{
+  float: right;
+  border-radius: 0.5em;
+  border-left: 0.1em solid #777;
+  border-bottom: 0.1em solid #777;
+}
+.letter{
+  color: black;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0.35em;
+  font-weight: bolder;
+}
+
+.letter1{
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  margin: 0.3em;
+  font-weight: bolder;
+}
+
+
 /* Keyboard */
 .keyboard {
   background-image: linear-gradient(90deg, #888, #ccc);
@@ -98,13 +135,13 @@ button > span {
   display: grid;
   grid-template-columns: 21.25em 4.125em 5.65em;
   grid-template-rows: 1.125em 1.125em 1.125em 1.125em 1.125em 1.375em;
-  grid-gap: 0.375em 0.875em;
+  grid-gap: 0.2em 0.275em;
   /*font-size:36px;*/
-  font-size: 3vw;
+  font-size: 3.13vw;
   /*margin: 3em auto 0 auto;*/
   padding: 0.25em;
-  width: 33.25em;
-  height: 9.35em;
+  width: 32em;
+  height: 8.45em;
 }
 
 .rowFonction{
@@ -173,12 +210,16 @@ button > span {
   height: 1.375em;
 }
 .btn9 {
-  width: 2.6875em;
+  width: 2.615em;
   height: 1.375em;
 }
 .btn10 {
   width: 1.125em;
-  height: 2.875em;
+  height: 2.7em;
+}
+.btn11{
+  width: 1.125em;
+  height: 2.45em;
 }
 .btn-longest {
   width: 8.625em;
@@ -211,9 +252,11 @@ button > span {
 
 /* Button font size */
 .xxxxs {
-  font-size: 0.175em;
-  line-height: 0.85em;
+  font-size: 0.15em;
+  line-height: 0.9em;
   padding-right: 0;
+  padding-left: 0.2em;
+  padding-top: 0.1em;
 }
 .xxxs {
   font-size: 0.2em;
