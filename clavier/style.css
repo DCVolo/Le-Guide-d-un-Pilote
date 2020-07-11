@@ -68,7 +68,7 @@ button {
   user-select: none;
 }
 button:not(:last-of-type) {
-  margin-right: 0.35em;
+  margin-right: 0.15em;
 }
 button:active {
   box-shadow:
@@ -133,14 +133,14 @@ button > span {
   border-radius: 0.5em;
   box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #aaa inset;
   display: grid;
-  grid-template-columns: 21.25em 4.125em 5.65em;
+  grid-template-columns: 18.63em 3.7em 4.95em;
   grid-template-rows: 1.125em 1.125em 1.125em 1.125em 1.125em 1.375em;
-  grid-gap: 0.2em 0.275em;
+  grid-gap: 0.2em 0.3em;
   /*font-size:36px;*/
-  font-size: 3.13vw;
+  font-size: 3.523vw;
   /*margin: 3em auto 0 auto;*/
   padding: 0.25em;
-  width: 32em;
+  width: 28.35em;
   height: 8.45em;
 }
 
@@ -148,7 +148,7 @@ button > span {
   grid-gap: 0.2em 0.275em;
 }
 .rowFonctionSpace:not(:last-of-type){
-  margin-right: 1.12em;
+  margin-right: 0.87em;
 }
 
 .row:nth-of-type(14) {
@@ -185,11 +185,11 @@ button > span {
   height: 1.125em;
 }
 .btn4 {
-  width: 2.3em;
+  width: 2.2em;
   height: 1.125em;
 }
 .btn5 {
-  width: 3.05em;
+  width: 2.85em;
   height: 1.125em;
 }
 .btn6 {
@@ -205,7 +205,7 @@ button > span {
   height: 1.375em;
 }
 .btn9 {
-  width: 2.615em;
+  width: 2.42em;
   height: 1.375em;
 }
 .btn10 {
@@ -217,7 +217,7 @@ button > span {
   height: 2.45em;
 }
 .btn-longest {
-  width: 8.625em;
+  width: 7.25em;
   height: 1.375em;
 }
 
@@ -254,7 +254,7 @@ button > span {
   padding-top: 0.1em;
 }
 .xxxs {
-  font-size: 0.2em;
+  font-size: 0.175em;
   line-height: 1em;
 }
 .xxs {
@@ -392,7 +392,7 @@ button > span {
 .dropbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 0.75em;
+  padding: 0.5em;
   border: none;
   cursor: pointer;
 }
