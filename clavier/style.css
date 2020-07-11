@@ -141,7 +141,7 @@ button > span {
   /*margin: 3em auto 0 auto;*/
   padding: 0.25em;
   width: 28.35em;
-  height: 8.45em;
+  height: 8.23em;
 }
 
 .rowFonction{
@@ -155,7 +155,7 @@ button > span {
   text-align: center;
 }
 .row:nth-of-type(n + 14):nth-of-type(-3n + 17) {
-  transform: translateY(0.25em);
+  /*transform: translateY(0.25em);*/
 }
 .bump {
   border-radius: 0.1em;
@@ -194,31 +194,35 @@ button > span {
 }
 .btn6 {
   width: 1.5625em;
-  height: 1.375em;
+  height: 1.125em;
 }
 .btn7 {
-  width: 1.8375em;
-  height: 1.375em;
+  width: 1.8875em;
+  height: 1.125em;
 }
 .btn8 {
   width: 1.125em;
-  height: 1.375em;
+  height: 1.125em;
 }
 .btn9 {
   width: 2.42em;
-  height: 1.375em;
+  height: 1.125em;
 }
 .btn10 {
   width: 1.125em;
-  height: 2.7em;
+  height: 2.45em;
 }
 .btn11{
   width: 1.125em;
   height: 2.45em;
 }
+.btn12{
+  width: 1.5625em;
+  height: 1.125em;
+}
 .btn-longest {
   width: 7.25em;
-  height: 1.375em;
+  height: 1.125em;
 }
 
 /* Button text alignment */
