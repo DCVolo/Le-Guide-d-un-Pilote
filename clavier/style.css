@@ -391,32 +391,50 @@ button > span {
   background-color: #3e8e41;
 }
 
+#texte-legende{
+  display: grid;
+  grid-template-columns: 12em 12em;
+  grid-template-rows: 1.125em;
+  grid-gap: 0.2em;
+}
+
+
+.modificateur{
+  font-weight: 700;
+}
+
 /* ALT - orange */
-.modificateur_0 {
+.modificateur_1, #modificateur_1 {
   color: orange;
+  text-shadow: 0 0 0.3em black;
 }
 
 /* mode d'interaction - violet */
-.modificateur_1 {
+.modificateur_2, #modificateur_2 {
   color: purple;
+  text-shadow: 0 0 0.3em white;
 }
 
 /* Scan Mode - vert */
-.modificateur_2 {
-  color: green;
+.modificateur_3, #modificateur_3 {
+  color: chartreuse;
+  text-shadow: 0 0 0.3em black;
 }
 
-/* Minage Mode - rose */
-.modificateur_3 {
-  color: pink;
+/* Minage Mode - maginta */
+.modificateur_4, #modificateur_4 {
+  color: magenta;
+  text-shadow: 0 0 0.3em white;
 }
 
 /* Caméra avancée - bleu */
-.modificateur_4 {
+.modificateur_5, #modificateur_5 {
   color: blue;
+  text-shadow: 0 0 0.3em white;
 }
 
 /* Modificateur 2 actif - rouge */
-.modificateur_5 {
+.modificateur_6, #modificateur_6 {
   color: red;
+  text-shadow: 0 0 0.3em white;
 }
