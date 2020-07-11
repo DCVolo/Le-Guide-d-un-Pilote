@@ -42,11 +42,13 @@
 <body>
 
     <script>
-        if(getAllUrlParams().lang == null){
+        if(getAllUrlParams().lang == null || getAllUrlParams().profil == null){
             var queryParams = new URLSearchParams(window.location.search); 
             queryParams.set("lang", "fr");
+            queryParams.set("profil", "1");
             history.replaceState(null, null, "?"+queryParams.toString());
         }
+
 
         if (location.hash) {
           String.locale = getAllUrlParams().lang;
@@ -89,7 +91,7 @@
       <div class="row">
     <button id="toucheEchap" type="button" class="btn0" title="">
       <span id="modTEchap" class="ul xxxxs">modifier</span>
-      <span class="ll xxxxs">text-description te et et et e te tet et et ette tet</span>
+      <span class="ll xxxxs">text-description te et et et e te tet <br>et et ette tet 0 2 4 6 8 10 12 14 16 18</span>
       <span class="ur xxxs">Esc</span>
       </button>
     </div>
@@ -178,7 +180,29 @@
     </button>
   </div>
   <div class="row">
-    <span id="texte-legende" class="xxxs">option de seleciton de langue et de profil</span>
+    <span id="texte-option"><span class="xxs"><div class="dropdown" style="float:left;">
+  <button id="changerLangue" class="dropbtn">CHANGER LANGUE</button>
+  <div class="dropdown-content" style="left:0;">
+  <a id="langue_fr" href="?lang=fr" title=""></a>
+  <script async>var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil);</script>
+  <a id="langue_en" href="?lang=en" title=""></a>
+  <script async>var profil = document.getElementById("langue_en"); profil.setAttribute("href", "?lang=en" + "&profil=" + getAllUrlParams().profil);</script>
+  <a id="langue_ru" href="?lang=ru" title=""></a>
+  <script async>var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil);</script>
+  <a id="langue_de" href="?lang=de" title=""></a>
+  <script async>var profil = document.getElementById("langue_de"); profil.setAttribute("href", "?lang=de" + "&profil=" + getAllUrlParams().profil);</script>
+  <a id="langue_es" href="?lang=es" title=""></a>
+  <script async>var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil);</script>
+  </div>
+</div></span><span class="xxs"><div class="dropdown" style="float:right;">
+  <button class="dropbtn">CHANGER PROFILE</button>
+  <div class="dropdown-content">
+  <a id="profil_vaisseau" href="" title=""></a>  
+  <script async>var profil = document.getElementById("profil_vaisseau"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=1");</script>
+  <a id="profil_pied" href="" title=""></a>
+  <script async>var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2");</script>
+  </div>
+</div></span></span>
   </div>
   <div class="row">
     <button type="button" class="btn2">      <span class="ul xxxs"></span>
