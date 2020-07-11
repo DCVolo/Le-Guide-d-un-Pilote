@@ -145,16 +145,11 @@ button > span {
 }
 
 .rowFonction{
-   /*display: grid;
-   width: 100%;*/
-  /* define the number of grid columns */
-  /*grid-template-columns: repeat(13, 1fr);*/
-  display:grid;
-  grid-template-columns: 1.85em 6.5em 6.5em 6.5em;
-  grid-template-rows: 1.125em;
-
+  grid-gap: 0.2em 0.275em;
 }
-
+.rowFonctionSpace:not(:last-of-type){
+  margin-right: 1.12em;
+}
 
 .row:nth-of-type(14) {
   text-align: center;
