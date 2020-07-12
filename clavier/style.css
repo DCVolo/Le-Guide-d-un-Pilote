@@ -149,21 +149,21 @@ button > span {
 }
 .group-letter{
   float: right;
-  border-radius: 0.5em;
-  border-left: 0.1em solid #777;
-  border-bottom: 0.1em solid #777;
+  border-left: 0.1em solid #ff9719;
+  border-bottom: 0.1em solid #ff9719;
+  padding: 0.1em 0.1em 0.5em 0em;
 }
 .letter{
-  color: black;
-  font-size: 0.8em;
+  color: white;
+  font-size: 1em;
   text-align: center;
-  margin: 0.35em;
+  margin: 0.5em;
   font-weight: bolder;
 }
 
 .letter1{
-  color: black;
-  font-size: 1em;
+  color: white;
+  font-size: 0.9em;
   text-align: center;
   margin: 0.3em;
   font-weight: bolder;
