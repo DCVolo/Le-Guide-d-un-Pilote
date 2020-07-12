@@ -82,6 +82,23 @@ button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:h
   transform: scale(1.5);
   z-index: 5;
 }
+button.zoomRight:hover{
+  transform-origin: right;
+}
+button.zoomLeft:hover{
+  transform-origin: left;
+}
+button.zoomBottom:hover{
+  transform-origin: bottom;
+}
+button.zoomBottomLeft:hover{
+  transform-origin: bottom left;
+}
+button.zoomBottomRight:hover{
+  transform-origin: bottom right;
+}
+
+
 /*button span {
   display: inline-block;
 }
