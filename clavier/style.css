@@ -67,10 +67,6 @@ button {
   -ms-user-select: none;
   user-select: none;
 }
-button.dropbtn{
-  -webkit-text-stroke: 0.025em black;
-  paint-order: stroke fill;
-}
 button:not(:last-of-type) {
   margin-right: 0.15em;
 }
@@ -433,7 +429,7 @@ button > span {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #222426;
   color: white;
   padding: 0.5em;
   border: none;
@@ -449,7 +445,7 @@ button > span {
   display: none;
   position: absolute;
   right: 0;
-  background-color: #f9f9f9;
+  background-color: #34393D;
   min-width: 100%;
   box-shadow: 0 1em 2em 0 rgba(0,0,0,0.2);
   z-index: 1;
@@ -463,14 +459,14 @@ button > span {
   text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #495255;}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #34393D;
 }
 
 #texte-legende{
