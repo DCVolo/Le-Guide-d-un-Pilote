@@ -3,7 +3,7 @@
 */
 
 html, body {
-	background-color: #262626;
+	background-color: #404040;
   height: 100%;
   margin: 0;
   overflow: hidden;
@@ -45,7 +45,7 @@ body, button {
   font-weight: 600;
 }
 button {
-  background-color: #eee;
+  background-color: #222426;
   border: 0;
   border-radius: 0.125em;
   box-shadow:
@@ -53,7 +53,7 @@ button {
     0 0 0 0.025em rgba(0, 0, 0, 0.3), 
     0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
     -0.02em -0.02em 0.01em rgba(255, 255, 255, 0.8) inset;
-  color: #777;
+  color: #ffffff;
   font-size: 1em;
   outline: 0;
   position: relative;
@@ -162,9 +162,9 @@ button > span {
 
 /* Keyboard */
 .keyboard {
-  background-image: linear-gradient(90deg, #888, #ccc);
+  background-color: #262626;
   border-radius: 0.5em;
-  box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #aaa inset;
+  /*box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #aaa inset;*/
   display: grid;
   grid-template-columns: 18.63em 3.7em 4.95em;
   grid-template-rows: 1.125em 1.125em 1.125em 1.125em 1.125em 1.375em;
@@ -483,36 +483,40 @@ button > span {
 
 /* ALT - orange */
 .modificateur_1, #modificateur_1 {
-  color: orange;
-  text-shadow: 0 0 0.3em black;
+  color: darkorange;
+  text-shadow: 0 0 0.75em black;
 }
 
 /* mode d'interaction - violet */
 .modificateur_2, #modificateur_2 {
   color: purple;
-  text-shadow: 0 0 0.3em white;
+  text-shadow: 0 0 0.75em black;
 }
 
 /* Scan Mode - vert */
 .modificateur_3, #modificateur_3 {
   color: chartreuse;
-  text-shadow: 0 0 0.3em black;
+  /*text-shadow: 0 0 0.3em black;*/
 }
 
 /* Minage Mode - maginta */
 .modificateur_4, #modificateur_4 {
   color: magenta;
-  text-shadow: 0 0 0.3em white;
+  /*text-shadow: 0 0 0.3em white;*/
 }
 
 /* Caméra avancée - bleu */
 .modificateur_5, #modificateur_5 {
   color: blue;
-  text-shadow: 0 0 0.3em white;
+  text-shadow: 0 0 0.75em white;
 }
 
 /* Modificateur 2 actif - rouge */
 .modificateur_6, #modificateur_6 {
   color: red;
-  text-shadow: 0 0 0.3em white;
+  text-shadow: 0 0 0.75em black;
+}
+
+#modificateur_7, #modificateur_8 {
+  color: white;
 }
