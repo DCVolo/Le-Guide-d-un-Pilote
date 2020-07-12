@@ -67,6 +67,10 @@ button {
   -ms-user-select: none;
   user-select: none;
 }
+button.dropbtn{
+  -webkit-text-stroke: 0.025em black;
+  paint-order: stroke fill;
+}
 button:not(:last-of-type) {
   margin-right: 0.15em;
 }
