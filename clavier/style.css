@@ -129,6 +129,7 @@ button > span {
   margin:auto;
   overflow: hidden;
   text-overflow: ellipsis; 
+  display: flex;
 }
 .bloc {
   font-size: 1.2em;
