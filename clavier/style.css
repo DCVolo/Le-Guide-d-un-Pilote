@@ -98,6 +98,15 @@ button.zoomBottomRight:hover{
   transform-origin: bottom right;
 }
 
+img.iconFlagTop{
+  width: 2em;
+  height: 2em;
+}
+img.iconFlagItem{
+  width: 2em;
+  height: 2em;
+}
+
 
 /*button span {
   display: inline-block;
@@ -412,9 +421,8 @@ button > span {
 }
 
 #texte-option{
-  text-align: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: inherit;
   grid-gap: 0;
 }
@@ -444,9 +452,10 @@ button > span {
 
 .dropdown-content a {
   color: black;
-  padding: 1.5em 2em;
+  /*padding: 1.5em 2em;*/
   text-decoration: none;
   display: block;
+  text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
