@@ -484,13 +484,13 @@ button > span {
 /* ALT - orange */
 .modificateur_1, #modificateur_1 {
   color: darkorange;
-  text-shadow: 0 0 0.75em black;
+  /*text-shadow: 0 0 0.75em black;*/
 }
 
 /* mode d'interaction - violet */
 .modificateur_2, #modificateur_2 {
   color: purple;
-  text-shadow: 0 0 0.75em black;
+  /*text-shadow: 0 0 0.75em black;*/
 }
 
 /* Scan Mode - vert */
@@ -508,13 +508,13 @@ button > span {
 /* Caméra avancée - bleu */
 .modificateur_5, #modificateur_5 {
   color: blue;
-  text-shadow: 0 0 0.75em white;
+  /*text-shadow: 0 0 0.75em white;*/
 }
 
 /* Modificateur 2 actif - rouge */
 .modificateur_6, #modificateur_6 {
   color: red;
-  text-shadow: 0 0 0.75em black;
+  /*text-shadow: 0 0 0.75em black;*/
 }
 
 #modificateur_7, #modificateur_8 {
