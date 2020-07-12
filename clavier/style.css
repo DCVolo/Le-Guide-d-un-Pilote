@@ -176,7 +176,7 @@ button > span {
   border-radius: 0.5em;
   /*box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #aaa inset;*/
   display: grid;
-  grid-template-columns: 18.63em 3.7em 4.95em;
+  grid-template-columns: 18.63em 3.7em 5em;
   grid-template-rows: 1.125em 1.125em 1.125em 1.125em 1.125em 1.375em;
   grid-gap: 0.2em 0.3em;
   /*font-size:36px;*/
@@ -399,6 +399,7 @@ button > span {
 }
 
 /* IE 11 fix */
+/*
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .keyboard {
     display: -ms-grid;
@@ -429,7 +430,7 @@ button > span {
   .row:nth-of-type(14) button {
     transform: translateX(-0.5em);
   }
-}
+}*/
 
 #texte-option{
   display: grid;
