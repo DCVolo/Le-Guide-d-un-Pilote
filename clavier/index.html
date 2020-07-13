@@ -42,10 +42,12 @@
 <body>
 
     <script>
-        if(getAllUrlParams().lang == null || getAllUrlParams().profil == null){
+        if(getAllUrlParams().lang == null || getAllUrlParams().profil == null || getAllUrlParams().key == null)
+        {
             var queryParams = new URLSearchParams(window.location.search); 
             queryParams.set("lang", "fr");
             queryParams.set("profil", "1");
+            queryParams.set("key", "");
             history.replaceState(null, null, "?"+queryParams.toString());
         }
 
@@ -54,7 +56,8 @@
           String.locale = getAllUrlParams().lang;
         }        
 
-        var localize = function (string, fallback) {
+        var localize = function (string, fallback) 
+        {
             var localized = string.toLocaleString();
             if (localized !== string) {
                 console.log(localized);
