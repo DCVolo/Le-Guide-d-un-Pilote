@@ -42,9 +42,9 @@
 <body>
 
     <script>
-        if(getAllUrlParams().lang == null && getAllUrlParams().profil == null && getAllUrlParams().key == null)
+        if(getAllUrlParams().lang == null || getAllUrlParams().profil == null || getAllUrlParams().key == null)
         {
-            var queryParams = new URLSearchParams(window.location.search); 
+            var queryParams = new URLSearchParams(window.location.search);
             queryParams.set("lang", "fr");
             queryParams.set("profil", "1");
             queryParams.set("key", "");
