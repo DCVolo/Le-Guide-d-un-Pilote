@@ -542,3 +542,79 @@ button > span {
 #cookieCheckbox{
   color: white;
 }
+
+
+
+
+
+
+
+
+
+#volet {
+      z-index: 10;
+      width: 250px;
+      padding: 10px;
+      background: #6B9A49; color: #fff; 
+    }
+    
+    #volet a.ouvrir,
+    #volet a.fermer {
+      z-index: 10;
+      padding: 10px 25px;
+      background: #555;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #volet {
+      z-index: 10;
+      position: absolute;
+      left: -270px;  /* test fixed + scroll, on retire la position top */
+      -webkit-transition: all .5s ease-in;
+      -moz-transition: all .5s ease-in;
+      transition: all .5s ease-in;
+    }
+    #volet a.ouvrir,
+    #volet a.fermer {
+      z-index: 10;
+      position: absolute;
+      right: -88px;
+      top: 150px;
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -moz-radius: 0 0 8px 8px;
+      border-radius: 0 0 8px 8px;
+    }
+    #volet a.fermer {
+      z-index: 10;
+      display: none;
+    }
+    #volet:target {
+      z-index: 10;
+      left: 10px;
+    }
+
+    /* code pour la fermeture */
+
+    #volet:target a.fermer {
+      z-index: 10;
+      display: block;
+    }
+    #volet:target a.ouvrir {
+      z-index: 10;
+      display: none;
+    }
+    #volet_clos:target #volet {
+      z-index: 10;
+      left: -270px;
+    }
+    
+     /* test fixed + scroll */
+    #volet_clos {
+      z-index: 10;
+      position: fixed; 
+      top: 55px; left: 0;
+    }
