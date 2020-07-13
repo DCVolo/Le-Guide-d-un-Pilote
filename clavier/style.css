@@ -553,15 +553,17 @@ button > span {
 
 #volet {
       z-index: 10;
-      width: 250px;
-      padding: 10px;
+        width: 18.35em;
+        height: 8.23em;
+        font-size: 3.523vw;
+      
       background: #6B9A49; color: #fff; 
     }
     
     #volet a.ouvrir,
     #volet a.fermer {
       z-index: 10;
-      padding: 10px 25px;
+      padding: 1em -2em;
       background: #555;
       color: #fff;
       text-decoration: none;
@@ -570,7 +572,7 @@ button > span {
     #volet {
       z-index: 10;
       position: absolute;
-      left: -270px;  /* test fixed + scroll, on retire la position top */
+      left: -19.35em;  /* test fixed + scroll, on retire la position top */
       -webkit-transition: all .5s ease-in;
       -moz-transition: all .5s ease-in;
       transition: all .5s ease-in;
@@ -579,8 +581,8 @@ button > span {
     #volet a.fermer {
       z-index: 10;
       position: absolute;
-      right: -88px;
-      top: 150px;
+      right: -2.3em;
+      top: 9.5em;
       -webkit-transform: rotate(270deg);
       -moz-transform: rotate(270deg);
       -o-transform: rotate(270deg);
@@ -594,7 +596,7 @@ button > span {
     }
     #volet:target {
       z-index: 10;
-      left: 10px;
+      left: 0.1em;
     }
 
     /* code pour la fermeture */
@@ -609,12 +611,12 @@ button > span {
     }
     #volet_clos:target #volet {
       z-index: 10;
-      left: -270px;
+      left: -18.35em;
     }
     
      /* test fixed + scroll */
     #volet_clos {
       z-index: 10;
       position: fixed; 
-      top: 55px; left: 0;
+      top: 0em; left: 0em;
     }
