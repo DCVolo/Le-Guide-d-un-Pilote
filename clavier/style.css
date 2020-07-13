@@ -230,8 +230,10 @@ button > span {
   height: 1.125em;
 }
 .btn4 {
-  width: 2.2em;
-  height: 1.125em;
+  /*-webkit-clip-path: ;*/
+  clip-path: polygon(100% 0, 100% 100%, 28% 100%, 28% 45%, 0 45%, 0 0);
+  width: 1.55em;
+  height: 2.45em;
 }
 .btn5 {
   width: 2.85em;
