@@ -311,7 +311,7 @@ button > span {
   line-height: 1.5em;
 }
 .xs {
-  font-size: 0.3em;
+  font-size: 0.28em;
   line-height: 1.125em;
 }
 .sm {
@@ -433,23 +433,34 @@ button > span {
 }*/
 
 #texte-option{
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: inherit;
-  grid-gap: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0em;
+  gap: 0em 0em;
+  grid-template-areas: "menuLangue menuProfile menuReseaux" "titreLGDP titreLGDP titreLGDP";
 }
+.titreLGDP { 
+  grid-area: titreLGDP;
+  color: #ff9719;
+  }
+.menuLangue { grid-area: menuLangue; }
+.menuProfile { grid-area: menuProfile; }
+.menuReseaux { grid-area: menuReseaux; }
+
 
 .dropbtn {
   background-color: #222426;
   color: white;
-  padding: 0.5em;
+  padding: 0.95em;
   border: none;
   cursor: pointer;
+  width:100%;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+  /*position: relative;
+  display: inline-block;*/
 }
 
 .dropdown-content {
