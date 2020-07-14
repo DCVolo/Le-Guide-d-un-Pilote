@@ -556,8 +556,17 @@ button > span {
         width: 18.35em;
         height: 8.23em;
         font-size: 3.523vw;
-      
-      background: #6B9A49; color: #fff; 
+        display: grid;
+  grid-template-columns: 3.56fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.2em 0.2em;
+          margin: 0em;
+      padding: 0.05em;
+  grid-template-areas: "zoneYoutube zoneChapitresLGDP" "zoneYoutube zoneActionsTouche";
+      background-color: #262626;
+          box-shadow: -0.1em -0.1em 0.75em rgba(0, 0, 0, 0.6), 0 0 0 0.05em #5c0cb6 inset; 
+  border-radius: 0em 0.5em 0.5em 0em;
+   color: #fff; 
     }
     
     #volet_g a.ouvrir_g,
@@ -596,7 +605,7 @@ button > span {
     }
     #volet_g:target {
       z-index: 10;
-      left: 0.1em;
+      left: 0em;
     }
 
     /* code pour la fermeture */
@@ -621,13 +630,31 @@ button > span {
       top: 0em; left: 0em;
     }
 
+.zoneYoutube { grid-area: zoneYoutube; }
+
+.zoneChapitresLGDP { grid-area: zoneChapitresLGDP; padding-top: 1em; }
+
+.zoneActionsTouche { grid-area: zoneActionsTouche; }
+
 
 #volet_d {
         width: 8.75em;
         height: 8.23em;
-        font-size: 3.523vw;
-      
-      background: #6B9A49; color: #fff; 
+        display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "zoneMolette zoneClicGauche zoneClicDroit" "zoneMolette zoneSouris zoneSouris" "zoneSideButton zoneSouris zoneSouris" "zoneAxes zoneSouris zoneSouris";
+        /*display: grid;
+        grid-template-columns: 1fr 1.55fr;
+        grid-template-rows: 100%;*/
+        margin: 0em;
+      padding: 0.2em;
+        grid-gap: 0.2em 0.2em;
+        font-size: 3.523vw;      
+          background-color: #262626;
+          box-shadow: -0.1em -0.1em 0.75em rgba(0, 0, 0, 0.6), 0 0 0 0.05em #38b3e0 inset; 
+  border-radius: 0.5em;
+   color: #fff; 
     }
     
     #volet_d a.ouvrir_d,
@@ -661,7 +688,7 @@ button > span {
       display: none;
     }
     #volet_d:target {
-      left: 19.5em;
+      left: 19.6em;
     }
 
     /* code pour la fermeture */
@@ -687,6 +714,22 @@ button > span {
     #volet_clos_d button:hover { opacity: 1.0;}
 
 
+.zoneSouris { grid-area: zoneSouris; }
+
+.zoneAxes { grid-area: zoneAxes; }
+
+.zoneSideButton { grid-area: zoneSideButton; }
+
+.zoneMolette { grid-area: zoneMolette;}
+
+.zoneClicGauche { grid-area: zoneClicGauche; }
+
+.zoneClicDroit { grid-area: zoneClicDroit; }
     .sourisGaming{
-      height: 8.25em;
+      height: 100%;
+      width: 100%
+    }
+
+    #texteSouris{
+      height: 100%;
     }
