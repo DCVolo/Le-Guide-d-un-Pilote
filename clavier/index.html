@@ -41,59 +41,6 @@
     </head>
 <body>
 
-    <script>
-        if(getAllUrlParams().lang == null || getAllUrlParams().profil == null || getAllUrlParams().key == null)
-        {
-            var queryParams = new URLSearchParams(window.location.search);
-            queryParams.set("lang", "fr");
-            queryParams.set("profil", "1");
-            queryParams.set("key", "");
-            queryParams.set("mouse", "0");
-            history.replaceState(null, null, "?"+queryParams.toString());
-        }
-
-
-        if (location.hash) {
-          String.locale = getAllUrlParams().lang;
-        }        
-
-        var localize = function (string, fallback) 
-        {
-            var localized = string.toLocaleString();
-            if (localized !== string) {
-                console.log(localized);
-            return localized;
-            } else {
-                return fallback;
-            }
-        };
-
-        document.documentElement.lang = getAllUrlParams().lang;
-        document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
-
-        /*var titre = document.getElementById("").firstChild; // ex : ID = #toucheEchap ; titre = Echap
-        var description = document.getElementById("").firstChild;  // ex : ID = #modTEchap
-        var modificateur = "" ;*/
-
-
-
-
-        /*
-        fetch file from directory /locale/$lang_parameter$/clavier.properties
-        if (fetch == null) then
-            Alert "language does not exist yet -> ask for it -> URL Google Form"
-        else
-            load the content of the file into var
-            modify each text asynchronously
-        */
-
-    </script>
-    <script>
-        document.addEventListener('touchstart', event => {console.log(event);}, {passive: true});
-        document.addEventListener('touchmove', event => {console.log(event);}, {passive: true});
-        document.addEventListener('wheel', event => {console.log(event);}, {passive: true});
-    </script>
-
 
 <div id="volet_clos_g">
     <div id="volet_g">
@@ -199,29 +146,29 @@ modificateur mode 5</span></span>
     <div id="texte-option">
         
         <div class="menuLangue xxxs"><span class="dropdown">
-  <button id="changerLangue" class="dropbtn"> ‎‏‏‎ ‎LANGUE ‎‏‏‎ ‎<img id="topLogoLangueCourant" src="../images/icons/flags/fr.svg" class="iconFlagTop" title="" alt=""></button>
-  <script >var topLogoCourant = document.getElementById("topLogoLangueCourant"); topLogoCourant.setAttribute("src", "../images/icons/flags/" + getAllUrlParams().lang + ".svg");</script>
+  <button id="changerLangue" class="dropbtn"> ‎‏‏‎ ‎LANGUE ‎‏‏‎ ‎<img id="topLogoLangueCourant" src="" class="iconFlagTop" title="" alt=""></button>
+  
   <span class="dropdown-content" style="left:0;">
   <a id="langue_fr" href="?lang=fr" title=""><img src="../images/icons/flags/fr.svg" class="iconFlagItem" title="" alt="drapeau fr"></a>
-  <script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+  
   <a id="langue_en" href="?lang=en" title=""><img src="../images/icons/flags/en.svg" class="iconFlagItem" title="" alt="drapeau en"></a>
-  <script >var profil = document.getElementById("langue_en"); profil.setAttribute("href", "?lang=en" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+  
   <a id="langue_ru" href="?lang=ru" title=""><img src="../images/icons/flags/ru.svg" class="iconFlagItem" title="" alt="drapeau ru"></a>
-  <script >var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+ 
   <a id="langue_de" href="?lang=de" title=""><img src="../images/icons/flags/de.svg" class="iconFlagItem" title="" alt="drapeau de"></a>
-  <script >var profil = document.getElementById("langue_de"); profil.setAttribute("href", "?lang=de" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+
   <a id="langue_es" href="?lang=es" title=""><img src="../images/icons/flags/es.svg" class="iconFlagItem" title="" alt="drapeau es"></a>
-  <script >var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+
   </span>
 </span></div>
         <div class="menuProfile xxxs"><span class="dropdown">
-  <button class="dropbtn"> ‎‏‏‎ ‎PROFILE ‎‏‏‎ ‎<img id="topLogoProfileCourant" src="../images/icons/flags/fr.svg" class="iconFlagTop" title="" alt=""></button>
-  <script >var topLogoCourant = document.getElementById("topLogoProfileCourant"); topLogoCourant.setAttribute("src", "../images/icons/profiles/" + getAllUrlParams().profil + ".svg");</script>
+  <button class="dropbtn"> ‎‏‏‎ ‎PROFILE ‎‏‏‎ ‎<img id="topLogoProfileCourant" src="" class="iconFlagTop" title="" alt=""></button>
+
   <span class="dropdown-content">
   <a id="profil_vaisseau" href="" title=""><img src="../images/icons/profiles/1.svg" class="iconFlagItem" title="" alt="icone vaisseau"></a>  
-  <script >var profil = document.getElementById("profil_vaisseau"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=1" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+
   <a id="profil_pied" href="" title=""><img src="../images/icons/profiles/2.svg" class="iconFlagItem" title="" alt="icone pied"></a>
-  <script >var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+
   </span>
 </span></div>
         <div class="menuReseaux xxxs"><div class="dropdown">
@@ -532,6 +479,82 @@ modificateur mode 5</span></span>
     </button>
   </div>
 </div>
+
+
+<script>
+        if(getAllUrlParams().lang == null || getAllUrlParams().profil == null || getAllUrlParams().key == null)
+        {
+            var queryParams = new URLSearchParams(window.location.search);
+            queryParams.set("lang", "fr");
+            queryParams.set("profil", "1");
+            queryParams.set("key", "");
+            queryParams.set("mouse", "0");
+            history.replaceState(null, null, "?"+queryParams.toString());
+        }
+
+
+        if (location.hash) {
+          String.locale = getAllUrlParams().lang;
+        }        
+
+        var localize = function (string, fallback) 
+        {
+            var localized = string.toLocaleString();
+            if (localized !== string) {
+                console.log(localized);
+            return localized;
+            } else {
+                return fallback;
+            }
+        };
+
+        document.documentElement.lang = getAllUrlParams().lang;
+        document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
+
+        /*var titre = document.getElementById("").firstChild; // ex : ID = #toucheEchap ; titre = Echap
+        var description = document.getElementById("").firstChild;  // ex : ID = #modTEchap
+        var modificateur = "" ;*/
+
+
+
+
+        /*
+        fetch file from directory /locale/$lang_parameter$/clavier.properties
+        if (fetch == null) then
+            Alert "language does not exist yet -> ask for it -> URL Google Form"
+        else
+            load the content of the file into var
+            modify each text asynchronously
+        */
+
+    </script>
+
+    
+    <script>
+        document.addEventListener('touchstart', event => {console.log(event);}, {passive: true});
+        document.addEventListener('touchmove', event => {console.log(event);}, {passive: true});
+        document.addEventListener('wheel', event => {console.log(event);}, {passive: true});
+    </script>
+
+    <script >var topLogoCourant = document.getElementById("topLogoLangueCourant"); topLogoCourant.setAttribute("src", "../images/icons/flags/" + getAllUrlParams().lang + ".svg");</script>
+        
+    <script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        
+        <script >var profil = document.getElementById("langue_en"); profil.setAttribute("href", "?lang=en" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        
+        <script >var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        
+        <script >var profil = document.getElementById("langue_de"); profil.setAttribute("href", "?lang=de" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        
+        <script >     var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+   
+        <script >var topLogoCourant1 = document.getElementById("topLogoProfileCourant"); topLogoCourant1.setAttribute("src", "../images/icons/profiles/" + getAllUrlParams().profil + ".svg");</script>
+        
+        <script >var profil = document.getElementById("profil_vaisseau"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=1" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        
+        <script >var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        
+
 
 </body>
 </html>
