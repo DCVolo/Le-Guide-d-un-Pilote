@@ -673,7 +673,7 @@ button > span {
     
     #volet_d a.ouvrir_d,
     #volet_d a.fermer_d {
-      padding: 1em -2em;
+      padding: 0em 0em;
       background: #555;
       color: #fff;
       text-decoration: none;
