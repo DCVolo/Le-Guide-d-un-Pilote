@@ -553,7 +553,7 @@ button > span {
 
 #volet_g {
       z-index: 10;
-        width: 18.35em;
+        width: 18.75em;
         height: 8.23em;
         font-size: 3.523vw;
         display: grid;
@@ -581,7 +581,7 @@ button > span {
     #volet_g {
       z-index: 10;
       position: absolute;
-      left: -18.35em;  /* test fixed + scroll, on retire la position top */
+      left: -18.75em;  /* test fixed + scroll, on retire la position top */
       -webkit-transition: all .5s ease-in;
       -moz-transition: all .5s ease-in;
       transition: all .5s ease-in;
@@ -620,7 +620,7 @@ button > span {
     }
     #volet_clos_g:target #volet_g {
       z-index: 10;
-      left: -18.35em;
+      left: -18.75em;
     }
     
      /* test fixed + scroll */
