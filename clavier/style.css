@@ -52,7 +52,7 @@ button {
     -0.01em -0.025em 0.05em rgba(0, 0, 0, 0.25),
     0 0 0 0.025em rgba(0, 0, 0, 0.3), 
     0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
-    -0.02em -0.02em 0.03em #ff9719 inset;
+    -0.028em -0.028em 0.038em #ff9719 inset;
   color: #ffffff;
   font-size: 1em;
   outline: 0;
@@ -86,27 +86,36 @@ button:active {
     0 0 0 0.05em rgba(0, 0, 0, 0.4), 
     -0.025em -0.05em 0.025em rgba(255, 255, 255, 0.8) inset;
 }
-button.btn0:hover, button.btn1:hover, button.btn2:hover, button.btn3:hover, button.btn4:hover, 
-button.btn5:hover, button.btn6:hover, button.btn7:hover, button.btn8:hover, button.btn9:hover,
-button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:hover {
-  transform: scale(1.5);
-  z-index: 11;
+
+/* mouse, touch pad */
+@media (hover: hover) and (pointer: fine) {
+  button.btn0:hover, button.btn1:hover, button.btn2:hover, button.btn3:hover, button.btn4:hover, 
+  button.btn5:hover, button.btn6:hover, button.btn7:hover, button.btn8:hover, button.btn9:hover,
+  button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:hover {
+    transform: scale(1.5);
+    z-index: 11;
+  }
+  button.zoomRight:hover{
+    transform-origin: right;
+  }
+  button.zoomLeft:hover{
+    transform-origin: left;
+  }
+  button.zoomBottom:hover{
+    transform-origin: bottom;
+  }
+  button.zoomBottomLeft:hover{
+    transform-origin: bottom left;
+  }
+  button.zoomBottomRight:hover{
+    transform-origin: bottom right;
+  }
 }
-button.zoomRight:hover{
-  transform-origin: right;
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+
 }
-button.zoomLeft:hover{
-  transform-origin: left;
-}
-button.zoomBottom:hover{
-  transform-origin: bottom;
-}
-button.zoomBottomLeft:hover{
-  transform-origin: bottom left;
-}
-button.zoomBottomRight:hover{
-  transform-origin: bottom right;
-}
+
 
 img.iconFlagTop{
   width: 2em;
