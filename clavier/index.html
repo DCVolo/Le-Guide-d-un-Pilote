@@ -101,6 +101,12 @@
       <!--<script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>-->
     </div>
   </div>
+  <script>
+      document.addEventListener('touchstart', event => {
+        console.log(event);
+      }, {passive: true});
+      //document.addEventListener('touchstart', onTouchStart, {passive: true});
+  </script>
 
   <div id="volet_clos_d">
     <div id="volet_d">
