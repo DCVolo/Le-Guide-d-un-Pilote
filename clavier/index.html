@@ -48,6 +48,8 @@
             queryParams.set("lang", "fr");
             queryParams.set("profil", "1");
             queryParams.set("key", "");
+            queryParams.set("mouse", "0");
+            queryParams.set("about", "1");
             history.replaceState(null, null, "?"+queryParams.toString());
         }
 
@@ -88,13 +90,24 @@
 
     </script>
 
-<div id="volet_clos">
-    <div id="volet">
+<div id="volet_clos_g">
+    <div id="volet_g">
       <p>Lorem Elsass ipsum réchime amet sed bissame so libero. DNA, leo Richard&nbsp;Schirmeck tellus</p>
       <p>Wurscht elementum semper tellus s'guelt Pfourtz&nbsp;!</p>
       
-      <a href="#volet" class="ouvrir sm" aria-hidden="true">Ouvrir !</a>
-      <a href="#volet_clos" class="fermer sm" aria-hidden="true">fermer !</a>
+      <a id="btnInfoOuvert" href="#volet_g" class="ouvrir_g sm">Ouvrir !</a>
+      <!--<script >var profil = document.getElementById("btnInfoOuvert"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>-->
+      <a href="#volet_clos_g" class="fermer_g sm">fermer !</a>
+      <!--<script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>-->
+    </div>
+  </div>
+
+  <div id="volet_clos_d">
+    <div id="volet_d">
+      <img src="../images/icons/gaming-mouse.svg" class="sourisGaming" title="" alt="">
+      
+      <a href="#volet_d" class="ouvrir_d sm">Ouvrir !</a>
+      <a href="#volet_clos_d" class="fermer_d sm">fermer !</a>
     </div>
   </div>
 
@@ -180,15 +193,15 @@ modificateur mode 5</span></span>
   <script >var topLogoCourant = document.getElementById("topLogoLangueCourant"); topLogoCourant.setAttribute("src", "../images/icons/flags/" + getAllUrlParams().lang + ".svg");</script>
   <span class="dropdown-content" style="left:0;">
   <a id="langue_fr" href="?lang=fr" title=""><img src="../images/icons/flags/fr.svg" class="iconFlagItem" title="" alt="drapeau fr"></a>
-  <script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   <a id="langue_en" href="?lang=en" title=""><img src="../images/icons/flags/en.svg" class="iconFlagItem" title="" alt="drapeau en"></a>
-  <script >var profil = document.getElementById("langue_en"); profil.setAttribute("href", "?lang=en" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("langue_en"); profil.setAttribute("href", "?lang=en" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   <a id="langue_ru" href="?lang=ru" title=""><img src="../images/icons/flags/ru.svg" class="iconFlagItem" title="" alt="drapeau ru"></a>
-  <script >var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   <a id="langue_de" href="?lang=de" title=""><img src="../images/icons/flags/de.svg" class="iconFlagItem" title="" alt="drapeau de"></a>
-  <script >var profil = document.getElementById("langue_de"); profil.setAttribute("href", "?lang=de" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("langue_de"); profil.setAttribute("href", "?lang=de" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   <a id="langue_es" href="?lang=es" title=""><img src="../images/icons/flags/es.svg" class="iconFlagItem" title="" alt="drapeau es"></a>
-  <script >var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   </span>
 </span></div>
         <div class="menuProfile xxxs"><span class="dropdown">
@@ -196,9 +209,9 @@ modificateur mode 5</span></span>
   <script >var topLogoCourant = document.getElementById("topLogoProfileCourant"); topLogoCourant.setAttribute("src", "../images/icons/profiles/" + getAllUrlParams().profil + ".svg");</script>
   <span class="dropdown-content">
   <a id="profil_vaisseau" href="" title=""><img src="../images/icons/profiles/1.svg" class="iconFlagItem" title="" alt="icone vaisseau"></a>  
-  <script >var profil = document.getElementById("profil_vaisseau"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=1" + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("profil_vaisseau"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=1" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   <a id="profil_pied" href="" title=""><img src="../images/icons/profiles/2.svg" class="iconFlagItem" title="" alt="icone pied"></a>
-  <script >var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2" + "&key=" + getAllUrlParams().key);</script>
+  <script >var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse + "&about=0");</script>
   </span>
 </span></div>
         <div class="menuReseaux xxxs"><div class="dropdown">

@@ -90,7 +90,7 @@ button.btn0:hover, button.btn1:hover, button.btn2:hover, button.btn3:hover, butt
 button.btn5:hover, button.btn6:hover, button.btn7:hover, button.btn8:hover, button.btn9:hover,
 button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:hover {
   transform: scale(1.5);
-  z-index: 5;
+  z-index: 11;
 }
 button.zoomRight:hover{
   transform-origin: right;
@@ -551,7 +551,7 @@ button > span {
 
 
 
-#volet {
+#volet_g {
       z-index: 10;
         width: 18.35em;
         height: 8.23em;
@@ -560,8 +560,8 @@ button > span {
       background: #6B9A49; color: #fff; 
     }
     
-    #volet a.ouvrir,
-    #volet a.fermer {
+    #volet_g a.ouvrir_g,
+    #volet_g a.fermer_g {
       z-index: 10;
       padding: 1em -2em;
       background: #555;
@@ -569,7 +569,7 @@ button > span {
       text-decoration: none;
     }
 
-    #volet {
+    #volet_g {
       z-index: 10;
       position: absolute;
       left: -18.35em;  /* test fixed + scroll, on retire la position top */
@@ -577,8 +577,8 @@ button > span {
       -moz-transition: all .5s ease-in;
       transition: all .5s ease-in;
     }
-    #volet a.ouvrir,
-    #volet a.fermer {
+    #volet_g a.ouvrir_g,
+    #volet_g a.fermer_g {
       z-index: 10;
       position: absolute;
       right: -2.3em;
@@ -590,33 +590,103 @@ button > span {
       -moz-radius: 0 0 8px 8px;
       border-radius: 0 0 8px 8px;
     }
-    #volet a.fermer {
+    #volet_g a.fermer_g {
       z-index: 10;
       display: none;
     }
-    #volet:target {
+    #volet_g:target {
       z-index: 10;
       left: 0.1em;
     }
 
     /* code pour la fermeture */
 
-    #volet:target a.fermer {
+    #volet_g:target a.fermer_g {
       z-index: 10;
       display: block;
     }
-    #volet:target a.ouvrir {
+    #volet_g:target a.ouvrir_g {
       z-index: 10;
       display: none;
     }
-    #volet_clos:target #volet {
+    #volet_clos_g:target #volet_g {
       z-index: 10;
       left: -18.35em;
     }
     
      /* test fixed + scroll */
-    #volet_clos {
+    #volet_clos_g {
       z-index: 10;
       position: fixed; 
       top: 0em; left: 0em;
+    }
+
+
+#volet_d {
+        width: 8.75em;
+        height: 8.23em;
+        font-size: 3.523vw;
+      
+      background: #6B9A49; color: #fff; 
+    }
+    
+    #volet_d a.ouvrir_d,
+    #volet_d a.fermer_d {
+      padding: 1em -2em;
+      background: #555;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #volet_d {
+      position: absolute;
+      left: 28.4em;  /* test fixed + scroll, on retire la position top */
+      -webkit-transition: all .5s ease-in;
+      -moz-transition: all .5s ease-in;
+      transition: all .5s ease-in;
+    }
+    #volet_d a.ouvrir_d,
+    #volet_d a.fermer_d {
+      position: absolute;
+      left: -2.3em;
+      top: 9.5em;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -moz-radius: 0 0 8px 8px;
+      border-radius: 0 0 8px 8px;
+    }
+    #volet_d a.fermer_d {
+      display: none;
+    }
+    #volet_d:target {
+      left: 19.5em;
+    }
+
+    /* code pour la fermeture */
+
+    #volet_d:target a.fermer_d {
+      left: -2.3em;
+      display: block;
+    }
+    #volet_d:target a.ouvrir_d {
+      display: none;
+    }
+    #volet_clos_d:target #volet_d {
+      left: 28.4em;
+    }
+    
+     /* test fixed + scroll */
+    #volet_clos_d {
+      z-index: 11;
+      position: fixed; 
+      top: 0em; left: 0em;
+    }
+
+    #volet_clos_d button:hover { opacity: 1.0;}
+
+
+    .sourisGaming{
+      height: 8.25em;
     }
