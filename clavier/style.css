@@ -667,7 +667,7 @@ button > span {
         font-size: 3.523vw;      
           background-color: #262626;
           box-shadow: -0.1em -0.1em 0.75em rgba(0, 0, 0, 0.6), 0 0 0 0.05em #38b3e0 inset; 
-  border-radius: 0.5em;
+          border-radius: 0.5em 0em 0em 0.5em;
    color: #fff; 
     }
     
