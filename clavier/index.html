@@ -30,26 +30,6 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="../images/launcher-icon/apple-180x180.png">
         <script src="./swiped-events.min.js"></script>
-        <script>
-            window.onload = function() {
-
-                document.addEventListener('swiped-left', function(e) {
-                    console.log("on affiche la souris si swipe gauche côté droit, sinon si côté gauche on cache les info supp");
-                });
-
-                document.addEventListener('swiped-right', function(e) {
-                    console.log("on affiche les infos supp si swipe droit côté gauche, sinon si côté droit on cache la souris");
-                });
-
-                document.addEventListener('swiped-up', function(e) {
-                    console.log("on affiche les deux");
-                });
-
-                document.addEventListener('swiped-down', function(e) {
-                    console.log("on cache les deux");
-                });
-            }
-        </script>
         <script src="./urlParameterParser.js"></script>
         <script src="./locale/l10n.min.js"></script>
         <script src="../JScookies.js"></script>
@@ -526,7 +506,26 @@ modificateur mode 5</span></span>
 </div>
 
 
+        <script>
+            window.onload = function() {
 
+                document.addEventListener('swiped-left', function(e) {
+                    console.log("on affiche la souris si swipe gauche côté droit, sinon si côté gauche on cache les info supp");
+                });
+
+                document.addEventListener('swiped-right', function(e) {
+                    console.log("on affiche les infos supp si swipe droit côté gauche, sinon si côté droit on cache la souris");
+                });
+
+                document.addEventListener('swiped-up', function(e) {
+                    console.log("on affiche les deux");
+                });
+
+                document.addEventListener('swiped-down', function(e) {
+                    console.log("on cache les deux");
+                });
+            }
+        </script>
 
 
 
