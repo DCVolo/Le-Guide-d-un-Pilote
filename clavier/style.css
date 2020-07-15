@@ -512,12 +512,19 @@ button > span {
   z-index: 1;
 }
 
-.dropdown-content a {
-  color: black;
-  /*padding: 1.5em 2em;*/
+.dropdown-content a {  
+  padding-left: 1.5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  margin: auto;
   text-decoration: none;
   display: block;
-  text-align: center;
+  /*text-align: center;*/
+}
+
+.dropdown-content a span{
+  color: white;
+  padding-left: 1em;
 }
 
 .dropdown-content a:hover {background-color: #495255;}
