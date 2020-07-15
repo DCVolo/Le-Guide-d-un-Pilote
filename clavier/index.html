@@ -2,8 +2,8 @@
 <html lang="fr" dir="ltr">  <!-- manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache" -->
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Profils Clavier Star Citizen  - Le Guide d'un Pilote - Présentation de l'assignation des touches et des différents profils (Vol, à pieds).">
-        <meta name="keywords" content="star, citizen, clavier, keyboard, profil, profile, profiles, assignation, raccourci, touches, keybinding, manuel, tuto, tutoriel, tutorial, le guide d'un pilote, le guide du pilote, guide, DCVolo, download, télécharger, dl, apprendre, Fonctionnement, mécaniques, comment fonctionne, détails, jouer, piloter, systèmes, école">
+        <meta name="description" content="Profils Clavier Star Citizen  - Le Guide d'un Pilote - Présentation de l'assignation des touches et des différents profils (Vol, à pieds).">        
+        <meta name="keywords" content="star, citizen, guide, clavier, keyboard, profil, profile, profiles, assignation, raccourci, touches, keybinding, manuel, tuto, tutoriel, tutorial, le guide d'un pilote, le guide du pilote, guide, DCVolo, download, télécharger, dl, apprendre, fonctionnement, mécaniques, comment, fonctionne, détails, jouer, piloter, systèmes, école, commande, commandes, vol, pied, fps, vaisseau, flight, foot, raccourcis, possibilité, possibilité, option, options, contrôle, contrôles, control, controls, démarrer, défaut, defaut, personnaliser, personnalisé, contrôleur, contrôleurs, controller, controllers, souris, mouse, joystick, throttle, manche, poignée, poigné, gaz, hotas, hosas, homas, hosam, pédalier, pedals, rudder, combinaison, ajout,  menu, disposition, paramètre, parameter, préférences, préréfence, preference, modification, configuration, importante">
         <meta name="author" content="DCVolo">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#262626">
@@ -31,7 +31,7 @@
         <link rel="apple-touch-icon" href="../images/launcher-icon/apple-180x180.png">
         <script src="./urlParameterParser.js"></script>
         <script src="./locale/l10n.min.js"></script>
-        <script async src="./JScookies.js"></script>
+        <script src="../JScookies.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45860209-2"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -41,6 +41,9 @@
         </script>
     </head>
 <body>
+
+
+
 
 
 <div id="volet_clos_g">
@@ -491,13 +494,30 @@ modificateur mode 5</span></span>
 </div>
 
 
+
+<div id="AMPLongShortPresentation">
+    <article class="xxxs">
+      <h1>Clavier - Le Guide d'un Pilote - par DCVolo.</h1>
+      <p>Bonjour et bienvenue sur l'outil "Clavier" qui comme son nom l'indique représente le keybinding ou association / assignation des touches aux différentes actions. Ce clavier a été créé pour remplacer le précédent outil de Pulsar42 anciennement "starcitizen.fr" qui datait de la 3.4 et nous sommes en 3.10 à l'heure où j'écris ces lignes.</p>      
+      <p>Mais à quoi sert de modifier les raccourcis des commandes clavier dans le menu d'option de contrôles et comment les personnaliser. Il faut savoir que par défaut les commandes se trouve dans les paramètres de configuration ou plus précisemment le menu d'option keybinding. Toutes les touches ne sont pas utilisées par des commandes personnalisées et toutes les mécaniques n'ont pas forcément de raccourcis clavier associé. Ainsi la disposition de votre clavier change d'un joueur à l'autre et les combinaisons de touches importantes sont nécessaire afin d'améliorer vos préférences des commandes.</p>
+      <p>Afin de définir les raccourcis clavier, dirigez-vous vers le menu d'option des commandes de contrôle du jeu, c'est-à-dire le menu d'option "keybindings" qui sert à personnaliser les commandes par défaut de vos périphériques (clavier, souris, joystick, throttle, rudder, pédalier, hotas). Lorsque vous êtes dans le menu d'options keybindings vous avez la possibilité de redéfinir la disposition du clavier en modifiant les combinaison de touches. Vous n'aurez ensuite qu'à sauvegarder (vos modifications) la configuration clavier de votre profile keybinding crrespondant à la personnalisation de touches importantes supplémentaire selon vos préférences si vous souhaitez ne pas perdre votre profil de raccourci des commandes clavier.</p>
+    </article>
+</div>
+
+
+
 <script type="text/javascript">
     var myCookie = getCookie("cookiePreference");
     if (myCookie == ""){
-         queryParams.set("lang", "none");
+        var queryParams = new URLSearchParams(window.location.search);
+        queryParams.set("lang", "none");
     }
-    if (myCookie == "0"){window['ga-disable-UA-45860209-2'] = true;}
-    if (myCookie == "1"){window['ga-disable-UA-45860209-2'] = false;}
+    else{
+        var elmt = document.getElementById("AMPLongShortPresentation");
+        elmt.style.display = "none";
+        if (myCookie == "0"){window['ga-disable-UA-45860209-2'] = true;}
+        else {window['ga-disable-UA-45860209-2'] = false;}
+    }
 </script>
 
 
@@ -560,11 +580,11 @@ modificateur mode 5</span></span>
         
         <script >var profil = document.getElementById("langue_en"); profil.setAttribute("href", "?lang=en" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
         
-        <script >var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        <!--<script >var profil = document.getElementById("langue_ru"); profil.setAttribute("href", "?lang=ru" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
         
         <script >var profil = document.getElementById("langue_de"); profil.setAttribute("href", "?lang=de" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
         
-        <script >     var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
+        <script >     var profil = document.getElementById("langue_es"); profil.setAttribute("href", "?lang=es" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>-->
    
         <script >var topLogoCourant1 = document.getElementById("topLogoProfileCourant"); topLogoCourant1.setAttribute("src", "../images/icons/profiles/" + getAllUrlParams().profil + ".svg");</script>
         
