@@ -494,7 +494,10 @@ modificateur mode 5</span></span>
   </div>
 </div>
 
-
+<div data-swipe-threshold="50" class="swiperZone">
+  <div data-swipe-threshold="50" class="swiperAlphaFonction"></div>
+  <div data-swipe-threshold="50" class="swiperSouris"></div>
+</div>
 
 <div id="AMPLongShortPresentation">
     <article class="">
@@ -509,12 +512,26 @@ modificateur mode 5</span></span>
         <script>
             window.onload = function() {
 
-                document.addEventListener('swiped-left', function(e) {
-                    console.log("on affiche la souris si swipe gauche côté droit, sinon si côté gauche on cache les info supp");
+                document.addEventListener('swiped-left', function(e) {                    
+                    if(e.target.getAttribute('class') == "swiperSouris")
+                    {
+                      console.log("on affiche la souris");
+                    }
+                    if(e.target.getAttribute('class') == "swiperAlphaFonction")
+                    {
+                      console.log("on cache les info supp");
+                    }
                 });
 
                 document.addEventListener('swiped-right', function(e) {
-                    console.log("on affiche les infos supp si swipe droit côté gauche, sinon si côté droit on cache la souris");
+                    if(e.target.getAttribute('class') == "swiperSouris")
+                    {
+                      console.log("on cache la souris");
+                    }
+                    if(e.target.getAttribute('class') == "swiperAlphaFonction")
+                    {
+                      console.log("on affiche les infos supp");
+                    }
                 });
 
                 document.addEventListener('swiped-up', function(e) {
