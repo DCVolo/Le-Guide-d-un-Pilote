@@ -636,7 +636,27 @@ modificateur mode 5</span></span>
         
         <script >var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
         
-
+        <script type="text/javascript">
+          var checkbox = document.getElementById("cookieCheckbox");
+          var myCookie = getCookie("cookiePreference");
+          if (myCookie == 0){
+              checkbox.checked = false;
+          }
+          if (myCookie == 1){
+              checkbox.checked = true;
+          }
+          document.addEventListener('DOMContentLoaded', function () {
+              checkbox.addEventListener('change', function () {
+                  if (checkbox.checked) {
+                      setCookie("cookiePreference", 1, 365);
+                      window['ga-disable-UA-45860209-2'] = false;
+                  } else {
+                      setCookie("cookiePreference", 0, 365);
+                      window['ga-disable-UA-45860209-2'] = true;
+                  }
+              });
+          });
+      </script>  
 
 </body>
 </html>
