@@ -747,3 +747,8 @@ button > span {
     #texteSouris{
       height: 100%;
     }
+
+#AMPLongShortPresentation{
+  display: inherit;
+  color: white;
+}
