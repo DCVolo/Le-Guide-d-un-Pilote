@@ -198,7 +198,7 @@ modificateur mode 5</span></span>
   <div class="cookieCheckbox">
       <img src="../images/icons/cookie.svg" class="iconFlagItem" title="" alt="icone logo cookie RGPD">
       <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox" id="cookieCheckbox">
             <span class="slider round"></span>
             Cookies
       </label>
@@ -637,7 +637,7 @@ modificateur mode 5</span></span>
         
         <script >var profil = document.getElementById("profil_pied"); profil.setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profil=2" + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>
         
-        <script type="text/javascript">
+        <script>
           var checkbox = document.getElementById("cookieCheckbox");
           var myCookie = getCookie("cookiePreference");
           if (myCookie == 0){
