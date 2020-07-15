@@ -509,11 +509,11 @@ modificateur mode 5</span></span>
 <script type="text/javascript">
     var myCookie = getCookie("cookiePreference");
     if (myCookie == ""){
-
+        var queryParams = new URLSearchParams(window.location.search);
+        queryParams.set("lang", "none");
     }
     else{
-        var elmt = document.getElementById("AMPLongShortPresentation");
-        elmt.style.display = "none";
+
         if (myCookie == "0"){window['ga-disable-UA-45860209-2'] = true;}
         else {window['ga-disable-UA-45860209-2'] = false;}
     }
@@ -531,9 +531,8 @@ modificateur mode 5</span></span>
             queryParams.set("key", "");
             queryParams.set("mouse", "0");
             history.replaceState(null, null, "?"+queryParams.toString());
-
-            var queryParams = new URLSearchParams(window.location.search);
-            queryParams.set("lang", "none");
+            var elmt = document.getElementById("AMPLongShortPresentation");
+            elmt.style.display = "none";
         }
 
 
