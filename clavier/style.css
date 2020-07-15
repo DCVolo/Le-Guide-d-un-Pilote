@@ -52,7 +52,7 @@ button {
     -0.01em -0.025em 0.05em rgba(0, 0, 0, 0.25),
     0 0 0 0.025em rgba(0, 0, 0, 0.3), 
     0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
-    -0.028em -0.028em 0.038em #ff9719 inset;
+    -0.02em -0.02em 0.016em #ff9719 inset;
   color: #ffffff;
   font-size: 1em;
   outline: 0;
@@ -73,8 +73,35 @@ button {
     -0.025em -0.04em 0.05em rgba(0, 0, 0, 0.25),
     0 0 0 0.025em rgba(0, 0, 0, 0.3), 
     0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
-    -0.02em -0.02em 0.01em #ff9719 inset;
+    -0.022em -0.022em 0.01em #ff9719 inset;
 }
+}
+@media all and (max-width: 1190px) {
+  button {
+      box-shadow:
+      -0.01em -0.025em 0.05em rgba(0, 0, 0, 0.25),
+      0 0 0 0.025em rgba(0, 0, 0, 0.3), 
+      0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
+      -0.028em -0.028em 0.038em #ff9719 inset;
+  }
+  @-moz-document url-prefix() {
+    button {
+        box-shadow:
+        -0.025em -0.04em 0.05em rgba(0, 0, 0, 0.25),
+        0 0 0 0.025em rgba(0, 0, 0, 0.3), 
+        0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
+        -0.035em -0.04em 0.02em #ff9719 inset;
+    }
+  }
+}
+@media all and (max-width: 510px) {
+  button {
+      box-shadow:
+      -0.01em -0.025em 0.05em rgba(0, 0, 0, 0.25),
+      0 0 0 0.025em rgba(0, 0, 0, 0.3), 
+      0.01em 0.01em 0.01em rgba(0, 0, 0, 0.4) inset, 
+      -0.045em -0.045em 0.055em #ff9719 inset;
+  }
 }
 
 button:not(:last-of-type) {
@@ -464,7 +491,8 @@ button > span {
   background-color: #222426;
   color: white;
   padding: 0.95em;
-  border: none;
+  border-right: 0.01em solid #ff9719;
+  border-bottom: 0.01em solid #ff9719;
   cursor: pointer;
   width:100%;
 }
