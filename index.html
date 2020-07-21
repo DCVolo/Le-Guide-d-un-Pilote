@@ -28,7 +28,6 @@
 	<meta name="msapplication-starturl" content="./index.html" />
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" href="./Alertify/css/alertify.css">
-    <!--<noscript><link rel="stylesheet" href="./Alertify/css/themes/semantic.css"></noscript>-->
     <link rel="preload" href="./Alertify/css/alertify.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="./Alertify/css/themes/semantic.css"></noscript>
 	<link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -43,7 +42,7 @@
 	</script>
 </head>
 <body>
-	<iframe title="Le Guide d'un Pilote en PDF" id="iframeLGDP" src="./Le-Guide-d-un-Pilote-preview-min.pdf"></iframe>
+	<iframe title="Le Guide d'un Pilote en PDF" id="iframeLGDP" src="./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote-preview-min.pdf"></iframe>
 	<div id="AMPLongShortPresentation">
 		<article>
 			<h1>Le Guide d'un Pilote - Le tutoriel / tutorial destiné aux débutants comme aux joueurs confirmés.</h1>
@@ -167,25 +166,6 @@
 		  		navigator.serviceWorker.register('offline-manager.js');
 			}
 		</script>
-		<script>
-			function parseJSAtOnload() 
-			{
-				var links = ["https://dcvolo.github.io/Le-Guide-d-un-Pilote/Alertify/alertify.js", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/JScookies.js"],
-				headElement = document.getElementsByTagName("head")[0],
-				linkElement, i;
-				for (i = 0; i < links.length; i++)
-				{
-					linkElement = document.createElement("script");
-					linkElement.src = links[i];
-					headElement.appendChild(linkElement);
-				}
-			}
-			if (window.addEventListener)
-				window.addEventListener("load", parseJSAtOnload, false);
-			else if (window.attachEvent)
-				window.attachEvent("onload", parseJSAtOnload);
-			else window.onload = parseJSAtOnload;
-		</script > 
 
   	</body>
 </html>
