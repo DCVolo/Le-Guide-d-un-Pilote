@@ -167,5 +167,25 @@
 		  		navigator.serviceWorker.register('offline-manager.js');
 			}
 		</script>
+		<script type="text/javascript">
+			function parseJSAtOnload() 
+			{
+				var links = ["https://dcvolo.github.io/Le-Guide-d-un-Pilote/PDFjs/build/pdf.js", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/PDFjs/web/viewer.js", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/Alertify/alertify.js", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/JScookies.js"],
+				headElement = document.getElementsByTagName("head")[0],
+				linkElement, i;
+				for (i = 0; i < links.length; i++)
+				{
+					linkElement = document.createElement("script");
+					linkElement.src = links[i];
+					headElement.appendChild(linkElement);
+				}
+			}
+			if (window.addEventListener)
+				window.addEventListener("load", parseJSAtOnload, false);
+			else if (window.attachEvent)
+				window.attachEvent("onload", parseJSAtOnload);
+			else window.onload = parseJSAtOnload;
+		</script > 
+
   	</body>
 </html>
