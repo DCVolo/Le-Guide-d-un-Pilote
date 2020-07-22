@@ -18,7 +18,7 @@ const CACHE_NAME = 'offline-LGDP';
 // Customize this with a different URL if needed.
 const OFFLINE_URL = '.';
 // Precaching critical static files
-const STATIC_CACHE_URLS = ["/Le-Guide-d-un-Pilote.pdf"];
+const STATIC_CACHE_URLS = ["https://dcvolo.github.io/Le-Guide-d-un-Pilote/Le-Guide-d-un-Pilote.pdf"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
