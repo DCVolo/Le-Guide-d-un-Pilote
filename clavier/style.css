@@ -616,8 +616,7 @@ button > span {
    color: #fff; 
     }
     
-    #volet_g a.ouvrir_g,
-    #volet_g a.fermer_g {
+    #btnInfoOuvert, #btnInfoFermer{
       z-index: 10;
       padding: 0em 0em;
       background: #555;
@@ -633,8 +632,7 @@ button > span {
       -moz-transition: all .5s ease-in;
       transition: all .5s ease-in;
     }
-    #volet_g a.ouvrir_g,
-    #volet_g a.fermer_g {
+    #btnInfoOuvert, #btnInfoFermer{
       z-index: 10;
       position: absolute;
       right: -2.3em;
@@ -646,7 +644,7 @@ button > span {
       -moz-radius: 0 0 8px 8px;
       border-radius: 0 0 8px 8px;
     }
-    #volet_g a.fermer_g {
+    #btnInfoFermer{
       z-index: 10;
       display: none;
     }
@@ -711,8 +709,7 @@ button > span {
    color: #fff; 
     }
     
-    #volet_d a.ouvrir_d,
-    #volet_d a.fermer_d {
+    #btnSourisFermer, #btnSourisOuvert{
       padding: 0em 0em;
       background: #555;
       color: #fff;
@@ -726,8 +723,7 @@ button > span {
       -moz-transition: all .5s ease-in;
       transition: all .5s ease-in;
     }
-    #volet_d a.ouvrir_d,
-    #volet_d a.fermer_d {
+    #btnSourisFermer, #btnSourisOuvert{
       position: absolute;
       left: -2.3em;
       top: 9.5em;
@@ -738,7 +734,7 @@ button > span {
       -moz-radius: 0 0 8px 8px;
       border-radius: 0 0 8px 8px;
     }
-    #volet_d a.fermer_d {
+    #btnSourisFermer {
       display: none;
     }
     #volet_d:target {

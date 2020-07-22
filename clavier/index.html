@@ -51,12 +51,9 @@
     <div id="volet_g">
         <div class="zoneYoutube"><div id="player"></div><iframe id="iframeYT" title="YouTube" src="../images/icons/YT-workingOnIt.svg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><!-- https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/ -->
         <div class="zoneChapitresLGDP xxxs"> chapitre LGDP 1.2.5.6 chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6 </div>
-        <div class="zoneActionsTouche xxxs"> les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche</div>
-      
-      <a id="btnInfoOuvert" href="#volet_g" class="ouvrir_g sm">Ouvrir !</a>
-      <!--<script >var profil = document.getElementById("btnInfoOuvert"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>-->
-      <a href="#volet_clos_g" class="fermer_g sm">fermer !</a>
-      <!--<script >var profil = document.getElementById("langue_fr"); profil.setAttribute("href", "?lang=fr" + "&profil=" + getAllUrlParams().profil + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);</script>-->
+        <div class="zoneActionsTouche xxxs"> les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche</div>        
+        <button id="btnInfoFermer" type="button" name="" class="fermer_g sm">Fermer !</button>
+        <button id="btnInfoOuvert" type="button" name="" class="ouvrir_g sm">Ouvrir !</button>
     </div>
   </div>
 
@@ -69,8 +66,8 @@
         <div class="zoneMolette xxxs">molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et molette et </div>
         <div class="zoneClicGauche xxxs"> clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche clic gauche</div>
         <div class="zoneClicDroit xxxs"> clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit clic droit</div>
-        <a href="#volet_d" class="ouvrir_d sm">Ouvrir !</a>
-        <a href="#volet_clos_d" class="fermer_d sm">fermer !</a>
+        <button id="btnSourisFermer" type="button" name="" class="fermer_d sm">Fermer !</button>
+        <button id="btnSourisOuvert" type="button" name="" class="ouvrir_d sm">Ouvrir !</button>
     </div>
   </div>
 
@@ -315,7 +312,7 @@ modificateur mode 5</span></span>
     </button><button type="button" name="" class="btn2">      <span class="ul xxxs"></span>
       <span class="ll xxxs"></span>
       <span class="ur xxxs"></span>
-    </button><button type="button" name="" class="btn4">      <span class="ul xxxs"></span>
+    </button><button id="toucheEntree" type="button" name="" class="btn4">      <span class="ul xxxs"></span>
       <span class="ll xxxs"></span>
       <span class="ur xxxs"></span>
     </button>
@@ -508,44 +505,6 @@ modificateur mode 5</span></span>
     </article>
 </div>
 
-
-        <script>
-            window.onload = function() {
-
-                document.addEventListener('swiped-left', function(e) {                    
-                    if(e.target.getAttribute('class') == "swiperSouris")
-                    {
-                      console.log("on affiche la souris");
-                    }
-                    if(e.target.getAttribute('class') == "swiperAlphaFonction")
-                    {
-                      console.log("on cache les info supp");
-                    }
-                });
-
-                document.addEventListener('swiped-right', function(e) {
-                    if(e.target.getAttribute('class') == "swiperSouris")
-                    {
-                      console.log("on cache la souris");
-                    }
-                    if(e.target.getAttribute('class') == "swiperAlphaFonction")
-                    {
-                      console.log("on affiche les infos supp");
-                    }
-                });
-
-                document.addEventListener('swiped-up', function(e) {
-                    console.log("on affiche les deux");
-                });
-
-                document.addEventListener('swiped-down', function(e) {
-                    console.log("on cache les deux");
-                });
-            }
-        </script>
-
-
-
 <script>
     var myCookie = getCookie("cookiePreference");
     if (myCookie == ""){
@@ -656,7 +615,106 @@ modificateur mode 5</span></span>
                   }
               });
           });
-      </script>  
+      </script>
+
+
+
+    <script >
+        var btnOinfo = document.getElementById('btnInfoOuvert');
+        var btnFinfo = document.getElementById('btnInfoFermer');
+        var btnOsouris = document.getElementById('btnSourisOuvert');
+        var btnFsouris = document.getElementById('btnSourisFermer');
+
+        function AfficherInfo() 
+        {
+            var info = document.getElementById('volet_g');
+            info.style.left = "0em";
+            btnOinfo.style.display = 'none';
+            btnFinfo.style.display = 'inherit';
+            console.log("ouvrir le volet gauche");
+        }
+        function CacherInfo() 
+        {
+            var info = document.getElementById('volet_g');
+            info.style.left = "-18.75em";
+            btnFinfo.style.display = 'none';
+            btnOinfo.style.display = 'inherit';
+            console.log("fermer le volet gauche");
+        }
+        function AfficherSouris() 
+        {
+            var info = document.getElementById('volet_d');
+            info.style.left = "19.6em";
+            btnOsouris.style.display = 'none';
+            btnFsouris.style.display = 'inherit';
+            console.log("ouvrir le volet droit");
+        }
+        function CacherSouris() 
+        {
+            var info = document.getElementById('volet_d');
+            info.style.left = "28.4em";
+            btnFsouris.style.display = 'none';
+            btnOsouris.style.display = 'inherit';
+            console.log("fermer le volet droit");
+        }
+
+
+        btnOinfo.addEventListener('click', function() 
+        {
+            AfficherInfo();
+        });
+
+        btnFinfo.addEventListener('click', function() 
+        {
+            CacherInfo();
+        });        
+        btnOsouris.addEventListener('click', function() 
+        {
+            AfficherSouris();
+        });
+        
+        btnFsouris.addEventListener('click', function() 
+        {
+            CacherSouris();
+        });
+
+        window.onload = function() {
+
+            document.addEventListener('swiped-left', function(e) {                    
+                if(e.target.getAttribute('class') == "swiperSouris")
+                {
+                  AfficherSouris();
+                }
+                if(e.target.getAttribute('class') == "swiperAlphaFonction")
+                {
+                  CacherInfo();
+                }
+            });
+
+            document.addEventListener('swiped-right', function(e) {
+                if(e.target.getAttribute('class') == "swiperSouris")
+                {
+                  CacherSouris();
+                }
+                if(e.target.getAttribute('class') == "swiperAlphaFonction")
+                {
+                  AfficherInfo();
+                }
+            });
+
+            document.addEventListener('swiped-up', function(e) {
+                AfficherInfo();
+                AfficherSouris();
+            });
+
+            document.addEventListener('swiped-down', function(e) {
+                CacherInfo();
+                CacherSouris();
+            });
+        }
+    </script>
+
+
 
 </body>
 </html>
