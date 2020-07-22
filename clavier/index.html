@@ -50,8 +50,8 @@
 <div id="volet_clos_g">
     <div id="volet_g">
         <div class="zoneYoutube"><div id="player"></div><iframe id="iframeYT" title="YouTube" src="../images/icons/YT-workingOnIt.svg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><!-- https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/ -->
-        <div class="zoneChapitresLGDP xxxs"> chapitre LGDP 1.2.5.6 chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6 </div>
-        <div class="zoneActionsTouche xxxs"> les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche</div>        
+        <div id="zoneChapitresLGDP" class="xxxs"> chapitre LGDP 1.2.5.6 chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6chapitre LGDP 1.2.5.6 </div>
+        <div id="zoneActionsTouche" class="xxxs"> les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche les actions keybinding de la touche</div>        
         <button id="btnInfoFermer" type="button" name="" class="fermer_g sm">Fermer !</button>
         <button id="btnInfoOuvert" type="button" name="" class="ouvrir_g sm">Ouvrir !</button>
     </div>
@@ -510,6 +510,7 @@ modificateur mode 5</span></span>
     if (myCookie == ""){
         var queryParams = new URLSearchParams(window.location.search);
         queryParams.set("lang", "none");
+        history.replaceState(null, null, "?"+queryParams.toString());
     }
     else{
 
@@ -717,12 +718,44 @@ modificateur mode 5</span></span>
     <script>
         function chargerInfoTouche(id)
         {
-          console.log(id);
+            console.log(id);
+            // convertir le nom des touches
+
+            var queryParams = new URLSearchParams(window.location.search);
+            queryParams.set("key", id); // UTILISER LE CONVERTISSEUR DE NOM DE TOUCHES parce que l'id est horrible et n'est pas fait pour être vu
+            history.replaceState(null, null, "?"+queryParams.toString());
+            // go fetch les infos de la touche "id"
+              // return an array with 3 entries
+                // wich contain
+                  // YT link
+                  // HTML text -> LGDP info
+                  // HTML text -> Actions touche
+            var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; 
+
+            // modifier les infos
+            var zoneInfoYT = document.getElementById('iframeYT');
+            zoneInfoYT.setAttribute("src", zonesInfo[0]);
+
+            var zoneInfoLGDP = document.getElementById('zoneChapitresLGDP');
+            //zoneInfoLGDP.textContent = document.createTextNode(zonesInfo[1]);
+            zoneInfoLGDP.innerHTML = zonesInfo[1] + id;
+            
+
+
+            var zoneInfoTouche = document.getElementById('zoneActionsTouche');
+           //zoneInfoTouche.textContent = document.createTextNode(zonesInfo[2]);
+           zoneInfoTouche.textContent = zonesInfo[2] + id;
+
         }
 
     </script>
 
-
+    <script>
+        /*var a;
+        for each ( $id_de_texte_a_modifier )
+          if ($id_de_texte_a_modifier) <= if exist document.getElementById
+            a.setAttribute();*/
+    </script>
 
 
 </body>

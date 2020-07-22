@@ -677,9 +677,9 @@ button > span {
 
 .zoneYoutube { grid-area: zoneYoutube; }
 
-.zoneChapitresLGDP { grid-area: zoneChapitresLGDP; padding-top: 1em; }
+#zoneChapitresLGDP { grid-area: zoneChapitresLGDP; padding-top: 1em; }
 
-.zoneActionsTouche { grid-area: zoneActionsTouche; }
+#zoneActionsTouche { grid-area: zoneActionsTouche; }
 
 #iframeYT{
   width: 100%;
