@@ -734,8 +734,11 @@
         {
             //console.log("Tentative affichage d'une touche via URL");
             //console.log(getAllUrlParams().key);
-            var indexOfKeyCode = (element) => element == getAllUrlParams().key;
-            chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
+            if(getAllUrlParams().key != "" || getAllUrlParams().key != null)
+            {
+                var indexOfKeyCode = (element) => element == getAllUrlParams().key;
+                chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
+            }
         }
 
 
