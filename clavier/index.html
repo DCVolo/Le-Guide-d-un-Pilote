@@ -678,39 +678,41 @@
 
         function chargerInfoTouche(id)
         {
-            //console.log(id);
+            //console.log(id);            
+            if(document.getElementById(id))
+            {
+                // convertir le nom des touches (juste pour l'URL)
 
-            // convertir le nom des touches (juste pour l'URL)
+              var indexOfKeyCode = (element) => element === id;
+
+              var queryParams = new URLSearchParams(window.location.search);
+              queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]); // UTILISER LE CONVERTISSEUR DE NOM DE TOUCHES parce que l'id est horrible et n'est pas fait pour être vu
+              history.replaceState(null, null, "?"+queryParams.toString());
+              // go fetch les infos de la touche "id"
+                // return an array with 3 entries
+                  // wich contain
+                    // YT link
+                    // HTML text -> LGDP info
+                    // HTML text -> Actions touche
+              var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; // 
+
+              // modifier les infos
+              var zoneInfoYT = document.getElementById('iframeYT');
+              zoneInfoYT.setAttribute("src", zonesInfo[0]);
+
+              var zoneInfoLGDP = document.getElementById('zoneChapitresLGDP');
+              //zoneInfoLGDP.textContent = document.createTextNode(zonesInfo[1]);
+              zoneInfoLGDP.innerHTML = zonesInfo[1] + id;
+              
 
 
-            var indexOfKeyCode = (element) => element === id;
+                var zoneInfoTouche = document.getElementById('zoneActionsTouche');
+               //zoneInfoTouche.textContent = document.createTextNode(zonesInfo[2]);
+               //zoneInfoTouche.textContent = zonesInfo[2] + id;
+               zoneInfoTouche.innerHTML = zonesInfo[2] + id;
+               AfficherInfo();
+            }
 
-            var queryParams = new URLSearchParams(window.location.search);
-            queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]); // UTILISER LE CONVERTISSEUR DE NOM DE TOUCHES parce que l'id est horrible et n'est pas fait pour être vu
-            history.replaceState(null, null, "?"+queryParams.toString());
-            // go fetch les infos de la touche "id"
-              // return an array with 3 entries
-                // wich contain
-                  // YT link
-                  // HTML text -> LGDP info
-                  // HTML text -> Actions touche
-            var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; // 
-
-            // modifier les infos
-            var zoneInfoYT = document.getElementById('iframeYT');
-            zoneInfoYT.setAttribute("src", zonesInfo[0]);
-
-            var zoneInfoLGDP = document.getElementById('zoneChapitresLGDP');
-            //zoneInfoLGDP.textContent = document.createTextNode(zonesInfo[1]);
-            zoneInfoLGDP.innerHTML = zonesInfo[1] + id;
-            
-
-
-            var zoneInfoTouche = document.getElementById('zoneActionsTouche');
-           //zoneInfoTouche.textContent = document.createTextNode(zonesInfo[2]);
-           //zoneInfoTouche.textContent = zonesInfo[2] + id;
-           zoneInfoTouche.innerHTML = zonesInfo[2] + id;
-           AfficherInfo();
         }
 
           document.addEventListener('keydown', disableSpecialKey);          
