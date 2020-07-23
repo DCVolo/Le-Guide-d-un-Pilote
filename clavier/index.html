@@ -734,7 +734,7 @@
         {
             //console.log("Tentative affichage d'une touche via URL");
             //console.log(getAllUrlParams().key);
-            if(getAllUrlParams().key != "" || getAllUrlParams().key != null)
+            if(getAllUrlParams().key != "" || getAllUrlParams().key != null || getAllUrlParams().key != "undefined")
             {
                 var indexOfKeyCode = (element) => element == getAllUrlParams().key;
                 chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
