@@ -23,7 +23,8 @@
 			"YouTube": "Chaîne YouTube",
 			"Discord": "Serveur Discord",
 			"Patreon": "Vous souhaitez me soutenir ?",
-			"Cookies": "Données personelles (Cookies)"
+			"CookiesOn": "Données personelles (Google Analytics)",
+			"CookiesOff": "Données personelles protégées"
 		},
 		"SideButtons":
 		{
