@@ -617,23 +617,10 @@
         btnFsouris.style.display = 'none';
         btnOsouris.style.display = 'inherit';
     }
-    btnOinfo.addEventListener('click', function() 
-    {
-        AfficherInfo();
-    });
-
-    btnFinfo.addEventListener('click', function() 
-    {
-        CacherInfo();
-    });
-    btnOsouris.addEventListener('click', function() 
-    {
-        AfficherSouris();
-    });
-    btnFsouris.addEventListener('click', function() 
-    {
-        CacherSouris();
-    });
+    btnOinfo.addEventListener('click', function() {AfficherInfo();});
+    btnFinfo.addEventListener('click', function() {CacherInfo();});
+    btnOsouris.addEventListener('click', function() {AfficherSouris();});
+    btnFsouris.addEventListener('click', function() {CacherSouris();});
     window.onload = function()
     {
         document.addEventListener('swiped-left', function(e)
