@@ -5,14 +5,13 @@
 html, body {
 	background-color: #303436;
   height: 100%;
-  margin: 0;
+  margin: 0em;
   overflow: hidden;
   position:relative;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  font-family: Arial, Verdana, sans-serif;
+  top:0em;
+  bottom:0em;
+  left:0em;
+  right:0em;
   word-wrap: break-word;
 }
 
@@ -20,24 +19,15 @@ title {
   display: inline;
 }
 
-/*ul{
-    //display: block;
-    //list-style-type: none;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}*/
-
+a{
+  color:orange;
+  font-weight: bold;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-:root {
-  font-size: 16px;
+  margin: 0em;
+  padding: 0em;
 }
 body, button {
   /*text-rendering: optimizeLegibility;*/
@@ -210,14 +200,12 @@ button > span {
 .keyboard {
   background-color: #262626;
   border-radius: 0.5em;
-  box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 1px #ff9719 inset;
+  box-shadow: -1em -1em 1.5em rgba(0, 0, 0, 0.6), 0 0 0 0.025em #ff9719 inset;
   display: grid;
   grid-template-columns: 18.63em 3.7em 5em;
   grid-template-rows: 1.125em 1.125em 1.125em 1.125em 1.125em 1.375em;
   grid-gap: 0.2em 0.3em;
-  /*font-size:36px;*/
   font-size: 3.523vw;
-  /*margin: 3em auto 0 auto;*/
   padding: 0.25em;
   width: 28.35em;
   height: 8.23em;
@@ -233,20 +221,41 @@ button > span {
 .row:nth-of-type(14) {
   text-align: center;
 }
-/*
-.row:nth-of-type(n + 14):nth-of-type(-3n + 17) {
-  transform: translateY(0.25em);
-}*/
-/*
-.bump {
-  border-radius: 0.1em;
-  box-shadow: -0.05em -0.02em 0 0.05em rgba(0, 0, 0, 0.3);
-  padding: 0;
-  top: 85%;
-  left: calc(50% - 0.4em);
-  width: 0.8em;
-  height: 0.15em;
-}*/
+
+.keyboard > .row > button{
+  display: inline-grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 5fr;
+  gap: 0em 0em;
+  grid-template-areas: ". KeyLetter" "KeyDescr KeyDescr";
+  
+}
+.KeyLetter {
+ grid-area: KeyLetter;
+ font-size: 0.175em; 
+ line-height: 1em;
+ border-left: 0.1em solid #ff9719;
+ border-bottom: 0.1em solid #ff9719;
+ }
+.KeyDescr { 
+  /*display: inline-block;*/
+  text-overflow: ellipsis; 
+  width:100%;
+  height: 100%;
+  grid-area: KeyDescr; 
+  word-break:break-all;
+  text-align: left;
+  font-size: 12.5%;
+  line-height: 90%;
+  padding-right: 0%;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+@-moz-document url-prefix() {
+  .KeyDescr {padding-bottom: 15%;}
+}
+
 
 /* Button size */
 .btn0 {
@@ -334,11 +343,13 @@ button > span {
 
 /* Button font size */
 .xxxxs {
-  font-size: 0.15em;
-  line-height: 0.9em;
-  padding-right: 0;
-  padding-left: 0.2em;
-  padding-top: 0.1em;
+  font-size: 12.5%;
+  /*font-size: 0.125em;*/
+  /*line-height: 0.9em;*/
+  line-height: 90%;
+  padding-right: 0%;
+  padding-left: 1%;
+  padding-top: 1%;
 }
 .xxxs {
   font-size: 0.175em;
@@ -356,119 +367,6 @@ button > span {
   font-size: 0.4em;
   line-height: 1.25em;
 }
-
-/* Icons */
-/*
-.up, .right, .down, .left {
-  width: 0;
-  height: 0;
-  vertical-align: 0.1em;
-}
-.up {
-  border-left: 0.25em solid transparent;
-  border-right: 0.25em solid transparent;
-  border-bottom: 0.5em solid currentColor;
-}
-.right {
-  border-left: 0.5em solid currentColor;
-  border-top: 0.25em solid transparent;
-  border-bottom: 0.25em solid transparent;
-}
-.down {
-  border-left: 0.25em solid transparent;
-  border-right: 0.25em solid transparent;
-  border-top: 0.5em solid currentColor;
-}
-.left {
-  border-right: 0.5em solid currentColor;
-  border-top: 0.25em solid transparent;
-  border-bottom: 0.25em solid transparent;
-}
-.pause {
-  border-left: 0.2em solid;
-  border-right: 0.2em solid;
-  vertical-align: 0.1em;
-  width: 0.475em;
-  height: 0.5em;
-}*/
-
-.cascade:before, .cascade:after, .block {
-  border: 1px solid;
-}
-.cascade {
-  position: relative;
-  height: 1em;
-  width: 1.2em;
-}
-.cascade:before, .cascade:after {
-  content: "";
-  position: absolute;
-  height: 0.45em;
-  width: 0.8em;
-}
-.cascade:before {
-  top: 0;
-  left: 0;
-}
-.cascade:after {
-  right: 0;
-  bottom: 0;
-}
-.block {
-  margin-left: 0.1em;
-  height: 0.8em;
-  width: 0.6em;
-  vertical-align: 0.1em;
-}
-.apps:before, .apps:after {
-  font-weight: bold;
-  display: block;
-  content: "\25A1\25A1\25A1";
-  line-height: 0.875;
-}
-
-/* Miscellaneous */
-.on {
-  color: #8dff00;
-  text-shadow: 0 0 2px #478800;
-}
-.noxpad {
-  padding: 0.2em 0;
-}
-
-/* IE 11 fix */
-/*
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .keyboard {
-    display: -ms-grid;
-    -ms-grid-columns: 22.125em 5em 5.75em;
-    -ms-grid-rows: 1.125em 1.5em 1.5em 1.5em 1.5em 1.375em;
-  }
-  .row:nth-child(3n + 2) {
-    -ms-grid-column: 2;
-  }
-  .row:nth-child(3n + 3) {
-    -ms-grid-column: 3;
-  }
-  .row:nth-child(n + 4):nth-child(-n + 6) {
-    -ms-grid-row: 2;
-  }
-  .row:nth-child(n + 7):nth-child(-n + 9) {
-    -ms-grid-row: 3;
-  }
-  .row:nth-child(n + 10):nth-child(-n + 12) {
-    -ms-grid-row: 4;
-  }
-  .row:nth-child(n + 13):nth-child(-n + 15) {
-    -ms-grid-row: 5;
-  }
-  .row:nth-child(n + 16) {
-    -ms-grid-row: 6;
-  }
-  .row:nth-of-type(14) button {
-    transform: translateX(-0.5em);
-  }
-}*/
 
 #texte-option{
   position: relative;
@@ -591,13 +489,6 @@ button > span {
 }
 
 
-
-
-
-
-
-
-
 #volet_g {
       z-index: 10;
         width: 18.75em;
@@ -641,8 +532,8 @@ button > span {
       -moz-transform: rotate(270deg);
       -o-transform: rotate(270deg);
       -ms-transform: rotate(270deg);
-      -moz-radius: 0 0 8px 8px;
-      border-radius: 0 0 8px 8px;
+      -moz-radius: 0 0 0.2em 0.2em;
+      border-radius: 0 0 0.2em 0.2em;
     }
     #btnInfoFermer{
       z-index: 10;
@@ -677,9 +568,9 @@ button > span {
 
 .zoneYoutube { grid-area: zoneYoutube; }
 
-#zoneChapitresLGDP { grid-area: zoneChapitresLGDP; padding-top: 1em; }
+#zoneChapitresLGDP { grid-area: zoneChapitresLGDP; padding-top: 1em; line-height: 1.5em; }
 
-#zoneActionsTouche { grid-area: zoneActionsTouche; }
+#zoneActionsTouche { grid-area: zoneActionsTouche; line-height: 1.5em; -webkit-font-smoothing: antialiased;}
 
 #iframeYT{
   width: 100%;
@@ -731,8 +622,8 @@ button > span {
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
-      -moz-radius: 0 0 8px 8px;
-      border-radius: 0 0 8px 8px;
+      -moz-radius: 0 0 0.2em 0.2em;
+      border-radius: 0 0 0.2em 0.2em;
     }
     #btnSourisFermer {
       display: none;
