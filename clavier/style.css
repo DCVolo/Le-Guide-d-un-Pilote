@@ -238,7 +238,7 @@ button > span {
  border-bottom: 0.1em solid #ff9719;
  }
 .KeyDescr { 
-  /*display: inline-block;*/
+  display: inline-block;
   text-overflow: ellipsis; 
   width:100%;
   height: 100%;
