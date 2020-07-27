@@ -587,10 +587,7 @@
           key.setAttribute("name", actual_JSON.Keyboard[element].title);
           key.setAttribute("title", actual_JSON.Keyboard[element].title);
           key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
-          if(actual_JSON.Keyboard[element].keyAssociatedFunctions != null)
-            key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
-          else
-            key.getElementsByClassName("KeyDescr")[0].innerHTML = "../images/icons/YT-workingOnIt.svg";
+          key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
         });
     });
 
@@ -680,7 +677,10 @@
             var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">6.7.6.1 Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">4.4.6 Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; // 
             // Use the array to fill the content
 
-            document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
+            if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
+              document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
+            else
+              document.getElementById('iframeYT').setAttribute("src", "../images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
             document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
             AfficherInfo();
