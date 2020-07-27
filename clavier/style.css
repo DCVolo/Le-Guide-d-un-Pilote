@@ -242,7 +242,7 @@ button > span {
   text-overflow: ellipsis; 
   width:100%;
   height: 100%;
-  grid-area: KeyDescr; 
+  grid-area: KeyDescr;
   word-break:break-all;
   text-align: left;
   vertical-align: bottom;
