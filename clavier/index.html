@@ -586,6 +586,7 @@
           key.setAttribute("name", actual_JSON.Keyboard[element].title);
           key.setAttribute("title", actual_JSON.Keyboard[element].title);
           key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
+          key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
         });
     });
 
