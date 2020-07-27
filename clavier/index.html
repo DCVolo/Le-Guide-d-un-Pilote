@@ -679,7 +679,7 @@
 
             if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
               document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
-            else
+            if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
               document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
             document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
