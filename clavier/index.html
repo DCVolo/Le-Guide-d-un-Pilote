@@ -580,7 +580,7 @@
     {
         // Parse JSON string into object
         var actual_JSON = JSON.parse(response);
-        keyCodeQwerty.forEach(element => { var key = document.getElementById(element); key.setAttribute("title", actual_JSON.Keyboard[element].title); key.getElementsByClassName('KeyLetter').innerHTML = actual_JSON.Keyboard[element].letter; });
+        keyCodeQwerty.forEach(element => { var key = document.getElementById(element); key.setAttribute("name", actual_JSON.Keyboard[element].title); key.getElementsByClassName('KeyLetter').innerHTML = actual_JSON.Keyboard[element].letter; });
     });
 
     /*var titre = document.getElementById("").firstChild; // ex : ID = #Escape ; titre = Echap
