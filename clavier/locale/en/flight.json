@@ -54,7 +54,7 @@
 		
 	},
 	"Keyboard":
-	[
+	{
 		"Escape":
 		{
 		"title": "Escape",
@@ -895,5 +895,5 @@
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		}
-	]
+	}
 }
