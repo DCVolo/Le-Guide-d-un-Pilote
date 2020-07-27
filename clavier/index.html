@@ -552,7 +552,7 @@
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
     document.getElementById("chosenLanguage").setAttribute("src", dataPath);
     var parsedJSON = JSON.parse(dataPath);
-    keyCodeQwerty.forEach(element => {document.getElementById(element).setAttribute("title", parsedJSON.keyboard.element.title});
+    keyCodeQwerty.forEach(element => {document.getElementById(element).setAttribute("title", parsedJSON.keyboard.element.title)});
     /*var titre = document.getElementById("").firstChild; // ex : ID = #Escape ; titre = Echap
     var description = document.getElementById("").firstChild;  // ex : ID = #modTEchap
     var modificateur = "" ;*/
