@@ -419,7 +419,9 @@
       <span class="KeyDescr"></span>
     </button>
   </div>
-  <div class="row"><span></span><button onclick="chargerInfoTouche(this.id)" id="ArrowUp" name="" class="btn2"><span><span class="up"></span></span></button><span></span>
+  <div class="row"><span></span><button onclick="chargerInfoTouche(this.id)" id="ArrowUp" name="" class="btn2">
+      <span class="KeyLetter"></span>
+      <span class="KeyDescr"></span></button><span></span>
   </div>
   <div class="row"><button onclick="chargerInfoTouche(this.id)" id="Numpad1" name="" class="btn2">
       <span class="KeyLetter"></span>
@@ -461,7 +463,16 @@
       <span class="KeyDescr"></span>
     </button>
   </div>
-  <div class="row"><button onclick="chargerInfoTouche(this.id)" id="ArrowLeft" name="" class="btn2 zoomBottom"><span><span class="left"></span></span></button><button onclick="chargerInfoTouche(this.id)" id="ArrowDown" name="" class="btn2 zoomBottom"><span><span class="down"></span></span></button><button onclick="chargerInfoTouche(this.id)" id="ArrowRight" name="" class="btn2 zoomBottom"><span><span class="right"></span></span></button>
+  <div class="row"><button onclick="chargerInfoTouche(this.id)" id="ArrowLeft" name="" class="btn2 zoomBottom">
+      <span class="KeyLetter"></span>
+      <span class="KeyDescr"></span>
+    </button><button onclick="chargerInfoTouche(this.id)" id="ArrowDown" name="" class="btn2 zoomBottom">
+      <span class="KeyLetter"></span>
+      <span class="KeyDescr"></span>
+      </button><button onclick="chargerInfoTouche(this.id)" id="ArrowRight" name="" class="btn2 zoomBottom">
+      <span class="KeyLetter"></span>
+      <span class="KeyDescr"></span>
+      </button>
   </div>
   <div class="row"><button onclick="chargerInfoTouche(this.id)" id="Numpad0" name="" class="btn9 zoomBottom">
       <span class="KeyLetter"></span>
@@ -569,7 +580,7 @@
     {
         // Parse JSON string into object
         var actual_JSON = JSON.parse(response);
-        keyCodeQwerty.forEach(element => { var key = document.getElementById(element); key.setAttribute("title", actual_JSON.Keyboard[element].title); key.firstChild.innerHTML = actual_JSON.Keyboard[element].letter; });
+        keyCodeQwerty.forEach(element => { var key = document.getElementById(element); key.setAttribute("title", actual_JSON.Keyboard[element].title); key.getElementsByClassName('KeyLetter').innerHTML = actual_JSON.Keyboard[element].letter; });
     });
 
     /*var titre = document.getElementById("").firstChild; // ex : ID = #Escape ; titre = Echap
