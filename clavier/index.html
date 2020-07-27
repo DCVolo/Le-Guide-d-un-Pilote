@@ -546,11 +546,11 @@
     document.documentElement.lang = getAllUrlParams().lang;
     document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
 </script>
-<script id="chosenLanguage" type="text/javascript" src="./locale/empty.json"></script>
+<!--<script id="chosenLanguage" type="text/javascript" src="./locale/empty.json"></script>-->
 <script>
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
-    document.getElementById("chosenLanguage").setAttribute("src", dataPath);
+    /*document.getElementById("chosenLanguage").setAttribute("src", dataPath);*/
     function loadJSON(callback)
     {
         var xobj = new XMLHttpRequest();
