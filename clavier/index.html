@@ -545,14 +545,19 @@
     };
     document.documentElement.lang = getAllUrlParams().lang;
     document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
-
-
+</script>
+<script id="chosenLanguage" type="text/javascript" src="./locale/empty.json"></script>
+<script>
+    const fileProfiles = ["flight","foot"];
+    var path = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
+    document.getElementById("chosenLanguage").setAttribute("src", path);
+    console.log(path);
     /*var titre = document.getElementById("").firstChild; // ex : ID = #Escape ; titre = Echap
     var description = document.getElementById("").firstChild;  // ex : ID = #modTEchap
     var modificateur = "" ;*/
 
     /*
-    fetch file from directory /locale/$lang_parameter$/clavier.properties
+    fetch file from directory /locale/$lang_parameter$/$profile$.json
     if (fetch == null) then
         Alert "language does not exist yet -> ask for it -> URL Google Form"
     else
