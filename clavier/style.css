@@ -245,6 +245,7 @@ button > span {
   grid-area: KeyDescr; 
   word-break:break-all;
   text-align: left;
+  vertical-align: bottom;
   font-size: 12.5%;
   line-height: 90%;
   padding-right: 0%;
