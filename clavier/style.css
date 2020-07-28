@@ -194,7 +194,6 @@ img.iconFlagItem{
   grid-area: KeyDescr;
   word-break:break-word;
   text-align: left;
-  vertical-align: bottom;
   font-size: 13%;
   line-height: 125%;
   padding-right: 2.8%;
