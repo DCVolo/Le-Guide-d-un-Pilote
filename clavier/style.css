@@ -523,7 +523,7 @@ img.iconFlagItem{
 #zoneActionsTouche { grid-area: zoneActionsTouche; line-height: 1.5em; -webkit-font-smoothing: antialiased;}
 
 #zoneChapitresLGDPtitre{
-
+  color: #ff9719;
   border-left: 0.1em solid #5c0cb6;
   border-bottom: 0.1em solid #5c0cb6;
   border-radius: 0em 0.5em 0.5em 0em;
