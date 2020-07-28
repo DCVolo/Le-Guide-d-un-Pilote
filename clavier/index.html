@@ -570,8 +570,8 @@
     }
 
     getData(dataPath).then(result => {console.log(result);});
-    getData(dataPath).then(result => {testjsontest = result; return testjsontest;});
-    let testjsontest = getData2(dataPath);
+    
+    let testjsontest = getData(dataPath).then(result => {testjsontest = result; return testjsontest;});
 
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon
     var data_obj = (Promise.resolve(getData(dataPath)));
