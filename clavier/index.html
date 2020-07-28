@@ -569,8 +569,8 @@
         .then(result => result);
     }
 
-    getData(dataPath).then(result => console.log(result));
-    
+    getData(dataPath).then(result => {data = result;});
+
     console.log(data);
 
     function loadJSON(callback)
