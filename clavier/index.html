@@ -571,14 +571,14 @@
 
     getData(dataPath).then(result => {console.log(result);});
     
-    let testjsontest = getData(dataPath).then(result => {testjsontest = result; return testjsontest;});
+
 
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon
     var data_obj = (Promise.resolve(getData(dataPath)));
     console.log(data);
-    console.log(data_obj);
-    console.log(testjsontest);
-    
+    console.log(Promise.resolve(data_obj));
+
+
     function loadJSON(callback)
     {        
         var xobj = new XMLHttpRequest();
