@@ -361,7 +361,7 @@
       <span class="KeyDescr"></span>
     </button>
   </div>
-  <div class="row"><span id="texte-legende" class="ul xxxs"><span id="modificateur_1" class="modificateur">modificateur mode 1</span><span id="modificateur_5" class="modificateur">Mode Caméra avancée</span><span id="modificateur_2" class="modificateur">modificateur mode 2</span><span id="modificateur_6" class="modificateur">Modificateur Mode 6</span><span id="modificateur_3" class="modificateur">modificateur mode 3</span><span id="modificateur_7" class="modificateur">modificateur mode 7</span><span id="modificateur_4" class="modificateur">modificateur mode 4</span><span id="modificateur_8" class="modificateur">modificateur mode 8</span></span></div>
+  <div class="row"><span id="texte-legende" class="ul xxxs"><span id="modificateur_1" class="modificateur"></span><span id="modificateur_5" class="modificateur"></span><span id="modificateur_2" class="modificateur"></span><span id="modificateur_6" class="modificateur"></span><span id="modificateur_3" class="modificateur"></span><span id="modificateur_7" class="modificateur"></span><span id="modificateur_4" class="modificateur"></span><span id="modificateur_8" class="modificateur"></span></span></div>
   <div class="row"><button onclick="chargerInfoTouche(this.id)" id="Numpad4" name="" class="btn2">
       <span class="KeyLetter"></span>
       <span class="KeyDescr"></span>
@@ -600,11 +600,11 @@
         document.getElementById("modificateur_6").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier6;
         document.getElementById("modificateur_7").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier7;
         document.getElementById("modificateur_8").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier8;
-        document.getElementById("changerLangue").innerHTML = actual_JSON.Locale.MenuButtonLang.Lang;
-        document.getElementById("changerProfil").innerHTML = actual_JSON.Locale.MenuProfiles.Profile;
+        document.getElementById("changerLangue").innerHTML = actual_JSON.Locale.MenuButtonLang.Lang + " ";
+        document.getElementById("changerProfil").innerHTML = actual_JSON.Locale.MenuProfiles.Profile + " ";
         document.getElementById("profile_flight").innerHTML = actual_JSON.Locale.MenuProfiles.Flight;
         document.getElementById("profile_foot").innerHTML = actual_JSON.Locale.MenuProfiles.Foot;
-        document.getElementById("changerMenu").innerHTML = actual_JSON.Locale.MenuButtons.Menu;
+        document.getElementById("changerMenu").innerHTML = actual_JSON.Locale.MenuButtons.Menu + " ";
         document.getElementById("menu_InstallerApplication").innerHTML = actual_JSON.Locale.MenuButtons.Application;
         document.getElementById("menu_AjouterLangue").innerHTML = actual_JSON.Locale.MenuButtons.TranslateForm;
         document.getElementById("menu_YouTube").innerHTML = actual_JSON.Locale.MenuButtons.YouTube;
