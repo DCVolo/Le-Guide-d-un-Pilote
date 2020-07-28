@@ -562,19 +562,15 @@
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
-    var data;
-    async function getData(url) {
-        const response = await fetch(url);
-
-        return response.json()
+    const data = [];
+    function getData(url) {
+    return fetch(url)
+        .then(response => response.json())
+        .then(result => result);
     }
 
-    async function main() {
-        data = await getData(dataPath);
-
-        console.log(data)
-    }
-    main();
+    getData(URL).then(result => console.log(result));
+    
     console.log(data);
 
     function loadJSON(callback)
