@@ -213,8 +213,8 @@ img.iconFlagItem{
 ::-webkit-scrollbar {
   background-color: #202324;
   color: #aba499;
-  width: 0.1em;
-  height: 0.1em;
+  width: 0.25em;
+  height: 0.25em;
 }
 /* Track */
 ::-webkit-scrollbar-track {
