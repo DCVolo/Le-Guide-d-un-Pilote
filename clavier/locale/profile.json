@@ -1,0 +1,905 @@
+{
+	"Locale":
+	{
+		"KeyNames":
+		{
+			"array": ["escape","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","printscreen","scrolllock","pause","backquote","digit1","digit2","digit3","digit4","digit5","digit6","digit7","digit8","digit9","digit0","minus","equal","backspace","insert","home","pageup","numlock","numpaddivide","numpadmultiply","numpadsubtract","tab","q","w","e","r","t","y","u","i","o","p","bracketleft","bracketright","enter","delete","end","pagedown","numpad7","numpad8","numpad9","numpadadd","capslock","a","s","d","f","g","h","j","k","l","semicolon","quote","backslash","numpad4","numpad5","numpad6","shiftleft","intlbackslash","z","x","c","v","b","n","m","comma","period","slash","shiftright","arrowup","numpad1","numpad2","numpad3","numpadenter","controlleft","metaleft","altleft","space","altright","metaright","contextmenu","controlright","arrowleft","arrowdown","arrowright","numpad0","numpaddecimal"],
+			"modifierKeys": ["AltLeft","KeyF","Tab","KeyM","F4","ShiftLeft"]
+		},
+		"MenuButtonLang":
+		{
+			"Lang": "Language"
+		},
+		"MenuProfiles":
+		{
+			"Profile": "Profile",
+			"Flight": "(Ship / Ground) vehicles + Turret ",
+			"Foot": "Foot / E.V.A"
+		},
+		"MenuButtons":
+		{
+			"Profile": "Profile",
+			"Flight": "Flight",
+			"Foot": "Foot"
+		},
+		"MenuButtons":
+		{
+			"Menu": "Menu",
+			"Application": "Web Application",
+			"TranslateForm": "Translate or modify a profile",
+			"YouTube": "YouTube Channel",
+			"Discord": "Discord Server",
+			"Patreon": "You'd like to support me ?",
+			"CookiesOn": "Personal data (Google Analytics)",
+			"CookiesOff": "Personal data protected"
+		},
+		"SideButtons":
+		{
+			"Open": "Open !",
+			"Close": "Close !"
+		},
+		"ModifiersLegend":
+		{
+			"Modifier1": "M1 Modifier 1",
+			"Modifier2": "MI Interaction Mode",
+			"Modifier3": "SC Scan Mode",
+			"Modifier4": "MG Mining Mode",
+			"Modifier5": "AC Advanced Cam Mode",
+			"Modifier6": "M2 Modifier 2",
+			"Modifier7": "Hold",
+			"Modifier8": "Double Tap"
+		}
+	},
+	"Mouse":
+	{
+		"zoneAxes": "Yaw<br>Pitch",
+		"zoneSideButton": "",
+		"zoneMolette": "",
+		"zoneClicGauche": "",
+		"zoneClicDroit": ""
+		
+	},
+	"Keyboard":
+	{
+		"Escape":
+		{
+		"title": "Escape",
+		"letter":"Esc",
+		"keyAssociatedFunctions": "Pause<br>Option",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1\">3.1 Les options</a>",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F1":
+		{
+		"title": "F1",
+		"letter":"F1",
+		"keyAssociatedFunctions": "mobiGlas",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.2\">6.2 mobiGlas</a>",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F2":
+		{
+		"title": "F2",
+		"letter":"F2",
+		"keyAssociatedFunctions": "Starmap",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.2.5\">6.2.5 Skyline</a>",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F3":
+		{
+		"title": "F3",
+		"letter":"F3",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F4":
+		{
+		"title": "F4",
+		"letter":"F4",
+		"keyAssociatedFunctions": "Cycle Camera View<br><span class=\"modificateur_5\">Advanced Cam*</span>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F5":
+		{
+		"title": "F5",
+		"letter":"F5",
+		"keyAssociatedFunctions": "Increase Engine Power (Decrease others)",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F6":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F7":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F8":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F9":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F10":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F11":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"F12":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"PrintScreen":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ScrollLock":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Pause":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Backquote":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit1":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit2":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit3":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit4":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit5":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit6":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit7":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit8":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit9":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Digit0":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Minus":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Equal":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Backspace":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Insert":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Home":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"PageUp":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumLock":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumpadDivide":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumpadMultiply":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumpadSubtract":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Tab":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyQ":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyW":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyE":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyR":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyT":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyY":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyU":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyI":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyO":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyP":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"BracketLeft":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"BracketRight":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Enter":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Delete":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"End":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"PageDown":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad7":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad8":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad9":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumpadAdd":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"CapsLock":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyA":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyS":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyD":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyF":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyG":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyH":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyJ":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyK":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyL":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Semicolon":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Quote":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Backslash":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad4":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad5":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad6":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ShiftLeft":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"IntlBackslash":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyZ":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyX":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyC":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyV":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyB":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyN":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"KeyM":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Comma":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Period":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Slash":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ShiftRight":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ArrowUp":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad1":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad2":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad3":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumpadEnter":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ControlLeft":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"MetaLeft":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"AltLeft":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Space":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"AltRight":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"MetaRight":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ContextMenu":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ControlRight":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ArrowLeft":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ArrowDown":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"ArrowRight":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"Numpad0":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		},
+		"NumpadDecimal":
+		{
+		"title": "",
+		"letter":"",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
+		"youtubeEmbededLinkOnly": ""
+		}
+	}
+}
