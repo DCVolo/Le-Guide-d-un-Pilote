@@ -568,6 +568,8 @@
         };
         xobj.send(null);  
     }
+    // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
+    var touchesAffichage;
     // Store the "profile.json" in an extern variable so it can be accessed when modifying the presentation of they keyboard (and also when left panel is called)
     var actual_JSON;
     loadJSON(function(response)
@@ -600,10 +602,8 @@
         document.getElementById("menu_YouTube").innerHTML = actual_JSON.Locale.MenuButtons.YouTube;
         document.getElementById("menu_Discord").innerHTML = actual_JSON.Locale.MenuButtons.Discord;
         document.getElementById("menu_patreon").innerHTML = actual_JSON.Locale.MenuButtons.Patreon;
+        (actual_JSON.Locale.KeyNames.array).forEach(element => {touchesAffichage.push(element);});
     });
-    // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
-    var touchesAffichage;
-    (actual_JSON.Locale.KeyNames.array).forEach(element => {touchesAffichage.push(element);});
     //var touchesAffichage = Array.from(Object.create(actual_JSON.Locale.KeyNames.array));var touchesAffichage
     // Show & Hide side panels + translate buttons
     var btnOinfo = document.getElementById('btnInfoOuvert'); btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
