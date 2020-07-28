@@ -566,10 +566,10 @@
     function getData(url) {
     return fetch(url)
         .then(response => response.json())
-        .then(result => result);
+        .then(result => data = result);
     }
 
-    getData(dataPath).then(result => {data = Object.assign({}, result); console.log(result);});
+    getData(dataPath).then(result => {console.log(result);});
 
     console.log(data);
 
