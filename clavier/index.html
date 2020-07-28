@@ -571,7 +571,8 @@
 
     getData(dataPath).then(result => {console.log(result);});
 
-    console.log(data);
+    var data_obj = JSON.parse(getData(dataPath));
+    console.log(data_obj);
 
     function loadJSON(callback)
     {
