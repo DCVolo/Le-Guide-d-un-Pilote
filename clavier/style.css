@@ -635,23 +635,24 @@ img.iconFlagItem{
 
 .zoneSouris { grid-area: zoneSouris; }
 
-.zoneAxes { grid-area: zoneAxes; }
+.zoneAxes { grid-area: zoneAxes; line-height: 1em;}
 
-.zoneSideButton { grid-area: zoneSideButton; }
+.zoneSideButton { grid-area: zoneSideButton; line-height: 1em;}
 
-.zoneMolette { grid-area: zoneMolette;}
+.zoneMolette { grid-area: zoneMolette; line-height: 1em;}
 
-.zoneClicGauche { grid-area: zoneClicGauche; }
+.zoneClicGauche { grid-area: zoneClicGauche; line-height: 1em;}
 
-.zoneClicDroit { grid-area: zoneClicDroit; }
-    .sourisGaming{
-      height: 100%;
-      width: 100%
-    }
+.zoneClicDroit { grid-area: zoneClicDroit; line-height: 1em;}
 
-    #texteSouris{
-      height: 100%;
-    }
+.sourisGaming{
+  height: 100%;
+  width: 100%
+}
+
+#texteSouris{
+  height: 100%;
+}
 
 #AMPLongShortPresentation{
   display: inherit;
