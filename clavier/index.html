@@ -563,10 +563,10 @@
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
     const testJSON = [];
-fetch(dataPath)
-    .then(response => response.json())
-    .then(result => data.push(...result));
-    
+    fetch(dataPath)
+        .then(response => response.json())
+        .then(result => testJSON.push(...result));
+
     console.log('PUTAIN DE MERDE ', JSON.parse(testJSON));
 
     function loadJSON(callback)
@@ -583,7 +583,7 @@ fetch(dataPath)
                 callback(xobj.responseText);
               }
         };
-        xobj.send(null);  
+        xobj.send(null);
     }
 
 
