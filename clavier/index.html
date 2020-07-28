@@ -554,7 +554,7 @@
 
 <script>
 
-    let actual_JSON;
+    var actual_JSON;
     var btnOinfo = document.getElementById('btnInfoOuvert');
     var btnFinfo = document.getElementById('btnInfoFermer');
     var btnOsouris = document.getElementById('btnSourisOuvert');
@@ -562,7 +562,7 @@
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
-    const testJSON = [];
+    let testJSON = [];
     fetch(dataPath)
         .then(response => response.json())
         .then(result => testJSON.push(...result));
