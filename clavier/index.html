@@ -31,7 +31,6 @@
         <link rel="apple-touch-icon" href="../images/launcher-icon/apple-180x180.png">
         <script src="./swiped-events.min.js"></script>
         <script src="./urlParameterParser.js"></script>
-        <script src="./locale/l10n.min.js"></script>
         <script src="../JScookies.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45860209-2"></script>
         <script>
@@ -503,7 +502,7 @@
 <script>
     // Array representing each button's id & key.code (event). Read your keyboard Left To Right and top to bottom.
     const keyCodeQwerty = ["Escape","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","PrintScreen","ScrollLock","Pause","Backquote","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","Digit0","Minus","Equal","Backspace","Insert","Home","PageUp","NumLock","NumpadDivide","NumpadMultiply","NumpadSubtract","Tab","KeyQ","KeyW","KeyE","KeyR","KeyT","KeyY","KeyU","KeyI","KeyO","KeyP","BracketLeft","BracketRight","Enter","Delete","End","PageDown","Numpad7","Numpad8","Numpad9","NumpadAdd","CapsLock","KeyA","KeyS","KeyD","KeyF","KeyG","KeyH","KeyJ","KeyK","KeyL","Semicolon","Quote","Backslash","Numpad4","Numpad5","Numpad6","ShiftLeft","IntlBackslash","KeyZ","KeyX","KeyC","KeyV","KeyB","KeyN","KeyM","Comma","Period","Slash","ShiftRight","ArrowUp","Numpad1","Numpad2","Numpad3","NumpadEnter","ControlLeft","MetaLeft","AltLeft","Space","AltRight","MetaRight","ContextMenu","ControlRight","ArrowLeft","ArrowDown","ArrowRight","Numpad0","NumpadDecimal"];
-    //
+    // Hide AMP if not : first visit + without cookies
     function cacherAMP(){
         var elmt = document.getElementById("AMPLongShortPresentation");
         elmt.style.display = "none";    
@@ -555,57 +554,36 @@
     };
     document.documentElement.lang = getAllUrlParams().lang;
     document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
-</script>
-<!--<script id="chosenLanguage" type="text/javascript" src="./locale/empty.json"></script>-->
-<script>
-    const fileProfiles = ["flight","foot"];
-    var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
-    /*document.getElementById("chosenLanguage").setAttribute("src", dataPath);*/
+    // Define the path to the "profile.json" depending of the user URL's parameters and make a HTTP request to load the file
     function loadJSON(callback)
     {
+        const fileProfiles = ["flight","foot"];
+        var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
         var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
-        xobj.open('GET', dataPath, true); // Replace 'my_data' with the path to your file
+        xobj.open('GET', dataPath, true);
         xobj.onreadystatechange = function () 
         {
-              if (xobj.readyState == 4 && xobj.status == "200") 
-              {
-                // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-                callback(xobj.responseText);
-              }
+              if (xobj.readyState == 4 && xobj.status == "200") { callback(xobj.responseText); }
         };
         xobj.send(null);  
     }
+    // Store the "profile.json" in an extern variable so it can be accessed when modifying the presentation of they keyboard (and also when left panel is called)
     var actual_JSON;
     loadJSON(function(response)
     {
-        // Parse JSON string into object
         actual_JSON = JSON.parse(response);
         keyCodeQwerty.forEach(element => 
         {
-          var key = document.getElementById(element);
-          key.setAttribute("name", actual_JSON.Keyboard[element].title);
-          key.setAttribute("title", actual_JSON.Keyboard[element].title);
-          key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
-          key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
+            var key = document.getElementById(element);
+            key.setAttribute("name", actual_JSON.Keyboard[element].title);
+            key.setAttribute("title", actual_JSON.Keyboard[element].title);
+            key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
+            key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
         });
     });
-
-    /*var titre = document.getElementById("").firstChild; // ex : ID = #Escape ; titre = Echap
-    var description = document.getElementById("").firstChild;  // ex : ID = #modTEchap
-    var modificateur = "" ;*/
-
-    /*
-    fetch file from directory /locale/$lang_parameter$/$profile$.json
-    if (fetch == null) then
-        Alert "language does not exist yet -> ask for it -> URL Google Form"
-    else
-        load the content of the file into var
-        modify each text asynchronously
-    */
-
     // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
-    var touchesAffichage = ["echap","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","impecr","arretdefill","pauseattn","²","1","2","3","4","5","6","7","8","9","0","degre","plus","retourarr","insert","debut","pagehaut","verrnum","numpaddiviser","numpadmultiplier","numpadsoustraire","tab","a","z","e","r","t","y","u","i","o","p","accentcircon","dollar","entree","suppr","fin","pagebas","numpad7","numpad8","numpad9","numpadplus","verrmaj","q","s","d","f","g","h","j","k","l","m","pourcent","µ","numpad4","numpad5","numpad6","majgauche","supinf","w","x","c","v","b","n","virgule","pointvirgule","doublepoint","pointexclamation","majdroit","flechehaut","numpad1","numpad2","numpad3","numpadentree","controlgauche","windowsgauche","altgauche","espace","altdroit","windowsdroit","menucontextuel","controldroit","flechegauche","flechebas","flechedroite","numpad0","numpaddecimal"];
+    var touchesAffichage = actual_JSON.Local.KeyNames.array;
     // Show & Hide side panels
     var btnOinfo = document.getElementById('btnInfoOuvert');
     var btnFinfo = document.getElementById('btnInfoFermer');
@@ -667,18 +645,9 @@
             var indexOfKeyCode = (element) => element === id;
             queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
             history.replaceState(null, null, "?"+queryParams.toString());
-            // Go fetch 3 values depending of the selected profile and language into "language.json" and put them inside an array
-            /* go fetch les infos de la touche "id"
-               return an array with 3 entries
-                 wich contain
-                   YT link
-                   HTML text -> LGDP info
-                   HTML text -> Actions touche*/
-            var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">6.7.6.1 Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">4.4.6 Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; // 
-            // Use the array to fill the content
-
+            // Use the "profile.json" file to fill the content
             if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
-              document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
+              document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/");
             if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
               document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
@@ -703,10 +672,6 @@
             chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
     }
     fromUrlShowLeftSidePanel();
-</script>
-
-    
-<script> 
     // MENU - Define the current language's flag to show on the keyboard
     document.getElementById("topLogoLangueCourant").setAttribute("src", "../images/icons/flags/" + getAllUrlParams().lang + ".svg");  // TODO vérifier qu'on possède bien la langue
     // For each item in the list of all languages : set the link, but keep the value of the URL parameter of profile / key / mouse
@@ -736,15 +701,6 @@
         });
     });
 </script>
-
-
-    <script>
-        /*var a;
-        for each ( $id_de_texte_a_modifier )
-          if ($id_de_texte_a_modifier) <= if exist document.getElementById
-            a.setAttribute();*/
-    </script>
-
 
 </body>
 </html>
