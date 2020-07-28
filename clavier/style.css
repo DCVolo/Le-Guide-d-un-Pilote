@@ -190,6 +190,7 @@ img.iconFlagItem{
  }
 .KeyDescr { 
   display: block;
+  overflow: inherit;
   text-overflow: ellipsis; 
   width: 100%;
   height: 100%;
