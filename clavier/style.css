@@ -202,7 +202,7 @@ img.iconFlagItem{
   padding-bottom: 5%;
 }
 @-moz-document url-prefix() {
-  .KeyDescr {padding-bottom: 15%;}
+  .KeyDescr {padding-bottom: 15%; line-height: 100%;}
 }
 
 
