@@ -635,15 +635,15 @@ img.iconFlagItem{
 
 .zoneSouris { grid-area: zoneSouris; }
 
-.zoneAxes { grid-area: zoneAxes; line-height: 1em;}
+.zoneAxes { grid-area: zoneAxes; line-height: 1.5em;}
 
-.zoneSideButton { grid-area: zoneSideButton; line-height: 1em;}
+.zoneSideButton { grid-area: zoneSideButton; line-height: 1.5em;}
 
-.zoneMolette { grid-area: zoneMolette; line-height: 1em;}
+.zoneMolette { grid-area: zoneMolette; line-height: 1.5em;}
 
-.zoneClicGauche { grid-area: zoneClicGauche; line-height: 1em;}
+.zoneClicGauche { grid-area: zoneClicGauche; line-height: 1.5em;}
 
-.zoneClicDroit { grid-area: zoneClicDroit; line-height: 1em;}
+.zoneClicDroit { grid-area: zoneClicDroit; line-height: 1.5em;}
 
 .sourisGaming{
   height: 100%;
