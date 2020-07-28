@@ -561,7 +561,7 @@
         var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
         var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
-        xobj.open('GET', dataPath, false);
+        xobj.open('GET', dataPath, true);
         xobj.onreadystatechange = function () 
         {
               if (xobj.readyState == 4 && xobj.status == "200") { callback(xobj.responseText); }
