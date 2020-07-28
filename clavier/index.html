@@ -602,7 +602,7 @@
         document.getElementById("menu_patreon").innerHTML = actual_JSON.Locale.MenuButtons.Patreon;
     });
     // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
-    var touchesAffichage = actual_JSON.Locale.KeyNames.array;
+    var touchesAffichage = (actual_JSON.Locale.KeyNames.array).slice();
     // Show & Hide side panels + translate buttons
     var btnOinfo = document.getElementById('btnInfoOuvert'); btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
     var btnFinfo = document.getElementById('btnInfoFermer'); btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
