@@ -555,18 +555,18 @@
     document.documentElement.lang = getAllUrlParams().lang;
     document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
     // Define the path to the "profile.json" depending of the user URL's parameters and make a HTTP request to load the file
-    const fileProfiles = ["flight","foot"];
-    var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
     function loadJSON(callback)
     {
+        const fileProfiles = ["flight","foot"];
+        var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
         var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
         xobj.open('GET', dataPath, true);
-        xobj.onreadystatechange = function () 
+        xobj.onreadystatechange = function ()
         {
               if (xobj.readyState == 4 && xobj.status == "200") { callback(xobj.responseText); }
         };
-        xobj.send(null);  
+        xobj.send(null);
     }
     // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
     var touchesAffichage = ["escape","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","printscreen","scrolllock","pause","backquote","digit1","digit2","digit3","digit4","digit5","digit6","digit7","digit8","digit9","digit0","minus","equal","backspace","insert","home","pageup","numlock","numpaddivide","numpadmultiply","numpadsubtract","tab","q","w","e","r","t","y","u","i","o","p","bracketleft","bracketright","enter","delete","end","pagedown","numpad7","numpad8","numpad9","numpadadd","capslock","keya","keys","keyd","keyf","keyg","keyh","keyj","keyk","keyl","semicolon","quote","backslash","numpad4","numpad5","numpad6","shiftleft","intlbackslash","keyz","keyx","keyc","keyv","keyb","keyn","keym","comma","period","slash","shiftright","arrowup","numpad1","numpad2","numpad3","numpadenter","controlleft","metaleft","altleft","space","altright","metaright","contextmenu","controlright","arrowleft","arrowdown","arrowright","numpad0","numpaddecimal"];
