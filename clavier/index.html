@@ -566,16 +566,16 @@
     function getData(url) {
     return fetch(url)
         .then(response => response.json())
-        .then(result => data = result);
+        .then(result => data);
     }
+    console.log(data);
 
-    getData(dataPath).then(result => {console.log(result); return result;});
-    
+    getData(dataPath).then(result => {console.log(result);});   
 
 
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon (un Promise)
     var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});
-    console.log(data);
+    
     console.log(data_obj);
 
     function loadJSON(callback)
