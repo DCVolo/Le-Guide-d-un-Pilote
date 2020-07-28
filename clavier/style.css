@@ -477,7 +477,7 @@ img.iconFlagItem{
       z-index: 10;
       position: absolute;
       right: -2.3em;
-      top: 12em;
+      top: 11.5em;
       -webkit-transform: rotate(270deg);
       -moz-transform: rotate(270deg);
       -o-transform: rotate(270deg);
@@ -567,7 +567,7 @@ img.iconFlagItem{
     #btnSourisFermer, #btnSourisOuvert{
       position: absolute;
       left: -2.3em;
-      top: 9.5em;
+      top: 11.5em;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
