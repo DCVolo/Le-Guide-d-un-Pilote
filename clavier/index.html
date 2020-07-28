@@ -553,15 +553,15 @@
 </script>
 
 <script>
-
+    // Variable that should contain the JSON
     var actual_JSON;
-    var btnOinfo = document.getElementById('btnInfoOuvert');
-    var btnFinfo = document.getElementById('btnInfoFermer');
-    var btnOsouris = document.getElementById('btnSourisOuvert');
-    var btnFsouris = document.getElementById('btnSourisFermer');
+    // Path to the "profile.json" file that should be used for localization
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
+    // DEBUT BORDEL
+    // en fait je voudrais utiliser Fetch plutôt que XMLhttprequest mais que je puisse stocker dans une variable globale -> ICI
+    // je veux le mettre en variable globale pour ne faire qu'un seul appel (parce qu'à chaque touche je suis obligé de faire un appel actuellement)
     var data;
     function getData(url) {
     return fetch(url)
@@ -569,15 +569,13 @@
         .then(result => data = result);
     }
     console.log(data);
-
-    getData(dataPath).then(result => {console.log(result);});   
-
-
+    getData(dataPath).then(result => {console.log(result);}); // -> ICI <- ça me donne bien le JSON mais je peux pas le sortir en variable globale
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon (un Promise)
-    var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});
-    
+    var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});    
     console.log(data_obj);
+    // FIN BORDEL
 
+    // Function to get JSON from URL
     function loadJSON(callback)
     {        
         var xobj = new XMLHttpRequest();
@@ -589,15 +587,17 @@
               {
                 // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
                 callback(xobj.responseText);
+                console.log("xobj", xobj.responseText);
               }
         };
         xobj.send(null);  
     }
-
-
-
-
-
+    // Variables to be translated
+    var btnOinfo = document.getElementById('btnInfoOuvert');
+    var btnFinfo = document.getElementById('btnInfoFermer');
+    var btnOsouris = document.getElementById('btnSourisOuvert');
+    var btnFsouris = document.getElementById('btnSourisFermer');
+    // USE THE LOADJSON FUNCTION RESPONSE CALLBACK TO GET THE JSON
     loadJSON(function(response)
     {
         // Parse JSON string into object
@@ -634,7 +634,7 @@
         document.getElementById("menu_patreon").innerHTML = " " + actual_JSON.Locale.MenuButtons.Patreon;
    });
            // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
-        var touchesAffichage = ["escape","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","printscreen","scrolllock","pause","backquote","digit1","digit2","digit3","digit4","digit5","digit6","digit7","digit8","digit9","digit0","minus","equal","backspace","insert","home","pageup","numlock","numpaddivide","numpadmultiply","numpadsubtract","tab","q","w","e","r","t","y","u","i","o","p","bracketleft","bracketright","enter","delete","end","pagedown","numpad7","numpad8","numpad9","numpadadd","capslock","a","s","d","f","g","h","j","k","l","semicolon","quote","backslash","numpad4","numpad5","numpad6","shiftleft","intlbackslash","z","x","c","v","b","n","m","comma","period","slash","shiftright","arrowup","numpad1","numpad2","numpad3","numpadenter","controlleft","metaleft","altleft","space","altright","metaright","contextmenu","controlright","arrowleft","arrowdown","arrowright","numpad0","numpaddecimal"];
+        /*var touchesAffichage = ["escape","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","printscreen","scrolllock","pause","backquote","digit1","digit2","digit3","digit4","digit5","digit6","digit7","digit8","digit9","digit0","minus","equal","backspace","insert","home","pageup","numlock","numpaddivide","numpadmultiply","numpadsubtract","tab","q","w","e","r","t","y","u","i","o","p","bracketleft","bracketright","enter","delete","end","pagedown","numpad7","numpad8","numpad9","numpadadd","capslock","a","s","d","f","g","h","j","k","l","semicolon","quote","backslash","numpad4","numpad5","numpad6","shiftleft","intlbackslash","z","x","c","v","b","n","m","comma","period","slash","shiftright","arrowup","numpad1","numpad2","numpad3","numpadenter","controlleft","metaleft","altleft","space","altright","metaright","contextmenu","controlright","arrowleft","arrowdown","arrowright","numpad0","numpaddecimal"];*/
     
     function AfficherInfo() 
     {
@@ -688,20 +688,18 @@
     {         
         if(document.getElementById(id))
         {
-            // Convert the id of the key into the localized key to pass it into the URL parameter (so it show the user the right value for its keyboard)
-            var indexOfKeyCode = (element) => element === id;
-            queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
-            history.replaceState(null, null, "?"+queryParams.toString());
-
-            var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">6.7.6.1 Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">4.4.6 Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; // 
-            // Use the array to fill the content
-
             loadJSON(function(response)
             {
                 // Parse JSON string into object
                 actual_JSON = JSON.parse(response);
+                var touchesAffichage = actual_JSON.Locale.KeyNames.array;
+                // Convert the id of the key into the localized key to pass it into the URL parameter (so it show the user the right value for its keyboard)
+                var indexOfKeyCode = (element) => element === id;
+                queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
+                history.replaceState(null, null, "?"+queryParams.toString());
+                
                 if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
-                    document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
+                    document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/");
                 if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
                     document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
                 document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
