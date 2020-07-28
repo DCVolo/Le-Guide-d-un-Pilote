@@ -574,11 +574,10 @@
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon
     var data_obj = (Promise.resolve(getData(dataPath)));
     console.log(data);
-    console.log(JSON.parse(data_obj));
+    console.log(data_obj);
 
     function loadJSON(callback)
-    {
-        
+    {        
         var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
         xobj.open('GET', dataPath, true);
