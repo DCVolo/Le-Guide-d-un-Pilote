@@ -562,12 +562,15 @@
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
-    let testJSON = [];
-    fetch(dataPath)
-        .then(response => response.json())
-        .then(result => testJSON.push(...result));
-
-    console.log('PUTAIN DE MERDE ', JSON.parse(testJSON));
+    const testJSON = [];
+    fetch(dataPath).then(
+        function(u){ return u.json();}
+      ).then(
+        function(json){
+          testJSON = json;
+        }
+      )
+    console.log('PUTAIN DE MERDE ', testJSON);
 
     function loadJSON(callback)
     {
@@ -583,7 +586,7 @@
                 callback(xobj.responseText);
               }
         };
-        xobj.send(null);
+        xobj.send(null);  
     }
 
 
