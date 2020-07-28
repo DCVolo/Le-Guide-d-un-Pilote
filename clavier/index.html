@@ -574,11 +574,12 @@
         };
         xobj.send(null);  
     }
-    let actual_JSON = null;
+    var actual_JSON;
     loadJSON(function(response)
     {
         // Parse JSON string into object
         actual_JSON = JSON.parse(response);
+        actual_JSON = actual_JSON.stringify();
         keyCodeQwerty.forEach(element => 
         {
           var key = document.getElementById(element);
