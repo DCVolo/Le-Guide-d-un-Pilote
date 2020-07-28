@@ -569,7 +569,7 @@
         .then(result => result);
     }
 
-    getData(dataPath).then(result => {Object.assign(data, result); console.log(result);});
+    getData(dataPath).then(result => {Object.assign(result, data); console.log(result);});
 
     console.log(data);
 
