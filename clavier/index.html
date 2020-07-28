@@ -129,7 +129,7 @@
     <div id="texte-option">
         
         <div class="menuLangue xxxs"><span class="dropdown">
-  <button id="changerLangue" class="dropbtn" type="button"> ‎‏‏‎ ‎LANGUE ‎‏‏‎ ‎<img id="topLogoLangueCourant" src="" class="iconFlagTop" title="" alt=""></button>
+  <button id="changerLangue" class="dropbtn" type="button"><img id="topLogoLangueCourant" src="" class="iconFlagTop" title="" alt=""></button>
   
   <span class="dropdown-content">
   <a id="langue_fr" href="?lang=fr" title=""><img src="../images/icons/flags/fr.svg" class="iconFlagItem" title="" alt="drapeau fr"><span id="menuLangTextFR">Français</span></a>
@@ -154,7 +154,7 @@
   </span>
 </span></div>
         <div class="menuProfile xxxs"><span class="dropdown">
-  <button class="dropbtn" type="button"> ‎‏‏‎ ‎PROFILE ‎‏‏‎ ‎<img id="topLogoProfileCourant" src="" class="iconFlagTop" title="" alt=""></button>
+  <button id="changerProfil" class="dropbtn" type="button">‎<img id="topLogoProfileCourant" src="" class="iconFlagTop" title="" alt=""></button>
 
   <span class="dropdown-content">
   <a id="profile_flight" href="" title=""><img src="../images/icons/profiles/1.svg" class="iconFlagItem" title="" alt="icone vaisseau"></a>  
@@ -164,7 +164,7 @@
   </span>
 </span></div>
         <div class="menuReseaux xxxs"><div class="dropdown">
-  <button class="dropbtn" type="button">‏‏‎ ‎‏‏‎ ‎MENU‎‎‏‏‎ ‎‏‏‎ ‎<img id="topLogoMenuCourant" src="../images/icons/parametres.svg" class="iconFlagTop" title="" alt=""></button>
+  <button id="changerMenu" class="dropbtn" type="button">‏‏‎‎<img id="topLogoMenuCourant" src="../images/icons/parametres.svg" class="iconFlagTop" title="" alt=""></button>
   <div class="dropdown-content">
   <a id="menu_InstallerApplication" href="" target="_blank" title=""><img src="../images/launcher-spash-screen/logo.svg" class="iconFlagItem" title="" alt="icone logo DCVolo"></a>
   <a id="menu_AjouterLangue" href="https://forms.gle/DkP2tCvHnZMt266Q9" target="_blank" title="" rel="noopener noreferrer"><img src="../images/icons/langues.svg" class="iconFlagItem" title="" alt="icone ajout langue"></a>
@@ -365,7 +365,7 @@
       <span class="KeyDescr"></span>
     </button>
   </div>
-  <div class="row"><span id="texte-legende" class="ul xxxs"><span id="modificateur_1" class="modificateur">modificateur mode 1</span><span id="modificateur_5" class="modificateur">Mode Caméra avancée</span><span id="modificateur_2" class="modificateur">modificateur mode 2</span><span id="modificateur_6" class="modificateur">Modificateur Mode 6</span><span id="modificateur_3" class="modificateur">modificateur mode 3</span><span id="modificateur_7" class="modificateur">modificateur mode 7</span><span id="modificateur_4" class="modificateur">modificateur mode 4</span><span id="modificateur_8" class="modificateur">modificateur mode 8</span></span></div>
+  <div class="row"><span id="texte-legende" class="ul xxxs"><span id="modificateur_1" class="modificateur"></span><span id="modificateur_5" class="modificateur"></span><span id="modificateur_2" class="modificateur"></span><span id="modificateur_6" class="modificateur"></span><span id="modificateur_3" class="modificateur"></span><span id="modificateur_7" class="modificateur"></span><span id="modificateur_4" class="modificateur"></span><span id="modificateur_8" class="modificateur"></span></span></div>
   <div class="row"><button onclick="chargerInfoTouche(this.id)" id="Numpad4" name="" class="btn2">
       <span class="KeyLetter"></span>
       <span class="KeyDescr"></span>
@@ -580,7 +580,26 @@
             key.setAttribute("title", actual_JSON.Keyboard[element].title);
             key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
             key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
+
         });
+        document.getElementById("modificateur_1").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier1;
+        document.getElementById("modificateur_2").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier2;
+        document.getElementById("modificateur_3").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier3;
+        document.getElementById("modificateur_4").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier4;
+        document.getElementById("modificateur_5").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier5;
+        document.getElementById("modificateur_6").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier6;
+        document.getElementById("modificateur_7").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier7;
+        document.getElementById("modificateur_8").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier8;
+        document.getElementById("changerLangue").innerHTML = actual_JSON.Locale.MenuButtonLang.Lang;
+        document.getElementById("changerProfil").innerHTML = actual_JSON.Locale.MenuProfiles.Profile;
+        document.getElementById("profile_flight").innerHTML = actual_JSON.Locale.MenuProfiles.Flight;
+        document.getElementById("profile_foot").innerHTML = actual_JSON.Locale.MenuProfiles.Foot;
+        document.getElementById("changerMenu").innerHTML = actual_JSON.Locale.MenuButtons.Menu;
+        document.getElementById("menu_InstallerApplication").innerHTML = actual_JSON.Locale.MenuButtons.Application;
+        document.getElementById("menu_AjouterLangue").innerHTML = actual_JSON.Locale.MenuButtons.TranslateForm;
+        document.getElementById("menu_YouTube").innerHTML = actual_JSON.Locale.MenuButtons.YouTube;
+        document.getElementById("menu_Discord").innerHTML = actual_JSON.Locale.MenuButtons.Discord;
+        document.getElementById("menu_patreon").innerHTML = actual_JSON.Locale.MenuButtons.Patreon;
     });
     // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
     var touchesAffichage = actual_JSON.Local.KeyNames.array;
