@@ -363,7 +363,7 @@
 		"title": "Q",
 		"letter":"Q",
 		"keyAssociatedFunctions": "Ship/Ground roll left<br>Turret VJoy toggle",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyW":
@@ -371,7 +371,7 @@
 		"title": "W",
 		"letter":"W",
 		"keyAssociatedFunctions": "Strafe/Drive Forward<br><span class=\"modificateur_2\">IM</span> MFD up<br>Turret velocity increase",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyE":
@@ -379,7 +379,7 @@
 		"title": "E",
 		"letter":"E",
 		"keyAssociatedFunctions": "Ship/Ground roll right<br>Turret toggle E.S.P",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyR":
@@ -395,7 +395,7 @@
 		"title": "T",
 		"letter":"T",
 		"keyAssociatedFunctions": "M1 Jettison cargo<br>M1 Unlock target<br>Cycle targets forward<br>Cycle targets under reticle",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.7.3\">6.7.3 Minage (Mining)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.7.3\">6.7.3 Minage (Mining)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyY":
@@ -539,7 +539,7 @@
 		"title": "S",
 		"letter":"S",
 		"keyAssociatedFunctions": "Strafe backward<br>Turret velocity decrease",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyD":
@@ -563,7 +563,7 @@
 		"title": "G",
 		"letter":"G",
 		"keyAssociatedFunctions": "Cycle Gimbal Assist / Standard Gimbal / Gimbal locked<br>Turret Gyroscope toggle",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.4\">4.5.4 Fixed ou Gimbal</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.5\">4.5.5 Gimbal ou Assist (Gimbal Auto)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.4\">4.5.4 Fixed ou Gimbal</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.5\">4.5.5 Gimbal ou Assist (Gimbal Auto)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyH":
@@ -651,7 +651,7 @@
 		"title": "Shift Left",
 		"letter":"Shift",
 		"keyAssociatedFunctions": "Afterburner<br><span class=\"modificateur_6\">Modifier 2</span><br>Turret speed limiter toggle",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.3\">4.1.1.3 Afterburner</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"IntlBackslash":
@@ -683,7 +683,7 @@
 		"title": "C",
 		"letter":"C",
 		"keyAssociatedFunctions": "Cruise control<br>Turret recenter*",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.5\">4.1.1.5 Speed Limiter</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.2\">4.2 Interfaces et HUD</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.5\">4.1.1.5 Speed Limiter</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.2\">4.2 Interfaces et HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyV":
@@ -691,7 +691,7 @@
 		"title": "V",
 		"letter":"V",
 		"keyAssociatedFunctions": "Decoupled mode toggle<br>Turret cycle fire mode",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1\">4.1.1 Les différents modes de pilotage</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.1\">4.1.1.1 Mode couplé (Coupled)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.2\">4.1.1.2 Mode découplé (Decoupled)</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1\">4.1.1 Les différents modes de pilotage</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.1\">4.1.1.1 Mode couplé (Coupled)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.1.2\">4.1.1.2 Mode découplé (Decoupled)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyB":
