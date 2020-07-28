@@ -574,7 +574,7 @@
 
 
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon
-    var data_obj = Promise.resolve(getData(dataPath)).then(r => return r);
+    var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});
     console.log(data);
     console.log(data_obj);
 
