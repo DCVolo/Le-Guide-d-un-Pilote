@@ -450,7 +450,7 @@ img.iconFlagItem{
   grid-gap: 0.2em 0.2em;
           margin: 0em;
       padding: 0.05em;
-  grid-template-areas: "zoneYoutube zoneChapitresLGDPfull" "zoneYoutube zoneActionsTouche";
+  grid-template-areas: "zoneYoutube zoneChapitresLGDPfull" "zoneYoutube zoneActionsTouchefull";
       background-color: #262626;
           box-shadow: -0.1em -0.1em 0.75em rgba(0, 0, 0, 0.6), 0 0 0 0.05em #5c0cb6 inset; 
   border-radius: 0em 0.5em 0.5em 0em;
@@ -518,9 +518,9 @@ img.iconFlagItem{
 
 .zoneYoutube { grid-area: zoneYoutube; }
 
-#zoneChapitresLGDPfull { grid-area: zoneChapitresLGDPfull; line-height: 1.5em; }
+#zoneChapitresLGDPfull { grid-area: zoneChapitresLGDPfull; }
 
-#zoneActionsTouche { grid-area: zoneActionsTouche; line-height: 1.5em; -webkit-font-smoothing: antialiased;}
+#zoneActionsTouchefull { grid-area: zoneActionsTouchefull; }
 
 #zoneChapitresLGDPtitre{
   color: #ff9719;
@@ -541,6 +541,12 @@ img.iconFlagItem{
   font-size: 0.375em;
   line-height: 1em;
   padding: 0.5em 0em 0.5em 0.1em;
+}
+
+#zoneActionsTouche, #zoneChapitresLGDP{
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
 }
 
 #iframeYT{
