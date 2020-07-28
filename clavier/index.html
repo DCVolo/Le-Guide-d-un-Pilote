@@ -577,7 +577,7 @@
     var data_obj = Promise.resolve(getData(dataPath)).then(r => {r.json();});
     console.log(data);
     console.log(data_obj);
-    console.log(Promise.resolve(getData(dataPath)).then(r => {r.json();}));
+    console.log(Promise.all(getData(dataPath)).then(r => Promise.all(result.map(r => r.json())) ));
 
     function loadJSON(callback)
     {        
