@@ -602,14 +602,18 @@
         document.getElementById("menu_YouTube").innerHTML = actual_JSON.Locale.MenuButtons.YouTube;
         document.getElementById("menu_Discord").innerHTML = actual_JSON.Locale.MenuButtons.Discord;
         document.getElementById("menu_patreon").innerHTML = actual_JSON.Locale.MenuButtons.Patreon;
-        (actual_JSON.Locale.KeyNames.array).forEach(element => {touchesAffichage.push(element);});
+        //(actual_JSON.Locale.KeyNames.array).forEach(element => {touchesAffichage.push(element);});
     });
     //var touchesAffichage = Array.from(Object.create(actual_JSON.Locale.KeyNames.array));var touchesAffichage
     // Show & Hide side panels + translate buttons
-    var btnOinfo = document.getElementById('btnInfoOuvert'); btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
-    var btnFinfo = document.getElementById('btnInfoFermer'); btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
-    var btnOsouris = document.getElementById('btnSourisOuvert'); btnOsouris.innerHTML = actual_JSON.Locale.SideButtons.Open;
-    var btnFsouris = document.getElementById('btnSourisFermer'); btnFsouris.innerHTML = actual_JSON.Locale.SideButtons.Close;
+    var btnOinfo = document.getElementById('btnInfoOuvert'); 
+    //btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
+    var btnFinfo = document.getElementById('btnInfoFermer'); 
+    //btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
+    var btnOsouris = document.getElementById('btnSourisOuvert'); 
+    //btnOsouris.innerHTML = actual_JSON.Locale.SideButtons.Open;
+    var btnFsouris = document.getElementById('btnSourisFermer'); 
+    //btnFsouris.innerHTML = actual_JSON.Locale.SideButtons.Close;
     function AfficherInfo() 
     {
         var info = document.getElementById('volet_g');
