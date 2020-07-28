@@ -572,9 +572,9 @@
     getData(dataPath).then(result => {console.log(result);});
 
     //var data_obj = (Promise.resolve(getData(dataPath)); // retourne bien un objet mais pas le bon
-    var data_obj = Promise.resolve(JSON.parse(getData(dataPath)));
+    var data_obj = (Promise.resolve(getData(dataPath));
     console.log(data);
-    console.log(data_obj);
+    console.log(JSON.parse(data_obj);
 
     function loadJSON(callback)
     {
