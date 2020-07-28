@@ -386,7 +386,7 @@
 		{
 		"title": "R",
 		"letter":"R",
-		"keyAssociatedFunctions": "Systems ready<br>Cycle selection forward<br><span class=\"modificateur_1\">M1</span> Swap VJoy/Look direction**",
+		"keyAssociatedFunctions": "Systems ready<br>Cycle selection forward<br><span class=\"modificateur_1\">M1</span> Swap VJoy/Look direction*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.1.2\">6.1.2 Votre première mission</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.2\">4.2 Interfaces et HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1.1\">3.1.1 Les options de jeu</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -394,15 +394,15 @@
 		{
 		"title": "T",
 		"letter":"T",
-		"keyAssociatedFunctions": "M1 Jettison cargo<br>M1 Unlock target<br>Cycle targets forward",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "M1 Jettison cargo<br>M1 Unlock target<br>Cycle targets forward<br>Cycle targets under reticle",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyY":
 		{
 		"title": "Y",
 		"letter":"Y",
-		"keyAssociatedFunctions": "Exit seat<br>Eject*",
+		"keyAssociatedFunctions": "Exit seat/turret<br>Eject*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
