@@ -394,7 +394,7 @@
 		{
 		"title": "T",
 		"letter":"T",
-		"keyAssociatedFunctions": "M1 Jettison cargo<br>M1 Unlock target<br>Cycle targets forward<br>Cycle targets under reticle",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Jettison cargo<br><span class=\"modificateur_1\">M1</span> Unlock target<br>Cycle targets forward<br>Cycle targets under reticle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.7.3\">6.7.3 Minage (Mining)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
