@@ -187,12 +187,12 @@ img.iconFlagItem{
  border-bottom: 0.1em solid #ff9719;
  }
 .KeyDescr { 
-  display: inline-block;
+  display: block;
   text-overflow: ellipsis; 
-  width: 8.525em;
-  height: 7.212em;
+  width: 100%;
+  height: 100%;
   grid-area: KeyDescr;
-  word-break:break-all;
+  word-break:break-word;
   text-align: left;
   vertical-align: bottom;
   font-size: 13%;
