@@ -559,10 +559,21 @@
     var btnFinfo = document.getElementById('btnInfoFermer');
     var btnOsouris = document.getElementById('btnSourisOuvert');
     var btnFsouris = document.getElementById('btnSourisFermer');
+    const fileProfiles = ["flight","foot"];
+    var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
+
+    let url = dataPath;
+    let testJSON;
+    fetch(url).then(res => res.json()).then((out) => 
+    {
+      testJSON = out;
+      console.log('Checkout this JSON! ', out);
+    }).catch(err => { throw err });
+    console.log('PUTAIN DE MERDE ', testJSON);
+
     function loadJSON(callback)
     {
-        const fileProfiles = ["flight","foot"];
-        var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
+        
         var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
         xobj.open('GET', dataPath, true);
@@ -576,6 +587,11 @@
         };
         xobj.send(null);  
     }
+
+
+
+
+
     loadJSON(function(response)
     {
         // Parse JSON string into object
@@ -670,20 +686,14 @@
             var indexOfKeyCode = (element) => element === id;
             queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
             history.replaceState(null, null, "?"+queryParams.toString());
-            // Go fetch 3 values depending of the selected profile and language into "language.json" and put them inside an array
-            /* go fetch les infos de la touche "id"
-               return an array with 3 entries
-                 wich contain
-                   YT link
-                   HTML text -> LGDP info
-                   HTML text -> Actions touche*/
+
             var zonesInfo = ["https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/", " <a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=6.7.6.1\">6.7.6.1 Pirate</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?page=14&titre=4.4.6\">4.4.6 Bombardier</a>", " Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>Action de faire un truc<br>"]; // 
             // Use the array to fill the content
 
             if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
-              document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
+                document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly);
             if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
-              document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
+                document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
             document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
             AfficherInfo();
