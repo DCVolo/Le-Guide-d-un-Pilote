@@ -476,7 +476,7 @@ img.iconFlagItem{
     #btnInfoOuvert, #btnInfoFermer{
       z-index: 10;
       position: absolute;
-      right: -2.3em;
+      right: -2.2em;
       top: 11.5em;
       -webkit-transform: rotate(270deg);
       -moz-transform: rotate(270deg);
@@ -497,7 +497,7 @@ img.iconFlagItem{
     /* code pour la fermeture */
 
     #volet_g:target a.fermer_g {
-      z-index: 10;
+      right: -2.2em;
       display: block;
     }
     #volet_g:target a.ouvrir_g {
@@ -566,7 +566,7 @@ img.iconFlagItem{
     }
     #btnSourisFermer, #btnSourisOuvert{
       position: absolute;
-      left: -2.3em;
+      left: -2.2em;
       top: 11.5em;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
@@ -585,7 +585,7 @@ img.iconFlagItem{
     /* code pour la fermeture */
 
     #volet_d:target a.fermer_d {
-      left: -2.3em;
+      left: -2.2em;
       display: block;
     }
     #volet_d:target a.ouvrir_d {
