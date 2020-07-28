@@ -144,57 +144,6 @@ img.iconFlagItem{
 }
 
 
-/*button span {
-  display: inline-block;
-}
-button > span {
-  margin: auto;
-  padding: 0.2em 0.375em;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  font-size: 0.5em;
-  line-height: 2;
-  transform: translateY(-50%) scaleX(0.875);
-  width: 100%;
-}*/
-
-
-.derp {
-  width:100%;
-  margin:auto;
-  overflow: hidden;
-  text-overflow: ellipsis; 
-  display: flex;
-}
-.bloc {
-  font-size: 1.2em;
-  text-align: left;
-  word-break:break-all;
-  word-wrap: break-word;
-}
-.group-letter{
-  float: right;
-  border-left: 0.1em solid #ff9719;
-  border-bottom: 0.1em solid #ff9719;
-  padding: 0.1em 0.1em 0.5em 0em;
-}
-.letter{
-  color: white;
-  font-size: 1em;
-  text-align: center;
-  margin: 0.5em;
-  font-weight: bolder;
-}
-
-.letter1{
-  color: white;
-  font-size: 0.9em;
-  text-align: center;
-  margin: 0.3em;
-  font-weight: bolder;
-}
-
 
 /* Keyboard */
 .keyboard {
