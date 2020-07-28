@@ -723,8 +723,15 @@
     function fromUrlShowLeftSidePanel()
     {
         var indexOfKeyCode = (element) => element == getAllUrlParams().key;
-        if(touchesAffichage.findIndex(indexOfKeyCode));
-            chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
+        loadJSON(function(response)
+        {
+            // Parse JSON string into object
+            actual_JSON = JSON.parse(response);
+            var touchesAffichage = actual_JSON.Locale.KeyNames.array;
+            if(touchesAffichage.findIndex(indexOfKeyCode));
+                chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
+        });
+
     }
     fromUrlShowLeftSidePanel();
 
