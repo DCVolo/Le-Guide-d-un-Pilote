@@ -194,7 +194,7 @@
 		{
 		"title": "One",
 		"letter":"1",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 1<br><br>Select pin 1<br>Pin target 1*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 1<br>Select pin 1<br>Pin target 1*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -202,7 +202,7 @@
 		{
 		"title": "Two",
 		"letter":"2",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 2<br><br>Select pin 2<br>Pin target 2*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 2<br>Select pin 2<br>Pin target 2*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -210,7 +210,7 @@
 		{
 		"title": "Three",
 		"letter":"3",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 3<br><br>Select pin 3<br>Pin target 3*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 3<br>Select pin 3<br>Pin target 3*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
