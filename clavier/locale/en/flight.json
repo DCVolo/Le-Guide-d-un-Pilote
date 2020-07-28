@@ -13,8 +13,8 @@
 		"MenuProfiles":
 		{
 			"Profile": "Profile",
-			"Flight": "Flight",
-			"Foot": "Foot"
+			"Flight": "Ship / Ground / Turret vehicles",
+			"Foot": "Foot / E.V.A"
 		},
 		"MenuButtons":
 		{
@@ -146,7 +146,7 @@
 		{
 		"title": "F11",
 		"letter":"F11",
-		"keyAssociatedFunctions": "Contacts",
+		"keyAssociatedFunctions": "mobiGlas Commlink",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.2.2\">6.2.2 Commlink</a><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.8.3.1\">6.8.3.1 Contrôleur aérien (Flight Controller)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -194,7 +194,7 @@
 		{
 		"title": "One",
 		"letter":"1",
-		"keyAssociatedFunctions": "Reticle Focus<br>Pin target*<br>M1 Target nearest enemy",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 1<br><br>Select pin 1<br>Pin target 1*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -202,7 +202,7 @@
 		{
 		"title": "Two",
 		"letter":"2",
-		"keyAssociatedFunctions": "Cycle subtarget forward<br>Reset subtarget*<br>M1 Target subtarget backward",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 2<br><br>Select pin 2<br>Pin target 2*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -210,7 +210,7 @@
 		{
 		"title": "Three",
 		"letter":"3",
-		"keyAssociatedFunctions": "Cycle enemy targets forward<br>M1 Cycle enemy targets backward",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 3<br><br>Select pin 3<br>Pin target 3*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -218,7 +218,7 @@
 		{
 		"title": "Four",
 		"letter":"4",
-		"keyAssociatedFunctions": "Cycle pinned targets<br>M1 cycle pinned targets backward",
+		"keyAssociatedFunctions": "Cycle attackers forward<br><span class=\"modificateur_1\">M1</span> Closest attacker",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -226,7 +226,7 @@
 		{
 		"title": "Five",
 		"letter":"5",
-		"keyAssociatedFunctions": "Cycle friendly targets<br>M1 Cycle friendly targets backward",
+		"keyAssociatedFunctions": "Cycle hostiles forward<br><span class=\"modificateur_1\">M1</span> Closest hostile",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -234,7 +234,7 @@
 		{
 		"title": "Six",
 		"letter":"6",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Cycle friends forward<br><span class=\"modificateur_1\">M1</span> Closest friend",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -242,7 +242,7 @@
 		{
 		"title": "Seven",
 		"letter":"7",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Cycle all forward<br><span class=\"modificateur_1\">M1</span> Closest all",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -250,7 +250,7 @@
 		{
 		"title": "Eight",
 		"letter":"8",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Cycle subtarget forward<br><span class=\"modificateur_1\">M1</span> Reset to main target",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -258,7 +258,7 @@
 		{
 		"title": "Nine",
 		"letter":"9",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Hail target",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -266,7 +266,7 @@
 		{
 		"title": "Zero",
 		"letter":"0",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Remove all pinned targets",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -330,31 +330,31 @@
 		{
 		"title": "Numpad Divide",
 		"letter":"/",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Head tracking toggle",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadMultiply":
 		{
 		"title": "Numpad Multiply",
 		"letter":"*",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Reset view",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Reset view<br>FOIP recalibrate",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadSubtract":
 		{
 		"title": "Numpad Subtract",
 		"letter":"-",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Decrease FoV",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Decrease FoV<br>FOIP selfie cam",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Tab":
 		{
 		"title": "Tabulate",
 		"letter":"Tab",
-		"keyAssociatedFunctions": "<span class=\"modificateur_3\">Scan mode toggle</span><br>Scoreboard*<br><span class=\"modificateur_2\">IM</span> P.I.T<br><span class=\"modificateur_6\">M2</span> Flight mode wheel*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_3\">Scan mode toggle</span><br>Scoreboard*<br><span class=\"modificateur_1\">M1</span> P.I.T",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.4\">4.3.4 Radar & Informations</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.4.1\">4.3.4.1 Les interfaces</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.4.2\">4.3.4.2 Radar 2D</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.4.3\">4.3.4.3 Radar 3D</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.4.4\">4.3.4.4 Radar Holographique</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.2\">4.5.2 Scanners actif et passif</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.2.1\">4.5.2.1 Scanner Passif</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.2.2\">4.5.2.2 Scanner Actif</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.1\">5.1 Interactions & choix</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>  ",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -362,7 +362,7 @@
 		{
 		"title": "Q",
 		"letter":"Q",
-		"keyAssociatedFunctions": "Roll left",
+		"keyAssociatedFunctions": "Ship/Ground roll left<br>Turret VJoy toggle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -370,7 +370,7 @@
 		{
 		"title": "W",
 		"letter":"W",
-		"keyAssociatedFunctions": "Strafe Forward",
+		"keyAssociatedFunctions": "Strafe/Drive Forward<br><span class=\"modificateur_2\">IM</span> MFD up<br>Turret velocity increase",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -378,7 +378,7 @@
 		{
 		"title": "E",
 		"letter":"E",
-		"keyAssociatedFunctions": "Roll right",
+		"keyAssociatedFunctions": "Ship/Ground roll right<br>Turret toggle E.S.P",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -386,15 +386,15 @@
 		{
 		"title": "R",
 		"letter":"R",
-		"keyAssociatedFunctions": "Flight ready<br>Toggle gimbal mode<br><span class=\"modificateur_1\">M1</span> Look ahead",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.1.2\">6.1.2 Votre première mission</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.2\">4.2 Interfaces et HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1.1\">3.1.1 Les options de jeu</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.9\">4.5.9 Look Ahead Mode (LAM)</a>",
+		"keyAssociatedFunctions": "Systems ready<br>Cycle selection forward<br><span class=\"modificateur_1\">M1</span> Swap VJoy/Look direction**",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.1.2\">6.1.2 Votre première mission</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.2\">4.2 Interfaces et HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1.1\">3.1.1 Les options de jeu</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyT":
 		{
 		"title": "T",
 		"letter":"T",
-		"keyAssociatedFunctions": "Toggle Lights",
+		"keyAssociatedFunctions": "M1 Jettison cargo<br>M1 Unlock target<br>Cycle targets forward",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -594,8 +594,8 @@
 		{
 		"title": "L",
 		"letter":"L",
-		"keyAssociatedFunctions": "Headlights (toggle)",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Headlights (toggle)<br><br><span class=\"modificateur_1\">M1</span> Look ahead toggle",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=4.5.9\">4.5.9 Look Ahead Mode (LAM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Semicolon":
