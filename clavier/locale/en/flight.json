@@ -13,7 +13,7 @@
 		"MenuProfiles":
 		{
 			"Profile": "Profile",
-			"Flight": "Ship / Ground / Turret vehicles",
+			"Flight": "(Ship / Ground) vehicles + Turret ",
 			"Foot": "Foot / E.V.A"
 		},
 		"MenuButtons":
