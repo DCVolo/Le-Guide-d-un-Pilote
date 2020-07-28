@@ -555,10 +555,10 @@
     document.documentElement.lang = getAllUrlParams().lang;
     document.documentElement.dir = localize("%locale.dir", document.documentElement.dir);
     // Define the path to the "profile.json" depending of the user URL's parameters and make a HTTP request to load the file
+    const fileProfiles = ["flight","foot"];
+    var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
     function loadJSON(callback)
     {
-        const fileProfiles = ["flight","foot"];
-        var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
         var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
         xobj.open('GET', dataPath, true);
