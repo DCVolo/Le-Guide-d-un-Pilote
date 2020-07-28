@@ -185,6 +185,7 @@ img.iconFlagItem{
  line-height: 1em;
  border-left: 0.1em solid #ff9719;
  border-bottom: 0.1em solid #ff9719;
+ padding-right: 0.3em;
  }
 .KeyDescr { 
   display: block;
