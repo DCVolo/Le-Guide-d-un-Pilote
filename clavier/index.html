@@ -562,14 +562,11 @@
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
-    let testJSON;
-    fetch(dataPath).then(
-        function(u){ return u.json();}
-      ).then(
-        function(json){
-          testJSON = json;
-        }
-      )
+    const testJSON = [];
+fetch(dataPath)
+    .then(response => response.json())
+    .then(result => data.push(...result));
+    
     console.log('PUTAIN DE MERDE ', testJSON);
 
     function loadJSON(callback)
