@@ -569,19 +569,16 @@
         {
               if (xobj.readyState == 4 && xobj.status == "200") 
               {
-                actual_JSON = JSON.parse(xobj.responseText);
                 // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-                //callback(xobj.responseText);
+                callback(xobj.responseText);
               }
         };
         xobj.send(null);  
     }
-    console.log(actual_JSON);
     loadJSON(function(response)
     {
         // Parse JSON string into object
         actual_JSON = JSON.parse(response);
-        console.log(actual_JSON);
         keyCodeQwerty.forEach(element => 
         {
           var key = document.getElementById(element);
