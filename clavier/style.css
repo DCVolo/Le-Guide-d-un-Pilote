@@ -523,11 +523,13 @@ img.iconFlagItem{
 #zoneActionsTouche { grid-area: zoneActionsTouche; line-height: 1.5em; -webkit-font-smoothing: antialiased;}
 
 #zoneChapitresLGDPtitre{
-  box-shadow: -0.1em -0.1em 0.75em rgba(0, 0, 0, 0.6), 0 0 0 0.05em #5c0cb6 inset; 
+
+  border-left: 0.1em solid #5c0cb6;
+  border-bottom: 0.1em solid #5c0cb6;
   border-radius: 0em 0.5em 0.5em 0em;
   font-size: 0.375em;
   line-height: 1em;
-  padding: 0.5em 0em 0.5em 0em;
+  padding: 0.5em 0em 0.5em 0.1em;
 }
 
 #iframeYT{
