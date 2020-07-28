@@ -544,7 +544,7 @@ img.iconFlagItem{
 }
 
 #zoneActionsTouche, #zoneChapitresLGDP{
-  padding: 0.2em 0.2em 0.2em 0.2em;
+  padding: 1.2em 0.2em 0.2em 0.2em;
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased;
 }
