@@ -51,8 +51,8 @@
         <div class="zoneYoutube"><div id="player"></div><iframe id="iframeYT" title="YouTube" src="../images/icons/YT-workingOnIt.svg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><!-- https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/ -->
         <div id="zoneChapitresLGDP" class="xxxs"></div>
         <div id="zoneActionsTouche" class="xxxs"></div>        
-        <button id="btnInfoFermer" type="button" name="" class="fermer_g sm">Fermer !</button>
-        <button id="btnInfoOuvert" type="button" name="" class="ouvrir_g sm">Ouvrir !</button>
+        <button id="btnInfoFermer" type="button" name="" class="fermer_g sm"></button>
+        <button id="btnInfoOuvert" type="button" name="" class="ouvrir_g sm"></button>
     </div>
   </div>
 
@@ -64,8 +64,8 @@
         <div class="zoneSideButton xxxs"></div>
         <div class="zoneMolette xxxs"></div>
         <div class="zoneClicGauche xxxs"></div>
-        <button id="btnSourisFermer" type="button" name="" class="fermer_d sm">Fermer !</button>
-        <button id="btnSourisOuvert" type="button" name="" class="ouvrir_d sm">Ouvrir !</button>
+        <button id="btnSourisFermer" type="button" name="" class="fermer_d sm"></button>
+        <button id="btnSourisOuvert" type="button" name="" class="ouvrir_d sm"></button>
     </div>
   </div>
 
@@ -558,6 +558,10 @@
 
 <script>
     var actual_JSON;
+    var btnOinfo = document.getElementById('btnInfoOuvert');
+    var btnFinfo = document.getElementById('btnInfoFermer');
+    var btnOsouris = document.getElementById('btnSourisOuvert');
+    var btnFsouris = document.getElementById('btnSourisFermer');
     function loadJSON(callback)
     {
         const fileProfiles = ["flight","foot"];
@@ -587,14 +591,34 @@
           key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
           key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
         });
-    });
+        btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
+        btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
+        btnOsouris.innerHTML = actual_JSON.Locale.SideButtons.Open;
+        btnFsouris.innerHTML = actual_JSON.Locale.SideButtons.Close;
+        document.getElementById("modificateur_1").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier1;
+        document.getElementById("modificateur_2").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier2;
+        document.getElementById("modificateur_3").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier3;
+        document.getElementById("modificateur_4").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier4;
+        document.getElementById("modificateur_5").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier5;
+        document.getElementById("modificateur_6").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier6;
+        document.getElementById("modificateur_7").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier7;
+        document.getElementById("modificateur_8").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier8;
+        document.getElementById("changerLangue").innerHTML = actual_JSON.Locale.MenuButtonLang.Lang;
+        document.getElementById("changerProfil").innerHTML = actual_JSON.Locale.MenuProfiles.Profile;
+        document.getElementById("profile_flight").innerHTML = actual_JSON.Locale.MenuProfiles.Flight;
+        document.getElementById("profile_foot").innerHTML = actual_JSON.Locale.MenuProfiles.Foot;
+        document.getElementById("changerMenu").innerHTML = actual_JSON.Locale.MenuButtons.Menu;
+        document.getElementById("menu_InstallerApplication").innerHTML = actual_JSON.Locale.MenuButtons.Application;
+        document.getElementById("menu_AjouterLangue").innerHTML = actual_JSON.Locale.MenuButtons.TranslateForm;
+        document.getElementById("menu_YouTube").innerHTML = actual_JSON.Locale.MenuButtons.YouTube;
+        document.getElementById("menu_Discord").innerHTML = actual_JSON.Locale.MenuButtons.Discord;
+        document.getElementById("menu_patreon").innerHTML = actual_JSON.Locale.MenuButtons.Patreon;
     // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
     var touchesAffichage = ["escape","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","printscreen","scrolllock","pause","backquote","digit1","digit2","digit3","digit4","digit5","digit6","digit7","digit8","digit9","digit0","minus","equal","backspace","insert","home","pageup","numlock","numpaddivide","numpadmultiply","numpadsubtract","tab","q","w","e","r","t","y","u","i","o","p","bracketleft","bracketright","enter","delete","end","pagedown","numpad7","numpad8","numpad9","numpadadd","capslock","a","s","d","f","g","h","j","k","l","semicolon","quote","backslash","numpad4","numpad5","numpad6","shiftleft","intlbackslash","z","x","c","v","b","n","m","comma","period","slash","shiftright","arrowup","numpad1","numpad2","numpad3","numpadenter","controlleft","metaleft","altleft","space","altright","metaright","contextmenu","controlright","arrowleft","arrowdown","arrowright","numpad0","numpaddecimal"];
     // Show & Hide side panels
-    var btnOinfo = document.getElementById('btnInfoOuvert');
-    var btnFinfo = document.getElementById('btnInfoFermer');
-    var btnOsouris = document.getElementById('btnSourisOuvert');
-    var btnFsouris = document.getElementById('btnSourisFermer');
+     btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
+     btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
+    
     function AfficherInfo() 
     {
         var info = document.getElementById('volet_g');
