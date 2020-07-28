@@ -532,6 +532,16 @@ img.iconFlagItem{
   padding: 0.5em 0em 0.5em 0.1em;
 }
 
+#zoneActionsTouchetitre{
+    color: #ff9719;
+  border-left: 0.1em solid #5c0cb6;
+  border-bottom: 0.1em solid #5c0cb6;
+  border-radius: 0em 0.5em 0.5em 0em;
+  font-size: 0.375em;
+  line-height: 1em;
+  padding: 0.5em 0em 0.5em 0.1em;
+}
+
 #iframeYT{
   width: 100%;
   height: 100%;
