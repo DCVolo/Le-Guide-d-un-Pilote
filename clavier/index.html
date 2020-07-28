@@ -570,11 +570,12 @@
     }
 
     async function main() {
-        const data = await getData(dataPath);
+        data = await getData(dataPath);
 
         console.log(data)
     }
     main();
+    console.log(data);
 
     function loadJSON(callback)
     {
