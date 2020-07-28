@@ -204,12 +204,32 @@ img.iconFlagItem{
   padding-top: 1%;
   padding-bottom: 5%;
   scrollbar-color: #888888 #202324;
-  scrollbar-height: 12px;
+  scrollbar-height: 0.1em;
 }
 @-moz-document url-prefix() {
   .KeyDescr {padding-bottom: 15%; line-height: 100%;}
 }
 
+::-webkit-scrollbar {
+  background-color: #202324;
+  color: #aba499;
+  width: 0.1em;
+  height: 0.1em;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2c2e2e; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 /* Button size */
 .btn0 {
