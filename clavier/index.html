@@ -567,7 +567,7 @@ fetch(dataPath)
     .then(response => response.json())
     .then(result => data.push(...result));
     
-    console.log('PUTAIN DE MERDE ', testJSON);
+    console.log('PUTAIN DE MERDE ', JSON.parse(testJSON));
 
     function loadJSON(callback)
     {
