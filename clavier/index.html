@@ -603,11 +603,11 @@
     });
     // Array containing the localized name of the keys, this will change depending of the loaded language (language.json)
     var touchesAffichage = actual_JSON.Locale.KeyNames.array;
-    // Show & Hide side panels
-    var btnOinfo = document.getElementById('btnInfoOuvert');
-    var btnFinfo = document.getElementById('btnInfoFermer');
-    var btnOsouris = document.getElementById('btnSourisOuvert');
-    var btnFsouris = document.getElementById('btnSourisFermer');
+    // Show & Hide side panels + translate buttons
+    var btnOinfo = document.getElementById('btnInfoOuvert'); btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
+    var btnFinfo = document.getElementById('btnInfoFermer'); btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
+    var btnOsouris = document.getElementById('btnSourisOuvert'); btnOsouris.innerHTML = actual_JSON.Locale.SideButtons.Open;
+    var btnFsouris = document.getElementById('btnSourisFermer'); btnFsouris.innerHTML = actual_JSON.Locale.SideButtons.Close;
     function AfficherInfo() 
     {
         var info = document.getElementById('volet_g');
