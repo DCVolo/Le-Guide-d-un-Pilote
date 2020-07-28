@@ -189,7 +189,7 @@ img.iconFlagItem{
 .KeyDescr { 
   display: inline-block;
   text-overflow: ellipsis; 
-  width:100%;
+  width: 8.525em;
   height: 100%;
   grid-area: KeyDescr;
   word-break:break-all;
