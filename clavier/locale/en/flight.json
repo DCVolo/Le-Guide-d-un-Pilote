@@ -40,8 +40,8 @@
 			"Modifier4": "MG Mining Mode",
 			"Modifier5": "AC Advanced Cam Mode",
 			"Modifier6": "M2 Modifier 2",
-			"Modifier7": "Hold",
-			"Modifier8": "Double Tap"
+			"Modifier7": "* Hold",
+			"Modifier8": "** Double Tap"
 		}
 	},
 	"Mouse":
