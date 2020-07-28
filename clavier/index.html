@@ -562,15 +562,18 @@
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
-    let testJSON = [];
-    fetch(dataPath).then(
-        function(u){ return u.json();}
-      ).then(
-        function(json){
-          testJSON = json;
-        }
-      )
-    console.log('PUTAIN DE MERDE ', JSON.parse(testJSON));
+    let data = [];
+    async function getData(url) {
+        const response = await fetch(url);
+
+        return response.json()
+    }
+
+    async function main() {
+        const data = await getData(dataPath);
+
+        console.log(data)
+    }
 
     function loadJSON(callback)
     {
