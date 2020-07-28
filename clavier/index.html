@@ -749,9 +749,8 @@
     allNotTranslatedLanguages.forEach(element => {document.getElementById(element).setAttribute("href", "https://forms.gle/DkP2tCvHnZMt266Q9");});
     // For each itemp of all profile : set the link, but keep the value of the URL parameter of lang / key / mouse
     document.getElementById("topLogoProfileCourant").setAttribute("src", "../images/icons/profiles/" + getAllUrlParams().profile + ".svg"); // TODO vérifier qu'on possède bien le profile
-    const allProfiles = ["profile_flight","profile_foot"];
-    var indexOfProfiles = 1;
-    allProfiles.forEach(element => {document.getElementById(element).setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profile="+ indexOfProfiles + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse); ++indexOfProfiles;});
+    const allProfiles = ["1","2"];  // profiles 1 = flight ground turret, 2 = Foot EVA
+    allProfiles.forEach(element => {document.getElementById(element).setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profile="+ element + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse); ++indexOfProfiles;});
     // Set the cookie checkbox in the Menu depending of the user's cookies preference (GDPR)
     var checkbox = document.getElementById("cookieCheckbox");
     if (myCookie == 0){checkbox.checked = false;}
