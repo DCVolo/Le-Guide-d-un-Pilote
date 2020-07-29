@@ -560,7 +560,7 @@
 		{
 		"title": "F",
 		"letter":"F",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "<span class=\"modificateur_2\">Interaction Mode</span>",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -568,7 +568,7 @@
 		{
 		"title": "G",
 		"letter":"G",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Throw grenade<br>Hold grenade*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -584,7 +584,7 @@
 		{
 		"title": "J",
 		"letter":"J",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Customize weapon",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -632,24 +632,24 @@
 		{
 		"title": "Numpad Four",
 		"letter":"4",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Emote Yes<br><span class=\"modificateur_5\">AC</span> Load / save 4*",
+		"chaptersLGDP": "<br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad5":
 		{
 		"title": "Numpad Five",
 		"letter":"5",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Emote Forward<br><span class=\"modificateur_5\">AC</span> Load / save 5*",
+		"chaptersLGDP": "<br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad6":
 		{
 		"title": "Numpad Six",
 		"letter":"6",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Emote No<br><span class=\"modificateur_5\">AC</span> Load / save 6*",
+		"chaptersLGDP": "<br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ShiftLeft":
