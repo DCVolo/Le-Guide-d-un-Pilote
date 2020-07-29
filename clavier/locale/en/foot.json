@@ -40,7 +40,7 @@
 		},
 		"ModifiersLegend":
 		{
-			"Modifier1": "M1 Modifier 2",
+			"Modifier1": "M1 Modifier 1",
 			"Modifier2": "IM Interaction Mode",
 			"Modifier3": "ADS Aim Down Sight",
 			"Modifier4": "PN Prone Active",
@@ -680,7 +680,7 @@
 		{
 		"title": "X",
 		"letter":"X",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "span class=\"modificateur_4\">Prone</span><br>span class=\"modificateur_1\">M1</span> Wipe helmet visor<br>EVA Brake<br>Electronic Access respawn",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -688,7 +688,7 @@
 		{
 		"title": "C",
 		"letter":"C",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Heal (medpen)",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -696,7 +696,7 @@
 		{
 		"title": "V",
 		"letter":"V",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Cycle fire mode",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -704,7 +704,7 @@
 		{
 		"title": "B",
 		"letter":"B",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Refill oxygen (oxypen)",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -720,7 +720,7 @@
 		{
 		"title": "M",
 		"letter":"M",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "span class=\"modificateur_1\">M1</span> PIT:mining<br>",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
