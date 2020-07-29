@@ -37,7 +37,7 @@ body, button {
 button {
   background-color: #222426;
   border: 0;
-  border-radius: 0.125em;
+  border-radius: 0.125em 0.125em 0em 0.125em;
   box-shadow:
     -0.01em -0.025em 0.05em rgba(0, 0, 0, 0.25),
     0 0 0 0.025em rgba(0, 0, 0, 0.3), 
@@ -177,7 +177,6 @@ img.iconFlagItem{
   grid-template-rows: 1fr 5fr;
   gap: 0em 0em;
   grid-template-areas: ". KeyLetter" "KeyDescr KeyDescr";
-  
 }
 .KeyLetter {
  grid-area: KeyLetter;
@@ -204,7 +203,8 @@ img.iconFlagItem{
   padding-top: 1%;
   padding-bottom: 5%;
   scrollbar-color: #888888 #202324;
-  scrollbar-height: 0.1em;
+  scrollbar-height: 0.25em;
+  scrollbar-width: 0.25em;
 }
 @-moz-document url-prefix() {
   .KeyDescr {padding-bottom: 15%; line-height: 100%;}
