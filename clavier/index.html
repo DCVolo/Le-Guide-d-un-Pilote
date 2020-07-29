@@ -570,11 +570,11 @@
         .then(response => response.json())
         .then(result => data = result);
     }
-    console.log(data);
+    //console.log(data);
     getData(dataPath).then(result => {console.log(result);}); // -> ICI <- ça me donne bien le JSON mais je peux pas le sortir en variable globale
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon (un Promise)
     var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});    
-    console.log(data_obj);
+    //console.log(data_obj);
     // FIN BORDEL
 
     // Function to get JSON from URL
@@ -589,7 +589,7 @@
               {
                 // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
                 callback(xobj.responseText);
-                console.log("xobj", xobj.responseText);
+                //console.log("xobj", xobj.responseText);
               }
         };
         xobj.send(null);  
@@ -728,21 +728,17 @@
     // Allow to hide left panel by typing the same key a second time
     function logKey(e) 
     {
-      console.log("avant JS" + e.code);
         loadJSON(function(response)
         {
             // Parse JSON string into object
             actual_JSON = JSON.parse(response);
             var touchesAffichage = actual_JSON.Locale.KeyNames.array;
-            console.log("après JS" + e.code);
             var indexOfKeyCode = (element) => element == getAllUrlParams().key;
             if(e.code == keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)])
             {
-                console.log("cacher");
                 CacherInfo();
             }
             else{
-                console.log("afficher");
                 chargerInfoTouche(e.code);
             }
         });      
