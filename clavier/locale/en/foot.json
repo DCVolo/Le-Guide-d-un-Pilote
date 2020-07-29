@@ -64,24 +64,24 @@
 		{
 		"title": "Escape",
 		"letter":"Esc",
-		"keyAssociatedFunctions": "Pause<br>Option",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=3.1\">3.1 Les options</a>",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F1":
 		{
 		"title": "F1",
 		"letter":"F1",
-		"keyAssociatedFunctions": "mobiGlas",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.2\">6.2 mobiGlas</a>",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F2":
 		{
 		"title": "F2",
 		"letter":"F2",
-		"keyAssociatedFunctions": "Starmap",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=6.2.5\">6.2.5 Skyline</a>",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F3":
@@ -96,806 +96,806 @@
 		{
 		"title": "F4",
 		"letter":"F4",
-		"keyAssociatedFunctions": "Cycle Camera View<br><span class=\"modificateur_5\">Advanced Cam*</span>",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
+		"keyAssociatedFunctions": "",
+		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F5":
 		{
 		"title": "F5",
 		"letter":"F5",
-		"keyAssociatedFunctions": "Increase Engine Power (Decrease others)",
+		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F6":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F6",
+		"letter":"F6",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F7":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F7",
+		"letter":"F7",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F8":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F8",
+		"letter":"F8",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F9":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F9",
+		"letter":"F9",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F10":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F10",
+		"letter":"F10",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F11":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F11",
+		"letter":"F11",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"F12":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F12",
+		"letter":"F12",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"PrintScreen":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Print Screen",
+		"letter":"Prt Sc",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ScrollLock":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Scroll Lock",
+		"letter":"Scr Lk",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Pause":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Pause",
+		"letter":"Pause",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Backquote":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Tilde",
+		"letter":"~",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit1":
 		{
-		"title": "",
-		"letter":"",
+		"title": "One",
+		"letter":"1",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit2":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Two",
+		"letter":"2",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit3":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Three",
+		"letter":"3",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit4":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Four",
+		"letter":"4",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit5":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Five",
+		"letter":"5",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit6":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Six",
+		"letter":"6",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit7":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Seven",
+		"letter":"7",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit8":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Eight",
+		"letter":"8",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit9":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Nine",
+		"letter":"9",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit0":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Zero",
+		"letter":"0",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Minus":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Minus",
+		"letter":"-",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Equal":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Equal",
+		"letter":"=",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Backspace":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Backspace",
+		"letter":"←",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Insert":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Insert",
+		"letter":"Ins",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Home":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Home",
+		"letter":"Home",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"PageUp":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Page Up",
+		"letter":"▲",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumLock":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Lock",
+		"letter":"Num Lk",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadDivide":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Divide",
+		"letter":"/",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadMultiply":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Multiply",
+		"letter":"*",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadSubtract":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Subtract",
+		"letter":"-",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Tab":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Tabulate",
+		"letter":"Tab",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyQ":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Q",
+		"letter":"Q",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyW":
 		{
-		"title": "",
-		"letter":"",
+		"title": "W",
+		"letter":"W",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyE":
 		{
-		"title": "",
-		"letter":"",
+		"title": "E",
+		"letter":"E",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyR":
 		{
-		"title": "",
-		"letter":"",
+		"title": "R",
+		"letter":"R",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyT":
 		{
-		"title": "",
-		"letter":"",
+		"title": "T",
+		"letter":"T",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyY":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Y",
+		"letter":"Y",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyU":
 		{
-		"title": "",
-		"letter":"",
+		"title": "U",
+		"letter":"U",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyI":
 		{
-		"title": "",
-		"letter":"",
+		"title": "I",
+		"letter":"I",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyO":
 		{
-		"title": "",
-		"letter":"",
+		"title": "O",
+		"letter":"O",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyP":
 		{
-		"title": "",
-		"letter":"",
+		"title": "P",
+		"letter":"P",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"BracketLeft":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Bracket Left",
+		"letter":"[",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"BracketRight":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Bracket Right",
+		"letter":"]",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Enter":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Enter",
+		"letter":"Enter◄┘",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Delete":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Delete",
+		"letter":"Del",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"End":
 		{
-		"title": "",
-		"letter":"",
+		"title": "End",
+		"letter":"End",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"PageDown":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Page Down",
+		"letter":"▼",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad7":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Seven",
+		"letter":"7",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad8":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Eight",
+		"letter":"8",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad9":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Nine",
+		"letter":"9",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadAdd":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Addition",
+		"letter":"+",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"CapsLock":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Caps Lock",
+		"letter":"Caps",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyA":
 		{
-		"title": "",
-		"letter":"",
+		"title": "A",
+		"letter":"A",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyS":
 		{
-		"title": "",
-		"letter":"",
+		"title": "S",
+		"letter":"S",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyD":
 		{
-		"title": "",
-		"letter":"",
+		"title": "D",
+		"letter":"D",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyF":
 		{
-		"title": "",
-		"letter":"",
+		"title": "F",
+		"letter":"F",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyG":
 		{
-		"title": "",
-		"letter":"",
+		"title": "G",
+		"letter":"G",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyH":
 		{
-		"title": "",
-		"letter":"",
+		"title": "H",
+		"letter":"H",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyJ":
 		{
-		"title": "",
-		"letter":"",
+		"title": "J",
+		"letter":"J",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyK":
 		{
-		"title": "",
-		"letter":"",
+		"title": "K",
+		"letter":"K",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyL":
 		{
-		"title": "",
-		"letter":"",
+		"title": "L",
+		"letter":"L",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Semicolon":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Semicolon",
+		"letter":";",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Quote":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Quote",
+		"letter":"\"",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Backslash":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Backslash",
+		"letter":"\\",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad4":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Four",
+		"letter":"4",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad5":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Five",
+		"letter":"5",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad6":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Six",
+		"letter":"6",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ShiftLeft":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Shift Left",
+		"letter":"Shift",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"IntlBackslash":
 		{
-		"title": "",
-		"letter":"",
+		"title": "IntlBackslash",
+		"letter":"\\|",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyZ":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Z",
+		"letter":"Z",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyX":
 		{
-		"title": "",
-		"letter":"",
+		"title": "X",
+		"letter":"X",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyC":
 		{
-		"title": "",
-		"letter":"",
+		"title": "C",
+		"letter":"C",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyV":
 		{
-		"title": "",
-		"letter":"",
+		"title": "V",
+		"letter":"V",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyB":
 		{
-		"title": "",
-		"letter":"",
+		"title": "B",
+		"letter":"B",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyN":
 		{
-		"title": "",
-		"letter":"",
+		"title": "N",
+		"letter":"N",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyM":
 		{
-		"title": "",
-		"letter":"",
+		"title": "M",
+		"letter":"M",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Comma":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Comma",
+		"letter":",",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Period":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Period",
+		"letter":".",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Slash":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Slash",
+		"letter":"/",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ShiftRight":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Shift Right",
+		"letter":"Shift",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ArrowUp":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Arrow Up",
+		"letter":"▲",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad1":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad One",
+		"letter":"1",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad2":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Two",
+		"letter":"2",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad3":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Three",
+		"letter":"3",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadEnter":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Enter",
+		"letter":"Enter",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ControlLeft":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Control Left",
+		"letter":"Ctrl",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"MetaLeft":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Windows Left",
+		"letter":"⊞ Win",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"AltLeft":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Alt Left",
+		"letter":"Alt",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Space":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Space",
+		"letter":"Space",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"AltRight":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Alt Right",
+		"letter":"Alt",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"MetaRight":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Windows Right",
+		"letter":"⊞ Win",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ContextMenu":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Contextual Menu",
+		"letter":"Menu",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ControlRight":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Control Right",
+		"letter":"Ctrl",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ArrowLeft":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Arrow Left",
+		"letter":"◄",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ArrowDown":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Arrow Down",
+		"letter":"▼",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"ArrowRight":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Arrow Right",
+		"letter":"►",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad0":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Zero",
+		"letter":"0",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadDecimal":
 		{
-		"title": "",
-		"letter":"",
+		"title": "Numpad Decimal",
+		"letter":".",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
