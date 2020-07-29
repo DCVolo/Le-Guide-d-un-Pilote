@@ -16,12 +16,6 @@
 			"Flight": "(Ship / Ground) vehicles + Turret ",
 			"Foot": "Foot / E.V.A"
 		},
-		"MenuProfiles":
-		{
-			"Profile": "Profile",
-			"Flight": "Flight",
-			"Foot": "Foot"
-		},
 		"MenuButtons":
 		{
 			"Menu": "Menu",
@@ -656,7 +650,7 @@
 		{
 		"title": "Shift Left",
 		"letter":"Shift",
-		"keyAssociatedFunctions": "EVA Afterburner<br>ADS Hold Breath<br>Sprint",
+		"keyAssociatedFunctions": "EVA Afterburner<br><span class=\"modificateur_3\">ADS</span> Hold Breath<br>Sprint",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
