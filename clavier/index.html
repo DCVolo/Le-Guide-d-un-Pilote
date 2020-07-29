@@ -723,7 +723,23 @@
     }
     // AFTER disabling the browser function keys : use the inputs KeyUp to load and show information of the key (KeyDown does not work will all keys : e.g print screen)
     document.addEventListener('keyup', logKey);
-    function logKey(e) {chargerInfoTouche(e.code);}
+    // Allow to hide left panel by typing the same key a second time
+    function logKey(e) 
+    {
+        loadJSON(function(response)
+        {
+            // Parse JSON string into object
+            actual_JSON = JSON.parse(response);
+            var touchesAffichage = actual_JSON.Locale.KeyNames.array;
+            if(e.code == keyCodeQwerty[touchesAffichage.findIndex(getAllUrlParams().key)] )
+            {
+                CacherInfo();
+            }
+            else{
+                chargerInfoTouche(e.code);
+            }
+        }      
+    }
     // Show side panel with key info from using URL parameter ?key
     function fromUrlShowLeftSidePanel()
     {
