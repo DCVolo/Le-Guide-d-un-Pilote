@@ -110,7 +110,7 @@ button:active {
   button.btn5:hover, button.btn6:hover, button.btn7:hover, button.btn8:hover, button.btn9:hover,
   button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:hover {
     transform: scale(1.5);
-    z-index: 3;
+    z-index: 4;
   }
   button.zoomRight:hover{
     transform-origin: right;
@@ -126,11 +126,6 @@ button:active {
   }
   button.zoomBottomRight:hover{
     transform-origin: bottom right;
-  }
-  button.btn0:hover:after, button.btn1:hover:after, button.btn2:hover:after, button.btn3:hover:after, button.btn4:hover:after, 
-  button.btn5:hover:after, button.btn6:hover:after, button.btn7:hover:after, button.btn8:hover:after, button.btn9:hover:after,
-  button.btn10:hover:after, button.btn11:hover:after, button.btn12:hover:after, button.btn-longest:hover:after {
-    z-index: 3;
   }
 }
 /* smartphones, touchscreens */
@@ -536,7 +531,7 @@ img.iconFlagItem{
     
      /* test fixed + scroll */
     #volet_clos_g {
-      z-index: 4;
+      z-index: 3;
       position: fixed; 
       top: 0em; left: 0em;
     }
@@ -647,7 +642,7 @@ img.iconFlagItem{
     
      /* test fixed + scroll */
     #volet_clos_d {
-      z-index: 4;
+      z-index: 3;
       position: fixed; 
       top: 0em; left: 0em;
     }
