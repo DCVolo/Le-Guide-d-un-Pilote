@@ -40,24 +40,23 @@
 		},
 		"ModifiersLegend":
 		{
-			"Modifier1": "M1 Modifier 1",
-			"Modifier2": "MI Interaction Mode",
-			"Modifier3": "SC Scan Mode",
-			"Modifier4": "MG Mining Mode",
+			"Modifier1": "M1 Modifier 2",
+			"Modifier2": "IM Interaction Mode",
+			"Modifier3": "ADS Aim Down Sight",
+			"Modifier4": "PN Prone Active",
 			"Modifier5": "AC Advanced Cam Mode",
-			"Modifier6": "M2 Modifier 2",
-			"Modifier7": "Hold",
-			"Modifier8": "Double Tap"
+			"Modifier6": "UC Unarmed Combat Mode",
+			"Modifier7": "* Hold",
+			"Modifier8": "** Double Tap"
 		}
 	},
 	"Mouse":
 	{
-		"zoneAxes": "Yaw<br>Pitch",
+		"zoneAxes": "Aim Left / Right<br>Aim Up / Down<br><span class=\"modificateur_2\">IM</span> Look Left / Right<br><span class=\"modificateur_2\">IM</span> Look Up / Down",
 		"zoneSideButton": "",
-		"zoneMolette": "",
-		"zoneClicGauche": "",
-		"zoneClicDroit": ""
-		
+		"zoneMolette": "Default Movement Speed Increase / Decrease<br>Melee (Click)<br><span class=\"modificateur_2\">IM</span> Focus (Click)<br><span class=\"modificateur_2\">IM</span> Zoom In / Out<br><span class=\"modificateur_3\">ADS</span> Zoom In / Out",
+		"zoneClicGauche": "Primary Attack<br><span class=\"modificateur_2\">IM</span> Activate / Interact<br><span class=\"modificateur_6\">UC</span> Light Melee Left<br><span class=\"modificateur_6\">UC</span> Heavy Melee Left*",
+		"zoneClicDroit": "<span class=\"modificateur_3\">ADS</span> Aim Down Sight<br><span class=\"modificateur_2\">IM</span> PIT Wheel*<br><span class=\"modificateur_6\">UC</span> Light Melee Right<br><span class=\"modificateur_6\">UC</span> Heavy Melee Right*"		
 	},
 	"Keyboard":
 	{
