@@ -651,7 +651,7 @@
 		"title": "Shift Left",
 		"letter":"Shift",
 		"keyAssociatedFunctions": "EVA Afterburner<br><span class=\"modificateur_3\">ADS</span> Hold Breath<br>Sprint",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"IntlBackslash":
@@ -675,7 +675,7 @@
 		"title": "X",
 		"letter":"X",
 		"keyAssociatedFunctions": "<span class=\"modificateur_4\">Prone</span><br><span class=\"modificateur_1\">M1</span> Wipe helmet visor<br>EVA Brake<br>Electronic Access respawn",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyC":
@@ -683,7 +683,7 @@
 		"title": "C",
 		"letter":"C",
 		"keyAssociatedFunctions": "Heal (medpen)",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.5.1\">5.3.5.1 Soin</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyV":
@@ -691,7 +691,7 @@
 		"title": "V",
 		"letter":"V",
 		"keyAssociatedFunctions": "Cycle fire mode",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4\">5.3.4 Armes</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyB":
@@ -699,7 +699,7 @@
 		"title": "B",
 		"letter":"B",
 		"keyAssociatedFunctions": "Refill oxygen (oxypen)",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.5.1\">5.3.5.1 Soin</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyN":
@@ -715,7 +715,7 @@
 		"title": "M",
 		"letter":"M",
 		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> PIT:mining<br>",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Comma":
@@ -795,7 +795,7 @@
 		"title": "Control Left",
 		"letter":"Ctrl",
 		"keyAssociatedFunctions": "EVA Straffe down<br>Crouch",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"MetaLeft":
@@ -819,7 +819,7 @@
 		"title": "Space",
 		"letter":"Space",
 		"keyAssociatedFunctions": "EVA Straffe up<br>Jump",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"AltRight":
