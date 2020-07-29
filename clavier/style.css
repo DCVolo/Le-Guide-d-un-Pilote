@@ -110,7 +110,7 @@ button:active {
   button.btn5:hover, button.btn6:hover, button.btn7:hover, button.btn8:hover, button.btn9:hover,
   button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:hover {
     transform: scale(1.5);
-
+    z-index: 3;
   }
   button.zoomRight:hover{
     transform-origin: right;
