@@ -106,7 +106,7 @@ button:active {
 
 /* mouse, touch pad */
 @media (hover: hover) and (pointer: fine) {
-  button.btn0:hover, button.btn1:hover, button.btn2:hover::after, button.btn3:hover, button.btn4:hover, 
+  button.btn0:hover, button.btn1:hover, button.btn2:hover:, button.btn3:hover, button.btn4:hover, 
   button.btn5:hover, button.btn6:hover, button.btn7:hover, button.btn8:hover, button.btn9:hover,
   button.btn10:hover, button.btn11:hover, button.btn12:hover, button.btn-longest:hover {
     transform: scale(1.5);
@@ -127,7 +127,7 @@ button:active {
   button.zoomBottomRight:hover{
     transform-origin: bottom right;
   }
-  button.btn0:hover:after, button.btn1:hover:after, button.btn2:hover:after:after, button.btn3:hover:after, button.btn4:hover:after, 
+  button.btn0:hover:after, button.btn1:hover:after, button.btn2:hover:after, button.btn3:hover:after, button.btn4:hover:after, 
   button.btn5:hover:after, button.btn6:hover:after, button.btn7:hover:after, button.btn8:hover:after, button.btn9:hover:after,
   button.btn10:hover:after, button.btn11:hover:after, button.btn12:hover:after, button.btn-longest:hover:after {
     z-index: 3;
