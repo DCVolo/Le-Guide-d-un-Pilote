@@ -192,15 +192,15 @@
 		{
 		"title": "Tilde",
 		"letter":"~",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Console",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.19.1\">7.19.1 Commandes - console</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.19.2\">7.19.2 Commandes - USER.cfg</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit1":
 		{
 		"title": "One",
 		"letter":"1",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Sidearm<br>PIT (weapon) Select 1",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -208,7 +208,7 @@
 		{
 		"title": "Two",
 		"letter":"2",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Primary weapon 1<br>PIT (weapon) Select 2",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -216,7 +216,7 @@
 		{
 		"title": "Three",
 		"letter":"3",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Primary weapon 2<br>PIT (weapon) Select 3",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -224,7 +224,7 @@
 		{
 		"title": "Four",
 		"letter":"4",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Gadget",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -232,7 +232,7 @@
 		{
 		"title": "Five",
 		"letter":"5",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Melee weapon",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -240,7 +240,7 @@
 		{
 		"title": "Six",
 		"letter":"6",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Mission Item",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
