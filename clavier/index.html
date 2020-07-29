@@ -654,6 +654,8 @@
         info.style.left = "-18.75em";
         btnFinfo.style.display = 'none';
         btnOinfo.style.display = 'inherit';
+        queryParams.set("key", "");
+        history.replaceState(null, null, "?"+queryParams.toString());
     }
     function AfficherSouris() 
     {
