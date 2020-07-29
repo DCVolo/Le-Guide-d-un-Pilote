@@ -203,8 +203,7 @@ img.iconFlagItem{
   padding-top: 1%;
   padding-bottom: 5%;
   scrollbar-color: #888888 #202324;
-  scrollbar-height: 0.25em;
-  scrollbar-width: 0.25em;
+  scrollbar-width: thin;
 }
 @-moz-document url-prefix() {
   .KeyDescr {padding-bottom: 15%; line-height: 100%;}
