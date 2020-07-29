@@ -680,7 +680,7 @@
 		{
 		"title": "X",
 		"letter":"X",
-		"keyAssociatedFunctions": "span class=\"modificateur_4\">Prone</span><br>span class=\"modificateur_1\">M1</span> Wipe helmet visor<br>EVA Brake<br>Electronic Access respawn",
+		"keyAssociatedFunctions": "<span class=\"modificateur_4\">Prone</span><br>span class=\"modificateur_1\">M1</span> Wipe helmet visor<br>EVA Brake<br>Electronic Access respawn",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -720,7 +720,7 @@
 		{
 		"title": "M",
 		"letter":"M",
-		"keyAssociatedFunctions": "span class=\"modificateur_1\">M1</span> PIT:mining<br>",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> PIT:mining<br>",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
