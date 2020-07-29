@@ -760,32 +760,32 @@
 		{
 		"title": "Arrow Up",
 		"letter":"▲",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Y offset Pos",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad1":
 		{
 		"title": "Numpad One",
 		"letter":"1",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Emote Left<br><span class=\"modificateur_5\">AC</span> Load / save 1*",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.5\">5.2.5 Emotes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad2":
 		{
 		"title": "Numpad Two",
 		"letter":"2",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Emote Stop<br><span class=\"modificateur_5\">AC</span> Load / save 2*",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.5\">5.2.5 Emotes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Numpad3":
 		{
 		"title": "Numpad Three",
 		"letter":"3",
-		"keyAssociatedFunctions": "",
-		"chaptersLGDP": "",
+		"keyAssociatedFunctions": "Emote Right<br><span class=\"modificateur_5\">AC</span> Load / save 3*",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.2.5\">5.2.5 Emotes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"NumpadEnter":
