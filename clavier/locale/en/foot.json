@@ -200,7 +200,7 @@
 		{
 		"title": "One",
 		"letter":"1",
-		"keyAssociatedFunctions": "Sidearm<br>PIT (weapon) Select 1",
+		"keyAssociatedFunctions": "Sidearm<br>PIT:weapon Select 1",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -208,7 +208,7 @@
 		{
 		"title": "Two",
 		"letter":"2",
-		"keyAssociatedFunctions": "Primary weapon 1<br>PIT (weapon) Select 2",
+		"keyAssociatedFunctions": "Primary weapon 1<br>PIT:weapon Select 2",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -216,7 +216,7 @@
 		{
 		"title": "Three",
 		"letter":"3",
-		"keyAssociatedFunctions": "Primary weapon 2<br>PIT (weapon) Select 3",
+		"keyAssociatedFunctions": "Primary weapon 2<br>PIT:weapon Select 3",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -368,7 +368,7 @@
 		{
 		"title": "Q",
 		"letter":"Q",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "EVA Roll left<br><span class=\"modificateur_4\">PN</span> Roll left<br>Lean left",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -376,7 +376,7 @@
 		{
 		"title": "W",
 		"letter":"W",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "EVA Straffe forward<br>Move forward<br>",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -384,7 +384,7 @@
 		{
 		"title": "E",
 		"letter":"E",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "EVA Roll right<br><span class=\"modificateur_4\">PN</span> Roll right<br>Lean right",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -392,7 +392,7 @@
 		{
 		"title": "R",
 		"letter":"R",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Reload<br>Holster weapon*<br>",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -400,7 +400,7 @@
 		{
 		"title": "T",
 		"letter":"T",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "Flashlight (toggle)",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
