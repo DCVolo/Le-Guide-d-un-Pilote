@@ -195,7 +195,7 @@
 		"title": "One",
 		"letter":"1",
 		"keyAssociatedFunctions": "Sidearm<br>PIT:weapon Select 1",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4\">5.3.4 Armes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.1\">5.3.4.1 Les différentes classe et types</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.2\">5.3.4.2 Accessoires d’armes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit2":
@@ -203,7 +203,7 @@
 		"title": "Two",
 		"letter":"2",
 		"keyAssociatedFunctions": "Primary weapon 1<br>PIT:weapon Select 2",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4\">5.3.4 Armes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.1\">5.3.4.1 Les différentes classe et types</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.2\">5.3.4.2 Accessoires d’armes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit3":
@@ -211,7 +211,7 @@
 		"title": "Three",
 		"letter":"3",
 		"keyAssociatedFunctions": "Primary weapon 2<br>PIT:weapon Select 3",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4\">5.3.4 Armes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.1\">5.3.4.1 Les différentes classe et types</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.2\">5.3.4.2 Accessoires d’armes</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit4":
@@ -219,7 +219,7 @@
 		"title": "Four",
 		"letter":"4",
 		"keyAssociatedFunctions": "Gadget",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.5.3\">5.3.5.3 Outils</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit5":
@@ -227,7 +227,7 @@
 		"title": "Five",
 		"letter":"5",
 		"keyAssociatedFunctions": "Melee weapon",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.3\">5.3.4.3 Arme de mélée</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit6":
@@ -235,7 +235,7 @@
 		"title": "Six",
 		"letter":"6",
 		"keyAssociatedFunctions": "Mission Item",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.5.3\">5.3.5.3 Outils</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit7":
@@ -267,7 +267,7 @@
 		"title": "Zero",
 		"letter":"0",
 		"keyAssociatedFunctions": "<span class=\"modificateur_6\">Unarmed combat</span>",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=14&titre=5.3.4.3\">5.3.4.3 Arme de mélée</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Minus":
