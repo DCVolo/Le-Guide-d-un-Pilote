@@ -353,6 +353,7 @@ img.iconFlagItem{
 .titreLGDP { 
   grid-area: titreLGDP;
   color: #ff9719;
+  font-variant-caps: all-small-caps;
   }
 .menuLangue { grid-area: menuLangue; }
 .menuProfile { grid-area: menuProfile; }
