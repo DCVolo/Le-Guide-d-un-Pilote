@@ -726,16 +726,20 @@
     // Allow to hide left panel by typing the same key a second time
     function logKey(e) 
     {
+      console.log("avant JS" + e.code);
         loadJSON(function(response)
         {
             // Parse JSON string into object
             actual_JSON = JSON.parse(response);
             var touchesAffichage = actual_JSON.Locale.KeyNames.array;
-            if(e.code == keyCodeQwerty[touchesAffichage.findIndex(getAllUrlParams().key)] )
+            console.log("après JS" + e.code);
+            if(e.code == keyCodeQwerty[touchesAffichage.findIndex(getAllUrlParams().key.text)] )
             {
+                console.log("cacher");
                 CacherInfo();
             }
             else{
+                console.log("afficher");
                 chargerInfoTouche(e.code);
             }
         });      
