@@ -733,7 +733,8 @@
             actual_JSON = JSON.parse(response);
             var touchesAffichage = actual_JSON.Locale.KeyNames.array;
             console.log("après JS" + e.code);
-            if(e.code == keyCodeQwerty[touchesAffichage.findIndex(getAllUrlParams().key.text)] )
+            var indexOfKeyCode = (element) => element == getAllUrlParams().key;
+            if(e.code == keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)])
             {
                 console.log("cacher");
                 CacherInfo();
