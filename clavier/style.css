@@ -127,9 +127,9 @@ button:active {
   button.zoomBottomRight:hover{
     transform-origin: bottom right;
   }
-  button.btn0:hover::after, button.btn1:hover::after, button.btn2:hover::after::after, button.btn3:hover::after, button.btn4:hover::after, 
-  button.btn5:hover::after, button.btn6:hover::after, button.btn7:hover::after, button.btn8:hover::after, button.btn9:hover::after,
-  button.btn10:hover::after, button.btn11:hover::after, button.btn12:hover::after, button.btn-longest:hover::after {
+  button.btn0:hover:after, button.btn1:hover:after, button.btn2:hover:after:after, button.btn3:hover:after, button.btn4:hover:after, 
+  button.btn5:hover:after, button.btn6:hover:after, button.btn7:hover:after, button.btn8:hover:after, button.btn9:hover:after,
+  button.btn10:hover:after, button.btn11:hover:after, button.btn12:hover:after, button.btn-longest:hover:after {
     z-index: 3;
   }
 }
