@@ -467,7 +467,7 @@ img.iconFlagItem{
 
 
 #volet_g {
-      z-index: 10;
+      z-index: 1;
         width: 18.75em;
         height: 8.23em;
         font-size: 3.523vw;
@@ -485,7 +485,7 @@ img.iconFlagItem{
     }
     
     #btnInfoOuvert, #btnInfoFermer{
-      z-index: 10;
+      z-index: 2;
       padding: 0em 0em;
       background: #555;
       color: #fff;
@@ -493,7 +493,6 @@ img.iconFlagItem{
     }
 
     #volet_g {
-      z-index: 10;
       position: absolute;
       left: -18.75em;  /* test fixed + scroll, on retire la position top */
       -webkit-transition: all .5s ease-in;
@@ -501,7 +500,6 @@ img.iconFlagItem{
       transition: all .5s ease-in;
     }
     #btnInfoOuvert, #btnInfoFermer{
-      z-index: 10;
       position: absolute;
       right: -2.14em;
       top: 11.5em;
@@ -513,11 +511,9 @@ img.iconFlagItem{
       border-radius: 0 0 0.2em 0.2em;
     }
     #btnInfoFermer{
-      z-index: 10;
       display: none;
     }
     #volet_g:target {
-      z-index: 10;
       left: 0em;
     }
 
@@ -528,17 +524,14 @@ img.iconFlagItem{
       display: block;
     }
     #volet_g:target a.ouvrir_g {
-      z-index: 10;
       display: none;
     }
     #volet_clos_g:target #volet_g {
-      z-index: 10;
       left: -18.75em;
     }
     
      /* test fixed + scroll */
     #volet_clos_g {
-      z-index: 10;
       position: fixed; 
       top: 0em; left: 0em;
     }
@@ -651,7 +644,6 @@ img.iconFlagItem{
     
      /* test fixed + scroll */
     #volet_clos_d {
-      z-index: 11;
       position: fixed; 
       top: 0em; left: 0em;
     }
