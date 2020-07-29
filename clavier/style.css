@@ -203,7 +203,7 @@ img.iconFlagItem{
   padding-top: 1%;
   padding-bottom: 5%;
   scrollbar-color: #888888 #202324;
-  scrollbar-width: thin;
+  scrollbar-width: none; /* waiting for retarded-firefox to allow more than 3 stupids values */
 }
 @-moz-document url-prefix() {
   .KeyDescr {padding-bottom: 15%; line-height: 100%;}
@@ -345,14 +345,17 @@ img.iconFlagItem{
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0em;
+  grid-template-rows: 0.5fr;
   gap: 0em 0em;
   grid-template-areas: "menuLangue menuProfile menuReseaux" "titreLGDP titreLGDP titreLGDP";
+  width: 5em;
+  height: 1.125em;
 }
 .titreLGDP { 
   grid-area: titreLGDP;
   color: #ff9719;
   font-variant-caps: all-small-caps;
+  font-size: 1vw;
   }
 .menuLangue { grid-area: menuLangue; }
 .menuProfile { grid-area: menuProfile; }
