@@ -76,11 +76,26 @@
   <div id="volet_clos_d">
     <div id="volet_d">
         <div class="zoneSouris"><img src="../images/icons/gaming-mouse.svg" class="sourisGaming" title="" alt=""></div>
-        <div id="zoneAxesid" class="zoneAxes xxxs"></div>
-        <div id="zoneSideButtonid" class="zoneSideButton xxxs"></div>
-        <div id="zoneMoletteid" class="zoneMolette xxxs"></div>
-        <div id="zoneClicGaucheid" class="zoneClicGauche xxxs"></div>
-        <div id="zoneClicDroitid" class="zoneClicDroit xxxs"></div>
+        <div id="zoneAxesid" class="zoneAxes xxxs">
+            <div><span>1</span></div>
+            <div id="zoneAxesidText" class="xxxs"></div>
+        </div>
+        <div id="zoneSideButtonid" class="zoneSideButton">
+            <div><span>2</span></div>
+            <div id="zoneSideButtonidText" class="xxxs"></div>
+        </div>
+        <div id="zoneMoletteid" class="zoneMolette">
+            <div><span>3</span></div>
+            <div id="zoneMoletteidText" class="xxxs"></div>
+        </div>
+        <div id="zoneClicGaucheid" class="zoneClicGauche">
+            <div><span>4</span></div>
+            <div id="zoneClicGaucheidText" class="xxxs"></div>
+        </div>
+        <div id="zoneClicDroitid" class="zoneClicDroit">
+            <div><span>5</span></div>
+            <div id="zoneClicDroitidText" class="xxxs"></div>
+        </div>
         <button id="btnSourisFermer" type="button" name="" class="fermer_d sm"></button>
         <button id="btnSourisOuvert" type="button" name="" class="ouvrir_d sm"></button>
     </div>
@@ -653,11 +668,11 @@
         document.getElementById("menu_YouTube").innerHTML = " " + actual_JSON.Locale.MenuButtons.YouTube;
         document.getElementById("menu_Discord").innerHTML = " " + actual_JSON.Locale.MenuButtons.Discord;
         document.getElementById("menu_patreon").innerHTML = " " + actual_JSON.Locale.MenuButtons.Patreon;
-        document.getElementById("zoneAxesid").innerHTML = " " + actual_JSON.Mouse.zoneAxes;
-        document.getElementById("zoneSideButtonid").innerHTML = " " + actual_JSON.Mouse.zoneSideButton;
-        document.getElementById("zoneClicDroitid").innerHTML = " " + actual_JSON.Mouse.zoneClicDroit;
-        document.getElementById("zoneClicGaucheid").innerHTML = " " + actual_JSON.Mouse.zoneClicGauche;
-        document.getElementById("zoneMoletteid").innerHTML = " " + actual_JSON.Mouse.zoneMolette;
+        document.getElementById("zoneAxesidText").innerHTML = " " + actual_JSON.Mouse.zoneAxes;
+        document.getElementById("zoneSideButtonidText").innerHTML = " " + actual_JSON.Mouse.zoneSideButton;
+        document.getElementById("zoneClicDroitidText").innerHTML = " " + actual_JSON.Mouse.zoneClicDroit;
+        document.getElementById("zoneClicGaucheidText").innerHTML = " " + actual_JSON.Mouse.zoneClicGauche;
+        document.getElementById("zoneMoletteidText").innerHTML = " " + actual_JSON.Mouse.zoneMolette;
    });
     
     function AfficherInfo() 
