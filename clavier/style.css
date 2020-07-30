@@ -715,6 +715,7 @@ img.iconFlagItem{
 
 #shareButton{
   background: url(../images/icons/reseaux/share.svg) no-repeat;
+  background-size: contain;
 }
 
 #shareButton .tooltiptext {
