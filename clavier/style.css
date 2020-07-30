@@ -540,7 +540,21 @@ img.iconFlagItem{
 
 #zoneChapitresLGDPfull { grid-area: zoneChapitresLGDPfull; }
 
-#zoneActionsTouchefull { grid-area: zoneActionsTouchefull; }
+#zoneActionsTouchefull { 
+  grid-area: zoneActionsTouchefull;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em 0em;
+  grid-template-areas: "zoneActionsToucheKey zoneActionsToucheEmptySpace zoneActionsToucheShare" "zoneActionsTouche zoneActionsTouche zoneActionsTouche";
+}
+.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; }
+
+.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; }
+
+.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; }
+
+.zoneActionsTouche { grid-area: zoneActionsTouche; }
 
 #zoneChapitresLGDPtitre{
   color: #ff9719;
@@ -552,7 +566,7 @@ img.iconFlagItem{
   padding: 0.5em 0em 0.5em 0.1em;
 }
 
-#zoneActionsTouchetitre{
+/*#zoneActionsTouchetitre{
   color: #ff9719;
   border-top: 0.1em solid #5c0cb6;
   border-left: 0.1em solid #5c0cb6;
@@ -560,8 +574,8 @@ img.iconFlagItem{
   border-radius: 0em 0.5em 0.5em 0em;
   font-size: 0.375em;
   line-height: 1em;
-  /*padding: 0.5em 0em 0.5em 0.1em;*/
-}
+  padding: 0.5em 0em 0.5em 0.1em;
+}*/
 
 #zoneActionsTouche, #zoneChapitresLGDP{
   padding: 1.2em 0.2em 0.2em 0.2em;
