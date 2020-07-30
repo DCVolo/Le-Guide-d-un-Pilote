@@ -709,8 +709,8 @@ img.iconFlagItem{
 .swiperSouris { grid-area: swiperSouris; }
 
 #zoneInfoPresentationKey, #zoneInfoSharebutton{
-  width: 3em;
-  height: 3em;
+  width: 1em;
+  height: 1em;
 }
 
 #shareButton .tooltiptext {
