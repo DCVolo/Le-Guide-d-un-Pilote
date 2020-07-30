@@ -757,6 +757,7 @@
     function disableSpecialKey(e)
     {
       if (e.key === "F1" || e.key === "F3" || e.key === "F5" || e.key === "F6" || e.key === "F8" || e.key === "F10" || e.key === "F11" || e.key === "F12" || e.key === "Tab" || e.key === "AltLeft" ||e.key === "Space") {e.preventDefault();}
+      document.body.focus();
     }
     // AFTER disabling the browser function keys : use the inputs KeyUp to load and show information of the key (KeyDown does not work will all keys : e.g print screen)
     document.addEventListener('keyup', logKey);
@@ -776,7 +777,8 @@
             else{
                 chargerInfoTouche(e.code);
             }
-        });      
+        });
+        document.body.focus();
     }
     // Show side panel with key info from using URL parameter ?key
     function fromUrlShowLeftSidePanel()
