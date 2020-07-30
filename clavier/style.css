@@ -572,7 +572,7 @@ img.iconFlagItem{
 
 .zoneActionsToucheKey { grid-area: zoneActionsToucheKey; }
 
-.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; }
+.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; width: 100%;}
 
 .zoneActionsToucheShare { grid-area: zoneActionsToucheShare; }
 
