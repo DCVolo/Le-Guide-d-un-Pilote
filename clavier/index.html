@@ -58,6 +58,7 @@
                 <img id="zoneInfoPresentationKey" src="../images/icons/keyboard-key.svg" title="" alt="">
                 <button id="shareButton" onclick="copyToClipboard()" onmouseout="outFunc()">
                     <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    <input style="display:hidden;" type="text" value="Hello World" id="inputShareButton">
                     <img  id="zoneInfoSharebutton" src="../images/icons/reseaux/share.svg" title="" alt="">
                 </button>
             </div>
@@ -806,8 +807,7 @@
 
     function copyToClipboard() 
     {
-        var dummy = document.createElement('input');
-        //var dummy = document.getElementById("myInput");
+        var dummy = document.getElementById("inputShareButton");
         var copyText = window.location.href;
         dummy.value = copyText;
         dummy.select();
