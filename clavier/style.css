@@ -567,7 +567,7 @@ img.iconFlagItem{
   grid-area: zoneActionsTouchefull;
 }
 .zoneActionsToucheInline{
-  display: inline-grid;
+  display: flex;
 }
 
 .zoneActionsToucheKey { grid-area: zoneActionsToucheKey; }
