@@ -540,21 +540,7 @@ img.iconFlagItem{
 
 #zoneChapitresLGDPfull { grid-area: zoneChapitresLGDPfull; }
 
-#zoneActionsTouchefull { 
-  grid-area: zoneActionsTouchefull;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 1em 0em;
-  grid-template-areas: "zoneActionsToucheKey zoneActionsToucheEmptySpace zoneActionsToucheShare" "zoneActionsTouche zoneActionsTouche zoneActionsTouche";
-}
-.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; }
-
-.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; }
-
-.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; }
-
-.zoneActionsTouche { grid-area: zoneActionsTouche; }
+#zoneActionsTouchefull { grid-area: zoneActionsTouchefull; }
 
 #zoneChapitresLGDPtitre{
   color: #ff9719;
