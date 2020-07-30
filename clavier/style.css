@@ -570,11 +570,11 @@ img.iconFlagItem{
   display: flex;
 }
 
-.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; padding: 0em; }
+.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; display: block; }
 
-.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; width: 100%;}
+.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; display: block; width: 100%;}
 
-.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; padding: 0em; }
+.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; display: block; }
 
 .zoneActionsTouche { grid-area: zoneActionsTouche; }
 
