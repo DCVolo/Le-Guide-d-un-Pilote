@@ -808,13 +808,12 @@
     function copyToClipboard() 
     {
         var dummy = document.getElementById("inputShareButton");
-        var copyText = window.location.href;
-        dummy.value = copyText;
+        dummy.value = window.location.href;
         dummy.select();
         document.execCommand('copy');
     
         var tooltip = document.getElementById("myTooltip");
-        tooltip.innerHTML = "Copied: " + copyText.value;
+        tooltip.innerHTML = "Copied: " + dummy.value;
     }
 
     function outFunc() 
