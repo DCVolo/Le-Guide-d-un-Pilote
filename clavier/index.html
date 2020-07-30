@@ -45,26 +45,27 @@
 
 <div id="volet_clos_g">
     <div id="volet_g">
-        <div class="zoneYoutube"><div id="player"></div><iframe id="iframeYT" title="YouTube" src="../images/icons/YT-workingOnIt.svg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><!-- https://www.youtube.com/embed/japRwU75Z-Q?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/ -->
-        <div id="zoneChapitresLGDPfull">
-            <div id="zoneChapitresLGDPtitre">
-                Le Guide D'un Pilote
+            <div class="zoneYoutube">
+                <iframe id="iframeYT" title="YouTube" src="../images/icons/YT-workingOnIt.svg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div id="zoneChapitresLGDP" class="xxxs">              
+            <div class="zoneChapitresLGDPfull">
+                <div class="zoneChapitresLGDPfullTitre">Le Guide D'un Pilote</div>
+                <div id="zoneChapitresLGDP" class="zoneChapitresLGDPfullRessources xxxs"></div>
             </div>
-        </div>
-        <div id="zoneActionsTouchefull">
-            <div class="zoneActionsToucheKey"><img id="zoneInfoPresentationKey" src="../images/icons/keyboard-key.svg" title="" alt=""></div>
-            <div class="zoneActionsToucheEmptySpace"></div>
-            <div class="zoneActionsToucheShare">
-                <button id="shareButton" onclick="copyToClipboard()" onmouseout="outFunc()">
-                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-                    <input style="display:none;" type="text" value="" id="inputShareButton">
-                    <img  id="zoneInfoSharebutton" src="../images/icons/reseaux/share.svg" title="" alt="">
-                </button>
+            <div class="zoneActionsTouchefull">
+                <div class="zoneActionsToucheKey">
+                    <img id="zoneInfoPresentationKey" src="../images/icons/keyboard-key.svg" title="" alt="">
+                </div>
+                <div class="zoneActionsToucheEmptySpace"></div>
+                <div class="zoneActionsToucheShare">
+                    <button id="shareButton" onclick="copyToClipboard()" onmouseout="outFunc()">
+                        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                        <input style="display:none;" type="text" value="" id="inputShareButton">
+                        <img  id="zoneInfoSharebutton" src="../images/icons/reseaux/share.svg" title="" alt="">
+                    </button>
+                </div>
+                <div id="zoneActionsTouche" class="zoneActionsTouche xxxs"></div>
             </div>
-            <div id="zoneActionsTouche" class="zoneActionsTouche xxxs"></div>
-        </div>
         <button id="btnInfoFermer" type="button" name="" class="fermer_g sm"></button>
         <button id="btnInfoOuvert" type="button" name="" class="ouvrir_g sm"></button>
     </div>

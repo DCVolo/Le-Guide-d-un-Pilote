@@ -538,11 +538,16 @@ img.iconFlagItem{
 
 .zoneYoutube { grid-area: zoneYoutube; }
 
-#zoneChapitresLGDPfull { grid-area: zoneChapitresLGDPfull; }
-
-#zoneActionsTouchefull { grid-area: zoneActionsTouchefull; }
-
-#zoneChapitresLGDPtitre{
+#zoneChapitresLGDPfull { 
+  grid-area: zoneChapitresLGDPfull;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+  gap: 1em 0em;
+  grid-template-areas: "zoneChapitresLGDPfullTitre" "zoneChapitresLGDPfullRessources";
+}
+ .zoneChapitresLGDPfullTitre { 
+  grid-area: zoneChapitresLGDPfullTitre;
   color: #ff9719;
   border-left: 0.1em solid #5c0cb6;
   border-bottom: 0.1em solid #5c0cb6;
@@ -551,17 +556,26 @@ img.iconFlagItem{
   line-height: 1em;
   padding: 0.5em 0em 0.5em 0.1em;
 }
+ .zoneChapitresLGDPfullRessources { grid-area: zoneChapitresLGDPfullRessources; }
 
-/*#zoneActionsTouchetitre{
-  color: #ff9719;
-  border-top: 0.1em solid #5c0cb6;
-  border-left: 0.1em solid #5c0cb6;
-  border-bottom: 0.1em solid #5c0cb6;
-  border-radius: 0em 0.5em 0.5em 0em;
-  font-size: 0.375em;
-  line-height: 1em;
-  padding: 0.5em 0em 0.5em 0.1em;
-}*/
+#zoneActionsTouchefull {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  gap: 1em 0em;
+  grid-template-areas: "zoneActionsToucheKey zoneActionsToucheEmptySpace zoneActionsToucheShare" "zoneActionsTouche zoneActionsTouche zoneActionsTouche";
+  grid-area: zoneActionsTouchefull;
+}
+
+.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; }
+
+.zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; }
+
+.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; }
+
+.zoneActionsTouche { grid-area: zoneActionsTouche; }
+
+
 
 #zoneActionsTouche, #zoneChapitresLGDP{
   padding: 1.2em 0.2em 0.2em 0.2em;
