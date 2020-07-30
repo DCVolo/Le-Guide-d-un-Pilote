@@ -57,7 +57,7 @@
                   <div class="zoneActionsToucheKey">
                       <img id="zoneInfoPresentationKey" src="../images/icons/keyboard-key.svg" title="" alt="">
                   </div>
-                  <div class="zoneActionsToucheEmptySpace"></div>
+                  <div class="zoneActionsToucheEmptySpace"><span id="zoneActionsToucheTitre"></span></div>
                   <div class="zoneActionsToucheShare">
                       <button id="shareButton" onclick="copyToClipboard()" onmouseout="outFunc()" title="">
                           <span class="tooltiptext xxs" id="myTooltip">Copy to clipboard</span>
@@ -673,6 +673,7 @@
         document.getElementById("zoneClicDroitidText").innerHTML = " " + actual_JSON.Mouse.zoneClicDroit;
         document.getElementById("zoneClicGaucheidText").innerHTML = " " + actual_JSON.Mouse.zoneClicGauche;
         document.getElementById("zoneMoletteidText").innerHTML = " " + actual_JSON.Mouse.zoneMolette;
+        document.getElementById("zoneActionsToucheTitre").innerHTML = + actual_JSON.Locale.LeftPanel.keybindings;
    });
     
     function AfficherInfo() 

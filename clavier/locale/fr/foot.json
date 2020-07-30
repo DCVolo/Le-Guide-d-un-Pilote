@@ -42,6 +42,10 @@
 			"Open": "Open !",
 			"Close": "Close !"
 		},
+		"LeftPanel":
+		{
+			"keybindings": "Actions"
+		},
 		"ShareButton":
 		{
 			"whenHovered": "Link copied to clipboard",

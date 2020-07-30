@@ -177,6 +177,7 @@ img.iconFlagItem{
   grid-template-rows: 1fr 5fr;
   gap: 0em 0em;
   grid-template-areas: ". KeyLetter" "KeyDescr KeyDescr";
+  align-items: flex-start;
 }
 .KeyLetter {
  grid-area: KeyLetter;
@@ -579,6 +580,10 @@ img.iconFlagItem{
 
 .zoneActionsTouche { grid-area: zoneActionsTouche; }
 
+#zoneActionsToucheTitre{
+  font-size: 0.375em;
+  align-self: center;
+}
 
 
 #zoneActionsTouche, #zoneChapitresLGDP{
