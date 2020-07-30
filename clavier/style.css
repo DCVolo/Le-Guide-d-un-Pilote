@@ -670,15 +670,15 @@ img.iconFlagItem{
 
 .zoneSouris { grid-area: zoneSouris; }
 
-.zoneAxes { grid-area: zoneAxes; line-height: 1.5em; display: flex;}
+.zoneAxes { grid-area: zoneAxes; font-size: 0.175em; line-height: 1.5em; display: flex;}
 
-.zoneSideButton { grid-area: zoneSideButton; line-height: 1.5em; display: flex;}
+.zoneSideButton { grid-area: zoneSideButton; font-size: 0.175em; line-height: 1.5em; display: flex;}
 
-.zoneMolette { grid-area: zoneMolette; line-height: 1.5em; display: flex;}
+.zoneMolette { grid-area: zoneMolette; font-size: 0.175em; line-height: 1.5em; display: flex;}
 
-.zoneClicGauche { grid-area: zoneClicGauche; line-height: 1.5em; display: flex;}
+.zoneClicGauche { grid-area: zoneClicGauche; font-size: 0.175em; line-height: 1.5em; display: flex;}
 
-.zoneClicDroit { grid-area: zoneClicDroit; line-height: 1.5em; display: flex;}
+.zoneClicDroit { grid-area: zoneClicDroit; font-size: 0.175em; line-height: 1.5em; display: flex;}
 
 .zoneSourisLegende {
   color: #ff9719;
