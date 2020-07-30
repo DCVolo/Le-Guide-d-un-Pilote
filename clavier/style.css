@@ -713,6 +713,10 @@ img.iconFlagItem{
   height: 1em;
 }
 
+#shareButton{
+  background: url(../images/icons/reseaux/share.svg) no-repeat;
+}
+
 #shareButton .tooltiptext {
   visibility: hidden;
   width: 140px;
