@@ -560,7 +560,7 @@ img.iconFlagItem{
   border-radius: 0em 0.5em 0.5em 0em;
   font-size: 0.375em;
   line-height: 1em;
-  padding: 0.5em 0em 0.5em 0.1em;
+  /*padding: 0.5em 0em 0.5em 0.1em;*/
 }
 
 #zoneActionsTouche, #zoneChapitresLGDP{
