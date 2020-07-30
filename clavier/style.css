@@ -568,13 +568,14 @@ img.iconFlagItem{
 }
 .zoneActionsToucheInline{
   display: flex;
+  height: 1em;
 }
 
-.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; display: block; }
+.zoneActionsToucheKey { grid-area: zoneActionsToucheKey; display: flex; }
 
 .zoneActionsToucheEmptySpace { grid-area: zoneActionsToucheEmptySpace; display: block; width: 100%;}
 
-.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; display: block; }
+.zoneActionsToucheShare { grid-area: zoneActionsToucheShare; display: flex; }
 
 .zoneActionsTouche { grid-area: zoneActionsTouche; }
 
