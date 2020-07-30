@@ -1,4 +1,8 @@
 {
+	"Version":
+	{
+		"patch": "3.10"
+	},
 	"Locale":
 	{
 		"KeyNames":
@@ -37,6 +41,11 @@
 		{
 			"Open": "Open !",
 			"Close": "Close !"
+		},
+		"ShareButton":
+		{
+			"whenHovered": "Link copied to clipboard",
+			"whenClicked": "Share this !"
 		},
 		"ModifiersLegend":
 		{
