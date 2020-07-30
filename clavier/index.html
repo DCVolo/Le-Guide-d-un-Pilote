@@ -56,7 +56,10 @@
         <div id="zoneActionsTouchefull">
             <div id="zoneActionsTouchetitre">
                 <img src="../images/icons/keyboard-key.svg" title="" alt="">
-                <span id="boutonShare"></span>
+                <button id="shareButton" onclick="myFunction()" onmouseout="outFunc()">
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                </button>
+                <img onclick="copyToClipboard()" src="../images/icons/keyboard-key.svg" title="" alt="">
             </div>
             <div id="zoneActionsTouche" class="xxxs">
             </div>
@@ -800,6 +803,25 @@
             }
         });
     });
+
+    function copyToClipboard() 
+    {
+        var dummy = document.createElement('input');
+        //var dummy = document.getElementById("myInput");
+        var copyText = window.location.href;
+        dummy.value = copyText;
+        dummy.select();
+        document.execCommand('copy');
+    
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copied: " + copyText.value;
+    }
+
+    function outFunc() 
+    {
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copy to clipboard";
+    }
 </script>
 
 </body>
