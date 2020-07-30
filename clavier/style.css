@@ -680,6 +680,11 @@ img.iconFlagItem{
 
 .zoneClicDroit { grid-area: zoneClicDroit; line-height: 1.5em;}
 
+.zoneSourisLegende {
+  color: #ff9719;
+  font-size:2em;
+}
+
 .sourisGaming{
   height: 100%;
   width: 100%
