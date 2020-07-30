@@ -566,6 +566,9 @@ img.iconFlagItem{
   grid-template-areas: "zoneActionsToucheKey zoneActionsToucheEmptySpace zoneActionsToucheShare" "zoneActionsTouche zoneActionsTouche zoneActionsTouche";
   grid-area: zoneActionsTouchefull;
 }
+.zoneActionsToucheInline{
+  display: inline-grid;
+}
 
 .zoneActionsToucheKey { grid-area: zoneActionsToucheKey; }
 
