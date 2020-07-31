@@ -164,7 +164,7 @@
     <div id="texte-option">
         
         <div class="menuLangue xxxs"><span class="dropdown">
-  <button class="dropbtn" type="button">‎<span id="changerLangue"></span><svg id="topLogoLangueCourant" class="iconFlagItem"><use href="../images/svg-defs.svg#shape-icon-flag-fr"/></svg><!--<img  src="../images/icons/flags/fr.svg" class="iconFlagTop" title="" alt="">--></button>
+  <button class="dropbtn" type="button">‎<span id="changerLangue"></span><svg id="topLogoLangueCourant" class="iconFlagItem"><use href="../images/svg-defs.svg#shape-icon-flag-fr"/></svg></button>
   
   <span class="dropdown-content">
   <a id="langue_fr" href="?lang=fr" title=""><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-flag-fr"/></svg><span id="menuLangTextFR">Français</span></a>
@@ -189,23 +189,23 @@
   </span>
 </span></div>
         <div class="menuProfile xxxs"><span class="dropdown">
-  <button class="dropbtn" type="button">‎<span id="changerProfil"></span><img id="topLogoProfileCourant" src="../images/icons/profiles/1.svg" class="iconFlagTop" title="" alt=""></button>
+  <button class="dropbtn" type="button">‎<span id="changerProfil"></span><svg id="topLogoProfileCourant" class="iconFlagItem"><use href="../images/svg-defs.svg#shape-icon-profiles-1"/></svg><img id="" src="../images/icons/profiles/1.svg" class="iconFlagTop" title="" alt=""></button>
 
   <span class="dropdown-content">
-  <a id="profile_flight" href="" title=""><img src="../images/icons/profiles/1.svg" class="iconFlagItem" title="" alt="icone vaisseau"><span id="profile_flightText"></span></a>  
+  <a id="profile_flight" href="" title=""><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-profiles-1"/></svg><span id="profile_flightText"></span></a>  
 
-  <a id="profile_foot" href="" title=""><img src="../images/icons/profiles/2.svg" class="iconFlagItem" title="" alt="icone pied"><span id="profile_footText"></span></a>
+  <a id="profile_foot" href="" title=""><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-profiles-2"/></svg><span id="profile_footText"></span></a>
 
   </span>
 </span></div>
         <div class="menuReseaux xxxs"><div class="dropdown">
-  <button class="dropbtn" type="button">‏‏‎‎<span id="changerMenu"></span><img id="topLogoMenuCourant" src="../images/icons/parametres.svg" class="iconFlagTop" title="" alt=""></button>
+  <button class="dropbtn" type="button">‏‏‎‎<span id="changerMenu"></span><img id="topLogoMenuCourant" src="../images/icons/parametres.svg" class="iconFlagItem" title="" alt=""></button>
   <div class="dropdown-content">
   <a href="" target="_blank" title=""><img src="../images/launcher-spash-screen/logo.svg" class="iconFlagItem" title="" alt="icone logo DCVolo"><span id="menu_InstallerApplication"></span></a>
   <a href="https://forms.gle/DkP2tCvHnZMt266Q9" target="_blank" title="" rel="noopener noreferrer"><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-langues"/></svg><span id="menu_AjouterLangue"></span></a>
-  <a href="https://www.youtube.com/channel/UCLOaxB9gv5y2GD5Eqkrno5w/" target="_blank" title="" rel="noopener noreferrer"><img src="../images/icons/reseaux/youtube.svg" class="iconFlagItem" title="" alt="icone pied"><span id="menu_YouTube"></span></a>
-  <a href="https://discord.gg/FF9rzck" target="_blank" title="" rel="noopener noreferrer"><img src="../images/icons/reseaux/discord.svg" class="iconFlagItem" title="" alt="icone pied"><span id="menu_Discord"></span></a>
-  <a href="https://www.patreon.com/DCVolo" target="_blank" title="" rel="noopener noreferrer"><img src="../images/icons/reseaux/patreon.svg" class="iconFlagItem" title="" alt="icone vaisseau"><span id="menu_patreon"></span></a>
+  <a href="https://www.youtube.com/channel/UCLOaxB9gv5y2GD5Eqkrno5w/" target="_blank" title="" rel="noopener noreferrer"><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-reseaux-youtube"/></svg><span id="menu_YouTube"></span></a>
+  <a href="https://discord.gg/FF9rzck" target="_blank" title="" rel="noopener noreferrer"><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-reseaux-discord"/></svg><span id="menu_Discord"></span></a>
+  <a href="https://www.patreon.com/DCVolo" target="_blank" title="" rel="noopener noreferrer"><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-reseaux-patreon"/></svg><span id="menu_patreon"></span></a>
 
   <div class="cookieCheckbox">
       <img src="../images/icons/cookie.svg" class="iconFlagItem" title="" alt="icone logo cookie RGPD">
@@ -808,7 +808,7 @@
     const allNotTranslatedLanguages = ["langue_ru","langue_de","langue_es","langue_pt","langue_jp","langue_it","langue_dn","langue_pl","langue_ch","langue_du","langue_se"];
     allNotTranslatedLanguages.forEach(element => {document.getElementById(element).setAttribute("href", "https://forms.gle/DkP2tCvHnZMt266Q9");});
     // For each itemp of all profile : set the link, but keep the value of the URL parameter of lang / key / mouse
-    document.getElementById("topLogoProfileCourant").setAttribute("src", "../images/icons/profiles/" + getAllUrlParams().profile + ".svg"); // TODO vérifier qu'on possède bien le profile
+    document.getElementById("topLogoProfileCourant").getElementsByTagName( 'use' )[0].setAttribute("href", "../images/svg-defs.svg#shape-icon-profiles-" + getAllUrlParams().profile); // TODO vérifier qu'on possède bien le profile
     const allProfiles = ["profile_flight","profile_foot"];  // profiles 1 = flight ground turret, 2 = Foot EVA
     var indexOfProfiles = 1;
     allProfiles.forEach(element => {document.getElementById(element).setAttribute("href", "?lang=" + getAllUrlParams().lang + "&profile="+ indexOfProfiles + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse); ++indexOfProfiles;});

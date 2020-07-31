@@ -132,12 +132,6 @@ button:active {
 @media (hover: none) and (pointer: coarse) {
 
 }
-
-
-.iconFlagTop{
-  width: 2em;
-  height: 2em;
-}
 .iconFlagItem{
   width: 2em;
   height: 2em;
