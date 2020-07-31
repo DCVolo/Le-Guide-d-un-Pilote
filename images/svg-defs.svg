@@ -34,10 +34,10 @@
 		<symbol id="shape-icon-flag-ch" viewBox="0 0 30 20">
 			<path fill="#de2910" d="M0 0h30v20H0z"/><use transform="matrix(3 0 0 3 5 5)" xlink:href="#a"/><use transform="rotate(23.036 .093 25.536)" xlink:href="#a"/><use transform="rotate(45.87 1.273 16.18)" xlink:href="#a"/><use transform="rotate(69.945 .996 12.078)" xlink:href="#a"/><use transform="rotate(20.66 -19.689 31.932)" xlink:href="#a"/>
 		</symbol>
-		<symbol id="shape-icon-flag-du" viewBox="0 0 15000 10000">
-			<rect y="6666.7" fill="#21468B" width="15000" height="3333.3"/>
-			<rect y="3333.3" fill="#FFFFFF" width="15000" height="3333.3"/>
-			<rect y="0" fill="#AE1C28" width="15000" height="3333.3"/>
+		<symbol id="shape-icon-flag-du" viewBox="0 0 15 3.3">
+			<rect y="6.666" fill="#21468B" width="15" height="3.3333"/>
+			<rect y="3.3333" fill="#FFFFFF" width="15" height="3.3333"/>
+			<rect y="0" fill="#AE1C28" width="15" height="3.3333"/>
 		</symbol>
 		<symbol id="shape-icon-flag-se" viewBox="0 0 16 10">
 			<path fill="#006aa7" d="M0 0h16v10H0z"/><path fill="#fecc00" d="M5 0h2v10H5z"/><path fill="#fecc00" d="M0 4h16v2H0z"/>
