@@ -31,11 +31,8 @@
 	.st2{fill:#D81E34;}
 </style><g><rect class="st0" height="298.7" width="170.7" y="106.7"/><rect class="st1" height="298.7" width="170.7" x="170.7" y="106.7"/><rect class="st2" height="298.7" width="170.7" x="341.3" y="106.7"/></g>
 		</symbol>
-		<symbol id="shape-icon-flag-dn" viewBox="0 0 512 512">
-			<style type="text/css">
-	.st0{fill:#BE1F3E;}
-	.st1{fill:#FFFFFF;}
-</style><g id="XMLID_1_"><rect class="st0" height="298.7" id="XMLID_4_" width="512" y="106.7"/><rect class="st1" height="298.7" id="XMLID_3_" width="55.3" x="166.1" y="106.7"/><rect class="st1" height="55.4" id="XMLID_2_" width="512" y="228.3"/></g>
+		<symbol id="shape-icon-flag-dn" viewBox="0 0 37 28">
+			<path fill="#c60c30" d="M0,0H37V28H0Z"/><path fill="#fff" d="M0,12H12V0H16V12H37V16H16V28H12V16H0Z"/>
 		</symbol>
 		<symbol id="shape-icon-flag-pl" viewBox="0 0 16 10">
 			<path fill="#fff" d="M0 0h16v10H0z"/><path fill="#dc143c" d="M0 5h16v5H0z"/>
