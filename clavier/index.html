@@ -601,13 +601,16 @@
     // DEBUT BORDEL
     // en fait je voudrais utiliser Fetch plutôt que XMLhttprequest mais que je puisse stocker dans une variable globale -> ICI
     // je veux le mettre en variable globale pour ne faire qu'un seul appel (parce qu'à chaque touche je suis obligé de faire un appel actuellement)
+    var dataAfterSecondthen;
     var data;
     function getData(url) {
     return fetch(url)
         .then(response => response.json())
-        .then(result => data = result);
+        .then(result => data = result)
+        .then(result => dataAfterSecondthen = result);
     }
     console.log("DATA après fetch : ",data);
+    console.log("dataAfterSecondthen :" dataAfterSecondthen);
     getData(dataPath).then(result => {console.log(result);}); // -> ICI <- ça me donne bien le JSON mais je peux pas le sortir en variable globale
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon (un Promise)
     var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});    
