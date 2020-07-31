@@ -610,7 +610,7 @@
         .then(result => dataAfterSecondthen = result);
     }
     console.log("DATA après fetch : ",data);
-    console.log("dataAfterSecondthen :" dataAfterSecondthen);
+    console.log("dataAfterSecondthen :", dataAfterSecondthen);
     getData(dataPath).then(result => {console.log(result);}); // -> ICI <- ça me donne bien le JSON mais je peux pas le sortir en variable globale
     //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon (un Promise)
     var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});    
