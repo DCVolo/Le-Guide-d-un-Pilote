@@ -719,11 +719,6 @@ button:active {
   height: 1em;
 }
 
-#shareButton{
-  background: url(../images/icons/reseaux/share.svg) no-repeat;
-  background-size: contain;
-}
-
 #shareButton .tooltiptext {
   visibility: hidden;
   width: 140px;
