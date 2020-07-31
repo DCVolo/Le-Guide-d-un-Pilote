@@ -19,10 +19,8 @@
 
 		</symbol>
 		<symbol id="shape-icon-flag-jp" viewBox="0 0 512 512">
-			<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#AD1F23;}
-</style><g><rect class="st0" height="298.7" width="512" y="106.7"/><path class="st1" d="M256,166.4c49.5,0,89.6,40.1,89.6,89.6c0,49.5-40.1,89.6-89.6,89.6c-49.5,0-89.6-40.1-89.6-89.6   C166.4,206.5,206.5,166.4,256,166.4"/></g>
+			<rect fill="#fff" height="600" width="900"/>
+			<circle fill="#bc002d" cx="450" cy="300" r="180"/>
 		</symbol>
 		<symbol id="shape-icon-flag-it" viewBox="0 0 3 2">
 			<path fill="#009246" d="M0 0h1v2H0z"/><path fill="#fff" d="M1 0h1v2H1z"/><path fill="#ce2b37" d="M2 0h1v2H2z"/>
