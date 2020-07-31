@@ -763,3 +763,9 @@ img.iconFlagItem{
   visibility: visible;
   opacity: 1;
 }
+
+.icon {
+  width: auto;
+  height: auto;
+  /*background: #eee;*/
+}
