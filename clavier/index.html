@@ -164,7 +164,7 @@
     <div id="texte-option">
         
         <div class="menuLangue xxxs"><span class="dropdown">
-  <button class="dropbtn" type="button">‎<span id="changerLangue"></span><img id="topLogoLangueCourant" src="../images/icons/flags/fr.svg" class="iconFlagTop" title="" alt=""></button>
+  <button class="dropbtn" type="button">‎<span id="changerLangue"></span><svg id="topLogoLangueCourant" class="iconFlagItem"><use href="../images/svg-defs.svg#shape-icon-flag-fr"/></svg><!--<img  src="../images/icons/flags/fr.svg" class="iconFlagTop" title="" alt="">--></button>
   
   <span class="dropdown-content">
   <a id="langue_fr" href="?lang=fr" title=""><svg class="iconFlagItem"><use xlink:href="../images/svg-defs.svg#shape-icon-flag-fr"/></svg><!--<img src="../images/icons/flags/fr.svg" class="iconFlagItem" title="" alt="drapeau fr">--><span id="menuLangTextFR">Français</span></a>
@@ -800,7 +800,7 @@
     fromUrlShowLeftSidePanel();
 
     // MENU - Define the current language's flag to show on the keyboard
-    document.getElementById("topLogoLangueCourant").setAttribute("src", "../images/icons/flags/" + getAllUrlParams().lang + ".svg");  // TODO vérifier qu'on possède bien la langue
+    document.getElementById("topLogoLangueCourant").getElementsByTagName( 'use' )[0].setAttribute("href", "../images/svg-defs.svg#shape-icon-flag-" + getAllUrlParams().lang);  // TODO vérifier qu'on possède bien la langue
     // For each item in the list of all languages : set the link, but keep the value of the URL parameter of profile / key / mouse
     const allTranslatedLanguages = ["langue_fr","langue_en"];
     allTranslatedLanguages.forEach(element => {document.getElementById(element).setAttribute("href", "?lang="+ element.slice(-2) + "&profile=" + getAllUrlParams().profile + "&key=" + getAllUrlParams().key + "&mouse=" + getAllUrlParams().mouse);});
