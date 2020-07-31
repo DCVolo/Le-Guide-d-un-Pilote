@@ -54,7 +54,7 @@
 <rect y="3333.3" fill="#FFFFFF" width="15000" height="3333.3"/>
 <rect y="0" fill="#AE1C28" width="15000" height="3333.3"/>
 		</symbol>
-		<symbol id="shape-icon-flag-se" viewBox="0 0 512 512">
+		<symbol id="shape-icon-flag-se" style="enable-background:new 0 0 512 512;" xml:space="preserve" viewBox="0 0 512 512">
 			<style type="text/css">
 	.st0{fill:#2D5A95;}
 	.st1{fill:#F3D02F;}
