@@ -772,7 +772,7 @@
 		},
 		"ArrowUp":
 		{
-		"title": "Flêche Haut",
+		"title": "Flèche Haut",
 		"letter":"▲",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Y offset Pos",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
@@ -876,7 +876,7 @@
 		},
 		"ArrowLeft":
 		{
-		"title": "Flêche gauche",
+		"title": "Flèche gauche",
 		"letter":"◄",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> X offset neg",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
@@ -884,7 +884,7 @@
 		},
 		"ArrowDown":
 		{
-		"title": "Flêche bas",
+		"title": "Flèche bas",
 		"letter":"▼",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Y offset neg",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
@@ -892,7 +892,7 @@
 		},
 		"ArrowRight":
 		{
-		"title": "Flêche droite",
+		"title": "Flèche droite",
 		"letter":"►",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> X offset pos",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=14&titre=7.20\">7.20 Screenshot et vidéo</a>",
