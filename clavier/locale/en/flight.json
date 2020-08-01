@@ -384,7 +384,7 @@
 		"title": "W",
 		"letter":"W",
 		"keyAssociatedFunctions": "Strafe/Drive Forward<br><span class=\"modificateur_2\">IM</span> MFD up<br>Turret velocity increase",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.2.4\">4.2.4 Multi Function Display (MFD)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyE":
@@ -543,24 +543,24 @@
 		{
 		"title": "A",
 		"letter":"A",
-		"keyAssociatedFunctions": "Strafe left",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
+		"keyAssociatedFunctions": "Strafe left<br><span class=\"modificateur_2\">IM</span> MFD left",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.2.4\">4.2.4 Multi Function Display (MFD)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyS":
 		{
 		"title": "S",
 		"letter":"S",
-		"keyAssociatedFunctions": "Strafe backward<br>Turret velocity decrease",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
+		"keyAssociatedFunctions": "Strafe backward<br>Turret velocity decrease<br><span class=\"modificateur_2\">IM</span> MFD down",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.2.4\">4.2.4 Multi Function Display (MFD)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyD":
 		{
 		"title": "D",
 		"letter":"D",
-		"keyAssociatedFunctions": "Strafe right",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
+		"keyAssociatedFunctions": "Strafe right<br><span class=\"modificateur_2\">IM</span> MFD right",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&page=13&title=4.2.4\">4.2.4 Multi Function Display (MFD)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"KeyF":
