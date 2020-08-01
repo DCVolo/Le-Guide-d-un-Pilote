@@ -601,7 +601,7 @@
     // Fetch JSON & display data
     fetch(dataPath)
     .then(response => response.json())
-    .then(response => {actual_JSON = JSON.parse(response);  updateKeyboardKeys(actual_JSON);} )
+    .then(response => {actual_JSON = JSON.parse(response);  updateKeyboardKeys(actual_JSON); fromUrlShowLeftSidePanel(actual_JSON);} )
     .catch(error => { alert("Erreur : " + error);} );
 
     // Load the keyboard profiles only when data is fetched from JSON, not before.
@@ -756,20 +756,14 @@
         console.log("DATA après fetch KEY_PRESSED_UP : ",data);
     }
     // Show side panel with key info from using URL parameter ?key
-    function fromUrlShowLeftSidePanel()
+    function fromUrlShowLeftSidePanel(actualJSON)
     {
         var indexOfKeyCode = (element) => element == getAllUrlParams().key;
-        loadJSON(function(response)
-        {
-            // Parse JSON string into object
-            actual_JSON = JSON.parse(response);
-            var touchesAffichage = actual_JSON.Locale.KeyNames.array;
-            if(touchesAffichage.findIndex(indexOfKeyCode));
-                chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
-        });
-
+        var touchesAffichage = actualJSON.Locale.KeyNames.array;
+        if(touchesAffichage.findIndex(indexOfKeyCode));
+            chargerInfoTouche(keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)]);
     }
-    fromUrlShowLeftSidePanel();
+    
 
     // MENU - Define the current language's flag to show on the keyboard
     document.getElementById("topLogoLangueCourant").getElementsByTagName( 'use' )[0].setAttribute("href", "../images/svg-defs.svg#shape-icon-flag-" + getAllUrlParams().lang);  // TODO vérifier qu'on possède bien la langue
