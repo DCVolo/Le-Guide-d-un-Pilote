@@ -204,7 +204,7 @@
 		},
 		"Backquote":
 		{
-		"title": "^2",
+		"title": "puissance 2",
 		"letter":"²",
 		"keyAssociatedFunctions": "Console",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=7.19.1\">7.19.1 Commandes - console</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=7.19.2\">7.19.2 Commandes - USER.cfg</a>",
