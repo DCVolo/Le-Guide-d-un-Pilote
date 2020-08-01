@@ -99,8 +99,8 @@
 		<script>if('serviceWorker'in navigator){navigator.serviceWorker.register('offline-manager.js');}</script>
 		<script defer src="./clavier/urlParameterParser.js"></script>
 		<script defer>
-			//window.onload = function checkUrlParams()
-			//{
+			window.onload = function checkUrlParams()
+			{
 				var iframe = document.getElementById("iframeLGDP");
 				var findInput = iframe.contentWindow.document.getElementById("findInput");
 				var pageNumber = iframe.contentWindow.document.getElementById("pageNumber");
@@ -128,9 +128,11 @@
 					}
 				}
 
-			//};
+			};
 			goToChapter()
 			{
+				var iframe = document.getElementById("iframeLGDP");
+				var findInput = iframe.contentWindow.document.getElementById("findInput");
 				findInput.value = getAllUrlParams().title;
 				console.log("findInput.value ON_CHANGE:", findInput.value);
 			}
