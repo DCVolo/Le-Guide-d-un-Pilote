@@ -598,90 +598,58 @@
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
 
-    // DEBUT BORDEL
-    // en fait je voudrais utiliser Fetch plutôt que XMLhttprequest mais que je puisse stocker dans une variable globale -> ICI
-    // je veux le mettre en variable globale pour ne faire qu'un seul appel (parce qu'à chaque touche je suis obligé de faire un appel actuellement)
-    var dataAfterSecondthen;
-    var data;
-    function getData(url) {
-    return fetch(url)
-        .then(response => response.json())
-        .then(result => data = result)
-        .then(result => dataAfterSecondthen = result);
-    }
-    console.log("DATA après fetch : ",data);
-    console.log("dataAfterSecondthen :", dataAfterSecondthen);
-    getData(dataPath).then(result => {console.log(result);}); // -> ICI <- ça me donne bien le JSON mais je peux pas le sortir en variable globale
-    //var data_obj = (Promise.resolve(getData(dataPath))); // retourne bien un objet mais pas le bon (un Promise)
-    var data_obj = Promise.resolve(getData(dataPath)).then(r => {return r;});    
-    console.log("DATA_OBJ après fetch:",data_obj);
-    // FIN BORDEL
+    // Fetch JSON & display data
+    fetch(dataPath)
+    .then(response => response.json())
+    .then(response => {actual_JSON = JSON.parse(response);  updateKeyboardKeys(actual_JSON);} )
+    .catch(error => { alert("Erreur : " + error);} );
 
-    // Function to get JSON from URL
-    function loadJSON(callback)
-    {        
-        var xobj = new XMLHttpRequest();
-            xobj.overrideMimeType("application/json");
-        xobj.open('GET', dataPath, true);
-        xobj.onreadystatechange = function () 
+    // Load the keyboard profiles only when data is fetched from JSON, not before.
+    function updateKeyboardKeys(actualJSON)
+    {
+      keyCodeQwerty.forEach(element => 
         {
-              if (xobj.readyState == 4 && xobj.status == "200") 
-              {
-                // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-                callback(xobj.responseText);
-                //console.log("xobj", xobj.responseText);
-              }
-        };
-        xobj.send(null);  
+          var key = document.getElementById(element);
+          key.setAttribute("name", actualJSON.Keyboard[element].title);
+          key.setAttribute("title", actualJSON.Keyboard[element].title);
+          key.getElementsByClassName("KeyLetter")[0].innerHTML = actualJSON.Keyboard[element].letter;
+          key.getElementsByClassName("KeyDescr")[0].innerHTML = actualJSON.Keyboard[element].keyAssociatedFunctions;
+        });
+        btnOinfo.innerHTML = actualJSON.Locale.SideButtons.Open;
+        btnFinfo.innerHTML = actualJSON.Locale.SideButtons.Close;
+        btnOsouris.innerHTML = actualJSON.Locale.SideButtons.Open;
+        btnFsouris.innerHTML = actualJSON.Locale.SideButtons.Close;
+        document.getElementById("modificateur_1").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier1;
+        document.getElementById("modificateur_2").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier2;
+        document.getElementById("modificateur_3").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier3;
+        document.getElementById("modificateur_4").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier4;
+        document.getElementById("modificateur_5").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier5;
+        document.getElementById("modificateur_6").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier6;
+        document.getElementById("modificateur_7").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier7;
+        document.getElementById("modificateur_8").innerHTML = actualJSON.Locale.ModifiersLegend.Modifier8;
+        document.getElementById("changerLangue").innerHTML = actualJSON.Locale.MenuButtonLang.Lang + " ";
+        document.getElementById("changerProfil").innerHTML = actualJSON.Locale.MenuProfiles.Profile + " ";
+        document.getElementById("profile_flightText").innerHTML = " " + actualJSON.Locale.MenuProfiles.Flight;
+        document.getElementById("profile_footText").innerHTML = " " + actualJSON.Locale.MenuProfiles.Foot;
+        document.getElementById("changerMenu").innerHTML = actualJSON.Locale.MenuButtons.Menu + " ";
+        document.getElementById("menu_InstallerApplication").innerHTML = " " + actualJSON.Locale.MenuButtons.Application;
+        document.getElementById("menu_AjouterLangue").innerHTML = " " + actualJSON.Locale.MenuButtons.TranslateForm;
+        document.getElementById("menu_YouTube").innerHTML = " " + actualJSON.Locale.MenuButtons.YouTube;
+        document.getElementById("menu_Discord").innerHTML = " " + actualJSON.Locale.MenuButtons.Discord;
+        document.getElementById("menu_patreon").innerHTML = " " + actualJSON.Locale.MenuButtons.Patreon;
+        document.getElementById("zoneAxesidText").innerHTML = " " + actualJSON.Mouse.zoneAxes;
+        document.getElementById("zoneSideButtonidText").innerHTML = " " + actualJSON.Mouse.zoneSideButton;
+        document.getElementById("zoneClicDroitidText").innerHTML = " " + actualJSON.Mouse.zoneClicDroit;
+        document.getElementById("zoneClicGaucheidText").innerHTML = " " + actualJSON.Mouse.zoneClicGauche;
+        document.getElementById("zoneMoletteidText").innerHTML = " " + actualJSON.Mouse.zoneMolette;
     }
+
     // Variables to be translated
     var btnOinfo = document.getElementById('btnInfoOuvert');
     var btnFinfo = document.getElementById('btnInfoFermer');
     var btnOsouris = document.getElementById('btnSourisOuvert');
     var btnFsouris = document.getElementById('btnSourisFermer');
-    // USE THE LOADJSON FUNCTION RESPONSE CALLBACK TO GET THE JSON
-    loadJSON(function(response)
-    {
-        // Parse JSON string into object
-        actual_JSON = JSON.parse(response);
-        keyCodeQwerty.forEach(element => 
-        {
-          var key = document.getElementById(element);
-          key.setAttribute("name", actual_JSON.Keyboard[element].title);
-          key.setAttribute("title", actual_JSON.Keyboard[element].title);
-          key.getElementsByClassName("KeyLetter")[0].innerHTML = actual_JSON.Keyboard[element].letter;
-          key.getElementsByClassName("KeyDescr")[0].innerHTML = actual_JSON.Keyboard[element].keyAssociatedFunctions;
-        });
-        btnOinfo.innerHTML = actual_JSON.Locale.SideButtons.Open;
-        btnFinfo.innerHTML = actual_JSON.Locale.SideButtons.Close;
-        btnOsouris.innerHTML = actual_JSON.Locale.SideButtons.Open;
-        btnFsouris.innerHTML = actual_JSON.Locale.SideButtons.Close;
-        document.getElementById("modificateur_1").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier1;
-        document.getElementById("modificateur_2").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier2;
-        document.getElementById("modificateur_3").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier3;
-        document.getElementById("modificateur_4").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier4;
-        document.getElementById("modificateur_5").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier5;
-        document.getElementById("modificateur_6").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier6;
-        document.getElementById("modificateur_7").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier7;
-        document.getElementById("modificateur_8").innerHTML = actual_JSON.Locale.ModifiersLegend.Modifier8;
-        document.getElementById("changerLangue").innerHTML = actual_JSON.Locale.MenuButtonLang.Lang + " ";
-        document.getElementById("changerProfil").innerHTML = actual_JSON.Locale.MenuProfiles.Profile + " ";
-        document.getElementById("profile_flightText").innerHTML = " " + actual_JSON.Locale.MenuProfiles.Flight;
-        document.getElementById("profile_footText").innerHTML = " " + actual_JSON.Locale.MenuProfiles.Foot;
-        document.getElementById("changerMenu").innerHTML = actual_JSON.Locale.MenuButtons.Menu + " ";
-        document.getElementById("menu_InstallerApplication").innerHTML = " " + actual_JSON.Locale.MenuButtons.Application;
-        document.getElementById("menu_AjouterLangue").innerHTML = " " + actual_JSON.Locale.MenuButtons.TranslateForm;
-        document.getElementById("menu_YouTube").innerHTML = " " + actual_JSON.Locale.MenuButtons.YouTube;
-        document.getElementById("menu_Discord").innerHTML = " " + actual_JSON.Locale.MenuButtons.Discord;
-        document.getElementById("menu_patreon").innerHTML = " " + actual_JSON.Locale.MenuButtons.Patreon;
-        document.getElementById("zoneAxesidText").innerHTML = " " + actual_JSON.Mouse.zoneAxes;
-        document.getElementById("zoneSideButtonidText").innerHTML = " " + actual_JSON.Mouse.zoneSideButton;
-        document.getElementById("zoneClicDroitidText").innerHTML = " " + actual_JSON.Mouse.zoneClicDroit;
-        document.getElementById("zoneClicGaucheidText").innerHTML = " " + actual_JSON.Mouse.zoneClicGauche;
-        document.getElementById("zoneMoletteidText").innerHTML = " " + actual_JSON.Mouse.zoneMolette;
-        //document.getElementById("zoneActionsToucheTitre").innerHTML = actual_JSON.Locale.LeftPanel.keybindings;
-   });
-    
+    //
     function AfficherInfo() 
     {
         var info = document.getElementById('volet_g');
