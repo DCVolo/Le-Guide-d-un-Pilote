@@ -704,24 +704,18 @@
     {         
         if(document.getElementById(id))
         {
-            loadJSON(function(response)
-            {
-                // Parse JSON string into object
-                actual_JSON = JSON.parse(response);
-                var touchesAffichage = actual_JSON.Locale.KeyNames.array;
-                // Convert the id of the key into the localized key to pass it into the URL parameter (so it show the user the right value for its keyboard)
-                var indexOfKeyCode = (element) => element === id;
-                queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
-                history.replaceState(null, null, "?"+queryParams.toString());
-                
-                if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
-                    document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/");
-                if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
-                    document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
-                document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
-                document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
-            });
-
+            var touchesAffichage = actual_JSON.Locale.KeyNames.array;
+            // Convert the id of the key into the localized key to pass it into the URL parameter (so it show the user the right value for its keyboard)
+            var indexOfKeyCode = (element) => element === id;
+            queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
+            history.replaceState(null, null, "?"+queryParams.toString());
+            
+            if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly != null)
+                document.getElementById('iframeYT').setAttribute("src", actual_JSON.Keyboard[id].youtubeEmbededLinkOnly + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/");
+            if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
+                document.getElementById('iframeYT').setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
+            document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
+            document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
             
             AfficherInfo();
         }
