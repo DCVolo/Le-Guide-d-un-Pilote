@@ -601,8 +601,22 @@
     // Fetch JSON & display data
     fetch(dataPath)
     .then(response => response.json())
-    .then(response => {actual_JSON = JSON.parse(response); console.log(actual_JSON);  updateKeyboardKeys(actual_JSON); fromUrlShowLeftSidePanel(actual_JSON);} )
+    .then(response => { storeJSON(response); } )
+    .then()
     .catch(error => { alert("Erreur : " + error);} );
+
+    async function storeJSON(response)
+    {
+      if(response)
+      {        
+        actual_JSON = JSON.parse(response);
+      }
+      if(actual_JSON != null)
+      {
+        updateKeyboardKeys(actual_JSON);
+        fromUrlShowLeftSidePanel(actual_JSON);
+      }
+    }
 
     // Load the keyboard profiles only when data is fetched from JSON, not before.
     function updateKeyboardKeys(actualJSON)
