@@ -119,7 +119,8 @@
 						{
 							pageNumber.value = getAllUrlParams().page;
 							//pageNumber.onchange = function() {goToPage()};
-							iframe.contentWindow.PDFViewerApplication.page=getAllUrlParams().page;
+							var frameObject = document.getElementById("iframeLGDP").contentWindow;
+							frameObject.PDFViewerApplication.page = getAllUrlParams().page;
 							console.log("pageNumber.value :", pageNumber.value);
 						}
 					}
