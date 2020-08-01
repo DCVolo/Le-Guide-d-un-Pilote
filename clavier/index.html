@@ -738,22 +738,16 @@
     // Allow to hide left panel by typing the same key a second time
     function logKey(e) 
     {
-        loadJSON(function(response)
+        var touchesAffichage = actualJSON.Locale.KeyNames.array;
+        var indexOfKeyCode = (element) => element == getAllUrlParams().key;
+        if(e.code == keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)])
         {
-            // Parse JSON string into object
-            actual_JSON = JSON.parse(response);
-            var touchesAffichage = actual_JSON.Locale.KeyNames.array;
-            var indexOfKeyCode = (element) => element == getAllUrlParams().key;
-            if(e.code == keyCodeQwerty[touchesAffichage.findIndex(indexOfKeyCode)])
-            {
-                CacherInfo();
-            }
-            else{
-                chargerInfoTouche(e.code);
-            }
-        });
+            CacherInfo();
+        }
+        else{
+            chargerInfoTouche(e.code);
+        }        
         document.body.focus();
-        console.log("DATA après fetch KEY_PRESSED_UP : ",data);
     }
     // Show side panel with key info from using URL parameter ?key
     function fromUrlShowLeftSidePanel(actualJSON)
@@ -801,22 +795,12 @@
         dummy.value = window.location.href;
         dummy.select();
         document.execCommand('copy');
-        loadJSON(function(response)
-        {
-            // Parse JSON string into object
-            actual_JSON = JSON.parse(response);
-            tooltip.innerHTML = actual_JSON.Locale.ShareButton.whenHovered;
-        });
+        tooltip.innerHTML = actual_JSON.Locale.ShareButton.whenHovered;        
     }
-
     function outFunc() 
     {
-        loadJSON(function(response)
-        {
-            // Parse JSON string into object
-            actual_JSON = JSON.parse(response);
-            tooltip.innerHTML = actual_JSON.Locale.ShareButton.whenClicked;
-        });
+        tooltip.innerHTML = actual_JSON.Locale.ShareButton.whenClicked;
+        
     }
 </script>
 
