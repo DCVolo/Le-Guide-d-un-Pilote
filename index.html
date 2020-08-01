@@ -102,8 +102,10 @@
 			window.onload = function checkUrlParams()
 			{
 				console.log(getAllUrlParams().lang + " " + getAllUrlParams().page + " " + getAllUrlParams().title); 
-				document.getElementById("findInput").value = getAllUrlParams().title;
-				document.getElementById("pageNumber").value = getAllUrlParams().page;
+				if(document.getElementById("findInput"))
+					document.getElementById("findInput").value = getAllUrlParams().title;
+				if(document.getElementById("pageNumber"))
+					document.getElementById("pageNumber").value = getAllUrlParams().page;
 			};
 		</script>
   	</body>
