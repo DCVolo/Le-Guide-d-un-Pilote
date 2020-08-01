@@ -16,31 +16,25 @@
 		},
 		"MenuProfiles":
 		{
-			"Profile": "Profile",
-			"Flight": "(Ship / Ground) vehicles + Turret ",
-			"Foot": "Foot / E.V.A"
-		},
-		"MenuProfiles":
-		{
-			"Profile": "Profile",
-			"Flight": "Flight",
-			"Foot": "Foot"
+			"Profile": "Profil",
+			"Flight": "Véhicule (Spatial / Terrestre) + Tourelle ",
+			"Foot": "À pieds / E.V.A (sortie extravéhiculaire)"
 		},
 		"MenuButtons":
 		{
 			"Menu": "Menu",
-			"Application": "Web Application",
-			"TranslateForm": "Translate or modify a profile",
-			"YouTube": "YouTube Channel",
-			"Discord": "Discord Server",
-			"Patreon": "You'd like to support me ?",
-			"CookiesOn": "Personal data (Google Analytics)",
-			"CookiesOff": "Personal data protected"
+			"Application": "Application Web",
+			"TranslateForm": "Traduire ou modifier dans une langue",
+			"YouTube": "Chaîne YouTube",
+			"Discord": "Serveur Discord",
+			"Patreon": "Vous souhaitez me soutenir ?",
+			"CookiesOn": "Données personelles (Google Analytics)",
+			"CookiesOff": "Données personelles protégées"
 		},
 		"SideButtons":
 		{
-			"Open": "Open !",
-			"Close": "Close !"
+			"Open": "Ouvrir !",
+			"Close": "Fermer !"
 		},
 		"LeftPanel":
 		{
@@ -48,29 +42,28 @@
 		},
 		"ShareButton":
 		{
-			"whenHovered": "Link copied to clipboard",
-			"whenClicked": "Share this !"
+			"whenHovered": "Lien copié dans le presse-papier",
+			"whenClicked": "Partager ceci !"
 		},
 		"ModifiersLegend":
 		{
-			"Modifier1": "M1 Modifier 1",
-			"Modifier2": "MI Interaction Mode",
-			"Modifier3": "SC Scan Mode",
-			"Modifier4": "MG Mining Mode",
-			"Modifier5": "AC Advanced Cam Mode",
-			"Modifier6": "M2 Modifier 2",
-			"Modifier7": "Hold",
-			"Modifier8": "Double Tap"
+			"Modifier1": "M1 Modificateur 1",
+			"Modifier2": "MI Mode Interaction",
+			"Modifier3": "SC Mode Scan",
+			"Modifier4": "MG Mode Minage",
+			"Modifier5": "CA Mode caméra avancée",
+			"Modifier6": "M2 Modificateur 2",
+			"Modifier7": "Maintenir la touche",
+			"Modifier8": "Double appuis"
 		}
 	},
 	"Mouse":
 	{
-		"zoneAxes": "Yaw<br>Pitch",
+		"zoneAxes": "Lacet<br>Tangage",
 		"zoneSideButton": "",
-		"zoneMolette": "",
-		"zoneClicGauche": "",
-		"zoneClicDroit": ""
-		
+		"zoneMolette": "Verrouiller missile  sur cible & Tirer missile*(Clic)<br>Augmenter / Réduire limitateur de vitesse<br><span class=\"modificateur_1\">M1</span> Zoom Dynamique  Avant / Arrière<br><span class=\"modificateur_3\">SC</span> Augmenter / Réduire  angle de sondage radar<br><span class=\"modificateur_4\">MG</span> Augmenter / Réduire puissance laser minage",
+		"zoneClicGauche": "Tirer (groupe d'armes 1)<br><span class=\"modificateur_3\">SC</span> Scanner cible dans le viseur<br><span class=\"modificateur_4\">MG</span> Allumer laser de minage",
+		"zoneClicDroit": "Tirer (groupe d'armes 2)<br><span class=\"modificateur_3\">SC</span> Balayage impulsion radar<br><span class=\"modificateur_4\">SC</span> Changer de laser de minage"		
 	},
 	"Keyboard":
 	{
