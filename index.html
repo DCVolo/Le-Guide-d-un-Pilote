@@ -111,12 +111,15 @@
 						if(findInput)
 						{
 							findInput.value = getAllUrlParams().title;
+							//findInput.onchange = function() {goToChapter()};
 							console.log("findInput.value :", findInput.value);
 						}
 						var pageNumber = iframe.contentWindow.document.getElementById("pageNumber");
 						if(pageNumber)
 						{
 							pageNumber.value = getAllUrlParams().page;
+							//pageNumber.onchange = function() {goToPage()};
+							iframe.contentWindow.PDFViewerApplication.page=getAllUrlParams().page;
 							console.log("pageNumber.value :", pageNumber.value);
 						}
 					}
