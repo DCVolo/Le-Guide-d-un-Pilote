@@ -107,7 +107,9 @@
 					if(getAllUrlParams().lang != null && getAllUrlParams().page != null && getAllUrlParams().title)
 					{
 						if(iframe.contentWindow.document.getElementById("findInput"))
-							console.log("ça, je sais pas encore");
+							console.log("ça, marche");
+						if(iframe.contentWindow.document.getElementById("pageNumber"))
+							console.log("ça, devrait marcher");
 					}
 				}
 			};
