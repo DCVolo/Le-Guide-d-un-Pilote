@@ -61,9 +61,9 @@
 	{
 		"zoneAxes": "Aim Left / Right<br>Aim Up / Down<br><span class=\"modificateur_2\">MI</span> Look Left / Right<br><span class=\"modificateur_2\">MI</span> Look Up / Down",
 		"zoneSideButton": "",
-		"zoneMolette": "Default Movement Speed Increase / Decrease<br>Melee (Click)<br><span class=\"modificateur_2\">MI</span> Focus (Click)<br><span class=\"modificateur_2\">MI</span> Zoom In / Out<br><span class=\"modificateur_3\">ADS</span> Zoom In / Out",
-		"zoneClicGauche": "Primary Attack<br><span class=\"modificateur_2\">MI</span> Activate / Interact<br><span class=\"modificateur_6\">UC</span> Light Melee Left<br><span class=\"modificateur_6\">UC</span> Heavy Melee Left*",
-		"zoneClicDroit": "<span class=\"modificateur_3\">ADS</span> Aim Down Sight<br><span class=\"modificateur_2\">MI</span> PIT Wheel*<br><span class=\"modificateur_6\">UC</span> Light Melee Right<br><span class=\"modificateur_6\">UC</span> Heavy Melee Right*"			
+		"zoneMolette": "Default Movement Speed Increase / Decrease<br>Melee (Click)<br><span class=\"modificateur_2\">MI</span> Focus (Click)<br><span class=\"modificateur_2\">MI</span> Zoom In / Out<br><span class=\"modificateur_3\">VV</span> Zoom In / Out",
+		"zoneClicGauche": "Primary Attack<br><span class=\"modificateur_2\">MI</span> Activate / Interact<br><span class=\"modificateur_6\">CM</span> Light Melee Left<br><span class=\"modificateur_6\">CM</span> Heavy Melee Left*",
+		"zoneClicDroit": "<span class=\"modificateur_3\">VV</span> Aim Down Sight<br><span class=\"modificateur_2\">MI</span> PIT Wheel*<br><span class=\"modificateur_6\">CM</span> Light Melee Right<br><span class=\"modificateur_6\">CM</span> Heavy Melee Right*"			
 	},
 	"Keyboard":
 	{
@@ -375,7 +375,7 @@
 		{
 		"title": "A",
 		"letter":"A",
-		"keyAssociatedFunctions": "EVA Pivoter gauche<br><span class=\"modificateur_4\">PN</span> Roulement gauche<br>Inclinaison gauche",
+		"keyAssociatedFunctions": "EVA Pivoter gauche<br><span class=\"modificateur_4\">SC</span> Roulement gauche<br>Inclinaison gauche",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -391,7 +391,7 @@
 		{
 		"title": "E",
 		"letter":"E",
-		"keyAssociatedFunctions": "EVA Pivoter droite<br><span class=\"modificateur_4\">PN</span> Roulement droite<br>Inclinaison droite",
+		"keyAssociatedFunctions": "EVA Pivoter droite<br><span class=\"modificateur_4\">SC</span> Roulement droite<br>Inclinaison droite",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -663,7 +663,7 @@
 		{
 		"title": "Majuscule gauche",
 		"letter":"MAJ",
-		"keyAssociatedFunctions": "EVA Postcombustion<br><span class=\"modificateur_3\">ADS</span> Retenir respiration<br>Sprinter",
+		"keyAssociatedFunctions": "EVA Postcombustion<br><span class=\"modificateur_3\">VV</span> Retenir respiration<br>Sprinter",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.2.1\">5.2.1 À Pieds</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
