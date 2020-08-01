@@ -215,7 +215,7 @@
 		"title": "Esperluette",
 		"letter":"&",
 		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 1<br>Select pin 1<br>Pin target 1*",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=4.3.1.9\">4.3.1.9 Consommable pour minage laser</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit2":
@@ -223,7 +223,7 @@
 		"title": "E accent aigu",
 		"letter":"é",
 		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 2<br>Select pin 2<br>Pin target 2*",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=4.3.1.9\">4.3.1.9 Consommable pour minage laser</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit3":
@@ -231,7 +231,7 @@
 		"title": "Guillemet",
 		"letter":"\"",
 		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 3<br>Select pin 3<br>Pin target 3*",
-		"chaptersLGDP": "",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=4.3.1.9\">4.3.1.9 Consommable pour minage laser</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Digit4":
@@ -311,7 +311,7 @@
 		"title": "Retour arrière",
 		"letter":"←",
 		"keyAssociatedFunctions": "Electronic Access Re-Spawn<br>Self-destruct toggle",
-		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=3.2\">3.2 Arena Commander (AC)<br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=3.3\">3.3 Star Marine (SM)</a></a>",
+		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=3.2\">3.2 Arena Commander (AC)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&titre=3.3\">3.3 Star Marine (SM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
 		"Insert":
