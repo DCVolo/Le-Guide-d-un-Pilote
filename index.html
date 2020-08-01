@@ -111,7 +111,7 @@
 						if(findInput)
 						{
 							findInput.value = getAllUrlParams().title;
-							//findInput.onchange = function() {goToChapter()};
+							findInput.onchange = function() {goToChapter()};
 							console.log("findInput.value :", findInput.value);
 						}
 						var pageNumber = iframe.contentWindow.document.getElementById("pageNumber");
