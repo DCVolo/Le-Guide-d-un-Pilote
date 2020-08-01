@@ -47,14 +47,14 @@
 		},
 		"ModifiersLegend":
 		{
-			"Modifier1": "M1 Modificateur 1",
+			"Modifier1": "M1 Modifier 1",
 			"Modifier2": "MI Mode Interaction",
-			"Modifier3": "SC Mode Scan",
-			"Modifier4": "MG Mode Minage",
+			"Modifier3": "VV Viser avec Viseur",
+			"Modifier4": "SC Se coucher actif",
 			"Modifier5": "CA Mode caméra avancée",
-			"Modifier6": "M2 Modificateur 2",
-			"Modifier7": "Maintenir la touche",
-			"Modifier8": "Double appuis"
+			"Modifier6": "CM Combat mains nues ",
+			"Modifier7": "* Maintenir",
+			"Modifier8": "** Double Appuis"
 		}
 	},
 	"Mouse":
@@ -423,7 +423,7 @@
 		{
 		"title": "U",
 		"letter":"U",
-		"keyAssociatedFunctions": "Action accessoire sous canon",
+		"keyAssociatedFunctions": "Action accessoire tactique",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.3.4.2\">5.3.4.2 Accessoires d’armes</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
