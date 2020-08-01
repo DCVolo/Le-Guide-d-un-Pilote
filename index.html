@@ -120,7 +120,7 @@
 							pageNumber.value = getAllUrlParams().page;
 							//pageNumber.onchange = function() {goToPage()};
 							var frameObject = document.getElementById("iframeLGDP").contentWindow;
-							frameObject.PDFViewerApplication.page = getAllUrlParams().page;
+							frameObject.PDFViewerApplication.page = Number(getAllUrlParams().page);
 							console.log("pageNumber.value :", pageNumber.value);
 						}
 					}
