@@ -97,5 +97,12 @@
 	</div>
 		<script async src="./async-ext.js"></script>
 		<script>if('serviceWorker'in navigator){navigator.serviceWorker.register('offline-manager.js');}</script>
+		<script defer src="./clavier/urlParameterParser.js"></script>
+		<script defer>
+			window.onload = function checkUrlParams()
+			{
+				console.log(getAllUrlParams().lang + " " + getAllUrlParams().page);
+			};
+		</script>
   	</body>
 </html>
