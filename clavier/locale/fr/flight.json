@@ -766,7 +766,7 @@
 		{
 		"title": "Majuscule droit",
 		"letter":"MAJ",
-		"keyAssociatedFunctions": "Lock pitch / yaw movement (toggle / hold)",
+		"keyAssociatedFunctions": "Bloquer mouvement tangage/lacet (activer / maintenir)",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
