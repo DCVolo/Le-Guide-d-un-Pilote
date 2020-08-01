@@ -99,7 +99,7 @@
 		<script>if('serviceWorker'in navigator){navigator.serviceWorker.register('offline-manager.js');}</script>
 		<script  src="./clavier/urlParameterParser.js"></script>
 		<script >
-			iframeLGDP.onload = function checkUrlParams()
+			window.onload = function checkUrlParams()
 			{
 				var iframe = document.getElementById("iframeLGDP");
 				var findInput = iframe.contentWindow.document.getElementById("findInput");
@@ -120,9 +120,8 @@
 						{
 							pageNumber.value = getAllUrlParams().page;
 							
-							//document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.page=300;
-							//iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
-							iframe.contentWindow.PDFViewerApplication.pdfViewer.pageNumber = getAllUrlParams().page;
+							document.getElementById("docIframe").contentWindow.PDFViewerApplication.page=300
+							iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
 							console.log("pageNumber.value :", pageNumber.value);
 
 							currentPageNum = pageNumber.value;
