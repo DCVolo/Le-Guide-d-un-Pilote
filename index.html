@@ -101,7 +101,9 @@
 		<script defer>
 			window.onload = function checkUrlParams()
 			{
-				console.log(getAllUrlParams().lang + " " + getAllUrlParams().page);
+				console.log(getAllUrlParams().lang + " " + getAllUrlParams().page + " " + getAllUrlParams().title); 
+				document.getElementById("findInput").value = getAllUrlParams().title;
+				document.getElementById("pageNumber").value = getAllUrlParams().page;
 			};
 		</script>
   	</body>
