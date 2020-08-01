@@ -5,8 +5,8 @@ return"";}var myCookie=getCookie("cookiePreference");if(myCookie==""){alertify.c
 if(myCookie=="0"){window['ga-disable-UA-45860209-2']=true;}
 if(myCookie=="1"){window['ga-disable-UA-45860209-2']=false;}
 if(myCookie!=""){var elmt=document.getElementById("AMPLongShortPresentation");elmt.style.display="none";var lgdp=document.getElementById("iframeLGDP");
-if(typeof getAllUrlParams().title !="undefined"){
-	lgdp.setAttribute("src","./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf&title="+getAllUrlParams().title);
+if(typeof getAllUrlParams().title !="undefined" && typeof page_sommaire !="undefined"){
+	lgdp.setAttribute("src","./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf&title="+getAllUrlParams().title+"&page="+page_sommaire);
 }
 else{
 	lgdp.setAttribute("src","./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf");

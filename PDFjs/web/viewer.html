@@ -484,16 +484,16 @@ See https://github.com/adobe-type-tools/cmap-resources
         try{
           var searchval = getAllUrlParams().title;
           if(PDFViewerApplication.pagesCount == 0){
-            setTimeout(function(){ searchOnMyFuckingPDF(); }, 100);  // Please no          
+            setTimeout(function(){ searchOnMyFuckingPDF(); }, 500);  // Please no          
           }
           else{
-            PDFViewerApplication.page = 13;
+            PDFViewerApplication.page = getAllUrlParams().page;
             PDFViewerApplication.findBar.open();
             PDFViewerApplication.findBar.findField.value = decodeURI(searchval);
             PDFViewerApplication.findBar.findNextButton.click();
           }         
         }catch(e){
-          setTimeout(function(){ searchOnMyFuckingPDF(); }, 100);  // WTF ????
+          setTimeout(function(){ searchOnMyFuckingPDF(); }, 500);  // WTF ????
         }         
       }
       </script>
