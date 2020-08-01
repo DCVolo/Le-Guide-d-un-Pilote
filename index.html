@@ -101,15 +101,15 @@
 		<script defer>
 			window.onload = function checkUrlParams()
 			{
-				console.log(getAllUrlParams().lang + " " + getAllUrlParams().page + " " + getAllUrlParams().title); 
-				if(document.getElementById("findInput"))
-					document.getElementById("findInput").value = getAllUrlParams().title;
-				if(document.getElementById("pageNumber"))
-					document.getElementById("pageNumber").value = getAllUrlParams().page;
-				if(document.getElementById("iframeLGDP"))
-					console.log("ça, ça marche");
-				if(document.getElementById("iframeLGDP").getElementById("findInput"))
-					console.log("ça, je sais pas encore");
+				var iframe = document.getElementById("iframeLGDP");
+				if(iframe)
+				{
+					if(getAllUrlParams().lang != null && getAllUrlParams().page != null && getAllUrlParams().title)
+					{
+						if(iframe.contentWindow.document.getElementById("findInput"))
+							console.log("ça, je sais pas encore");
+					}
+				}
 			};
 		</script>
   	</body>
