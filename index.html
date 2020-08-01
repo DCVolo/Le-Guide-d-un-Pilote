@@ -120,8 +120,9 @@
 						{
 							pageNumber.value = getAllUrlParams().page;
 							
-							document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.page=300
+							//document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.page=300;
 							iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
+							iframe.contentWindow.PDFViewerApplication.pdfViewer.pageNumber = getAllUrlParams().page;
 							console.log("pageNumber.value :", pageNumber.value);
 
 							currentPageNum = pageNumber.value;
