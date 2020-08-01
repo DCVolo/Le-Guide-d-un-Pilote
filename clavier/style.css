@@ -405,9 +405,10 @@ button:active {
 
 #texte-legende{
   display: grid;
-  grid-template-columns: 12em 12em;
+  grid-template-columns: auto auto;
   grid-template-rows: 1.125em;
   grid-gap: 0.2em;
+  width: max-content;
 }
 
 
