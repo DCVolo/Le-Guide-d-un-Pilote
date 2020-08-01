@@ -101,14 +101,14 @@
 		<script defer>
 
 
-			window.onload = function checkUrlParams()
-			{
-				document.getElementById("iframeLGDP").document.addEventListener("pagesLoaded", function(e) 
+			//window.onload = function checkUrlParams()
+			//{
+				document.addEventListener("pagesLoaded", function(e) 
 				{
    					searchOnMyFuckingPDF(getAllUrlParams().title);
  				});
 
-			};
+			//};
 			function searchOnMyFuckingPDF(searchval){
 			    document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.page = 13;
 			    document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.findBar.open();
