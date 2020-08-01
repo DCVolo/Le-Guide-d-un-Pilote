@@ -463,37 +463,33 @@ See https://github.com/adobe-type-tools/cmap-resources
               alertify.alert().setContent('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfY5rZ-qnQAqRMtlmWLax0cIjiYXOsWuEBBtM2pcHlFPQ8PcQ/viewform?embedded=true" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0">…</iframe>').show();
           }
 
-        window.onload = function checkUrlParams()
-        {
-          try{
-            searchOnMyFuckingPDF(getAllUrlParams().title);
-          }
-          catch(e){
-            console.log("derp");
-          }
-        };
          function ready(fn) {
             if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
                 fn();
             } else {
                 document.addEventListener('DOMContentLoaded', fn);
             }
-        }
-        ready(function () {
-          try{
-            searchOnMyFuckingPDF(getAllUrlParams().title);
           }
-          catch(e){
-            console.log("derp3");
-          }
-        });
+          ready(function () {
+            try{
+              searchOnMyFuckingPDF(getAllUrlParams().title);
+            }
+            catch(e){
+              console.log("derp4");
+            }
+          });
 
       //};
-      function searchOnMyFuckingPDF(searchval){
+       function searchOnMyFuckingPDF(searchval){
+        if(typeof PDFViewerApplication.page == "undefined"){
+          searchOnMyFuckingPDF(searchval);
+        }
+        else{
           PDFViewerApplication.page = 13;
           PDFViewerApplication.findBar.open();
           PDFViewerApplication.findBar.findField.value = decodeURI(searchval);
           PDFViewerApplication.findBar.findNextButton.click();
+        }          
       }
       </script>
 
