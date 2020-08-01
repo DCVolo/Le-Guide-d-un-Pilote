@@ -597,7 +597,7 @@
     // Path to the "profile.json" file that should be used for localization
     const fileProfiles = ["flight","foot"];
     var dataPath = "./locale/"+getAllUrlParams().lang+"/"+fileProfiles[getAllUrlParams().profile-1]+".json";
-
+    console.log("dataPath : ", dataPath);
     // Fetch JSON & display data
     fetch(dataPath)
     .then(response => response.json())
