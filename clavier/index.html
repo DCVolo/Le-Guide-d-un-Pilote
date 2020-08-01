@@ -602,7 +602,6 @@
     fetch(dataPath)
     .then(response => response.json())
     .then(response => { storeJSON(response); } )
-    .then()
     .catch(error => { alert("Erreur : " + error);} );
 
     async function storeJSON(response)
