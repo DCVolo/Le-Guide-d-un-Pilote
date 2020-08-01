@@ -607,7 +607,8 @@
     async function storeJSON(response)
     {
       if(response)
-      {        
+      {   
+        console.log("merde: ", reponse);     
         actual_JSON = JSON.parse(response);
       }
       if(actual_JSON != null)
