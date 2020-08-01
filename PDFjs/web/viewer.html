@@ -475,16 +475,16 @@ See https://github.com/adobe-type-tools/cmap-resources
               searchOnMyFuckingPDF();
             }
             catch(e){
-              console.log("derp8");
+              console.log("derp9");
             }
           });
 
-      //};
+        //Ne faites pas ça chez vous
        function searchOnMyFuckingPDF(){
         try{
           var searchval = getAllUrlParams().title;
           if(PDFViewerApplication.pagesCount == 0){
-            setTimeout(function(){ searchOnMyFuckingPDF(); }, 500);            
+            setTimeout(function(){ searchOnMyFuckingPDF(); }, 100);  // Please no          
           }
           else{
             PDFViewerApplication.page = 13;
@@ -493,7 +493,7 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.findBar.findNextButton.click();
           }         
         }catch(e){
-          setTimeout(function(){ searchOnMyFuckingPDF(); }, 500); 
+          setTimeout(function(){ searchOnMyFuckingPDF(); }, 100);  // WTF ????
         }         
       }
       </script>
