@@ -106,12 +106,19 @@
 				{
 					if(getAllUrlParams().lang != null && getAllUrlParams().page != null && getAllUrlParams().title)
 					{
+						console.log(getAllUrlParams().lang +" "+ getAllUrlParams().page +" "+ getAllUrlParams().title);
 						var findInput = iframe.contentWindow.document.getElementById("findInput");
 						if(findInput)
+						{
 							findInput.value = getAllUrlParams().title;
+							console.log("findInput.value :", findInput.value);
+						}
 						var pageNumber = iframe.contentWindow.document.getElementById("pageNumber");
 						if(pageNumber)
+						{
 							pageNumber.value = getAllUrlParams().page;
+							console.log("pageNumber.value :", pageNumber.value);
+						}
 					}
 				}
 			};
