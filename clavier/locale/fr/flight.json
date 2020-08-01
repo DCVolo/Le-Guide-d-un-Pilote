@@ -319,7 +319,7 @@
 		{
 		"title": "Début",
 		"letter":"Début",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Augmenter profondeur de champ",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Augmenter profondeur de champ",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -327,7 +327,7 @@
 		{
 		"title": "Page haut",
 		"letter":"▲",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage positif axe Z",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage positif axe Z",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -351,7 +351,7 @@
 		{
 		"title": "Pavé numérique: multiplier",
 		"letter":"*",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Réinitialiser vue<br>Recalibrer FOIP",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Réinitialiser vue<br>Recalibrer FOIP",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -359,7 +359,7 @@
 		{
 		"title": "Pavé numérique: soustraire",
 		"letter":"-",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Réduire champ de vision<br>Caméra selfie FOIP",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Réduire champ de vision<br>Caméra selfie FOIP",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -487,7 +487,7 @@
 		{
 		"title": "Fin",
 		"letter":"Fin",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Diminuer profondeur de champ",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Diminuer profondeur de champ",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -495,7 +495,7 @@
 		{
 		"title": "Page bas",
 		"letter":"▼",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage négatif axe Z",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage négatif axe Z",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -503,7 +503,7 @@
 		{
 		"title": "Pavé numérique: sept",
 		"letter":"7",
-		"keyAssociatedFunctions": "Augmenter niveau bouclier haut<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 7*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier haut<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 7*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -511,7 +511,7 @@
 		{
 		"title": "Pavé numérique: huit",
 		"letter":"8",
-		"keyAssociatedFunctions": "Augmenter niveau bouclier avant<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 8*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier avant<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 8*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -519,7 +519,7 @@
 		{
 		"title": "Pavé numérique: neuf",
 		"letter":"9",
-		"keyAssociatedFunctions": "Augmenter niveau bouclier bas<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 9*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier bas<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 9*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -527,7 +527,7 @@
 		{
 		"title": "Pavé numérique: additionner",
 		"letter":"+",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Augmenter champ de vision",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Augmenter champ de vision",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -639,7 +639,7 @@
 		{
 		"title": "Pavé numérique: quatre",
 		"letter":"4",
-		"keyAssociatedFunctions": "Augmenter niveau bouclier gauche<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 4*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier gauche<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 4*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -647,7 +647,7 @@
 		{
 		"title": "Pavé numérique: cinq",
 		"letter":"5",
-		"keyAssociatedFunctions": "Réinitialiser bouclierst<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 5*",
+		"keyAssociatedFunctions": "Réinitialiser bouclierst<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 5*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -655,7 +655,7 @@
 		{
 		"title": "Pavé numérique: six",
 		"letter":"6",
-		"keyAssociatedFunctions": "Augmenter niveau bouclier droite<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 6*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier droite<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 6*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -767,7 +767,7 @@
 		{
 		"title": "Flèche Haut",
 		"letter":"▲",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage positif axe Y",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage positif axe Y",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -775,7 +775,7 @@
 		{
 		"title": "Pavé numérique: un",
 		"letter":"1",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 1*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 1*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -783,7 +783,7 @@
 		{
 		"title": "Pavé numérique: deux",
 		"letter":"2",
-		"keyAssociatedFunctions": "Augmenter niveau bouclier arrière<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 2*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier arrière<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 2*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -791,7 +791,7 @@
 		{
 		"title": "Pavé numérique: trois",
 		"letter":"3",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 3*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 3*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -871,7 +871,7 @@
 		{
 		"title": "Flèche gauche",
 		"letter":"◄",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage négatif axe X",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage négatif axe X",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -879,7 +879,7 @@
 		{
 		"title": "Flèche bas",
 		"letter":"▼",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage négatif axe Y",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage négatif axe Y",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -887,7 +887,7 @@
 		{
 		"title": "Flèche droite",
 		"letter":"►",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage positif axe X",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage positif axe X",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -895,7 +895,7 @@
 		{
 		"title": "Pavé numérique: zéro",
 		"letter":"0",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Effacer sauvegarde*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Effacer sauvegarde*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
