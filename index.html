@@ -97,41 +97,18 @@
 	</div>
 		<script async src="./async-ext.js"></script>
 		<script>if('serviceWorker'in navigator){navigator.serviceWorker.register('offline-manager.js');}</script>
-		<script  src="./clavier/urlParameterParser.js"></script>
-		<script >
+		<script defer src="./clavier/urlParameterParser.js"></script>
+		<script defer>
 			window.onload = function checkUrlParams()
 			{
-				var iframe = document.getElementById("iframeLGDP");
-				var findInput = iframe.contentWindow.document.getElementById("findInput");
-				var pageNumber = iframe.contentWindow.document.getElementById("pageNumber");
-				if(iframe)
-				{
-					if(getAllUrlParams().lang != null && getAllUrlParams().page != null && getAllUrlParams().title)
-					{
-						console.log(getAllUrlParams().lang +" "+ getAllUrlParams().page +" "+ getAllUrlParams().title);
-						
-						if(findInput)
-						{
-							findInput.value = getAllUrlParams().title;
-							console.log("findInput.value :", findInput.value);
-						}
-						
-						if(pageNumber)
-						{
-							pageNumber.value = getAllUrlParams().page;
-							
-							document.getElementById("docIframe").contentWindow.PDFViewerApplication.page=300
-							iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
-							console.log("pageNumber.value :", pageNumber.value);
-
-							currentPageNum = pageNumber.value;
-						}
-					}
-				}
-
+				searchOnMyFuckingPDF(getAllUrlParams().title);
 			};
-
-
+			function searchOnMyFuckingPDF(searchval){
+			    document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.page = 13;
+			    document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.findBar.open();
+			    document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.findBar.findField.value = decodeURI(searchval);
+			    document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.findBar.findNextButton.click();
+			}
 		</script>
   	</body>
 </html>
