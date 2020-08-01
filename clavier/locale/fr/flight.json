@@ -78,7 +78,7 @@
 		{
 		"title": "Echap",
 		"letter":"Echap",
-		"keyAssociatedFunctions": "Pause<br>Option",
+		"keyAssociatedFunctions": "Pause<br>Options",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1\">3.1 Les options</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -94,7 +94,7 @@
 		{
 		"title": "F2",
 		"letter":"F2",
-		"keyAssociatedFunctions": "Starmap",
+		"keyAssociatedFunctions": "Carte stellaire",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.2.5\">6.2.5 Skyline</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -110,7 +110,7 @@
 		{
 		"title": "F4",
 		"letter":"F4",
-		"keyAssociatedFunctions": "Cycle camera view<br><span class=\"modificateur_5\">Advanced Cam*</span>",
+		"keyAssociatedFunctions": "Changement de vue caméra<br><span class=\"modificateur_5\">Caméra avancée*</span>",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -118,7 +118,7 @@
 		{
 		"title": "F5",
 		"letter":"F5",
-		"keyAssociatedFunctions": "Increase engine power (Decrease others)",
+		"keyAssociatedFunctions": "Augmenter puissance moteur (Diminuer reste)",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.3\">4.2.4.3 POWER</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -126,7 +126,7 @@
 		{
 		"title": "F6",
 		"letter":"F6",
-		"keyAssociatedFunctions": "Increase shield power (Decrease others)",
+		"keyAssociatedFunctions": "Augmenter puissance boucliers (Diminuer reste)",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.3\">4.2.4.3 POWER</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -134,7 +134,7 @@
 		{
 		"title": "F7",
 		"letter":"F7",
-		"keyAssociatedFunctions": "Increase weapon power (Decrease others)",
+		"keyAssociatedFunctions": "Augmenter puissance armes (Diminuer reste)",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.3\">4.2.4.3 POWER</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -142,7 +142,7 @@
 		{
 		"title": "F8",
 		"letter":"F8",
-		"keyAssociatedFunctions": "Reset power distribution",
+		"keyAssociatedFunctions": "Réinitialiser distribution énergie",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.3\">4.2.4.3 POWER</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -150,7 +150,7 @@
 		{
 		"title": "F9",
 		"letter":"F9",
-		"keyAssociatedFunctions": "Decrease power / min**",
+		"keyAssociatedFunctions": "Diminuer puissance / min**",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.3\">4.2.4.3 POWER</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -158,7 +158,7 @@
 		{
 		"title": "F10",
 		"letter":"F10",
-		"keyAssociatedFunctions": "Increase power / max**",
+		"keyAssociatedFunctions": "Augmenter puissance / max**",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.3\">4.2.4.3 POWER</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -166,7 +166,7 @@
 		{
 		"title": "F11",
 		"letter":"F11",
-		"keyAssociatedFunctions": "mobiGlas Commlink",
+		"keyAssociatedFunctions": "Commlink mobiGlas",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.2.2\">6.2.2 Commlink</a><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.8.3.1\">6.8.3.1 Contrôleur aérien (Flight Controller)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -174,7 +174,7 @@
 		{
 		"title": "F12",
 		"letter":"F12",
-		"keyAssociatedFunctions": "Toggle chat window",
+		"keyAssociatedFunctions": "Activer fenêtre de chat",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3.4\">6.3.4 Canal Textuel (Tchat)</a><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.2\">5.4.2 HUD</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -182,7 +182,7 @@
 		{
 		"title": "Impréssion Écran",
 		"letter":"Imp écr",
-		"keyAssociatedFunctions": "Take a screenshot",
+		"keyAssociatedFunctions": "Capture d'écran",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -214,7 +214,7 @@
 		{
 		"title": "Esperluette",
 		"letter":"&",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 1<br>Select pin 1<br>Pin target 1*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Consommable minage 1<br>Sélectionner marque 1<br>Marquer cible 1*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.9\">4.3.1.9 Consommable pour minage laser</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -222,7 +222,7 @@
 		{
 		"title": "E accent aigu",
 		"letter":"é",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 2<br>Select pin 2<br>Pin target 2*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Consommable minage 2<br>Sélectionner marque 2<br>Marquer cible 2*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.9\">4.3.1.9 Consommable pour minage laser</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -230,7 +230,7 @@
 		{
 		"title": "Guillemet",
 		"letter":"\"",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Mining Consumable 3<br>Select pin 3<br>Pin target 3*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Consommable minage 3<br>Sélectionner marque 3<br>Marquer cible 3*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.9\">4.3.1.9 Consommable pour minage laser</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -238,7 +238,7 @@
 		{
 		"title": "Apostrophe",
 		"letter":"'",
-		"keyAssociatedFunctions": "Cycle attackers forward<br><span class=\"modificateur_1\">M1</span> Closest attacker",
+		"keyAssociatedFunctions": "Parcourir attaquant devant<br><span class=\"modificateur_1\">M1</span> Attaquant le plus proche",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -246,7 +246,7 @@
 		{
 		"title": "Parenthèse ouverte",
 		"letter":"(",
-		"keyAssociatedFunctions": "Cycle hostiles forward<br><span class=\"modificateur_1\">M1</span> Closest hostile",
+		"keyAssociatedFunctions": "Parcourir ennemis devant<br><span class=\"modificateur_1\">M1</span> Ennemi le plus proche",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -254,7 +254,7 @@
 		{
 		"title": "Soustraire",
 		"letter":"-",
-		"keyAssociatedFunctions": "Cycle friends forward<br><span class=\"modificateur_1\">M1</span> Closest friend",
+		"keyAssociatedFunctions": "Parcourir amis devant<br><span class=\"modificateur_1\">M1</span> Ami le plus proche",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -262,7 +262,7 @@
 		{
 		"title": "E accent grave",
 		"letter":"è",
-		"keyAssociatedFunctions": "Cycle all forward<br><span class=\"modificateur_1\">M1</span> Closest all",
+		"keyAssociatedFunctions": "Parcourir toutes entités devant<br><span class=\"modificateur_1\">M1</span> Entité la plus proche",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -270,7 +270,7 @@
 		{
 		"title": "Tiret de soulignement",
 		"letter":"_",
-		"keyAssociatedFunctions": "Cycle subtarget forward<br><span class=\"modificateur_1\">M1</span> Reset to main target",
+		"keyAssociatedFunctions": "Parcourir cible secondaire devant<br><span class=\"modificateur_1\">M1</span> Retour cible principale",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -278,7 +278,7 @@
 		{
 		"title": "C cédille",
 		"letter":"ç",
-		"keyAssociatedFunctions": "Hail target",
+		"keyAssociatedFunctions": "Appeler cible",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -286,7 +286,7 @@
 		{
 		"title": "A accent aigu",
 		"letter":"à",
-		"keyAssociatedFunctions": "Remove all pinned targets",
+		"keyAssociatedFunctions": "Supprimer toutes cibles marquées",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -310,7 +310,7 @@
 		{
 		"title": "Retour arrière",
 		"letter":"←",
-		"keyAssociatedFunctions": "Electronic Access Re-Spawn<br>Self-destruct toggle",
+		"keyAssociatedFunctions": "Réapparition Electronic Access<br>Activer auto-destruction",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.2\">3.2 Arena Commander (AC)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.3\">3.3 Star Marine (SM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -326,7 +326,7 @@
 		{
 		"title": "Début",
 		"letter":"Début",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Dof increase",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Augmenter profondeur de champ",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -334,7 +334,7 @@
 		{
 		"title": "Page haut",
 		"letter":"▲",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Z offset pos",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage positif axe Z",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -350,7 +350,7 @@
 		{
 		"title": "Pavé numérique: diviser",
 		"letter":"/",
-		"keyAssociatedFunctions": "Head tracking toggle",
+		"keyAssociatedFunctions": "Activer Head tracking",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -358,7 +358,7 @@
 		{
 		"title": "Pavé numérique: multiplier",
 		"letter":"*",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Reset view<br>FOIP recalibrate",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Réinitialiser vue<br>Recalibrer FOIP",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -366,7 +366,7 @@
 		{
 		"title": "Pavé numérique: soustraire",
 		"letter":"-",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Decrease FoV<br>FOIP selfie cam",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Réduire champ de vision<br>Caméra selfie FOIP",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1.6\">3.1.6 Communication</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3\">6.3 Social</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.12\">7.12 Webcam</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -374,7 +374,7 @@
 		{
 		"title": "Tabulation",
 		"letter":"Tab",
-		"keyAssociatedFunctions": "<span class=\"modificateur_3\">Scan mode toggle</span><br>Scoreboard*<br><span class=\"modificateur_1\">M1</span> P.I.T",
+		"keyAssociatedFunctions": "<span class=\"modificateur_3\">Activier mode balayage</span><br>Tableau des scores*<br><span class=\"modificateur_1\">M1</span> Activer P.I.T",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.4\">4.3.4 Radar & Informations</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.4.1\">4.3.4.1 Les interfaces</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.4.2\">4.3.4.2 Radar 2D</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.4.3\">4.3.4.3 Radar 3D</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.4.4\">4.3.4.4 Radar Holographique</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.2\">4.5.2 Scanners actif et passif</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.2.1\">4.5.2.1 Scanner Passif</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.2.2\">4.5.2.2 Scanner Actif</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.1\">5.1 Interactions & choix</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>  ",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -382,7 +382,7 @@
 		{
 		"title": "A",
 		"letter":"A",
-		"keyAssociatedFunctions": "Ship/Ground roll left<br>Turret VJoy toggle",
+		"keyAssociatedFunctions": "Vaisseau/Véhicule rouler à gauche<br>Activer VJoy tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -390,7 +390,7 @@
 		{
 		"title": "Z",
 		"letter":"Z",
-		"keyAssociatedFunctions": "Strafe/Drive Forward<br><span class=\"modificateur_2\">IM</span> MFD up<br>Turret velocity increase",
+		"keyAssociatedFunctions": "Translaton/Déplacement avant<br><span class=\"modificateur_2\">IM</span> MFD haut<br>Augmenter vitesse tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -398,7 +398,7 @@
 		{
 		"title": "E",
 		"letter":"E",
-		"keyAssociatedFunctions": "Ship/Ground roll right<br>Turret toggle E.S.P",
+		"keyAssociatedFunctions": "Vaisseau/Véhicule rouler à droite<br>Active E.S.P tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -406,7 +406,7 @@
 		{
 		"title": "R",
 		"letter":"R",
-		"keyAssociatedFunctions": "Systems ready<br>Cycle selection forward<br><span class=\"modificateur_1\">M1</span> Swap VJoy/Look direction*",
+		"keyAssociatedFunctions": "Systèmes parés<br>Parcourir sélection devant<br><span class=\"modificateur_1\">M1</span> Alterner VJoy/direction du regard*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.1.2\">6.1.2 Votre première mission</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2\">4.2 Interfaces et HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=3.1.1\">3.1.1 Les options de jeu</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -414,7 +414,7 @@
 		{
 		"title": "T",
 		"letter":"T",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Jettison cargo<br><span class=\"modificateur_1\">M1</span> Unlock target<br>Cycle targets forward<br>Cycle targets under reticle",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> Larguer chargement<br><span class=\"modificateur_1\">M1</span> Déverrouiller cible<br>Parcourir cibles devant<br>Parcourir cibles dans réticule",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.7.3\">6.7.3 Minage (Mining)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -422,7 +422,7 @@
 		{
 		"title": "Y",
 		"letter":"Y",
-		"keyAssociatedFunctions": "Exit seat/turret<br>Eject*",
+		"keyAssociatedFunctions": "Quitter siège/tourelle<br>Éjection*",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -430,7 +430,7 @@
 		{
 		"title": "U",
 		"letter":"U",
-		"keyAssociatedFunctions": "Power on/off",
+		"keyAssociatedFunctions": "Allumer/éteindre systèmes",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -438,7 +438,7 @@
 		{
 		"title": "I",
 		"letter":"I",
-		"keyAssociatedFunctions": "Engines on/off",
+		"keyAssociatedFunctions": "Allumer/éteindre moteur",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -446,7 +446,7 @@
 		{
 		"title": "O",
 		"letter":"O",
-		"keyAssociatedFunctions": "Shields on/off",
+		"keyAssociatedFunctions": "Allumer/éteindre boucliers",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -454,7 +454,7 @@
 		{
 		"title": "P",
 		"letter":"P",
-		"keyAssociatedFunctions": "Weapons on/off",
+		"keyAssociatedFunctions": "Allumer/éteindre armes",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -462,7 +462,7 @@
 		{
 		"title": "Accent circonflexe",
 		"letter":"^",
-		"keyAssociatedFunctions": "Accept invite",
+		"keyAssociatedFunctions": "Accepter invitation",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.2\">5.4.2 HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.2.2\">6.2.2 Commlink</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -470,7 +470,7 @@
 		{
 		"title": "Dollar",
 		"letter":"$",
-		"keyAssociatedFunctions": "Reject invite<br>Ignore*",
+		"keyAssociatedFunctions": "Refuser invitation<br>Ignorer*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.2\">5.4.2 HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.2.2\">6.2.2 Commlink</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -478,7 +478,7 @@
 		{
 		"title": "Entrée",
 		"letter":"Entrée◄┘",
-		"keyAssociatedFunctions": "Activate chat box<br>Send message",
+		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.2.2\">6.2.2 Commlink</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -494,7 +494,7 @@
 		{
 		"title": "Fin",
 		"letter":"Fin",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Dof Decrease",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Diminuer profondeur de champ",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -502,7 +502,7 @@
 		{
 		"title": "Page bas",
 		"letter":"▼",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Z offset neg",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage négatif axe Z",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -510,7 +510,7 @@
 		{
 		"title": "Pavé numérique: sept",
 		"letter":"7",
-		"keyAssociatedFunctions": "Shield raise level Top<br><span class=\"modificateur_5\">AC</span> Load / Save 7*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier haut<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 7*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -518,7 +518,7 @@
 		{
 		"title": "Pavé numérique: huit",
 		"letter":"8",
-		"keyAssociatedFunctions": "Shield raise level front<br><span class=\"modificateur_5\">AC</span> Load / Save 8*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier avant<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 8*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -526,7 +526,7 @@
 		{
 		"title": "Pavé numérique: neuf",
 		"letter":"9",
-		"keyAssociatedFunctions": "Shield raise level bottom<br><span class=\"modificateur_5\">AC</span> Load / Save 9*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier bas<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 9*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -534,7 +534,7 @@
 		{
 		"title": "Pavé numérique: additionner",
 		"letter":"+",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Increase FoV",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Augmenter champ de vision",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -550,7 +550,7 @@
 		{
 		"title": "Q",
 		"letter":"Q",
-		"keyAssociatedFunctions": "Strafe left",
+		"keyAssociatedFunctions": "Translation gauche",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -558,7 +558,7 @@
 		{
 		"title": "S",
 		"letter":"S",
-		"keyAssociatedFunctions": "Strafe backward<br>Turret velocity decrease",
+		"keyAssociatedFunctions": "Translation arrière<br>Diminuer vitesse tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -566,7 +566,7 @@
 		{
 		"title": "D",
 		"letter":"D",
-		"keyAssociatedFunctions": "Strafe right",
+		"keyAssociatedFunctions": "Translation droite",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -574,7 +574,7 @@
 		{
 		"title": "F",
 		"letter":"F",
-		"keyAssociatedFunctions": "<span class=\"modificateur_2\">Interaction Mode</span>",
+		"keyAssociatedFunctions": "<span class=\"modificateur_2\">Mode Interaction</span>",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.1\">5.1 Interactions & choix</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.1.1\">5.1.1 Interaction system</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.1.2\">5.1.2 Inner Thought system</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -582,7 +582,7 @@
 		{
 		"title": "G",
 		"letter":"G",
-		"keyAssociatedFunctions": "Cycle Gimbal Assist / Standard Gimbal / Gimbal locked<br>Turret Gyroscope toggle",
+		"keyAssociatedFunctions": "Parcourir assistance cardan / cardan standard / cardan verrouillé<br>Activer gyroscope tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.4\">4.5.4 Fixed ou Gimbal</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.5\">4.5.5 Gimbal ou Assist (Gimbal Auto)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -590,7 +590,7 @@
 		{
 		"title": "H",
 		"letter":"H",
-		"keyAssociatedFunctions": "Launch CM",
+		"keyAssociatedFunctions": "Lancer contre-mesure",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.5.2\">4.3.1.5.2 Missiles</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.6\">4.3.1.6 Contremesures</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.7.22\">4.7.22 Les manières d'esquiver un missile</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -598,7 +598,7 @@
 		{
 		"title": "J",
 		"letter":"J",
-		"keyAssociatedFunctions": "Cycle CM",
+		"keyAssociatedFunctions": "Parcourir contre-mesures",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.5.2\">4.3.1.5.2 Missiles</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.6\">4.3.1.6 Contremesures</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.7.22\">4.7.22 Les manières d'esquiver un missile</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -606,7 +606,7 @@
 		{
 		"title": "K",
 		"letter":"K",
-		"keyAssociatedFunctions": "Toggle VTOL",
+		"keyAssociatedFunctions": "Activer VTOL",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1.6\">4.1.1.6 Proximity Assist & VTOL</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -614,7 +614,7 @@
 		{
 		"title": "L",
 		"letter":"L",
-		"keyAssociatedFunctions": "Headlights (toggle)<br><span class=\"modificateur_1\">M1</span> Look ahead toggle",
+		"keyAssociatedFunctions": "Lumière (activer)<br><span class=\"modificateur_1\">M1</span> Activer Look ahead",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.9\">4.5.9 Look Ahead Mode (LAM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -646,7 +646,7 @@
 		{
 		"title": "Pavé numérique: quatre",
 		"letter":"4",
-		"keyAssociatedFunctions": "Shield raise level left<br><span class=\"modificateur_5\">AC</span> Load / save 4*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier gauche<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 4*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -654,7 +654,7 @@
 		{
 		"title": "Pavé numérique: cinq",
 		"letter":"5",
-		"keyAssociatedFunctions": "Shield reset<br><span class=\"modificateur_5\">AC</span> Load / save 5*",
+		"keyAssociatedFunctions": "Réinitialiser bouclierst<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 5*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -662,7 +662,7 @@
 		{
 		"title": "Pavé numérique: six",
 		"letter":"6",
-		"keyAssociatedFunctions": "Shield raise level right<br><span class=\"modificateur_5\">AC</span> Load / save 6*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier droite<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 6*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -670,7 +670,7 @@
 		{
 		"title": "Majuscule gauche",
 		"letter":"MAJ",
-		"keyAssociatedFunctions": "Afterburner<br><span class=\"modificateur_6\">Modifier 2</span><br>Turret speed limiter toggle",
+		"keyAssociatedFunctions": "Postcombustion<br><span class=\"modificateur_6\">Modifier 2</span><br>Actvier limitateur vitesse tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1.3\">4.1.1.3 Afterburner</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -686,7 +686,7 @@
 		{
 		"title": "W",
 		"letter":"W",
-		"keyAssociatedFunctions": "Freelook*<br><span class=\"modificateur_5\">advanced camera controls modifier</span>",
+		"keyAssociatedFunctions": "Freelook*<br><span class=\"modificateur_5\">Modificateur contrôles caméra avancée</span>",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -694,7 +694,7 @@
 		{
 		"title": "X",
 		"letter":"X",
-		"keyAssociatedFunctions": "Spacebrake<br><span class=\"modificateur_1\">M1</span> Wipe helmet visor",
+		"keyAssociatedFunctions": "Frein spatial<br><span class=\"modificateur_1\">M1</span> Nettoyer visière casque",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -702,7 +702,7 @@
 		{
 		"title": "C",
 		"letter":"C",
-		"keyAssociatedFunctions": "Cruise control<br>Turret recenter*",
+		"keyAssociatedFunctions": "Contrôle croisière<br>Recentrer tourelle*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1.5\">4.1.1.5 Speed Limiter</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2\">4.2 Interfaces et HUD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -710,7 +710,7 @@
 		{
 		"title": "V",
 		"letter":"V",
-		"keyAssociatedFunctions": "Decoupled mode toggle<br>Turret cycle fire mode",
+		"keyAssociatedFunctions": "Activer mode découplé<br>Parcourir mode tir tourelle",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1\">4.1.1 Les différents modes de pilotage</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1.1\">4.1.1.1 Mode couplé (Coupled)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1.2\">4.1.1.2 Mode découplé (Decoupled)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -718,7 +718,7 @@
 		{
 		"title": "B",
 		"letter":"B",
-		"keyAssociatedFunctions": "Spool QT Drive<br>Engage QT*",
+		"keyAssociatedFunctions": "File d'attente moteur QT<br>Effecture saut QT*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.5\">4.1.5 Quantum</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.5.2\">4.1.5.2 Entrée et sortie de Quantum</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.4.6\">4.3.1.4.6 Interdiction Quantique (Quantum Enforcement Drive)</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.5.8\">4.5.8 Quantum Snare & Quantum Dampening</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.10\">6.10 Sortie de saut quantique (Quantum Interdiction)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -726,7 +726,7 @@
 		{
 		"title": "N",
 		"letter":"N",
-		"keyAssociatedFunctions": "Landing mode  toggle<br>LM Autoland*",
+		"keyAssociatedFunctions": "Activer mode atterissage<br>Auterrissage auto*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.1.6\">4.1.1.6 Proximity Assist & VTOL</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.3\">4.1.3 Train d'atterrissage (Landing Gear)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -734,7 +734,7 @@
 		{
 		"title": "Virgule",
 		"letter":",",
-		"keyAssociatedFunctions": "Mining Mode<br>PIT category Mining mode",
+		"keyAssociatedFunctions": "Mode minage<br>Mode minage catégorie PIT",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.7.3\">6.7.3 Minage (Mining)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -774,7 +774,7 @@
 		{
 		"title": "Flèche Haut",
 		"letter":"▲",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Y offset Pos",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage positif axe Y",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -782,7 +782,7 @@
 		{
 		"title": "Pavé numérique: un",
 		"letter":"1",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Load / save 1*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 1*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -790,7 +790,7 @@
 		{
 		"title": "Pavé numérique: deux",
 		"letter":"2",
-		"keyAssociatedFunctions": "Shield raise level back<br><span class=\"modificateur_5\">AC</span> Load / save 2*",
+		"keyAssociatedFunctions": "Augmenter niveau bouclier arrière<br><span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 2*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.2.3\">4.3.1.2.3 Shield</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.2.4.5\">4.2.4.5 SHIELD</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -798,7 +798,7 @@
 		{
 		"title": "Pavé numérique: trois",
 		"letter":"3",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Load / save 3*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Charger / Sauvegarder 3*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -806,7 +806,7 @@
 		{
 		"title": "Pavé numérique: entrée",
 		"letter":"Entr",
-		"keyAssociatedFunctions": "Activate chat box<br>Send message",
+		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.2.2\">6.2.2 Commlink</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -814,7 +814,7 @@
 		{
 		"title": "Contrôle gauche",
 		"letter":"Ctrl",
-		"keyAssociatedFunctions": "Strafe Down",
+		"keyAssociatedFunctions": "Translation bas",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -830,7 +830,7 @@
 		{
 		"title": "Alt gauche",
 		"letter":"Alt",
-		"keyAssociatedFunctions": "<span class=\"modificateur_1\">Modifier 1</span>",
+		"keyAssociatedFunctions": "<span class=\"modificateur_1\">Modificateur 1</span>",
 		"chaptersLGDP": "",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -838,7 +838,7 @@
 		{
 		"title": "Espace",
 		"letter":"Espace",
-		"keyAssociatedFunctions": "Strafe Up",
+		"keyAssociatedFunctions": "Translation haut",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1.4\">4.1.4 Propulseur(s) Principal(aux) et de Manœuvre</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.3.1.1\">4.3.1.1 Propulsion</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=4.1\">4.1 Modèle de Vol (FM)</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -878,7 +878,7 @@
 		{
 		"title": "Flèche gauche",
 		"letter":"◄",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> X offset neg",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage négatif axe X",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -886,7 +886,7 @@
 		{
 		"title": "Flèche bas",
 		"letter":"▼",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Y offset neg",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage négatif axe Y",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -894,7 +894,7 @@
 		{
 		"title": "Flèche droite",
 		"letter":"►",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> X offset pos",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Décalage positif axe X",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
@@ -902,7 +902,7 @@
 		{
 		"title": "Pavé numérique: zéro",
 		"letter":"0",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Clear current save*",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Effacer sauvegarde*",
 		"chaptersLGDP": "<a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=5.4.4\">5.4.4 Third Person Camera</a><br><a href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&page=13&title=7.20\">7.20 Screenshot et vidéo</a>",
 		"youtubeEmbededLinkOnly": ""
 		},
