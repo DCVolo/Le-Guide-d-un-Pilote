@@ -112,7 +112,6 @@
 						
 						if(findInput)
 						{
-							findInput.onchange = function() {goToChapter()};
 							findInput.value = getAllUrlParams().title;
 							console.log("findInput.value :", findInput.value);
 						}
@@ -124,18 +123,14 @@
 							//iframe.contentWindow.PDFViewerApplication.page=getAllUrlParams().page;
 							iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
 							console.log("pageNumber.value :", pageNumber.value);
+
+							currentPageNum = pageNumber.value;
 						}
 					}
 				}
 
 			};
-			goToChapter()
-			{
-				var iframe = document.getElementById("iframeLGDP");
-				var findInput = iframe.contentWindow.document.getElementById("findInput");
-				findInput.value = getAllUrlParams().title;
-				console.log("findInput.value ON_CHANGE:", findInput.value);
-			}
+
 
 		</script>
   	</body>
