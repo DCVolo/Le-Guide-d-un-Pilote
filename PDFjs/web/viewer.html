@@ -475,7 +475,7 @@ See https://github.com/adobe-type-tools/cmap-resources
               searchOnMyFuckingPDF();
             }
             catch(e){
-              console.log("derp7");
+              console.log("derp8");
             }
           });
 
@@ -484,7 +484,7 @@ See https://github.com/adobe-type-tools/cmap-resources
         try{
           var searchval = getAllUrlParams().title;
           if(PDFViewerApplication.pagesCount == 0){
-            searchOnMyFuckingPDF();
+            setTimeout(function(){ searchOnMyFuckingPDF(); }, 500);            
           }
           else{
             PDFViewerApplication.page = 13;
@@ -493,7 +493,7 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.findBar.findNextButton.click();
           }         
         }catch(e){
-          searchOnMyFuckingPDF();
+          setTimeout(function(){ searchOnMyFuckingPDF(); }, 500); 
         }         
       }
       </script>
