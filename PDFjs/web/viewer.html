@@ -472,17 +472,20 @@ See https://github.com/adobe-type-tools/cmap-resources
           }
           ready(function () {
             try{
-              searchOnMyFuckingPDF(getAllUrlParams().title);
+              searchOnMyFuckingPDF();
             }
             catch(e){
-              console.log("derp4");
+              console.log("derp5");
             }
           });
 
       //};
-       function searchOnMyFuckingPDF(searchval){
-        if(typeof PDFViewerApplication.page == "undefined"){
-          searchOnMyFuckingPDF(searchval);
+       function searchOnMyFuckingPDF(){
+        if(typeof getAllUrlParams() == "undefined"){
+          searchOnMyFuckingPDF();
+        }
+        else if(typeof PDFViewerApplication.page == "undefined"){
+          searchOnMyFuckingPDF();
         }
         else{
           PDFViewerApplication.page = 13;
