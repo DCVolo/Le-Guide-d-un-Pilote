@@ -119,9 +119,9 @@
 						if(pageNumber)
 						{
 							pageNumber.value = getAllUrlParams().page;
-							//pageNumber.onchange = function() {goToPage()};
-							//iframe.contentWindow.PDFViewerApplication.page=getAllUrlParams().page;
-							//iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
+							
+							document.getElementById("iframeLGDP").contentWindow.PDFViewerApplication.page=300
+							iframe.contentWindow.PDFViewerApplication.pdfViewer.currentPageNumber = getAllUrlParams().page;
 							console.log("pageNumber.value :", pageNumber.value);
 
 							currentPageNum = pageNumber.value;
