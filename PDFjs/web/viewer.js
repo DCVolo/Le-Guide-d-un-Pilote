@@ -1283,7 +1283,7 @@ var PDFViewerApplication = {
 
       firstPagePromise.then(function () {
         _this10.eventBus.dispatch("documentloaded", {
-          source: _this10;
+          source: _this10
         });
       });
     });
