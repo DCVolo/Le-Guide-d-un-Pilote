@@ -512,8 +512,8 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.page = parseInt(getAllUrlParams().page);
             PDFViewerApplication.findBar.open();
             PDFViewerApplication.findBar.findField.value = decodeURI(getAllUrlParams().title);
-            PDFViewerApplication.findBar.findNextButton.click();
-            PDFViewerApplication.findBar.close();
+            PDFViewerApplication.findBar.findNextButton.click();       
+            setTimeout(function(){ PDFViewerApplication.findBar.close(); }, 1000);
           }         
       }
       </script>
