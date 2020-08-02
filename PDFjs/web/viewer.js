@@ -16191,6 +16191,3 @@ _app.PDFPrintServiceFactory.instance = {
 /***/ })
 /******/ ]);
 //# sourceMappingURL=viewer.js.map
-
-customEventPDFLoaded.a = 1;
-            console.log("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
