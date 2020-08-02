@@ -469,7 +469,7 @@ See https://github.com/adobe-type-tools/cmap-resources
       <script async defer>
 
         function ready(fn) {
-          if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
+          if (document.attachEvent ? (document.readyState === "interactive" || document.readyState === "complete") : document.readyState !== 'loading') {
               fn();
           } else {
               document.addEventListener('DOMContentLoaded', fn);
@@ -499,6 +499,8 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.findBar.findNextButton.click();
           }         
       }
+
+      document.addEventListener("load", ready);
       </script>
 
 
