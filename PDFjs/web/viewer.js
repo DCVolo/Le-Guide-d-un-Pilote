@@ -20,6 +20,8 @@
  * Javascript code in this page
  */
 
+ var BriseCouille = 0;
+
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
