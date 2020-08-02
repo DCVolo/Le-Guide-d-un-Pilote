@@ -868,8 +868,6 @@ var PDFViewerApplication = {
   },
 
   get pagesCount() {
-    customEventPDFLoaded.a = 1;
-    console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
     return this.pdfDocument ? this.pdfDocument.numPages : 0;
   },
 
@@ -10052,7 +10050,8 @@ var PDFThumbnailViewer = /*#__PURE__*/function () {
       });
 
       this._pagesRequests.set(thumbView, promise);
-
+    customEventPDFLoaded.a = 1;
+    console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
       return promise;
     }
   }, {
