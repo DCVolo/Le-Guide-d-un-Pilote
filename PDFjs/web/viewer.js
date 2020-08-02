@@ -13279,8 +13279,6 @@ var SecondaryToolbar = /*#__PURE__*/function () {
       this.pagesCount = pagesCount;
 
       this._updateUIState();
-          customEventPDFLoaded.a = 1;
-    console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
     }
   }, {
     key: "reset",
