@@ -544,7 +544,7 @@
         elmt.style.display = "none";    
     }
     // If it is the first time the user loads the document (page), then force it to agree/disagree about GDPR (alertify ?)
-    var myCookie = getCookie("cookiePreference");
+    const myCookie = getCookie("cookiePreference");
     if (myCookie == ""){
         if(getAllUrlParams().lang != null || getAllUrlParams().profile != null || getAllUrlParams().key != null || getAllUrlParams().mouse != null)
             cacherAMP();
@@ -656,13 +656,6 @@
         document.getElementById("zoneClicDroitidText").innerHTML = " " + actualJSON.Mouse.zoneClicDroit;
         document.getElementById("zoneClicGaucheidText").innerHTML = " " + actualJSON.Mouse.zoneClicGauche;
         document.getElementById("zoneMoletteidText").innerHTML = " " + actualJSON.Mouse.zoneMolette;
-        if (myCookie != "")
-          if( actual_JSON.Locale.LeftPanel.YouTubeIframeDefault != "")
-            iframeYT.setAttribute("src", actual_JSON.Locale.LeftPanel.YouTubeIframeDefault);
-          else
-            iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
-        else
-          iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
     }
 
     // Variables to be translated
@@ -677,6 +670,12 @@
         info.style.left = "0em";
         btnOinfo.style.display = 'none';
         btnFinfo.style.display = 'inherit';
+        if (myCookie == "")
+        {
+          iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
+          if( actual_JSON.Locale.LeftPanel.YouTubeIframeDefault != "")
+              iframeYT.setAttribute("src", actual_JSON.Locale.LeftPanel.YouTubeIframeDefault);
+        }
     }
     function CacherInfo() 
     {
