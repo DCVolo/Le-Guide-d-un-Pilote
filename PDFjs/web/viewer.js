@@ -20,7 +20,7 @@
  * Javascript code in this page
  */
 
-var customEventPDFLoaded = {
+customEventPDFLoaded = {
   aInternal: 0,
   aListener: function(val) {},
   set a(val) {
