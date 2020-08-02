@@ -38,7 +38,8 @@
 		},
 		"LeftPanel":
 		{
-			"keybindings": "Actions"
+			"keybindings": "Actions",
+			"YouTubeIframeDefault": ""
 		},
 		"ShareButton":
 		{

@@ -38,7 +38,8 @@
 		},
 		"LeftPanel":
 		{
-			"keybindings": "Actions"
+			"keybindings": "Actions",
+			"YouTubeIframeDefault": "https://youtu.be/T5DBTUH64y0"
 		},
 		"ShareButton":
 		{
