@@ -2254,6 +2254,7 @@ function webViewerPageRendered(evt) {
       stats: stats
     });
   });
+  customEventPDFLoaded = 1;
 }
 
 function webViewerPageMode(_ref12) {
