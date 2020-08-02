@@ -547,6 +547,7 @@
     if (myCookie == ""){
         if(getAllUrlParams().lang != null || getAllUrlParams().profile != null || getAllUrlParams().key != null || getAllUrlParams().mouse != null)
             cacherAMP();
+        setCookie("cookiePreference", 0, 365);
     }
     else{
 
