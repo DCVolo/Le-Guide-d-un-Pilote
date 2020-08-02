@@ -168,6 +168,7 @@ button:active {
   gap: 0em 0em;
   grid-template-areas: ". KeyLetter" "KeyDescr KeyDescr";
   align-items: flex-start;
+  cursor: pointer;
 }
 .KeyLetter {
  grid-area: KeyLetter;
