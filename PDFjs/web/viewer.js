@@ -264,7 +264,7 @@ function webViewerLoad() {
 if (document.readyState === "interactive" || document.readyState === "complete") {
   webViewerLoad();
 } else {
-  document.addEventListener("DOMContentLoaded", webViewerLoad, false);
+  document.addEventListener("DOMContentLoaded", webViewerLoad, true);
 }
 
 /***/ }),
