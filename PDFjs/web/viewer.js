@@ -20,7 +20,22 @@
  * Javascript code in this page
  */
 
- var BriseCouille = 0;
+var customEventPDFLoaded = {
+  aInternal: 0,
+  aListener: function(val) {},
+  set a(val) {
+    this.aInternal = val;
+    this.aListener(val);
+  },
+  get a() {
+    return this.aInternal;
+  },
+  registerListener: function(listener) {
+    this.aListener = listener;
+  }
+};
+
+
 
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
