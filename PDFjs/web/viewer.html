@@ -475,12 +475,12 @@ See https://github.com/adobe-type-tools/cmap-resources
               searchOnMyFuckingPDF();
             }
             catch(e){
-              console.log("derp9");
+              console.log(e);
             }
           });
 
         //Ne faites pas ça chez vous, merci LoLo
-       function searchOnMyFuckingPDF(){
+       async function searchOnMyFuckingPDF(){
           if(typeof getAllUrlParams == "undefined" ){
             setTimeout(function(){ searchOnMyFuckingPDF(); }, 500);  // WTF ????
           }
@@ -498,10 +498,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 
       <script defer>
 
-        if (PDFViewerApplication.loadingBar == 100)
-        {
-          console.log("ça marche ! (rêve)")
-        }
+
 
       </script>
 
