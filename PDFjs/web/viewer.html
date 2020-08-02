@@ -474,6 +474,7 @@ See https://github.com/adobe-type-tools/cmap-resources
           PDFViewerApplication.findBar.open();
           PDFViewerApplication.findBar.findField.value = decodeURI(getAllUrlParams().title);
           PDFViewerApplication.findBar.findNextButton.click();
+          PDFViewerApplication.findBar.close();
         });
         /*
             Placer cette merde quelque part dans Viewer.js lorsque (numPages et findInput sont initialisé) || la première page est rendered (donc probablement les deux trucs d'avant aussi)
@@ -512,6 +513,7 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.findBar.open();
             PDFViewerApplication.findBar.findField.value = decodeURI(getAllUrlParams().title);
             PDFViewerApplication.findBar.findNextButton.click();
+            PDFViewerApplication.findBar.close();
           }         
       }
       </script>
