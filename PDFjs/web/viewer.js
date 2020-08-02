@@ -1284,8 +1284,6 @@ var PDFViewerApplication = {
       firstPagePromise.then(function () {
         _this10.eventBus.dispatch("documentloaded", {
           source: _this10;
-          customEventPDFLoaded.a = 1;
-          console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
         });
       });
     });
@@ -13281,6 +13279,8 @@ var SecondaryToolbar = /*#__PURE__*/function () {
       this.pagesCount = pagesCount;
 
       this._updateUIState();
+          customEventPDFLoaded.a = 1;
+    console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
     }
   }, {
     key: "reset",
