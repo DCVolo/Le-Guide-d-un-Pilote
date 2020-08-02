@@ -469,7 +469,7 @@ See https://github.com/adobe-type-tools/cmap-resources
       <script defer>
 
         customEventPDFLoaded.registerListener(function(val) {
-          alert("les pages ont été chargées");
+          //alert("les pages ont été chargées");
           PDFViewerApplication.page = parseInt(getAllUrlParams().page);
           PDFViewerApplication.findBar.open();
           PDFViewerApplication.findBar.findField.value = decodeURI(getAllUrlParams().title);
@@ -483,7 +483,7 @@ See https://github.com/adobe-type-tools/cmap-resources
         */
         
 
-        /*function ready(fn) {
+        function ready(fn) {
           if (document.attachEvent ? (document.readyState === "interactive" || document.readyState === "complete") : document.readyState !== 'loading') {
               fn();
           } else {
@@ -513,7 +513,7 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.findBar.findField.value = decodeURI(getAllUrlParams().title);
             PDFViewerApplication.findBar.findNextButton.click();
           }         
-      }*/
+      }
       </script>
 
 
