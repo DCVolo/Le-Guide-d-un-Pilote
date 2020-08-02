@@ -20,7 +20,7 @@
  * Javascript code in this page
  */
 
-customEventPDFLoaded = {
+var customEventPDFLoaded = {
   aInternal: 0,
   aListener: function(val) {},
   set a(val) {
@@ -2101,7 +2101,7 @@ function loadAndEnablePDFBug(enabledTabs) {
       OPS: _pdfjsLib.OPS
     }, appConfig.mainContainer);
   });
-  customEventPDFLoaded = 1;
+  customEventPDFLoaded.a = 1;
   console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
 }
 
