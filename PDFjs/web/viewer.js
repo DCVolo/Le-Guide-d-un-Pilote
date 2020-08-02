@@ -1663,6 +1663,8 @@ var PDFViewerApplication = {
         formType: formType
       });
     });
+    customEventPDFLoaded.a = 1;
+    console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
   },
   _initializePdfHistory: function _initializePdfHistory(_ref9) {
     var fingerprint = _ref9.fingerprint,
@@ -2101,8 +2103,6 @@ function loadAndEnablePDFBug(enabledTabs) {
       OPS: _pdfjsLib.OPS
     }, appConfig.mainContainer);
   });
-  customEventPDFLoaded.a = 1;
-  console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
 }
 
 function webViewerInitialized() {
