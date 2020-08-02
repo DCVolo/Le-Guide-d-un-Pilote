@@ -34,7 +34,7 @@ var customEventPDFLoaded = {
     this.aListener = listener;
   }
 };
-
+  customEventPDFLoaded = 1;
 
 
 /******/ (function(modules) { // webpackBootstrap
@@ -16191,4 +16191,3 @@ _app.PDFPrintServiceFactory.instance = {
 /***/ })
 /******/ ]);
 //# sourceMappingURL=viewer.js.map
-  customEventPDFLoaded = 1;
