@@ -475,6 +475,12 @@ See https://github.com/adobe-type-tools/cmap-resources
           PDFViewerApplication.findBar.findField.value = decodeURI(getAllUrlParams().title);
           PDFViewerApplication.findBar.findNextButton.click();
         });
+        /*
+            Placer cette merde quelque part dans Viewer.js lorsque (numPages et findInput sont initialisé) || la première page est rendered (donc probablement les deux trucs d'avant aussi)
+            La ligne 1666 permet bien de configurer la recherche mais pas de paramétrer la page (PDFViewerApplication.page)
+            customEventPDFLoaded.a = 1;
+            console("BORDEL DE MERDE TU PASSES DEDANS OUI OU PUTAIN ?!");
+        */
         
 
         /*function ready(fn) {
