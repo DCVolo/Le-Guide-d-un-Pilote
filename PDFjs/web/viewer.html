@@ -467,12 +467,15 @@ See https://github.com/adobe-type-tools/cmap-resources
       </script>
 
       <script async defer>
-
-        pagesloaded.onload = function()
+        DOMContentLoaded.onload = function()
         {
-          console.log("vous me broyez les couilles");
-          PDFViewerApplication.page = parseInt(getAllUrlParams().page);
+            pagesloaded.onload = function()
+            {
+              console.log("vous me broyez les couilles");
+              PDFViewerApplication.page = parseInt(getAllUrlParams().page);
+            }
         }
+
 
         function ready(fn) {
           if (document.attachEvent ? (document.readyState === "interactive" || document.readyState === "complete") : document.readyState !== 'loading') {
