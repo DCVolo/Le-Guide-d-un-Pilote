@@ -544,7 +544,7 @@
         elmt.style.display = "none";    
     }
     // If it is the first time the user loads the document (page), then force it to agree/disagree about GDPR (alertify ?)
-    const myCookie = getCookie("cookiePreference");
+    var myCookie = getCookie("cookiePreference");
     if (myCookie == ""){
         if(getAllUrlParams().lang != null || getAllUrlParams().profile != null || getAllUrlParams().key != null || getAllUrlParams().mouse != null)
             cacherAMP();
