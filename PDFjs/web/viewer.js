@@ -34,7 +34,7 @@ var customEventPDFLoaded = {
     this.aListener = listener;
   }
 };
-  customEventPDFLoaded = 1;
+  
 
 
 /******/ (function(modules) { // webpackBootstrap
@@ -2101,6 +2101,7 @@ function loadAndEnablePDFBug(enabledTabs) {
       OPS: _pdfjsLib.OPS
     }, appConfig.mainContainer);
   });
+  customEventPDFLoaded = 1;
 }
 
 function webViewerInitialized() {
