@@ -463,21 +463,26 @@ See https://github.com/adobe-type-tools/cmap-resources
               alertify.alert().setContent('<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfY5rZ-qnQAqRMtlmWLax0cIjiYXOsWuEBBtM2pcHlFPQ8PcQ/viewform?embedded=true" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0">…</iframe>').show();
           }
 
-         function ready(fn) {
-            if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
-                fn();
-            } else {
-                document.addEventListener('DOMContentLoaded', fn);
-            }
+
+      </script>
+
+      <script defer>
+
+        function ready(fn) {
+          if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
+              fn();
+          } else {
+              document.addEventListener('DOMContentLoaded', fn);
           }
-          ready(function () {
-            try{
-              searchOnMyFuckingPDF();
-            }
-            catch(e){
-              console.log(e);
-            }
-          });
+        }
+        ready(function () {
+          try{
+            searchOnMyFuckingPDF();
+          }
+          catch(e){
+            console.log(e);
+          }
+        });
 
         //Ne faites pas ça chez vous, merci LoLo
        async function searchOnMyFuckingPDF(){
@@ -494,11 +499,6 @@ See https://github.com/adobe-type-tools/cmap-resources
             PDFViewerApplication.findBar.findNextButton.click();
           }         
       }
-      </script>
-
-      <script defer>
-
-
 
       </script>
 
