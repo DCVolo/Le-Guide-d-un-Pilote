@@ -656,10 +656,11 @@
         document.getElementById("zoneClicDroitidText").innerHTML = " " + actualJSON.Mouse.zoneClicDroit;
         document.getElementById("zoneClicGaucheidText").innerHTML = " " + actualJSON.Mouse.zoneClicGauche;
         document.getElementById("zoneMoletteidText").innerHTML = " " + actualJSON.Mouse.zoneMolette;
-        if( actual_JSON.Locale.LeftPanel.YouTubeIframeDefault != "")
-          iframeYT.setAttribute("src", actual_JSON.Locale.LeftPanel.YouTubeIframeDefault);
-        else
-          iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
+        if (myCookie != "")
+          if( actual_JSON.Locale.LeftPanel.YouTubeIframeDefault != "")
+            iframeYT.setAttribute("src", actual_JSON.Locale.LeftPanel.YouTubeIframeDefault);
+          else
+            iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
     }
 
     // Variables to be translated
