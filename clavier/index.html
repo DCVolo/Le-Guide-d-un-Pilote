@@ -731,7 +731,7 @@
             queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
             history.replaceState(null, null, "?"+queryParams.toString());
             
-            var linksArray = actual_JSON.Keyboard[id].youtubeEmbededLinkOnly;
+            var linksArray = actual_JSON.Keyboard[id].youtube_VideoID_Only;
             if(linksArray[0] != "")
             { 
                 var iframeYTsrc = "https://www.youtube.com/embed/" + linksArray[0] + "?playlist=";

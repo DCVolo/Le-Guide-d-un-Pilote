@@ -74,7 +74,7 @@
 		"letter":"Echap",
 		"keyAssociatedFunctions": "Pause<br>Options",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1\">3.1 Les options</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F1":
@@ -83,7 +83,7 @@
 		"letter":"F1",
 		"keyAssociatedFunctions": "mobiGlas",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2\">6.2 mobiGlas</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F2":
@@ -92,7 +92,7 @@
 		"letter":"F2",
 		"keyAssociatedFunctions": "Carte stellaire",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.5\">6.2.5 Skyline</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F3":
@@ -101,7 +101,7 @@
 		"letter":"F3",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F4":
@@ -110,7 +110,7 @@
 		"letter":"F4",
 		"keyAssociatedFunctions": "Changement de vue caméra<br><span class=\"modificateur_5\">Caméra avancée*</span>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"F5":
@@ -119,7 +119,7 @@
 		"letter":"F5",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F6":
@@ -128,7 +128,7 @@
 		"letter":"F6",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F7":
@@ -137,7 +137,7 @@
 		"letter":"F7",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F8":
@@ -146,7 +146,7 @@
 		"letter":"F8",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F9":
@@ -155,7 +155,7 @@
 		"letter":"F9",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F10":
@@ -164,7 +164,7 @@
 		"letter":"F10",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F11":
@@ -173,7 +173,7 @@
 		"letter":"F11",
 		"keyAssociatedFunctions": "Commlink mobiGlas",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.8.3.1\">6.8.3.1 Contrôleur aérien (Flight Controller)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"F12":
@@ -182,7 +182,7 @@
 		"letter":"F12",
 		"keyAssociatedFunctions": "Activer fenêtre de chat",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.2\">5.4.2 HUD</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"PrintScreen":
@@ -191,7 +191,7 @@
 		"letter":"Imp écr",
 		"keyAssociatedFunctions": "Capture d'écran",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ScrollLock":
@@ -200,7 +200,7 @@
 		"letter":"Arr Def",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Pause":
@@ -209,7 +209,7 @@
 		"letter":"Pause Attn",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Backquote":
@@ -218,7 +218,7 @@
 		"letter":"²",
 		"keyAssociatedFunctions": "Console",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.19.1\">7.19.1 Commandes - console</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.19.2\">7.19.2 Commandes - USER.cfg</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit1":
@@ -227,7 +227,7 @@
 		"letter":"&",
 		"keyAssociatedFunctions": "Arme de poing<br>PIT : sélectionner arme 1",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4\">5.3.4 Armes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.1\">5.3.4.1 Les différentes classe et types</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.2\">5.3.4.2 Accessoires d’armes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit2":
@@ -236,7 +236,7 @@
 		"letter":"é",
 		"keyAssociatedFunctions": "Arme principale 1<br>PIT : sélectionner arme 2",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4\">5.3.4 Armes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.1\">5.3.4.1 Les différentes classe et types</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.2\">5.3.4.2 Accessoires d’armes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit3":
@@ -245,7 +245,7 @@
 		"letter":"\"",
 		"keyAssociatedFunctions": "Arme principale 2<br>PIT : sélectionner arme 3",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4\">5.3.4 Armes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.1\">5.3.4.1 Les différentes classe et types</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.2\">5.3.4.2 Accessoires d’armes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit4":
@@ -254,7 +254,7 @@
 		"letter":"'",
 		"keyAssociatedFunctions": "Gadget",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.5.3\">5.3.5.3 Outils</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit5":
@@ -263,7 +263,7 @@
 		"letter":"(",
 		"keyAssociatedFunctions": "Arme de mêlée",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.3\">5.3.4.3 Arme de mélée</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit6":
@@ -272,7 +272,7 @@
 		"letter":"-",
 		"keyAssociatedFunctions": "Objet de mission",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.5.3\">5.3.5.3 Outils</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit7":
@@ -281,7 +281,7 @@
 		"letter":"è",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit8":
@@ -290,7 +290,7 @@
 		"letter":"_",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit9":
@@ -299,7 +299,7 @@
 		"letter":"ç",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Digit0":
@@ -308,7 +308,7 @@
 		"letter":"à",
 		"keyAssociatedFunctions": "<span class=\"modificateur_6\">Combat mains nues</span>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.3\">5.3.4.3 Arme de mélée</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Minus":
@@ -317,7 +317,7 @@
 		"letter":")",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Equal":
@@ -326,7 +326,7 @@
 		"letter":"=",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Backspace":
@@ -335,7 +335,7 @@
 		"letter":"←",
 		"keyAssociatedFunctions": "Forcer réapparation*",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Insert":
@@ -344,7 +344,7 @@
 		"letter":"Inser",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Home":
@@ -353,7 +353,7 @@
 		"letter":"Début",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Augmenter profondeur de champ",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"PageUp":
@@ -362,7 +362,7 @@
 		"letter":"▲",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage positif axe Z",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"NumLock":
@@ -371,7 +371,7 @@
 		"letter":"Verr Num",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"NumpadDivide":
@@ -380,7 +380,7 @@
 		"letter":"/",
 		"keyAssociatedFunctions": "Activer Head tracking",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1.6\">3.1.6 Communication</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3\">6.3 Social</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.12\">7.12 Webcam</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"NumpadMultiply":
@@ -389,7 +389,7 @@
 		"letter":"*",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Réinitialiser vue<br>Recalibrer FOIP",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1.6\">3.1.6 Communication</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3\">6.3 Social</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.12\">7.12 Webcam</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"NumpadSubtract":
@@ -398,7 +398,7 @@
 		"letter":"-",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Réduire champ de vision<br>Caméra selfie FOIP",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1.6\">3.1.6 Communication</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3\">6.3 Social</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.12\">7.12 Webcam</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Tab":
@@ -407,7 +407,7 @@
 		"letter":"Tab",
 		"keyAssociatedFunctions": "Tableau des scores*",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyQ":
@@ -416,7 +416,7 @@
 		"letter":"A",
 		"keyAssociatedFunctions": "EVA Pivoter gauche<br><span class=\"modificateur_4\">SC</span> Roulement gauche<br>Inclinaison gauche",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyW":
@@ -425,7 +425,7 @@
 		"letter":"Z",
 		"keyAssociatedFunctions": "Translation EVA avant<br>Déplacement avant<br>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyE":
@@ -434,7 +434,7 @@
 		"letter":"E",
 		"keyAssociatedFunctions": "EVA Pivoter droite<br><span class=\"modificateur_4\">SC</span> Roulement droite<br>Inclinaison droite",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyR":
@@ -443,7 +443,7 @@
 		"letter":"R",
 		"keyAssociatedFunctions": "Reload<br>Rengainer arme*<br>",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyT":
@@ -452,7 +452,7 @@
 		"letter":"T",
 		"keyAssociatedFunctions": "Torche (activer)",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyY":
@@ -461,7 +461,7 @@
 		"letter":"Y",
 		"keyAssociatedFunctions": "Quitter siège",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyU":
@@ -470,7 +470,7 @@
 		"letter":"U",
 		"keyAssociatedFunctions": "Action accessoire tactique",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.2\">5.3.4.2 Accessoires d’armes</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyI":
@@ -479,7 +479,7 @@
 		"letter":"I",
 		"keyAssociatedFunctions": "Inventaire personnel",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyO":
@@ -488,7 +488,7 @@
 		"letter":"O",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyP":
@@ -497,7 +497,7 @@
 		"letter":"P",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"BracketLeft":
@@ -506,7 +506,7 @@
 		"letter":"^",
 		"keyAssociatedFunctions": "Accepter invitation",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.2\">5.4.2 HUD</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"BracketRight":
@@ -515,7 +515,7 @@
 		"letter":"$",
 		"keyAssociatedFunctions": "Refuser invitation<br>Ignorer*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.2\">5.4.2 HUD</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Enter":
@@ -524,7 +524,7 @@
 		"letter":"Entrée◄┘",
 		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Delete":
@@ -533,7 +533,7 @@
 		"letter":"Suppr",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"End":
@@ -542,7 +542,7 @@
 		"letter":"Fin",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Diminuer profondeur de champ",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"PageDown":
@@ -551,7 +551,7 @@
 		"letter":"▼",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage négatif axe Z",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad7":
@@ -560,7 +560,7 @@
 		"letter":"7",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 7*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad8":
@@ -569,7 +569,7 @@
 		"letter":"8",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 8*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad9":
@@ -578,7 +578,7 @@
 		"letter":"9",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 9*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"NumpadAdd":
@@ -587,7 +587,7 @@
 		"letter":"+",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Augmenter champ de vision",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"CapsLock":
@@ -596,7 +596,7 @@
 		"letter":"Verr Maj",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyA":
@@ -605,7 +605,7 @@
 		"letter":"Q",
 		"keyAssociatedFunctions": "EVA Straffe left<br>Dodge left**<br>Déplacement gauche",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyS":
@@ -614,7 +614,7 @@
 		"letter":"S",
 		"keyAssociatedFunctions": "EVA Straffe backward<br>Dodge back**<br>Déplacement arrière",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyD":
@@ -623,7 +623,7 @@
 		"letter":"D",
 		"keyAssociatedFunctions": "EVA Straffe right<br>Dodge right**<br>Déplacement droite",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyF":
@@ -632,7 +632,7 @@
 		"letter":"F",
 		"keyAssociatedFunctions": "<span class=\"modificateur_2\">Mode Interaction</span>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1\">5.1 Interactions & choix</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.1\">5.1.1 Interaction system</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.2\">5.1.2 Inner Thought system</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyG":
@@ -641,7 +641,7 @@
 		"letter":"G",
 		"keyAssociatedFunctions": "Jeter grenade<br>Tenir grenade*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.5\">5.3.5 Utilitaires</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.5.2\">5.3.5.2 Combat</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyH":
@@ -650,7 +650,7 @@
 		"letter":"H",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyJ":
@@ -659,7 +659,7 @@
 		"letter":"J",
 		"keyAssociatedFunctions": "Personnaliser arme",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4.2\">5.3.4.2 Accessoires d’armes</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyK":
@@ -668,7 +668,7 @@
 		"letter":"K",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyL":
@@ -677,7 +677,7 @@
 		"letter":"L",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Semicolon":
@@ -686,7 +686,7 @@
 		"letter":"M",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Quote":
@@ -695,7 +695,7 @@
 		"letter":"ù",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Backslash":
@@ -704,7 +704,7 @@
 		"letter":"*",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Numpad4":
@@ -713,7 +713,7 @@
 		"letter":"4",
 		"keyAssociatedFunctions": "Emote Oui<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 4*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.5\">5.2.5 Emotes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad5":
@@ -722,7 +722,7 @@
 		"letter":"5",
 		"keyAssociatedFunctions": "Emote Avant<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 5*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.5\">5.2.5 Emotes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad6":
@@ -731,7 +731,7 @@
 		"letter":"6",
 		"keyAssociatedFunctions": "Emote Non<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 6*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.5\">5.2.5 Emotes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"ShiftLeft":
@@ -740,7 +740,7 @@
 		"letter":"MAJ",
 		"keyAssociatedFunctions": "EVA Postcombustion<br><span class=\"modificateur_3\">VV</span> Retenir respiration<br>Sprinter",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"IntlBackslash":
@@ -749,7 +749,7 @@
 		"letter":"<",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyZ":
@@ -758,7 +758,7 @@
 		"letter":"W",
 		"keyAssociatedFunctions": "Freelook*<br><span class=\"modificateur_5\">Modificateur contrôles caméra avancée</span>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"KeyX":
@@ -767,7 +767,7 @@
 		"letter":"X",
 		"keyAssociatedFunctions": "<span class=\"modificateur_4\">Se coucher</span><br><span class=\"modificateur_1\">M1</span> Nettoyer visière casque<br>EVA Brake<br>Réapparaition Electronic Access",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyC":
@@ -776,7 +776,7 @@
 		"letter":"C",
 		"keyAssociatedFunctions": "Soigner (medpen)",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.5.1\">5.3.5.1 Soin</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyV":
@@ -785,7 +785,7 @@
 		"letter":"V",
 		"keyAssociatedFunctions": "Parcourir mode de tir",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.4\">5.3.4 Armes</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyB":
@@ -794,7 +794,7 @@
 		"letter":"B",
 		"keyAssociatedFunctions": "Ravitailler oxygène (oxypen)",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.3.5.1\">5.3.5.1 Soin</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyN":
@@ -803,7 +803,7 @@
 		"letter":"N",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"KeyM":
@@ -812,7 +812,7 @@
 		"letter":",",
 		"keyAssociatedFunctions": "<span class=\"modificateur_1\">M1</span> PIT : minage<br>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Comma":
@@ -821,7 +821,7 @@
 		"letter":";",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Period":
@@ -830,7 +830,7 @@
 		"letter":":",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Slash":
@@ -839,7 +839,7 @@
 		"letter":"!",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ShiftRight":
@@ -848,7 +848,7 @@
 		"letter":"MAJ",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ArrowUp":
@@ -857,7 +857,7 @@
 		"letter":"▲",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage positif axe Y",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad1":
@@ -866,7 +866,7 @@
 		"letter":"1",
 		"keyAssociatedFunctions": "Emote Gauche<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 1*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.5\">5.2.5 Emotes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad2":
@@ -875,7 +875,7 @@
 		"letter":"2",
 		"keyAssociatedFunctions": "Emote Stop<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 2*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.5\">5.2.5 Emotes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad3":
@@ -884,7 +884,7 @@
 		"letter":"3",
 		"keyAssociatedFunctions": "Emote Droite<br><span class=\"modificateur_5\">CA</span> Charger / Sauvegarder 3*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.5\">5.2.5 Emotes</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"NumpadEnter":
@@ -893,7 +893,7 @@
 		"letter":"Entr",
 		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ControlLeft":
@@ -902,7 +902,7 @@
 		"letter":"Ctrl",
 		"keyAssociatedFunctions": "EVA translation bas<br>S'accroupir",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"MetaLeft":
@@ -911,7 +911,7 @@
 		"letter":"⊞ Win",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"AltLeft":
@@ -920,7 +920,7 @@
 		"letter":"Alt",
 		"keyAssociatedFunctions": "<span class=\"modificateur_1\">Modificateur 1</span>",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"Space":
@@ -929,7 +929,7 @@
 		"letter":"Espace",
 		"keyAssociatedFunctions": "EVA Translation haut<br>Sauter",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"AltRight":
@@ -938,7 +938,7 @@
 		"letter":"Alt Gr",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"MetaRight":
@@ -947,7 +947,7 @@
 		"letter":"⊞ Win",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ContextMenu":
@@ -956,7 +956,7 @@
 		"letter":"Menu",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ControlRight":
@@ -965,7 +965,7 @@
 		"letter":"Ctrl",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		},
 		"ArrowLeft":
@@ -974,7 +974,7 @@
 		"letter":"◄",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage négatif axe X",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"ArrowDown":
@@ -983,7 +983,7 @@
 		"letter":"▼",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage négatif axe Y",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"ArrowRight":
@@ -992,7 +992,7 @@
 		"letter":"►",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Décalage positif axe X",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"Numpad0":
@@ -1001,7 +1001,7 @@
 		"letter":"0",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Effacer sauvegarde*",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtubeEmbededLinkOnly": ["aDAGwlHJfro","tQgY6yX6-k0"],
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
 		},
 		"NumpadDecimal":
@@ -1010,7 +1010,7 @@
 		"letter":".",
 		"keyAssociatedFunctions": "",
 		"chaptersLGDP": "",
-		"youtubeEmbededLinkOnly": [""],
+		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
 		}
 	}
