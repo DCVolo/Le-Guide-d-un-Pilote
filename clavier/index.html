@@ -731,17 +731,15 @@
             queryParams.set("key", touchesAffichage[keyCodeQwerty.findIndex(indexOfKeyCode)]);
             history.replaceState(null, null, "?"+queryParams.toString());
             
-            var linksArray = actual_JSON.Keyboard[id].youtubeEmbededLinkOnly;
-            if(linksArray != null)
+            let linksArray = actual_JSON.Keyboard[id].youtubeEmbededLinkOnly;
+            if(linksArray.length)
             { 
-                // https://www.youtube.com/embed/tQgY6yX6-k0?playlist=cbut2K6zvJY,7iw30sK2UCo,sYV5MTy0v1I&rel=0
-                // actual_JSON.Keyboard[id].youtubeEmbededLinkOnly
                 var iframeYTsrc = "https://www.youtube.com/embed/" + linksArray[0] + "?playlist=";
                 linksArray.shift();
                 iframeYTsrc += linksArray + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/";
                 iframeYT.setAttribute("src", iframeYTsrc);
             }
-            if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
+            if(!linksArray.length)
                 iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
             document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
