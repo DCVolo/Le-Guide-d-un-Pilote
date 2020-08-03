@@ -740,7 +740,7 @@
                 iframeYTsrc += r + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/";
                 iframeYT.setAttribute("src", iframeYTsrc);
             }
-            if(!linksArray.length)
+            if(linksArray[0] == "")
                 iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
             document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
