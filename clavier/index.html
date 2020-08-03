@@ -738,7 +738,8 @@
                 // actual_JSON.Keyboard[id].youtubeEmbededLinkOnly
                 var iframeYTsrc = "https://www.youtube.com/embed/" + linksArray[0] + "?playlist=";
                 linksArray.shift();
-                iframeYT.setAttribute("src", iframeYTsrc + linksArray + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/");
+                iframeYTsrc += linksArray + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/";
+                iframeYT.setAttribute("src", iframeYTsrc);
             }
             if(actual_JSON.Keyboard[id].youtubeEmbededLinkOnly == "")
                 iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
