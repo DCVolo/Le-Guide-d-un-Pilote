@@ -60,7 +60,7 @@
 	},
 	"Mouse":
 	{
-		"zoneAxes": "Yaw<br>Pitch",
+		"zoneAxes": "Yaw<br>Pitch<br><span class=\"modificateur_5\">IM</span> (Freelook)Look Left / Right<br><span class=\"modificateur_5\">IM</span> (Freelook)Look Up / Down",
 		"zoneSideButton": "",
 		"zoneMolette": "Aquire Missile Lock & Launch Missile* (Click)<br>Speed Limiter Up / Down<br><span class=\"modificateur_1\">M1</span> Dynamic Zoom In / Out<br><span class=\"modificateur_3\">SC</span> Increase / Decrease Radar Ping Angle<br><span class=\"modificateur_4\">MG</span> Increase / Decrease Mining Laser Power",
 		"zoneClicGauche": "Fire Weapon Group 1<br><span class=\"modificateur_3\">SC</span> Reticle Target Scan<br><span class=\"modificateur_4\">MG</span> Fire Mining Laser",

@@ -60,7 +60,7 @@
 	},
 	"Mouse":
 	{
-		"zoneAxes": "Aim Left / Right<br>Aim Up / Down<br><span class=\"modificateur_2\">IM</span> Look Left / Right<br><span class=\"modificateur_2\">IM</span> Look Up / Down",
+		"zoneAxes": "Aim Left / Right<br>Aim Up / Down<br><span class=\"modificateur_2\">IM</span> Look Left / Right<br><span class=\"modificateur_2\">IM</span> Look Up / Down<br><span class=\"modificateur_5\">IM</span> (Freelook)Look Left / Right<br><span class=\"modificateur_5\">IM</span> (Freelook)Look Up / Down",
 		"zoneSideButton": "",
 		"zoneMolette": "Default Movement Speed Increase / Decrease<br>Melee (Click)<br><span class=\"modificateur_2\">IM</span> Focus (Click)<br><span class=\"modificateur_2\">IM</span> Zoom In / Out<br><span class=\"modificateur_3\">ADS</span> Zoom In / Out",
 		"zoneClicGauche": "Primary Attack<br><span class=\"modificateur_2\">IM</span> Activate / Interact<br><span class=\"modificateur_6\">UC</span> Light Melee Left<br><span class=\"modificateur_6\">UC</span> Heavy Melee Left*",
