@@ -60,7 +60,7 @@
 	},
 	"Mouse":
 	{
-		"zoneAxes": "Lacet<br>Tangage",
+		"zoneAxes": "Lacet<br>Tangage<br><span class=\"modificateur_5\">CA</span> Regarder à droite / gauche (Freelook)<br><span class=\"modificateur_5\">CA</span> Regarder en haut / bas(Freelook)",
 		"zoneSideButton": "",
 		"zoneMolette": "Verrouiller missile  sur cible & Tirer missile*(Clic)<br>Augmenter / Réduire limitateur de vitesse<br><span class=\"modificateur_1\">M1</span> Zoom Dynamique  Avant / Arrière<br><span class=\"modificateur_3\">SC</span> Augmenter / Réduire  angle de sondage radar<br><span class=\"modificateur_4\">MG</span> Augmenter / Réduire puissance laser minage",
 		"zoneClicGauche": "Tirer (groupe d'armes 1)<br><span class=\"modificateur_3\">SC</span> Scanner cible dans le viseur<br><span class=\"modificateur_4\">MG</span> Allumer laser de minage",
