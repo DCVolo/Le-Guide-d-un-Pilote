@@ -735,7 +735,7 @@
             if(linksArray.length)
             { 
                 var iframeYTsrc = "https://www.youtube.com/embed/" + linksArray[0] + "?playlist=";
-                var r = linksArray;
+                var r = [...linksArray];
                 r.shift();
                 iframeYTsrc += r + "?origin=https://dcvolo.github.io/Le-Guide-d-un-Pilote/";
                 iframeYT.setAttribute("src", iframeYTsrc);
