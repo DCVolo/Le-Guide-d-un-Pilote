@@ -732,7 +732,7 @@
             history.replaceState(null, null, "?"+queryParams.toString());
             
             var linksArray = actual_JSON.Keyboard[id].youtubeEmbededLinkOnly;
-            if(linksArray.length)
+            if(linksArray[0] != "")
             { 
                 var iframeYTsrc = "https://www.youtube.com/embed/" + linksArray[0] + "?playlist=";
                 var r = [...linksArray];
