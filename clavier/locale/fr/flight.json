@@ -380,8 +380,8 @@
 		"letter":"/",
 		"keyAssociatedFunctions": "Activer Head tracking",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1.6\">3.1.6 Communication</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3\">6.3 Social</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.12\">7.12 Webcam</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["zyeABmtMAqo"],
+		"youtubeLinksDescription": ["FR Terada - FOIP"]
 		},
 		"NumpadMultiply":
 		{
@@ -389,8 +389,8 @@
 		"letter":"*",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Réinitialiser vue<br>Recalibrer FOIP",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1.6\">3.1.6 Communication</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3\">6.3 Social</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.12\">7.12 Webcam</a>",
-		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
-		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0","zyeABmtMAqo"],
+		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera", "FR Terada - FOIP"]
 		},
 		"NumpadSubtract":
 		{
@@ -398,8 +398,8 @@
 		"letter":"-",
 		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Réduire champ de vision<br>Caméra selfie FOIP",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.1.6\">3.1.6 Communication</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.8\">3.8 Face Over Internet Protocol (FOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-3.9\">3.9 Voice Over Internet Protocol (VOIP)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.3\">5.4.3 Vue libre (Free Look)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3\">6.3 Social</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.12\">7.12 Webcam</a>",
-		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
-		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0","zyeABmtMAqo"],
+		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera", "FR Terada - FOIP"]
 		},
 		"Tab":
 		{
@@ -585,10 +585,10 @@
 		{
 		"title": "Pavé numérique: additionner",
 		"letter":"+",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Augmenter champ de vision",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">CA</span> Augmenter champ de vision<br>Activer pour parler (VOIP)",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-7.20\">7.20 Screenshot et vidéo</a>",
-		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0"],
-		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera"]
+		"youtube_VideoID_Only": ["aDAGwlHJfro","tQgY6yX6-k0","ZF9IgxXXGfM"],
+		"youtubeLinksDescription": ["FR Terada - Caméra avancée","EN Hasgaha - Advanced Camera","FR Stanbatros - VOIP"]
 		},
 		"CapsLock":
 		{
