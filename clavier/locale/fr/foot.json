@@ -62,9 +62,9 @@
 	{
 		"zoneAxes": "Viser à gauche / droite<br>Viser en haut / bas<br><span class=\"modificateur_2\">MI</span> Regarder à droite / gauche<br><span class=\"modificateur_2\">MI</span> Regarder en haut / bas<br><span class=\"modificateur_5\">CA</span> Regarder à droite / gauche (Freelook)<br><span class=\"modificateur_5\">CA</span> Regarder en haut / bas(Freelook)",
 		"zoneSideButton": "",
-		"zoneMolette": "Default Movement Speed Increase / Decrease<br>Melee (Click)<br><span class=\"modificateur_2\">MI</span> Focus (Click)<br><span class=\"modificateur_2\">MI</span> Zoom In / Out<br><span class=\"modificateur_3\">VV</span> Zoom In / Out",
-		"zoneClicGauche": "Primary Attack<br><span class=\"modificateur_2\">MI</span> Activate / Interact<br><span class=\"modificateur_6\">CM</span> Light Melee Left<br><span class=\"modificateur_6\">CM</span> Heavy Melee Left*",
-		"zoneClicDroit": "<span class=\"modificateur_3\">VV</span> Aim Down Sight<br><span class=\"modificateur_2\">MI</span> PIT Wheel*<br><span class=\"modificateur_6\">CM</span> Light Melee Right<br><span class=\"modificateur_6\">CM</span> Heavy Melee Right*"			
+		"zoneMolette": "Vitesse de déplacement par défaut: augmenter / réduire<br><span class=\"modificateur_2\">MI</span> Concentrer le regard (Clic)<br><span class=\"modificateur_2\">MI</span> Zoom avant / arrière<br><span class=\"modificateur_3\">VV</span> Zoom avant / arrière",
+		"zoneClicGauche": "Attaque principale<br><span class=\"modificateur_2\">MI</span> Activer / Intéragir<br><span class=\"modificateur_6\">CM</span> Frappe légère du gauche<br><span class=\"modificateur_6\">CM</span> Frappe lourde du gauche *",
+		"zoneClicDroit": "<span class=\"modificateur_3\">VV</span> Viser avec le viseur<br><span class=\"modificateur_2\">MI</span> Menu radial PIT*<br><span class=\"modificateur_6\">CM</span> Frappe légère droite<br><span class=\"modificateur_6\">CM</span> Frappe lourde droite*"
 	},
 	"Keyboard":
 	{
