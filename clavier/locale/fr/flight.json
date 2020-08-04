@@ -182,8 +182,8 @@
 		"letter":"F12",
 		"keyAssociatedFunctions": "Activer fenêtre de chat",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.2\">5.4.2 HUD</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"PrintScreen":
 		{
@@ -405,10 +405,10 @@
 		{
 		"title": "Tabulation",
 		"letter":"Tab",
-		"keyAssociatedFunctions": "<span class=\"modificateur_3\">Activier mode balayage</span><br>Tableau des scores*<br><span class=\"modificateur_1\">M1</span> Activer P.I.T",
+		"keyAssociatedFunctions": "<span class=\"modificateur_3\">Activier mode balayage</span><br>Tableau des scores*<br><span class=\"modificateur_1\">M1</span> Activer P.I.T<br>Changer canal textuel",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.4\">4.3.4 Radar & Informations</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.4.1\">4.3.4.1 Les interfaces</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.4.2\">4.3.4.2 Radar 2D</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.4.3\">4.3.4.3 Radar 3D</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.4.4\">4.3.4.4 Radar Holographique</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.5.2\">4.5.2 Scanners actif et passif</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.5.2.1\">4.5.2.1 Scanner Passif</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.5.2.2\">4.5.2.2 Scanner Actif</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1\">5.1 Interactions & choix</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.1.3\">5.1.3 Personal Inner Thought Menu (PITM)</a>  ",
-		"youtube_VideoID_Only": ["RkvLoZn350Q"],
-		"youtubeLinksDescription": ["FR Stanbatros - PIT Wheel"]
+		"youtube_VideoID_Only": ["RkvLoZn350Q", "rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR Stanbatros - PIT Wheel", "FR DCVolo - Tchat"]
 		},
 		"KeyQ":
 		{
@@ -524,8 +524,8 @@
 		"letter":"Entrée◄┘",
 		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"Delete":
 		{
@@ -893,8 +893,8 @@
 		"letter":"Entr",
 		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"ControlLeft":
 		{

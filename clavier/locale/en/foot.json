@@ -405,7 +405,7 @@
 		{
 		"title": "Tabulate",
 		"letter":"Tab",
-		"keyAssociatedFunctions": "Scoreboard*",
+		"keyAssociatedFunctions": "Scoreboard*<br>Switch tchat channel",
 		"chaptersLGDP": "",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]

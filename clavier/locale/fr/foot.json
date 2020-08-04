@@ -182,8 +182,8 @@
 		"letter":"F12",
 		"keyAssociatedFunctions": "Activer fenêtre de chat",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.4.2\">5.4.2 HUD</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"PrintScreen":
 		{
@@ -405,10 +405,10 @@
 		{
 		"title": "Tabulation",
 		"letter":"Tab",
-		"keyAssociatedFunctions": "Tableau des scores*",
+		"keyAssociatedFunctions": "Tableau des scores*<br>Changer canal textuel",
 		"chaptersLGDP": "",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"KeyQ":
 		{
@@ -524,8 +524,8 @@
 		"letter":"Entrée◄┘",
 		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"Delete":
 		{
@@ -893,8 +893,8 @@
 		"letter":"Entr",
 		"keyAssociatedFunctions": "Activer fenêtre chat<br>Envoyer message",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.2.2\">6.2.2 Commlink</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-6.3.4\">6.3.4 Canal Textuel (Tchat)</a>",
-		"youtube_VideoID_Only": [""],
-		"youtubeLinksDescription": [""]
+		"youtube_VideoID_Only": ["rZDkKpQ9YQQ"],
+		"youtubeLinksDescription": ["FR DCVolo - Tchat"]
 		},
 		"ControlLeft":
 		{
