@@ -716,6 +716,7 @@ button:active {
 #zoneInfoPresentationKey, #shareButton{
   width: 1em;
   height: 1em;
+  background-image: url(../images/icons/keyboard-key.svg);
 }
 
 #shareButton .tooltiptext {
