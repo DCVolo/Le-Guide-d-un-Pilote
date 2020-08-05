@@ -727,7 +727,6 @@ button:active {
     text-overflow: ellipsis;
     width: 100%;
     height: 100%;
-    grid-area: KeyDescr;
     word-break: break-word;
     text-align: left;
     font-size: 30%;
