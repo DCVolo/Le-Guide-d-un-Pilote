@@ -735,6 +735,7 @@ button:active {
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 5%;
+    text-transform: capitalize;
 }
 
 #shareButton .tooltiptext {
