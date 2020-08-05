@@ -639,7 +639,7 @@
 		{
 		"title": "G",
 		"letter":"G",
-		"keyAssociatedFunctions": "Parcourir assistance cardan / cardan standard / cardan verrouillé<br>Activer gyroscope tourelle",
+		"keyAssociatedFunctions": "Parcourir assistance gimbal / gimbal standard / gimbal verrouillé<br>Activer gyroscope tourelle",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.5.4\">4.5.4 Fixed ou Gimbal</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.5.5\">4.5.5 Gimbal ou Assist (Gimbal Auto)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.1.7\">4.3.1.7 Tourelles</a>",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
