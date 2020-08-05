@@ -57,7 +57,7 @@
             <div class="zoneActionsTouchefull">
               <div class="zoneActionsToucheInline">
                   <div class="zoneActionsToucheKey">
-                      <div id="zoneInfoPresentationKey"> </div>
+                      <div id="zoneInfoPresentationKey"><span id="zoneInfoPresentationKeyName"></span></div>
                   </div>
                   <div class="zoneActionsToucheEmptySpace"><span id="zoneActionsToucheTitre"></span></div>
                   <div class="zoneActionsToucheShare">
@@ -743,7 +743,7 @@
                 iframeYT.setAttribute("src", "https://dcvolo.github.io/Le-Guide-d-un-Pilote/images/icons/YT-workingOnIt.svg");
             document.getElementById('zoneChapitresLGDP').innerHTML = actual_JSON.Keyboard[id].chaptersLGDP;
             document.getElementById('zoneActionsTouche').innerHTML = actual_JSON.Keyboard[id].keyAssociatedFunctions;
-            document.getElementById('zoneInfoPresentationKey').innerHTML = getAllUrlParams().key;
+            document.getElementById('zoneInfoPresentationKeyName').innerHTML = getAllUrlParams().key;
             AfficherInfo();
         }
     }
