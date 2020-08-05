@@ -717,13 +717,18 @@ button:active {
   width: 1em;
   height: 1em;
   background-image: url(../images/icons/keyboard-key.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #zoneInfoPresentationKeyName{
+      height: 1em;
+    width: 1em;
+      position: absolute;
     text-align: center;
     font-variant-caps: petite-caps;
     color: black;
-    font-weight: 600;
+    bottom: 3.4em;
 }
 
 #shareButton .tooltiptext {
