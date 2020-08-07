@@ -765,7 +765,7 @@
 		{
 		"title": "X",
 		"letter":"X",
-		"keyAssociatedFunctions": "<span class=\"modificateur_4\">Se coucher</span><br><span class=\"modificateur_1\">M1</span> Nettoyer visière casque<br>EVA Brake<br>Réapparaition Electronic Access",
+		"keyAssociatedFunctions": "<span class=\"modificateur_4\">Se coucher</span><br><span class=\"modificateur_1\">M1</span> Nettoyer visière casque<br>EVA freiner<br>Réapparaition Electronic Access",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.2\">5.2.2 Sortie Extra-véhiculaire (E.V.A)</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-5.2.1\">5.2.1 À Pieds</a>",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
