@@ -451,6 +451,10 @@ button:active {
   color: white;
 }
 
+.modificateur_9, #modificateur_9{
+  color : #ff0;
+}
+
 .cookieCheckbox{
   padding-left: 1.5em;
   padding-bottom: 0.5em;

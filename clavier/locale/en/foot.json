@@ -55,7 +55,8 @@
 			"Modifier5": "AC Advanced Cam Mode",
 			"Modifier6": "UC Unarmed Combat Mode",
 			"Modifier7": "* Hold",
-			"Modifier8": "** Double Tap"
+			"Modifier8": "** Double Tap",
+			"Modifier9": "M3 Modifier 3"
 		}
 	},
 	"Mouse":
@@ -936,7 +937,7 @@
 		{
 		"title": "Alt Right",
 		"letter":"Alt",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "<span class=\"modificateur_9\">M3</span> Modifier 3",
 		"chaptersLGDP": "",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]

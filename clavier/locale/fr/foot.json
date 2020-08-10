@@ -55,7 +55,8 @@
 			"Modifier5": "CA Mode caméra avancée",
 			"Modifier6": "CM Combat mains nues ",
 			"Modifier7": "* Maintenir",
-			"Modifier8": "** Double Appuis"
+			"Modifier8": "** Double Appuis",
+			"Modifier9": "M3 Modificateur 3"
 		}
 	},
 	"Mouse":
@@ -936,7 +937,7 @@
 		{
 		"title": "Alt Graph",
 		"letter":"Alt Gr",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "<span class=\"modificateur_9\">M3</span> Modificateur 3",
 		"chaptersLGDP": "",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]

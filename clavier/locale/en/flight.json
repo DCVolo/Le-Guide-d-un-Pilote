@@ -55,14 +55,15 @@
 			"Modifier5": "AC Advanced Cam Mode",
 			"Modifier6": "M2 Modifier 2",
 			"Modifier7": "* Hold",
-			"Modifier8": "** Double Tap"
+			"Modifier8": "** Double Tap",
+			"Modifier9": "M3 Modifier 3"
 		}
 	},
 	"Mouse":
 	{
 		"zoneAxes": "Yaw<br>Pitch<br><span class=\"modificateur_5\">IM</span> (Freelook)Look Left / Right<br><span class=\"modificateur_5\">IM</span> (Freelook)Look Up / Down",
 		"zoneSideButton": "",
-		"zoneMolette": "Aquire Missile Lock & Launch Missile* (Click)<br>Speed Limiter Up / Down<br><span class=\"modificateur_1\">M1</span> Dynamic Zoom In / Out<br><span class=\"modificateur_3\">SC</span> Increase / Decrease Radar Ping Angle<br><span class=\"modificateur_4\">MG</span> Increase / Decrease Mining Laser Power<br><span class=\"modificateur_2\">MI</span> Focus look (Click)",
+		"zoneMolette": "Aquire Missile Lock & Launch Missile* (Click)<br>Speed Limiter Up / Down<br><span class=\"modificateur_1\">M1</span> Dynamic Zoom In / Out<br><span class=\"modificateur_3\">SC</span> Increase / Decrease Radar Ping Angle<br><span class=\"modificateur_4\">MG</span> Increase / Decrease Mining Laser Power<br><span class=\"modificateur_2\">MI</span> Focus look (Click)<br><span class=\"modificateur_9\">M3</span> Increase / Decrease acceleration",
 		"zoneClicGauche": "Fire Weapon Group 1<br><span class=\"modificateur_3\">SC</span> Reticle Target Scan<br><span class=\"modificateur_4\">MG</span> Fire Mining Laser",
 		"zoneClicDroit": "Fire Weapon Group 2<br><span class=\"modificateur_3\">SC</span> Scanning Radar Pulse<br><span class=\"modificateur_4\">SC</span> Switch Mining Laser"		
 	},
@@ -936,7 +937,7 @@
 		{
 		"title": "Alt Right",
 		"letter":"Alt",
-		"keyAssociatedFunctions": "",
+		"keyAssociatedFunctions": "<span class=\"modificateur_9\">M3</span> Modifier 3",
 		"chaptersLGDP": "",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
