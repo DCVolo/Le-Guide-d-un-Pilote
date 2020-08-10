@@ -468,7 +468,7 @@
 		{
 		"title": "U",
 		"letter":"U",
-		"keyAssociatedFunctions": "Allumer/éteindre systèmes",
+		"keyAssociatedFunctions": "Allumer/éteindre systèmes<br><span class=\"modificateur_6\">M2</span> Quitter siège (urgence)",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=fr&title=-4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtube_VideoID_Only": ["pkAXDRGjnNc"],
 		"youtubeLinksDescription": ["FR DCVolo - Systèmes On/Off"]

@@ -468,7 +468,7 @@
 		{
 		"title": "U",
 		"letter":"U",
-		"keyAssociatedFunctions": "Power on/off",
+		"keyAssociatedFunctions": "Power on/off<br><span class=\"modificateur_6\">M2</span> Emergency exit seat",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-4.3.2\">4.3.2 Distribution de l’énergie (le triangle)</a>",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
