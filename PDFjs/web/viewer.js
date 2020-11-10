@@ -5466,7 +5466,7 @@ var PDFSidebar = /*#__PURE__*/function () {
       this.outlineButton.classList.toggle("toggled", view === SidebarView.OUTLINE);
       this.attachmentsButton.classList.toggle("toggled", view === SidebarView.ATTACHMENTS);
       this.thumbnailView.classList.toggle("hidden", view !== SidebarView.THUMBS);
-      this.outlineView.classList.toggle("toggled", view !== SidebarView.OUTLINE);
+      this.outlineView.classList.toggle("hidden", view !== SidebarView.OUTLINE);
       this.attachmentsView.classList.toggle("hidden", view !== SidebarView.ATTACHMENTS);
 
       if (forceOpen && !this.isOpen) {
