@@ -13,4 +13,4 @@ else{
 }
 lgdp.style.display="inherit";}
 window.addEventListener('load',function(e){window.applicationCache.addEventListener('updateready',function(e){if(window.applicationCache.status==window.applicationCache.UPDATEREADY){alertify.confirm('La nouvelle version du site est disponible.',function(){alertify.success('Accepted');}).set('onok',function(closeEvent){alertify.success('Ok');});}else{}},false);},false);window.showPatchNote=function(){alertify.confirm('<iframe src="./patch-note.html" title="Patch Note" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0"></iframe>');}
-window.functionTitle=function(x){alertify.minimalDialog||alertify.dialog(x,function(){return{main:function(content){this.setContent(content);}};});alertify.minimalDialog("Minimal button-less dialog.");};PDFViewerApplication.pdfSidebar.open();
+window.functionTitle=function(x){alertify.minimalDialog||alertify.dialog(x,function(){return{main:function(content){this.setContent(content);}};});alertify.minimalDialog("Minimal button-less dialog.");};
