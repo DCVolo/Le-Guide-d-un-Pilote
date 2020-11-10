@@ -5358,7 +5358,7 @@ var PDFSidebar = /*#__PURE__*/function () {
 
     _classCallCheck(this, PDFSidebar);
 
-    this.isOpen = true;
+    this.isOpen = false;
     this.active = SidebarView.THUMBS;
     this.isInitialViewSet = false;
     this.onToggled = null;
