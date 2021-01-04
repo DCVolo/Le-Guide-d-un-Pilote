@@ -649,7 +649,7 @@
 		{
 		"title": "H",
 		"letter":"H",
-		"keyAssociatedFunctions": "Launch Decoy<br><span class=\"modificateur_9\">Increase decoy burst</span><br><span class=\"modificateur_1\">Decrease decoy burst</span>",
+		"keyAssociatedFunctions": "Launch Decoy<br><span class=\"modificateur_9\">Increase decoy burst</span><br><span class=\"modificateur_1\">Decrease decoy burst</span><br><span class=\"modificateur_7\">Increase & Launch multiple decoy</span>",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-4.3.1.5.2\">4.3.1.5.2 Missiles</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-4.3.1.6\">4.3.1.6 Contremesures</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-4.7.22\">4.7.22 Les manières d'esquiver un missile</a>",
 		"youtube_VideoID_Only": [""],
 		"youtubeLinksDescription": [""]
