@@ -361,7 +361,7 @@
 		{
 		"title": "Page Up",
 		"letter":"▲",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Z offset pos",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Z offset pos<br>Weapon Zeroing increase/auto",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-7.20\">7.20 Screenshot et vidéo</a>",
 		"youtube_VideoID_Only": ["tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["EN Hasgaha - Advanced Camera"]
@@ -550,7 +550,7 @@
 		{
 		"title": "Page Down",
 		"letter":"▼",
-		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Z offset neg",
+		"keyAssociatedFunctions": "<span class=\"modificateur_5\">AC</span> Z offset neg<br>Weapon Zeroing decrease",
 		"chaptersLGDP": "<a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-5.4.4\">5.4.4 Third Person Camera</a><br><a target=\"_blank\" title=\"\" rel=\"noopener noreferrer\" href=\"https://dcvolo.github.io/Le-Guide-d-un-Pilote/?lang=en&title=-7.20\">7.20 Screenshot et vidéo</a>",
 		"youtube_VideoID_Only": ["tQgY6yX6-k0"],
 		"youtubeLinksDescription": ["EN Hasgaha - Advanced Camera"]
