@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">  <!-- manifest="https://dcvolo.github.io/Le-Guide-d-un-Pilote/manifest.appcache" -->
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Le Guide d'un Pilote est un tutorial Star Citizen complet en français pour joueur débutant et confirmé - Rédigé par DCVolo et disponible au téléchargement ce manuel entièrement en français permet d'apprendre les mécaniques et toutes les subtilités de ce jeu.">
+  	<meta name="keywords" content="star, citizen, français, france, francais, manuel, tuto, tutoriel, tutorial, le guide d'un pilote, le guide du pilote, guide, DCVolo, download, télécharger, dl, apprendre, Fonctionnement, mécaniques, comment fonctionne, détails, jouer, piloter, systèmes, école">
+  	<meta name="author" content="DCVolo">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="theme-color" content="#262626">
+  	<!--<meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:card" content="summary">-->
+    <meta name="twitter:title" content="Le Guide d'un Pilote - Star Citizen tutoriel complet par DCVolo">
+    <meta name="twitter:description" content="Le Guide d'un Pilote est un tutorial Star Citizen complet en français pour joueur débutant et confirmé - Rédigé par DCVolo et disponible au téléchargement ce manuel entièrement en français permet d'apprendre les mécaniques et toutes les subtilités de ce jeu.">
+    <meta name="twitter:image" content="https://dcvolo.github.io/Le-Guide-d-un-Pilote/thumbnail.jpg">
+    <meta property="og:title" content="Le Guide d'un Pilote - Star Citizen tutoriel complet en français par DCVolo">
+	<meta property="og:description" content="Le Guide d'un Pilote est un tutorial Star Citizen complet en français pour joueur débutant et confirmé - Rédigé par DCVolo et disponible au téléchargement ce manuel entièrement en français permet d'apprendre les mécaniques et toutes les subtilités de ce jeu.">
+    <meta property="og:type" content="website">
+    <meta property="og:image:secure_url" content="https://dcvolo.github.io/Le-Guide-d-un-Pilote/thumbnail.jpg">
+  	<meta property="og:image" content="https://dcvolo.github.io/Le-Guide-d-un-Pilote/thumbnail.jpg">
+	<meta property="og:url" content="https://dcvolo.github.io/Le-Guide-d-un-Pilote/">
+  	<title>Le Guide d'un Pilote - Star Citizen tutoriel complet par DCVolo</title>
+  	<link rel="manifest" href="./manifest.webmanifest">
+  	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="application-name" content="Le Guide d'un Pilote" />
+	<meta name="apple-mobile-web-app-title" content="Le Guide d'un Pilote" />
+	<meta name="msapplication-starturl" content="./index.html" />
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<noscript><link rel="stylesheet" href="./Alertify/css/themes/semantic.min.css"></noscript>
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="./images/launcher-icon/apple-180x180.png">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45860209-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-45860209-2');
+	</script>
+</head>
+<body>
+	<iframe title="Le Guide d'un Pilote en PDF" id="iframeLGDP" src="./Le-Guide-d-un-Pilote.pdf"></iframe>
+	
+		<script>
+			const page_sommaire = 13;
+		</script>
+		<script src="./clavier/urlParameterParser.js"></script>
+		<script>
+			
+			var lgdp=document.getElementById("iframeLGDP");
+
+			if(typeof getAllUrlParams().title !="undefined" && typeof page_sommaire !="undefined")
+			{
+				lgdp.setAttribute("src","./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf&title="+getAllUrlParams().title+"&page="+page_sommaire);
+			}
+			else
+			{
+				lgdp.setAttribute("src","./PDFjs/web/viewer.html?file=../../Le-Guide-d-un-Pilote.pdf");
+			}
+			lgdp.style.display="inherit";
+			
+		</script>
+		<script>if('serviceWorker'in navigator){navigator.serviceWorker.register('offline-manager.js');}</script>		
+  	</body>
+</html>
